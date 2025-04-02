@@ -1,0 +1,205 @@
+:root {
+  --text-shadow: 
+    -3px -3px 0 #000,
+    -3px  0px  0 #000,
+    -3px  3px  0 #000,
+     0px -3px  0 #000,
+     0px  3px  0 #000,
+     3px -3px  0 #000,
+     3px  0px  0 #000,
+     3px  3px  0 #000;
+}
+
+/* Global Styles */
+*, html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: lightgrey;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+/* Select Dropdown */
+select {
+    padding: 10px;
+    display: flex;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    border: 5px solid black;
+    width: 90%;
+    box-shadow: 0px 0px 25px 0px black;
+    margin-top: -10px;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: relative;
+    z-index: 100;
+    border: 3px solid white;
+    background-color: transparent; 
+    color: white;
+    font-family: Arial Black;
+    font-size: 30px;
+    text-shadow: var(--text-shadow);
+}
+
+option {
+    font-weight: bold;
+    background-color: dodgerblue;
+}
+
+/* Titles & Labels */
+.title {
+    font-size: 36px;
+    text-align: center;
+    margin: 30px 20px;
+    font-weight: bold;
+    color: white;
+    text-shadow: var(--text-shadow);
+}
+
+.message {
+    position: absolute;
+    font-size: 34px;
+    top: 210px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Carousel */
+.carousel {
+    position: relative;
+    width: 300%;
+    height: 150%;
+    margin-left: -50px;
+    margin-top: -350px;
+        scale:.6
+}
+
+.carousel p {
+    font-weight: normal;
+    padding: 0 7px;
+    border-radius: 7px;
+    font-size: 44px;
+    color: white;
+    font-weight: bold;
+    text-shadow: var(--text-shadow);
+     margin-left: -250px;
+}
+
+.carousel img {
+    cursor: pointer;
+    border-radius: 15px;
+    transition: .5s;
+    box-shadow: 0px 0px 35px 0px black;
+    height: 19%;
+    border: 2px solid;
+     margin-left: -250px;
+}
+
+/* Side Profile Picture */
+.sidepic {
+    position: absolute;
+    top: 60%;
+    left: 36%;
+    object-fit: contain;
+    width: 150px;
+    border-radius: 15px;
+    border: none;
+    scale: .8
+}
+
+/* Short Section */
+.short {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    height: 100vh;
+    margin: 0 auto;
+    background: linear-gradient(-45deg, grey 30%, dodgerblue 70%);
+}
+
+/* Positioning for Players */
+#FL, #FL2, #FC, #FC2, #FR, #FR2,
+#DL, #DL2, #DR, #DR2, #G, #G2 {
+    position: absolute;
+}
+
+#FL { left: 46%; top: 39%; }
+#FL2 { left: 46%; top: 20%; }
+#FC { left: 61%; top: 39%; }
+#FC2 { left: 61%; top: 20%; }
+#FR { left: 76%; top: 39%; }
+#FR2 { left: 76%; top: 20%; }
+#DL { left: 53.5%; top: 67.5%; }
+#DL2 { left: 53.5%; top: 48.5%; }
+#DR { left: 68.5%; top: 67.5%; }
+#DR2 { left: 68.5%; top: 48.5%; }
+#G { left: 61%; top: 95.5%; }
+#G2 { left: 61%; top: 76.5%; }
+
+/* X Position */
+#x-position {
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    font-size: 40px;
+    z-index: 10;
+    color: black;
+    font-weight: bold;
+}
+
+#FL3 {
+    position: absolute;
+    left: 32%; /* Updated value */                
+    top: 15.5%; 
+}
+
+#FC3 {
+    position: absolute;
+    left: 46.5%; /* Updated value */                
+    top: 15.5%; 
+}
+
+#FR3 {
+    position: absolute;
+    left: 62%; /* Updated value */                
+    top: 15.5%; 
+}
+
+#DL3 {
+    position: absolute;
+    left: 40%; /* Updated value */                
+    top: 44.5%; 
+}
+
+#DR3 {
+    position: absolute;
+    left: 55%; /* Updated value */                
+    top: 44.5%; 
+}   
+
+#G3 {
+    position: absolute;
+    left: 44%; /* Updated value */                
+    top: 72.5%; 
+}  
+
+h1 {
+    color: white;
+    font-size: 44px;
+    text-shadow: var(--text-shadow);
+}

@@ -1,0 +1,206 @@
+:root {    
+  --text-shadow: 
+    -3px -3px 0 #000,
+    -3px  0px  0 #000,
+    -3px  3px  0 #000,
+     0px -3px  0 #000,
+     0px  3px  0 #000,
+     3px -3px  0 #000,
+     3px  0px  0 #000,
+     3px  3px  0 #000;
+}
+
+/* Global Styles */
+*, html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: lightgrey;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover; 
+    position: relative;   
+    overflow: hidden;
+}
+
+/* Select Dropdown */
+select {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    border: 5px solid black;
+    width: 90%;
+    background-color: white;
+    box-shadow: 0px 0px 25px 0px black;
+    margin-top: -10px;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 3px solid white;
+    background-color: transparent; 
+    color: white;
+    font-family: Arial Black;
+    text-shadow: var(--text-shadow);
+}
+
+option {
+    font-weight: bold;
+    text-shadow: var(--text-shadow);
+    background-color: lime;
+}
+
+/* Titles & Labels */
+.title {
+    font-size: 36px;
+    margin: 30px 20px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    text-shadow: var(--text-shadow);
+}
+
+/* .label {
+    margin-top: 175px;
+    margin-left: 4.5%;
+    font-size: 46px;
+    color: black;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 5px 15px;
+    text-shadow: 1px 1px 4px #000;
+} */
+
+/* Manager & Substitutes
+.manager, .substitutes {
+    font-size: 46px;
+    text-shadow: 1px 1px 3px #000;
+}
+
+.manager {
+    position: absolute;
+    right: 120px;
+    top: 15px;
+    color: black;
+}
+
+.substitutes {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    text-shadow: 1px 1px 1px #000;
+}
+
+/* Message */
+/* .message {
+    position: absolute;
+    left: 695px;
+    font-size: 30px;
+    top: 220px;
+    font-weight: bold;
+    text-align: center;
+}  */
+
+/* Side Profile Picture */
+.sidepic {
+    position: absolute;
+    bottom: 71%;
+    left: 36%;
+    object-fit: cover;
+    width: 120px;
+    height: 120px;
+    border-radius: 14px;
+    border: 3px solid black;
+    scale:.7
+}
+
+/* Rectangle (Main Box) */
+.rectangle {
+    position: relative;
+    margin-left: 640px;
+    margin-top: -840px;
+    width: 570px;
+    height: 575px;
+    padding: 0 200px;
+    scale: .75}
+
+.rectangle > div {
+    position: absolute;
+    font-size: 30.5px;
+    font-weight: bold;
+    color: white;
+    white-space: nowrap;
+    text-shadow: var(--text-shadow);
+}
+
+.rectangle img {
+    position: absolute;
+    border-radius: 16px;
+    height: 100px;
+    box-shadow: 0px 0px 25px 0px;
+}
+
+/* Short Section */
+.short {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    height: 100vh;
+    margin: 0 auto;
+    background: linear-gradient(-45deg, grey 30%, lime 70%);
+}
+
+/* Positioning for Players */
+#x-position {
+    position: absolute;
+    bottom: 600px;
+    left: -400px;
+    font-size: 40px;
+    z-index: 10;
+    color: black;
+    text-shadow: 1px 1px 1px #000;
+}
+
+/* Positions (Grouped for Better Readability) */
+.STL, .STL2 { top: -4.5%; left: 34%; }
+.STC, .STC2 { top: -4.5%; left: 45%; }
+.STR, .STR2 { top: -4.5%; left: 56%; }
+
+.LW, .LW2 { top: 19.5%; left: 5%; }
+.LF, .LF2 { top: 24%; left: 15%; }
+.AMLC, .AMLC2 { top: 23.5%; left: 35%; }
+.AMC, .AMC2 { top: 23.5%; left: 45%; }
+.AMRC, .AMRC2 { top: 23.5%; left: 55%; }
+.RF, .RF2 { top: 24%; left: 74%; }
+.RW, .RW2 { top: 19.5%; left: -2%; }
+
+.WL, .WL2 { top: 49%; left: 0; }
+.LCM, .LCM2 { top: 52%; left: 26%; }
+.CM, .CM2 { top: 55.5%; left: 45%; }
+.RCM, .RCM2 { top: 52%; left: 61%; }
+.WR, .WR2 { top: 49%; left: 89%; }
+
+.LWB, .LWB2 { top: 70%; left: 0; }
+.DM, .DM2 { top: 65.5%; left: 45%; }
+.RWB, .RWB2 { top: 70%; left: 89%; }
+
+.LB, .LB2 { top: 80.5%; left: 1%; }
+.LCB, .LCB2 { top: 83.5%; left: 29%; }
+.CB, .CB2 { top: 83.5%; left: 45%; }
+.RCB, .RCB2 { top: 83.5%; left: 61%; }
+.RB, .RB2 { top: 82.5%; left: -3%; }
+
+.GK, .GK2 { top: 112.5%; left: 45%; }
