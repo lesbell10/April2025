@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+
+    <style>
+        body {
+            background-color: black;
+            font-family: arial;
+            display: flex;
+            justify-content: center;
+        }
+
+        .cols {
+            margin: 0 130px;
+            min-width: 15%;
+        }
+
+        h1 {
+            font-size: 40px;
+            margin-top: 40px;
+            text-decoration: underline;
+            color: red;
+        }
+
+        h2 {
+            font-size: 32px;
+            color: red;
+            margin: 40px 0 0 0;
+        }
+
+        a,
+        u {
+            font-size: 30px;
+            margin: 10px;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            text-decoration: none;
+            font-weight: bold;
+            cursor: pointer;
+            line-height: 35px;
+            width: 200%;
+        }
+
+        u {
+            text-decoration: underline;
+        }
+
+        hr {
+            width: 200%;
+        }
+
+        span {
+            display: flex;
+            gap: 100px;
+        }
+
+        span a {
+            position: absolute;
+        }
+
+        span a:nth-child(1) {
+            left: 900px;
+        }
+
+        span a:nth-child(2) {
+            left: 1100px;
+        }
+    </style>
+
+</head>
+
+<div class="cols">
+    <h1>FIFA</h1>
+    <a href="FIFA/Best Players/index.html">BEST PLAYERS</a>
+    <a href="FIFA/Champions League Round of 16/index.html">Champions League Round of 16</a>
+    <a href="Best Every Year/FIFA/index.html">2004-2024</a>
+    <a href="FIFA/MLS Canadian/index.html">MLS Canadians</a>
+    <a href="STATS/FIFA/index.html">MATCH STATS</a>
+    <a href="GAMES/FIFA GAMES/Best Players/index.html">GAMES</a>
+    <a href="#" class="showMore" data-section="fifa">Best Players 3X</a>
+    <div id="fifa" class="extra-links" style="display: none;">
+        ----------------
+        <a href="FIFA/Present - One/index.html">Present - One</a>
+        <a href="FIFA/Past - One/index.html">Past - One</a>
+        <a href="FIFA/Future - One/index.html">Future - One</a>
+        ----------------
+        <a href="FIFA/Present - Two/index.html"><s>Present - Two</s></a>
+        <a href="FIFA/Past - Two/index.html">Past - Two</a>
+        <a href="FIFA/Future - Two/index.html">Future - Two</a>
+        ----------------
+    </div>
+    <a href="Future Best/FIFA/index.html">Future Foot</a>
+    <a href="POINTS/FIFA GOALS/index.html">Goalscorers</a>
+    <a href="/Every Teams/FIFA/index.html">EVERY</a>
+    <a href="/Teams of the day/FIFA/index.html">TODAY</a>
+</div>
+
+<div class="cols">
+    <h1>NHL</h1>
+    <a href="NHL/Best Players/index.html">BEST PLAYERS</a>
+    <a href="NHL/NHL Trades March 7 Deadline Day/index.html">Trading Day</a>
+    <a href="/Best Every Year/NHL/index.html">2004-2024</a>
+    <a href="STATS/NHL/index.html">MATCH STATS</a>
+    <a href="GAMES/NHL GAMES/Best Players/index.html">GAMES</a>
+    <a href="#" class="showMore" data-section="nhl">Best Players 3X</a>
+    <div id="nhl" class="extra-links" style="display: none;">
+        ----------------
+        <a href="NHL/Present - One/index.html">Present - One</a>
+        <a href="NHL/Past - One/index.html">Past - One</a>
+        <a href="NHL/Future - One/index.html">Future - One</a>
+        ----------------
+        <a href="NHL/Present - Two/index.html">Present - Two</a>
+        <a href="NHL/Past - Two/index.html">Past - Two</a>
+        <a href="NHL/Future - Two/index.html">Future - Two</a>
+        ----------------
+    </div>
+    <a href="Future Best/NHL/index.html">Future Puck</a>
+    <a href="POINTS/NHL POINTS/index.html">Points</a>
+    <a href="/Every Teams/NHL/Eastern/index.html">EVERY EASTERN</a>
+    <a href="/Every Teams/NHL/Western/index.html">EVERY WESTERN</a>
+    <a href="/Teams of the day/NHL/index.html">TODAY</a>
+</div>
+
+<div class="cols">
+    <h1>NBA</h1>
+    <a href="NBA/Best Players/index.html">BEST PLAYERS</a>
+    <a href="NBA/Lebron James Leads List of Best Pointers/index.html">LeBron's record</a>
+    <a href="/Best Every Year/NBA/index.html">2004-2024</a>
+    <a href="STATS/NBA/index.html">MATCH STATS</a>
+    <a href="GAMES/NBA GAMES/Best Players/index.html">GAMES</a>
+    <a href="#" class="showMore" data-section="nba">Best Players 3X</a>
+    <div id="nba" class="extra-links" style="display: none;">
+        ----------------
+        <a href="NBA/Present - One/index.html">Present - One</a>
+        <a href="NBA/Past - One/index.html">Past - One</a>
+        <a href="NBA/Future - One/index.html">Future - One</a>
+        ----------------
+        <a href="NBA/Present - Two/index.html">Present - Two</a>
+        <a href="NBA/Past - Two/index.html">Past - Two</a>
+        <a href="NBA/Future - Two/index.html">Future - Two</a>
+        ----------------
+    </div>
+    <a href="Future Best/NBA/index.html">Future Hoop</a>
+    <a href="POINTS/NBA PPG/index.html">Points per Game</a>
+    <a href="/Every Teams/NBA/Eastern/index.html">EVERY EASTERN</a>
+    <a href="/Every Teams/NBA/Western/index.html">EVERY WESTERN</a>
+    <a href="/Teams of the day/NBA/index.html">TODAY</a>
+
+</div>
+
+<script>
+    document.querySelectorAll(".showMore").forEach(button => {
+        button.addEventListener("click", function (event) {
+            event.preventDefault();
+            const section = document.getElementById(this.dataset.section);
+            section.style.display = section.style.display === "none" ? "block" : "none";
+        });
+    });
+</script>
+
+
+</html>
