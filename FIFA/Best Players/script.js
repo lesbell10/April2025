@@ -68,8 +68,8 @@ let selectedTeam = 0;
 
 function Three_Def() {
     if (CB.textContent !== "") {
-        LCB.style.left = "23%";
-        LCB2.style.left = "23%";
+        LCB.style.left = "21%";
+        LCB2.style.left = "21%";
         RCB.style.left = "67%";
         RCB2.style.left = "67%";
     }
@@ -90,10 +90,10 @@ function updatePlayerInfo() {
     title.style.fontSize = "40px"
     sidepic.style.borderRadius = "10px";
     sidepic.style.border = "none";
-    sidepic.style.width = "120px";
-    sidepic.style.height = "120px";
-    sidepic.style.bottom = "69%"
-
+    sidepic.style.width = "100px";
+    sidepic.style.height = "100px";
+    sidepic.style.bottom = "69%";
+    sidepic.style.left = "715px";
     selectedTeam = teamSelector.value;
     Everything();
 
@@ -148,13 +148,21 @@ function updatePlayerInfo() {
         Three_Def()
 
         sidepic.src = "/FIFA/football_img/logos/roma.webp";
+
         RB.style.left = "88%"
-        RCM.style.left = "330px"
-        WL.style.left = "0"
-        WR.style.left = "455px"
-        AMLC.style.left = "155px"
-        LCB.style.left = "110px"
-        CB.style.left = "230px"
+        AMLC.style.left = "95px"
+        WL.style.left = "-15px"
+        RCM.style.left = "250px"
+        LCB.style.left = "70px"
+        CB.style.left = "170px"
+        RCB.style.left = "300px"
+
+        // RCM.style.left = "330px"
+        // WL.style.left = "0"
+        // WR.style.left = "455px"
+        // AMLC.style.left = "155px"
+        // LCB.style.left = "110px"
+        // CB.style.left = "230px"
         sidepic.style.boxShadow = "none"
     }
 
@@ -211,6 +219,114 @@ function updatePlayerInfo() {
         sidepic.src = "/FIFA/football_img/logos/roma.webp";
         RB.style.left = "83%"
         sidepic.style.boxShadow = "none"
+    }
+
+    if (selectedTeam == "2") {
+
+        title.innerHTML = "FIFA BEST PLAYERS<BR>2005 to 2025"
+
+        STL.textContent = "";
+        setPlayerImage(STL, STL2);
+        STC.textContent = " L Martinez";
+        setPlayerImage(STC, STC2);
+        STR.textContent = "";
+        setPlayerImage(STR, STR2);
+        LW.textContent = "J Alvarez";
+        setPlayerImage(LW, LW2);
+        LF.textContent = "";
+        setPlayerImage(LF, LF2);
+        AMLC.textContent = "";
+        setPlayerImage(AMLC, AMLC2);
+        AMC.textContent = "";
+        setPlayerImage(AMC, AMC2);
+        AMRC.textContent = "";
+        setPlayerImage(AMRC, AMRC2);
+        RF.textContent = "";
+        setPlayerImage(RF, RF2);
+        RW.textContent = "";
+        setPlayerImage(RW, RW2);
+        WL.textContent = "";
+        setPlayerImage(WL, WL2);
+        LCM.textContent = "Enzo F";
+        setPlayerImage(LCM, LCM2);
+        CM.textContent = "Mac Allister";
+        setPlayerImage(CM, CM2);
+        RCM.textContent = "R De Paul";
+        setPlayerImage(RCM, RCM2);
+        WR.textContent = "";
+        setPlayerImage(WR, WR2);
+        // DM.textContent = "";
+        // setPlayerImage(DM, DM2);
+        LB.textContent = "";
+        setPlayerImage(LB, LB2);
+        LCB.textContent = "Li Martinez";
+        setPlayerImage(LCB, LCB2);
+        CB.textContent = "";
+        setPlayerImage(CB, CB2);
+        RCB.textContent = "C Romero";
+        setPlayerImage(RCB, RCB2);
+        RB.textContent = "Molina";
+        setPlayerImage(RB, RB2);
+        GK.textContent = "E Martinez";
+        setPlayerImage(GK, GK2);
+        Three_Def()
+
+        sidepic.src = "/FIFA/football_img/logos/fifa.webp";
+        RB.style.left = "83%"
+    }
+
+    if (selectedTeam == "3") {
+
+        title.innerHTML = "FIFA BEST PLAYERS<BR> IN 2024-25"
+
+        STL.textContent = "";
+        setPlayerImage(STL, STL2);
+        STC.textContent = "";
+        setPlayerImage(STC, STC2);
+        STR.textContent = "";
+        setPlayerImage(STR, STR2);
+        LW.textContent = "";
+        setPlayerImage(LW, LW2);
+        LF.textContent = "";
+        setPlayerImage(LF, LF2);
+        AMLC.textContent = "";
+        setPlayerImage(AMLC, AMLC2);
+        AMC.textContent = "";
+        setPlayerImage(AMC, AMC2);
+        AMRC.textContent = "";
+        setPlayerImage(AMRC, AMRC2);
+        RF.textContent = "";
+        setPlayerImage(RF, RF2);
+        RW.textContent = "";
+        setPlayerImage(RW, RW2);
+        WL.textContent = "";
+        setPlayerImage(WL, WL2);
+        LCM.textContent = "";
+        setPlayerImage(LCM, LCM2);
+        CM.textContent = "";
+        setPlayerImage(CM, CM2);
+        RCM.textContent = "";
+        setPlayerImage(RCM, RCM2);
+        WR.textContent = "";
+        setPlayerImage(WR, WR2);
+        // DM.textContent = "";
+        // setPlayerImage(DM, DM2);
+        LB.textContent = "";
+        setPlayerImage(LB, LB2);
+        LCB.textContent = "";
+        setPlayerImage(LCB, LCB2);
+        CB.textContent = "";
+        setPlayerImage(CB, CB2);
+        RCB.textContent = "";
+        setPlayerImage(RCB, RCB2);
+        RB.textContent = "";
+        setPlayerImage(RB, RB2);
+        GK.textContent = "";
+        setPlayerImage(GK, GK2);
+        Three_Def()
+
+        sidepic.src = "/FIFA/football_img/logos/fifa.webp";
+        RB.style.left = "83%"
     }
 
     if (selectedTeam == "300") {

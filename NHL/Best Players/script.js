@@ -38,11 +38,13 @@ function updatePlayerInfo() {
     selectedPlayer = playerDropdown.value;
 
     title.innerHTML = "NHL BEST<br>PLAYERS 2024-25"
-    title.style.fontSize = "46px"
+    title.style.fontSize = "40px"
     sidepic.style.border = "none"
-    sidepic.style.width = "140px"
-    sidepic.style.height = "140px"
-    sidepic.style.bottom = "0px"
+    sidepic.style.boxShadow = "none"
+    sidepic.style.width = "170px"
+    sidepic.style.height = "170px"
+    sidepic.style.top = "740px"
+    sidepic.style.left = "675px"
 
     FL.style.left = "46%"
     FC.style.left = "61%"
@@ -67,7 +69,7 @@ function updatePlayerInfo() {
 
     message.innerHTML = ""
 
-if (selectedPlayer === "0") {
+    if (selectedPlayer === "0") {
 
         title.innerHTML = "NHL BEST<br>PLAYERS 2024-25"
 
@@ -87,9 +89,12 @@ if (selectedPlayer === "0") {
 
         sidepic.src = "/NHL/hockey_img/logos/carolina.png";
         sidepic.style.borderRadius = "0"
+        sidepic.style.width = "150px"
         sidepic.style.height = "auto"
-        sidepic.style.width = "160px"
+        sidepic.style.top = "780px"
+        sidepic.style.left = "700px"
     }
+
 
     if (selectedPlayer === "1") {
 
@@ -112,9 +117,11 @@ if (selectedPlayer === "0") {
 
         sidepic.src = "/NHL/hockey_img/logos/carolina.png";
         sidepic.style.borderRadius = "0"
+        sidepic.style.width = "150px"
         sidepic.style.height = "auto"
-        sidepic.style.width = "160px"
-        FC.style.left = "970px"
+        sidepic.style.top = "780px"
+        sidepic.style.left = "700px"
+        FC.style.left = "640px"
     }
 
     if (selectedPlayer === "2") {

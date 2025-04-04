@@ -37,7 +37,7 @@ select {
     width: 90%;
     background-color: transparent;
     color: black;
-    box-shadow: 0 0 15px var(--neon-blue);
+    box-shadow: 0 0 50px var(--neon-blue);
     outline: none;
     font-family: 'Arial Black', sans-serif;
     /* text-shadow: var(--text-shadow); */
@@ -88,10 +88,9 @@ option {
     height: 120px;
     object-fit: cover;
     border-radius: 50%;
-    border: 4px solid var(--neon-green);
-    box-shadow: 0 0 20px var(--neon-green);
+    border: 4px solid black;
+    box-shadow: 0 0 20px black;
     transition: 0.3s;
-    scale: 0.8;
 }
 
 /* Carousel */
@@ -99,12 +98,12 @@ option {
     position: relative;
     width: 200%;
     height: 75%;
-    margin-left: 50px;
-    margin-top: -110px;
+    margin-left: 100px;
+    margin-top: -90px;
 }
 
 .carousel p {
-    font-size: 44px;
+    font-size: 32px;
     color: black;
     font-weight: bold;
     /* text-shadow: var(--text-shadow); */
@@ -144,51 +143,51 @@ option {
 }
 
 #FL { left: 46%; top: 36.5%; }
-#FL2 { left: 46%; top: 18%; }
+#FL2 { left: 46%; top: 18.5%; }
 #FC { left: 61%; top: 36.5%; }
-#FC2 { left: 61%; top: 18%; }
+#FC2 { left: 61%; top: 18.5%; }
 #FR { left: 76%; top: 36.5%; }
-#FR2 { left: 76%; top: 18%; }
+#FR2 { left: 76%; top: 18.5%; }
 #DL { left: 53.5%; top: 67%; }
-#DL2 { left: 53.5%; top: 48.5%; }
+#DL2 { left: 53.5%; top: 49%; }
 #DR { left: 68.5%; top: 67%; }
-#DR2 { left: 68.5%; top: 48.5%; }
+#DR2 { left: 68.5%; top: 49%; }
 #G  { left: 61%; top: 98%; }
-#G2 { left: 61%; top: 79.5%; }
+#G2 { left: 61%; top: 80%; }
 
 #FL3 {
     position: absolute;
-    left: 31.5%;
+    left: 24%;
     top: 12.5%;
 }
 
 #FC3 {
     position: absolute;
-    left: 46.5%;
+    left: 39%;
     top: 12.5%;
 }
 
 #FR3 {
     position: absolute;
-    left: 61.5%;
+    left: 53.5%;
     top: 12.5%;
 }
 
 #DL3 {
     position: absolute;
-    left: 39%;
+    left: 31.5%;
     top: 43%;
 }
 
 #DR3 {
     position: absolute;
-    left: 54%;
+    left: 46.5%;
     top: 43%;
 }
 
 #G3 {
     position: absolute;
-    left: 43.5%;
+    left: 34.5%;
     top: 74%;
 }
 
@@ -211,7 +210,7 @@ option {
 } */
 
 h1 {
-    font-size: 44px;
+    font-size: 34px;
     color: black;
     /* text-shadow: var(--text-shadow); */
 }

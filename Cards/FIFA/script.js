@@ -48,7 +48,6 @@ function displayPlayerInfo() {
 
     // sidepic.style.bottom = "30px"
     // stats.style.bottom = "200px"
-    stats.style.fontSize = "32px"
     document.querySelector(".short").style.background = " linear-gradient(135deg, darkgrey 20%, #00ff66 100%)";
     document.querySelector(".playerInfo").style.border = "1px solid white"
 

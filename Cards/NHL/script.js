@@ -35,7 +35,6 @@ function displayPlayerInfo() {
     nation.textContent = ""
     club.textContent = ""
     stats.innerHTML = ""
-    stats.style.fontSize = "32px"
 
     // sidepic.style.bottom = "80px"
     // stats.style.bottom = "190px"

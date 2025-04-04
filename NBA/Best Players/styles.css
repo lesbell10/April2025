@@ -30,13 +30,13 @@ body {
 /* Select Dropdown */
 select {
     padding: 12px;
-    font-size: 29.5px;
+    font-size: 29px;
     font-weight: bold;
     text-align: center;
     border-radius: 14px;
     border: 3px solid var(--neon-orange);
     width: 90%;
-    box-shadow: 0 0 15px var(--neon-orange);
+    box-shadow: 0 0 50px var(--neon-orange);
     margin-top: -10px;
     outline: none;
     -webkit-appearance: none;
@@ -62,7 +62,7 @@ option {
 
 /* Titles & Labels */
 .title {
-    font-size: 46px;
+    font-size: 40px;
     margin: 0px 0 20px;
     font-weight: normal;
     text-align: center;
@@ -93,15 +93,14 @@ option {
 
 .carousel {
     position: relative;
-    width: 325%;
-    height: 150%;
-    margin-left: -50px;
-    margin-top: -400px;
-    scale: .75;
+    width: 260%;
+    min-height: 117%;
+    margin-left: -70px;
+    margin-top: -350px;
 }
 
 .carousel p {
-    font-size: 34px;
+    font-size: 31px;
     font-weight: bold;
     padding: 0 7px;
     border-radius: 7px;
@@ -110,8 +109,8 @@ option {
 }
 
 .carousel img {
-    /* height: 167.27px;
-    width: 112.74px; */
+    height: 167.27px;
+    width: 112.74px;
     cursor: pointer;
     border-radius: 20px;
     border: 3px solid;
@@ -137,22 +136,22 @@ option {
     position: absolute;
 }
 
-#PG { left: 46%; top: 47.4%; }
-#PG2 { left: 46%; top: 32.5%; }
-#SG { left: 34.5%; top: 60.4%; }
+#PG { left: 46%; top: 47%; }
+#PG2 { left: 46%; top: 33.5%; }
+#SG { left: 34.5%; top: 59%; }
 #SG2 { left: 34.5%; top: 45.5%; }
-#SF { left: 57%; top: 80.4%; width: 150%;}
-#SF2 { left: 58%; top: 65.5%; }
-#PF { left: 38%; top: 84.4%; }
+#SF { left: 57%; top: 79%; width: 150%;}
+#SF2 { left: 57%; top: 65.5%; }
+#PF { left: 38%; top: 83%; }
 #PF2 { left: 38%; top: 69.5%; }
-#C { left: 48.5%; top: 72.4%; }
-#C2 { left: 48.5%; top: 57.5%; }
+#C { left: 47.5%; top: 71%; }
+#C2 { left: 47.5%; top: 57.5%; }
 
 /* X Position */
 #x-position {
     position: absolute;
     bottom: 600px;
-    left: 300px;
+    left:180px;
     font-size: 40px;
     z-index: 10;
     color: white;
@@ -161,35 +160,35 @@ option {
 #PG3 {
     position: absolute;
     left: 46%; /* Decreased by 4% */
-    top: 28.5%;
+    top: 30%;
 }
 
 #SG3 {
     position: absolute;
     left: 34.5%; /* Decreased by 4% */
-    top: 41.5%;
+    top: 42%;
 }
 
 #SF3 {
     position: absolute;
-    left: 58%; /* Decreased by 4% */
-    top: 61.5%;
+    left: 57%; /* Decreased by 4% */
+    top: 62%;
 }   
 
 #PF3 {
     position: absolute;
     left: 38%; /* Decreased by 4% */
-    top: 65.5%;
+    top: 66%;
 }  
 
 #C3 {
     position: absolute;
-    left: 48.5%; /* Decreased by 4% */
-    top: 53.5%;
+    left: 47.5%; /* Decreased by 4% */
+    top: 54%;
 }
 
 h4  {
-    font-size: 34px;
+    font-size: 31px;
     width: 100%;
     color: black;
     /* text-shadow: var(--text-shadow); */

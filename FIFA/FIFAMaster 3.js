@@ -110,55 +110,56 @@ function applyPositioning(rectangleClass, className, top, left) {
 
 // Apply positions for all elements within a given rectangle
 function applyPositioningForRectangle(rectangleClass) {
-    applyPositioning(rectangleClass, 'STL', '-7.5%', '33%');
+    applyPositioning(rectangleClass, 'STL', '-6.5%', '33%');
     applyPositioning(rectangleClass, 'STL2', '-26.5%', '33%');
-    applyPositioning(rectangleClass, 'STC', '-7.5%', '44%');
+    applyPositioning(rectangleClass, 'STC', '-6.5%', '44%');
     applyPositioning(rectangleClass, 'STC2', '-26.5%', '44%');
-    applyPositioning(rectangleClass, 'STR', '-7.5%', '55%');
+    applyPositioning(rectangleClass, 'STR', '-6.5%', '55%');
     applyPositioning(rectangleClass, 'STR2', '-26.5%', '55%');
-    applyPositioning(rectangleClass, 'LW', '22.5%', '4%');
+    applyPositioning(rectangleClass, 'LW', '23.5%', '4%');
     applyPositioning(rectangleClass, 'LW2', '3.5%', '4%');
-    applyPositioning(rectangleClass, 'LF', '22.5%', '14%');
+    applyPositioning(rectangleClass, 'LF', '23.5%', '14%');
     applyPositioning(rectangleClass, 'LF2', '3.5%', '14%');
-    applyPositioning(rectangleClass, 'AMLC', '22.5%', '34%');
-    applyPositioning(rectangleClass, 'AMLC2', '3.5%', '34%');
-    applyPositioning(rectangleClass, 'AMC', '22.5%', '44%');
+    applyPositioning(rectangleClass, 'AMLC', '23.5%', '30%');
+    applyPositioning(rectangleClass, 'AMLC2', '3.5%', '30%');
+    applyPositioning(rectangleClass, 'AMC', '23.5%', '44%');
     applyPositioning(rectangleClass, 'AMC2', '3.5%', '44%');
-    applyPositioning(rectangleClass, 'AMRC', '22.5%', '54%');
-    applyPositioning(rectangleClass, 'AMRC2', '3.5%', '54%');
-    applyPositioning(rectangleClass, 'RF', '22.5%', '73%');
+    applyPositioning(rectangleClass, 'AMRC', '23.5%', '55%');
+    applyPositioning(rectangleClass, 'AMRC2', '3.5%', '55%');
+    applyPositioning(rectangleClass, 'RF', '23.5%', '73%');
     applyPositioning(rectangleClass, 'RF2', '3.5%', '73%');
-    applyPositioning(rectangleClass, 'RW', '22.5%', '83%');
+    applyPositioning(rectangleClass, 'RW', '23.5%', '83%');
     applyPositioning(rectangleClass, 'RW2', '3.5%', '83%');
-    applyPositioning(rectangleClass, 'WL', '52%', '4%');
+    applyPositioning(rectangleClass, 'WL', '53%', '4%');
     applyPositioning(rectangleClass, 'WL2', '33%', '4%');
-    applyPositioning(rectangleClass, 'LCM', '52%', '27%');
+    applyPositioning(rectangleClass, 'LCM', '53%', '27%');
     applyPositioning(rectangleClass, 'LCM2', '33%', '27%');
-    applyPositioning(rectangleClass, 'CM', '58.5%', '44%');
+    applyPositioning(rectangleClass, 'CM', '59.5%', '44%');
     applyPositioning(rectangleClass, 'CM2', '39.5%', '44%');
-    applyPositioning(rectangleClass, 'RCM', '52%', '61%');
+    applyPositioning(rectangleClass, 'RCM', '53%', '61%');
     applyPositioning(rectangleClass, 'RCM2', '33%', '61%');
-    applyPositioning(rectangleClass, 'WR', '52%', '84%');
+    applyPositioning(rectangleClass, 'WR', '53%', '84%');
     applyPositioning(rectangleClass, 'WR2', '33%', '84%');
-    applyPositioning(rectangleClass, 'LWB', '71%', '-1%');
+    applyPositioning(rectangleClass, 'LWB', '72%', '-1%');
     applyPositioning(rectangleClass, 'LWB2', '54%', '-1%');
-    applyPositioning(rectangleClass, 'DM', '68.5%', '44%');
+    applyPositioning(rectangleClass, 'DM', '69.5%', '44%');
     applyPositioning(rectangleClass, 'DM2', '49.5%', '44%');
-    applyPositioning(rectangleClass, 'RWB', '73%', '88%');
+    applyPositioning(rectangleClass, 'RWB', '74%', '88%');
     applyPositioning(rectangleClass, 'RWB2', '54%', '88%');
-    applyPositioning(rectangleClass, 'LB', '81.5%', '0%');
+    applyPositioning(rectangleClass, 'LB', '82.5%', '0%');
     applyPositioning(rectangleClass, 'LB2', '62.5%', '0%');
-    applyPositioning(rectangleClass, 'LCB', '88%', '28%');
-    applyPositioning(rectangleClass, 'LCB2', '69%', '28%');
-    applyPositioning(rectangleClass, 'CB', '88%', '44%');
-    applyPositioning(rectangleClass, 'CB2', '69%', '44%');
-    applyPositioning(rectangleClass, 'RCB', '88%', '60%');
-    applyPositioning(rectangleClass, 'RCB2', '69%', '60%');
-    applyPositioning(rectangleClass, 'RB', '81.5%', '87%');
+    applyPositioning(rectangleClass, 'LCB', '87.5%', '28%');
+    applyPositioning(rectangleClass, 'LCB2', '67.5%', '28%');
+    applyPositioning(rectangleClass, 'CB', '87.5%', '44%');
+    applyPositioning(rectangleClass, 'CB2', '67.5%', '44%');
+    applyPositioning(rectangleClass, 'RCB', '87.5%', '60%');
+    applyPositioning(rectangleClass, 'RCB2', '67.5%', '60%');
+    applyPositioning(rectangleClass, 'RB', '82.5%', '87%');
     applyPositioning(rectangleClass, 'RB2', '62.5%', '87%');
-    applyPositioning(rectangleClass, 'GK', '115%', '44%');
+    applyPositioning(rectangleClass, 'GK', '116%', '44%');
     applyPositioning(rectangleClass, 'GK2', '96%', '44%');
 }
+
 
 // Apply positioning to both rectangle one and two
 function Reset() {
