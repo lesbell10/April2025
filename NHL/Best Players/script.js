@@ -40,10 +40,10 @@ function updatePlayerInfo() {
     title.innerHTML = "NHL BEST<br>PLAYERS 2024-25"
     title.style.fontSize = "40px"
     sidepic.style.border = "none"
+    sidepic.style.borderRadius = "0"
     sidepic.style.boxShadow = "none"
     sidepic.style.width = "170px"
-    sidepic.style.height = "170px"
-    sidepic.style.top = "740px"
+    sidepic.style.top = "775px"
     sidepic.style.left = "675px"
 
     FL.style.left = "46%"
@@ -53,12 +53,12 @@ function updatePlayerInfo() {
     DR.style.left = "68.5%"
     G.style.left = "61%"
 
-    FL2.style.border = "1px solid white"
-    FC2.style.border = "1px solid white"
-    FR2.style.border = "1px solid white"
-    DL2.style.border = "1px solid white"
-    DR2.style.border = "1px solid white"
-    G2.style.border = "1px solid white"
+    FL2.style.border = "1px solid black"
+    FC2.style.border = "1px solid black"
+    FR2.style.border = "1px solid black"
+    DL2.style.border = "1px solid black"
+    DR2.style.border = "1px solid black"
+    G2.style.border = "1px solid black"
 
     FL3.textContent = "";
     FC3.textContent = "";
@@ -178,6 +178,55 @@ function updatePlayerInfo() {
         G3.textContent = "SAVES: 96.4%";
 
         sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        sidepic.style.borderRadius = "20px"
+    }
+
+    if (selectedPlayer === "4") {
+
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25"
+
+        FL.textContent = "F Forsberg";
+        FC.textContent = "Stamkos";
+        FR.textContent = "Marches.";
+        DL.textContent = "Josi";
+        DR.textContent = "Skjei";
+        G.textContent = "Saros";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        sidepic.src = "/NHL/hockey_img/logos/nashville.png";
+        sidepic.style.borderRadius = "20px"
+        FL.style.left = "500px"
+        FR.style.left = "835px"
+        sidepic.style.border = "3px solid black"
+    }
+
+    if (selectedPlayer === "5") {
+
+        title.innerHTML = "NHL BEST PLAYERS<br>2005 to 2025"
+
+        FL.textContent = "F Forsberg"
+        FC.textContent = "Legwand";
+        FR.textContent = "Erat";
+        DL.textContent = "Weber";
+        DR.textContent = "Josi";
+        G.textContent = "Rinne";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        sidepic.src = "/NHL/hockey_img/logos/nashville.png";
+        sidepic.style.borderRadius = "20px"
+        sidepic.style.border = "3px solid black"
     }
 
     if (selectedPlayer === "300") {

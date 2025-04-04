@@ -42,7 +42,7 @@ yearSelector.addEventListener("change", () => {
     PG.style.left = "45.5%";
     SG.style.left = "34.5%";
     SF.style.left = "57.5%";
-    PF.style.left = "38%";
+    PF.style.left = "36.5%";
     C.style.left = "48.5%";
 
     // PG3.style.left = "885px";
@@ -346,6 +346,62 @@ function updatePlayerInfo() {
         sidepic.style.border = "3px solid black"
     }
 
+    if (selectedYear === "10") {
+
+        title.innerHTML = "<br>NBA BEST PLAYERS"
+
+        PG.textContent = "S Curry";
+        SG.textContent = "T Herro";
+        SF.textContent = "S Sharpe";
+        PF.textContent = "L James";
+        C.textContent = "G Antetoko.";
+
+        PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
+        SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
+        SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
+        PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = "37 PTS";
+        SG3.textContent = "35 PTS";
+        SF3.textContent = "36 PTS";
+        PF3.textContent = "33 PTS";
+        C3.textContent = "35 PTS";
+
+        sidepic.src = "/NBA/basket_img/logos/nba.gif";
+        SF.style.left = "56.5%"
+        C.style.left = "44.3%";
+        sidepic.style.border = "3px solid black"
+    }
+
+    if (selectedYear === "11") {
+
+        title.innerHTML = "<br>NBA BEST PLAYERS"
+
+        PG.textContent = "B Carrington";
+        SG.textContent = "J Morant";
+        SF.textContent = "A Reaves";
+        PF.textContent = "P Banchero";
+        C.textContent = "A Bona";
+
+        PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
+        SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
+        SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
+        PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = "32 PTS";
+        SG3.textContent = "30 PTS";
+        SF3.textContent = "31 PTS";
+        PF3.textContent = "33 PTS";
+        C3.textContent = "28 PTS";
+
+        sidepic.src = "/NBA/basket_img/logos/nba.gif";
+        SF.style.left = "56.5%"
+        C.style.left = "46%";
+        sidepic.style.border = "3px solid black"
+    }
+
     if (selectedYear === "300") {
 
         title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25"
@@ -364,7 +420,7 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NBA/basket_img/logos/nba.gif";
         SF.style.left = "56.5%"
-        C.style.left = "47%";
+        C.style.left = "46%";
         sidepic.style.border = "3px solid black"
     }
 

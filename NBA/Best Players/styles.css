@@ -96,11 +96,11 @@ option {
     width: 260%;
     min-height: 117%;
     margin-left: -70px;
-    margin-top: -350px;
+    margin-top: -330px;
 }
 
 .carousel p {
-    font-size: 31px;
+    font-size: 30px;
     font-weight: bold;
     padding: 0 7px;
     border-radius: 7px;
@@ -113,7 +113,7 @@ option {
     width: 112.74px;
     cursor: pointer;
     border-radius: 20px;
-    border: 3px solid;
+    border: 3px solid black;
     box-shadow: 0px 0px 25px 0px black;
     object-fit: cover;
 }
@@ -142,10 +142,10 @@ option {
 #SG2 { left: 34.5%; top: 45.5%; }
 #SF { left: 57%; top: 79%; width: 150%;}
 #SF2 { left: 57%; top: 65.5%; }
-#PF { left: 38%; top: 83%; }
-#PF2 { left: 38%; top: 69.5%; }
-#C { left: 47.5%; top: 71%; }
-#C2 { left: 47.5%; top: 57.5%; }
+#PF { left: 36.5%; top: 83%; }
+#PF2 { left: 36.5%; top: 69.5%; }
+#C { left: 47%; top: 71%; }
+#C2 { left: 47%; top: 57.5%; }
 
 /* X Position */
 #x-position {
@@ -177,7 +177,7 @@ option {
 
 #PF3 {
     position: absolute;
-    left: 38%; /* Decreased by 4% */
+    left: 37%; /* Decreased by 4% */
     top: 66%;
 }  
 

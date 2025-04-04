@@ -85,9 +85,7 @@ option {
     left: 36%;
     object-fit: contain;
     width: 120px;
-    height: 120px;
     object-fit: cover;
-    border-radius: 50%;
     border: 4px solid black;
     box-shadow: 0 0 20px black;
     transition: 0.3s;
@@ -99,11 +97,11 @@ option {
     width: 200%;
     height: 75%;
     margin-left: 100px;
-    margin-top: -90px;
+    margin-top: -80px;
 }
 
 .carousel p {
-    font-size: 32px;
+    font-size: 30px;
     color: black;
     font-weight: bold;
     /* text-shadow: var(--text-shadow); */
@@ -114,7 +112,7 @@ option {
 .carousel img {
     cursor: pointer;
     border-radius: 15px;
-    height: 19%;
+    height: 20%;
     margin-left: -250px;
     box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
     transition: transform 0.2s ease;
@@ -143,52 +141,52 @@ option {
 }
 
 #FL { left: 46%; top: 36.5%; }
-#FL2 { left: 46%; top: 18.5%; }
+#FL2 { left: 46%; top: 17.5%; }
 #FC { left: 61%; top: 36.5%; }
-#FC2 { left: 61%; top: 18.5%; }
+#FC2 { left: 61%; top: 17.5%; }
 #FR { left: 76%; top: 36.5%; }
-#FR2 { left: 76%; top: 18.5%; }
+#FR2 { left: 76%; top: 17.5%; }
 #DL { left: 53.5%; top: 67%; }
-#DL2 { left: 53.5%; top: 49%; }
+#DL2 { left: 53.5%; top: 48%; }
 #DR { left: 68.5%; top: 67%; }
-#DR2 { left: 68.5%; top: 49%; }
+#DR2 { left: 68.5%; top: 48%; }
 #G  { left: 61%; top: 98%; }
-#G2 { left: 61%; top: 80%; }
+#G2 { left: 61%; top: 79%; }
 
 #FL3 {
     position: absolute;
     left: 24%;
-    top: 12.5%;
+    top: 12%;
 }
 
 #FC3 {
     position: absolute;
     left: 39%;
-    top: 12.5%;
+    top: 12%;
 }
 
 #FR3 {
     position: absolute;
     left: 53.5%;
-    top: 12.5%;
+    top: 12%;
 }
 
 #DL3 {
     position: absolute;
     left: 31.5%;
-    top: 43%;
+    top: 42.5%;
 }
 
 #DR3 {
     position: absolute;
     left: 46.5%;
-    top: 43%;
+    top: 42.5%;
 }
 
 #G3 {
     position: absolute;
     left: 34.5%;
-    top: 74%;
+    top: 73.5%;
 }
 
 /* X Position */

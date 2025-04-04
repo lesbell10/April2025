@@ -66,6 +66,15 @@ teamSelector.addEventListener("change", () => {
 
 let selectedTeam = 0;
 
+function Three_Mid() {
+    if (CM.textContent !== "") {
+        LCM.style.left = "21%";
+        LCM2.style.left = "21%";
+        RCM.style.left = "67%";
+        RCM2.style.left = "67%";
+    }
+}
+
 function Three_Def() {
     if (CB.textContent !== "") {
         LCB.style.left = "21%";
@@ -78,7 +87,7 @@ function Three_Def() {
 function setPlayerImage(element, imgElement) {
     if (element.textContent !== "") {
         imgElement.src = "/FIFA/football_img/players/" + element.textContent + ".webp";
-        imgElement.style.border = '1px solid';
+        imgElement.style.border = '1px solid black';
     } else {
         imgElement.src = "";
         imgElement.style.border = 'none';
@@ -145,6 +154,7 @@ function updatePlayerInfo() {
         setPlayerImage(RB, RB2);
         GK.textContent = "Svilar";
         setPlayerImage(GK, GK2);
+        Three_Mid()
         Three_Def()
 
         sidepic.src = "/FIFA/football_img/logos/roma.webp";
@@ -214,6 +224,7 @@ function updatePlayerInfo() {
         setPlayerImage(RB, RB2);
         GK.textContent = "Alisson";
         setPlayerImage(GK, GK2);
+        Three_Mid()
         Three_Def()
 
         sidepic.src = "/FIFA/football_img/logos/roma.webp";
@@ -223,11 +234,11 @@ function updatePlayerInfo() {
 
     if (selectedTeam == "2") {
 
-        title.innerHTML = "FIFA BEST PLAYERS<BR>2005 to 2025"
+        title.innerHTML = "FIFA BEST PLAYERS<BR>IN 2024-25"
 
         STL.textContent = "";
         setPlayerImage(STL, STL2);
-        STC.textContent = " L Martinez";
+        STC.textContent = "L Martinez";
         setPlayerImage(STC, STC2);
         STR.textContent = "";
         setPlayerImage(STR, STR2);
@@ -237,27 +248,27 @@ function updatePlayerInfo() {
         setPlayerImage(LF, LF2);
         AMLC.textContent = "";
         setPlayerImage(AMLC, AMLC2);
-        AMC.textContent = "";
+        AMC.textContent = "Messi";
         setPlayerImage(AMC, AMC2);
         AMRC.textContent = "";
         setPlayerImage(AMRC, AMRC2);
         RF.textContent = "";
         setPlayerImage(RF, RF2);
-        RW.textContent = "";
+        RW.textContent = "R De Paul";
         setPlayerImage(RW, RW2);
         WL.textContent = "";
         setPlayerImage(WL, WL2);
-        LCM.textContent = "Enzo F";
+        LCM.textContent = "Mac Allister";
         setPlayerImage(LCM, LCM2);
-        CM.textContent = "Mac Allister";
+        CM.textContent = "";
         setPlayerImage(CM, CM2);
-        RCM.textContent = "R De Paul";
+        RCM.textContent = "Enzo F";
         setPlayerImage(RCM, RCM2);
         WR.textContent = "";
         setPlayerImage(WR, WR2);
         // DM.textContent = "";
         // setPlayerImage(DM, DM2);
-        LB.textContent = "";
+        LB.textContent = "Acuna";
         setPlayerImage(LB, LB2);
         LCB.textContent = "Li Martinez";
         setPlayerImage(LCB, LCB2);
@@ -269,15 +280,76 @@ function updatePlayerInfo() {
         setPlayerImage(RB, RB2);
         GK.textContent = "E Martinez";
         setPlayerImage(GK, GK2);
+        Three_Mid()
         Three_Def()
 
-        sidepic.src = "/FIFA/football_img/logos/fifa.webp";
+        sidepic.src = "/FIFA/football_img/logos/argentina.webp";
         RB.style.left = "83%"
+        LCB.style.left = "90px"
+        LCM.style.left = "90px"
+        RW.style.left = "340px"
     }
 
     if (selectedTeam == "3") {
 
-        title.innerHTML = "FIFA BEST PLAYERS<BR> IN 2024-25"
+        title.innerHTML = "FIFA BEST PLAYERS<BR>IN 2024-25"
+
+        STL.textContent = "";
+        setPlayerImage(STL, STL2);
+        STC.textContent = "Icardi";
+        setPlayerImage(STC, STC2);
+        STR.textContent = "";
+        setPlayerImage(STR, STR2);
+        LW.textContent = "N Gonzalez";
+        setPlayerImage(LW, LW2);
+        LF.textContent = "";
+        setPlayerImage(LF, LF2);
+        AMLC.textContent = "";
+        setPlayerImage(AMLC, AMLC2);
+        AMC.textContent = "Dybala";
+        setPlayerImage(AMC, AMC2);
+        AMRC.textContent = "";
+        setPlayerImage(AMRC, AMRC2);
+        RF.textContent = "";
+        setPlayerImage(RF, RF2);
+        RW.textContent = "A Correa";
+        setPlayerImage(RW, RW2);
+        WL.textContent = "";
+        setPlayerImage(WL, WL2);
+        LCM.textContent = "G Rodriguez";
+        setPlayerImage(LCM, LCM2);
+        CM.textContent = "";
+        setPlayerImage(CM, CM2);
+        RCM.textContent = "L Paredes";
+        setPlayerImage(RCM, RCM2);
+        WR.textContent = "";
+        setPlayerImage(WR, WR2);
+        // DM.textContent = "";
+        // setPlayerImage(DM, DM2);
+        LB.textContent = "Tagliafico";
+        setPlayerImage(LB, LB2);
+        LCB.textContent = "Balerdi";
+        setPlayerImage(LCB, LCB2);
+        CB.textContent = "";
+        setPlayerImage(CB, CB2);
+        RCB.textContent = "Otamendi";
+        setPlayerImage(RCB, RCB2);
+        RB.textContent = "Montiel";
+        setPlayerImage(RB, RB2);
+        GK.textContent = "Musso";
+        setPlayerImage(GK, GK2);
+        Three_Mid()
+        Three_Def()
+
+        sidepic.src = "/FIFA/football_img/logos/argentina.webp";
+        RB.style.left = "82%"
+        LCM.style.left = "80px"
+        LB.style.left = "-15px"
+    }
+
+    if (selectedTeam == "300") {
+
+        title.innerHTML = "FIFA BEST PLAYERS<BR>IN 2024-25"
 
         STL.textContent = "";
         setPlayerImage(STL, STL2);
@@ -323,6 +395,7 @@ function updatePlayerInfo() {
         setPlayerImage(RB, RB2);
         GK.textContent = "";
         setPlayerImage(GK, GK2);
+        Three_Mid()
         Three_Def()
 
         sidepic.src = "/FIFA/football_img/logos/fifa.webp";
@@ -377,60 +450,7 @@ function updatePlayerInfo() {
         setPlayerImage(RB, RB2);
         GK.textContent = "";
         setPlayerImage(GK, GK2);
-        Three_Def()
-
-        sidepic.src = "/FIFA/football_img/logos/fifa.webp";
-        RB.style.left = "83%"
-    }
-
-    if (selectedTeam == "300") {
-
-        title.innerHTML = "FIFA BEST PLAYERS<BR> IN 2024-25"
-
-        STL.textContent = "";
-        setPlayerImage(STL, STL2);
-        STC.textContent = "";
-        setPlayerImage(STC, STC2);
-        STR.textContent = "";
-        setPlayerImage(STR, STR2);
-        LW.textContent = "";
-        setPlayerImage(LW, LW2);
-        LF.textContent = "";
-        setPlayerImage(LF, LF2);
-        AMLC.textContent = "";
-        setPlayerImage(AMLC, AMLC2);
-        AMC.textContent = "";
-        setPlayerImage(AMC, AMC2);
-        AMRC.textContent = "";
-        setPlayerImage(AMRC, AMRC2);
-        RF.textContent = "";
-        setPlayerImage(RF, RF2);
-        RW.textContent = "";
-        setPlayerImage(RW, RW2);
-        WL.textContent = "";
-        setPlayerImage(WL, WL2);
-        LCM.textContent = "";
-        setPlayerImage(LCM, LCM2);
-        CM.textContent = "";
-        setPlayerImage(CM, CM2);
-        RCM.textContent = "";
-        setPlayerImage(RCM, RCM2);
-        WR.textContent = "";
-        setPlayerImage(WR, WR2);
-        // DM.textContent = "";
-        // setPlayerImage(DM, DM2);
-        LB.textContent = "";
-        setPlayerImage(LB, LB2);
-        LCB.textContent = "";
-        setPlayerImage(LCB, LCB2);
-        CB.textContent = "";
-        setPlayerImage(CB, CB2);
-        RCB.textContent = "";
-        setPlayerImage(RCB, RCB2);
-        RB.textContent = "";
-        setPlayerImage(RB, RB2);
-        GK.textContent = "";
-        setPlayerImage(GK, GK2);
+        Three_Mid()
         Three_Def()
 
         sidepic.src = "/FIFA/football_img/logos/fifa.webp";
@@ -450,21 +470,21 @@ function updatePlayerInfo() {
     // substitutes.innerHTML = substitutes.innerHTML.replace(/,/g, ' •');
 }
 
-// const container = document.querySelector('.carousel');
-// const xPositionDisplay = document.getElementById('x-position');
+const container = document.querySelector('.rectangle');
+const xPositionDisplay = document.getElementById('x-position');
 
-// // Track mouse movement within the .short container
-// container.addEventListener('mousemove', (event) => {
-//     const containerRect = container.getBoundingClientRect();
+// Track mouse movement within the .short container
+container.addEventListener('mousemove', (event) => {
+    const containerRect = container.getBoundingClientRect();
 
-//     // Calculate the X-coordinate relative to the container
-//     const x = event.clientX - containerRect.left;
+    // Calculate the X-coordinate relative to the container
+    const x = event.clientX - containerRect.left;
 
-//     // Display the X-coordinate
-//     xPositionDisplay.innerHTML = `left: ${x}px`;
-// });
+    // Display the X-coordinate
+    xPositionDisplay.innerHTML = `left: ${x}px`;
+});
 
-// // Clear the X display when the mouse leaves the container
-// container.addEventListener('mouseleave', () => {
-//     xPositionDisplay.innerHTML = '';
-// });
+// Clear the X display when the mouse leaves the container
+container.addEventListener('mouseleave', () => {
+    xPositionDisplay.innerHTML = '';
+});
