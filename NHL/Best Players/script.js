@@ -38,13 +38,13 @@ function updatePlayerInfo() {
     selectedPlayer = playerDropdown.value;
 
     title.innerHTML = "NHL BEST<br>PLAYERS 2024-25"
-    title.style.fontSize = "40px"
+    title.style.fontSize = "45px"
     sidepic.style.border = "none"
     sidepic.style.borderRadius = "0"
     sidepic.style.boxShadow = "none"
-    sidepic.style.width = "170px"
+    sidepic.style.width = "163px"
     sidepic.style.top = "775px"
-    sidepic.style.left = "675px"
+    sidepic.style.left = "690px"
 
     FL.style.left = "46%"
     FC.style.left = "61%"

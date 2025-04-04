@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
 yearSelector.addEventListener("change", () => {
 
     title.innerHTML = " NBA BEST PLAYERS"
-    title.style.fontSize = "40px"
+    title.style.fontSize = "45px"
 
     sidepic.style.width = "155px"
 
