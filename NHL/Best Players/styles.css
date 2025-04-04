@@ -29,7 +29,7 @@ body {
 /* Select Dropdown */
 select {
     padding: 12px;
-    font-size: 29.5px;
+    font-size: 29px;
     font-weight: bold;
     text-align: center;
     border-radius: 14px;
@@ -62,7 +62,7 @@ option {
 
 /* Titles & Labels */
 .title {
-    font-size: 46px;
+    font-size: 40px;
     margin: 0px 0 20px;
     font-weight: normal;
     text-align: center;
@@ -97,11 +97,10 @@ option {
 /* Carousel */
 .carousel {
     position: relative;
-    width: 300%;
-    height: 150%;
-    margin-left: -50px;
-    margin-top: -330px;
-    scale: 0.55;
+    width: 200%;
+    height: 75%;
+    margin-left: 50px;
+    margin-top: -110px;
 }
 
 .carousel p {
