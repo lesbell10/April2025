@@ -42,14 +42,14 @@ function displayPlayerInfo() {
     // document.querySelector(".playerInfo").style.height = "675px"
 
         if (selectedPlayer === "0") {
-        title.innerHTML = "TOP 5 NHL POINTERS<BR>IN 2024-25"
+        title.innerHTML = "TOP NHL POINTERS<BR>IN 2024-25"
         nation.textContent = "Canada";
         club.textContent = "Edmonton Oilers";
         position.textContent = "Center";
         stats.innerHTML = "4th - 89 pts";
         playerImage.src = "/NHL/hockey_img/players/mcdavid.jpg";
     }  else if (selectedPlayer === "1") {
-        title.innerHTML = "NHL TOP 5 POINTERS<BR>IN MARCH #1";
+        title.innerHTML = "TOP NHL POINTERS<BR>IN MARCH #1";
         nation.textContent = "USA";
         club.textContent = "Vegas Golden Knights";
         position.textContent = "Center";
@@ -57,7 +57,7 @@ function displayPlayerInfo() {
         playerImage.src = "/NHL/hockey_img/players/eichel.jpg";
     }
     else if (selectedPlayer === "2") {
-        title.innerHTML = "NHL TOP 5 POINTERS<BR>IN MARCH #1";
+        title.innerHTML = "TOP NHL POINTERS<BR>IN MARCH #1";
         nation.textContent = "Russia";
         club.textContent = "Tampa Bay Lightning";
         position.textContent = "Right Winger";
@@ -65,7 +65,7 @@ function displayPlayerInfo() {
         playerImage.src = "/NHL/hockey_img/players/kucherov.jpg";
     }
     else if (selectedPlayer === "3") {
-        title.innerHTML = "NHL TOP 5 POINTERS<BR>IN MARCH #1";
+        title.innerHTML = "TOP NHL POINTERS<BR>IN MARCH #1";
         nation.textContent = "Finland";
         club.textContent = "Dallas Stars";
         position.textContent = "Center";
@@ -73,7 +73,7 @@ function displayPlayerInfo() {
         playerImage.src = "/NHL/hockey_img/players/hintz.jpg";
     }
     else if (selectedPlayer === "4") {
-        title.innerHTML = "NHL TOP 5 POINTERS<BR>IN MARCH #1";
+        title.innerHTML = "TOP NHL POINTERS<BR>IN MARCH #1";
 
         nation.textContent = "Canada";
         club.textContent = "Toronto Maple Leafs";
@@ -82,14 +82,102 @@ function displayPlayerInfo() {
         playerImage.src = "/NHL/hockey_img/players/tavares.jpg";
     }
     else if (selectedPlayer === "5") {
-        title.innerHTML = "NHL TOP 5 POINTERS<BR>IN MARCH #1";
+        title.innerHTML = "TOP NHL POINTERS<BR>IN MARCH #1";
         nation.textContent = "Russia";
         club.textContent = "New York Rangers";
         position.textContent = "Left Winger";
         stats.innerHTML = "5th - 20 POINTS";
         playerImage.src = "/NHL/hockey_img/players/panarin.jpg";
+        }
+        else if (selectedPlayer === "6") {
+            title.innerHTML = "TOP NHL POINTERS<BR>IN MARCH #2";
+            nation.textContent = "Canada";
+            club.textContent = "Pittsburgh Penguins";
+            position.textContent = "Center";
+            stats.innerHTML = "6th - 20 POINTS";
+            playerImage.src = "/NHL/hockey_img/players/crosby.jpg";
+        }
+        else if (selectedPlayer === "7") {
+            title.innerHTML = "TOP NHL POINTERS<BR>IN MARCH #2";
+            nation.textContent = "Canada";
+            club.textContent = "Toronto Maple Leafs";
+            position.textContent = "Right Winger";
+            stats.innerHTML = "7th - 20 POINTS";
+            playerImage.src = "/NHL/hockey_img/players/nylander.jpg";
+        }
+        else if (selectedPlayer === "8") {
+            title.innerHTML = "TOP NHL POINTERS<BR>IN MARCH #2";
+            nation.textContent = "Canada";
+            club.textContent = "St. Louis Blues";
+            position.textContent = "Center";
+            stats.innerHTML = "8th - 20 POINTS";
+            playerImage.src = "/NHL/hockey_img/players/thomas.jpg";
+        }
+        else if (selectedPlayer === "9") {
+            title.innerHTML = "TOP NHL POINTERS<BR>IN MARCH #2";
+            nation.textContent = "USA";
+            club.textContent = "Chicago Blackhawks";
+            position.textContent = "Center";
+            stats.innerHTML = "9th - 19 POINTS";
+            playerImage.src = "/NHL/hockey_img/players/donato.jpg";
+        }
+        else if (selectedPlayer === "10") {
+            title.innerHTML = "TOP NHL POINTERS<BR>IN MARCH #2";
+            nation.textContent = "USA";
+            club.textContent = "Toronto Maple Leafs";
+            position.textContent = "Center";
+            stats.innerHTML = "10th - 19 POINTS";
+            playerImage.src = "/NHL/hockey_img/players/matthews.jpg";
+    } else if (selectedPlayer === "10") {
+        title.innerHTML = "TOP NHL POINTERS<BR>IN MARCH #2";
+        nation.textContent = "USA";
+        club.textContent = "Toronto Maple Leafs";
+        position.textContent = "Center";
+        stats.innerHTML = "10th - 19 POINTS";
+        playerImage.src = "/NHL/hockey_img/players/matthews.jpg";
+    }
+    else if (selectedPlayer === "11") {
+        title.innerHTML = "TOP NHL POINTERS<BR>IN MARCH | #11 - #15";
+        nation.textContent = "Canada";
+        club.textContent = "St Louis Blues";
+        position.textContent = "Left Winger";
+        stats.innerHTML = "11th - 19 POINTS";
+        playerImage.src = "/NHL/hockey_img/players/holloway.jpg";
+    }
+    else if (selectedPlayer === "12") {
+        title.innerHTML = "TOP NHL POINTERS<BR>IN MARCH | #11 - #15";
+        nation.textContent = "Canada";
+        club.textContent = "Colorado Avalanche";
+        position.textContent = "Center";
+        stats.innerHTML = "12th - 19 POINTS";
+        playerImage.src = "/NHL/hockey_img/players/mackinnon.jpg";
+    }
+    else if (selectedPlayer === "13") {
+        title.innerHTML = "TOP NHL POINTERS<BR>IN MARCH | #11 - #15";
+        nation.textContent = "Canada";
+        club.textContent = "Colorado Avalanche";
+        position.textContent = "Defenseman";
+        stats.innerHTML = "13th - 18 POINTS";
+        playerImage.src = "/NHL/hockey_img/players/makar.jpg";
+    }
+    else if (selectedPlayer === "14") {
+        title.innerHTML = "TOP NHL POINTERS<BR>IN MARCH | #11 - #15";
+        nation.textContent = "Sweden";
+        club.textContent = "New Jersey Devils";
+        position.textContent = "Left Winger";
+        stats.innerHTML = "14th - 18 POINTS";
+        playerImage.src = "/NHL/hockey_img/players/bratt.jpg";
+    }
+    else if (selectedPlayer === "15") {
+        title.innerHTML = "TOP NHL POINTERS<BR>IN MARCH | #11 - #15";
+        nation.textContent = "Switzerland";
+        club.textContent = "New Jersey Devils";
+        position.textContent = "Center";
+        stats.innerHTML = "15th - 17 POINTS";
+        playerImage.src = "/NHL/hockey_img/players/hischier.jpg";
     }
 
+    
     // document.querySelector(".short").style.background = "linear-gradient(-45deg, grey 30%, dodgerblue 70%)";
 }
 

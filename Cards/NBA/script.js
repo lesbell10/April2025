@@ -44,14 +44,128 @@ function displayPlayerInfo() {
     // document.querySelector("select").style.fontSize = "24.5px"
 
     if (selectedPlayer === "0") {
-        title.innerHTML= "TOP 5 NBA POINTS PER <br>GAME 2024-25"
+        title.innerHTML= "TOP NBA POINTERS PER<br>GAME IN MARCH #1"
+        nation.textContent = "Serbia";
+        club.textContent = "Denver Nuggets";
+        position.textContent = "C, PF";
+        stats.innerHTML = "1st - 31.6 PPG";
+        playerImage.src = "/NBA/basket_img/players/n jokic.jpg";
+    } else if (selectedPlayer === "1") {
+        title.innerHTML = "TOP NBA POINTERS PER<br>GAME IN MARCH #1";
         nation.textContent = "Canada";
         club.textContent = "Oklahoma City Thunder";
-        position.textContent = "PG, SG";
-        stats.innerHTML = "1st - 33.0 PPG";
+        position.textContent = "SG, PG";
+        stats.innerHTML = "1st - 34.7 PPG";
         playerImage.src = "/NBA/basket_img/players/s gilgeous-a.jpg";
-    } 
-    
+    } else if (selectedPlayer === "2") {
+        title.innerHTML = "TOP NBA POINTERS PER<br>GAME IN MARCH #1";
+        nation.textContent = "USA";
+        club.textContent = "New York Knicks";
+        position.textContent = "PG";
+        stats.innerHTML = "2nd - 31.7 PPG";
+        playerImage.src = "/NBA/basket_img/players/j brunson.jpg";
+    } else if (selectedPlayer === "3") {
+        title.innerHTML = "TOP NBA POINTERS PER<br>GAME IN MARCH #1";
+        nation.textContent = "Slovenia";
+        club.textContent = "Los Angeles Lakers";
+        position.textContent = "PG, SG";
+        stats.innerHTML = "3rd - 30.1 PPG";
+        playerImage.src = "/NBA/basket_img/players/l doncic.jpg";
+    } else if (selectedPlayer === "4") {
+        title.innerHTML = "TOP NBA POINTERS PER<br>GAME IN MARCH #1";
+        nation.textContent = "Serbia";
+        club.textContent = "Denver Nuggets";
+        position.textContent = "C, PF";
+        stats.innerHTML = "4th - 30.0 PPG";
+        playerImage.src = "/NBA/basket_img/players/n jokic.jpg";
+    } else if (selectedPlayer === "5") {
+        title.innerHTML = "TOP NBA POINTERS PER<br>GAME IN MARCH #1";
+        nation.textContent = "USA";
+        club.textContent = "Orlando Magic";
+        position.textContent = "PF, SF";
+        stats.innerHTML = "5th - 29.8 PPG";
+        playerImage.src = "/NBA/basket_img/players/p banchero.jpg";
+    }
+    else if (selectedPlayer === "6") {
+        title.innerHTML = "TOP NBA POINTERS PER<br>GAME IN MARCH #2";
+        nation.textContent = "USA";
+        club.textContent = "Memphis Grizzlies";
+        position.textContent = "PG";
+        stats.innerHTML = "6th - 29.5 PPG";
+        playerImage.src = "/NBA/basket_img/players/j morant.jpg";
+    }
+    else if (selectedPlayer === "7") {
+        title.innerHTML = "TOP NBA POINTERS PER<br>GAME IN MARCH #2";
+        nation.textContent = "Greece";
+        club.textContent = "Milwaukee Bucks";
+        position.textContent = "PF, C";
+        stats.innerHTML = "7th - 28.3 PPG";
+        playerImage.src = "/NBA/basket_img/players/g antetoko..jpg";
+    }
+    else if (selectedPlayer === "8") {
+        title.innerHTML = "TOP NBA POINTERS PER<br>GAME IN MARCH #2";
+        nation.textContent = "USA";
+        club.textContent = "Boston Celtics";
+        position.textContent = "SF, PF";
+        stats.innerHTML = "8th - 27.9 PPG";
+        playerImage.src = "/NBA/basket_img/players/j tatum.jpg";
+    }
+    else if (selectedPlayer === "9") {
+        title.innerHTML = "TOP NBA POINTERS PER<br>GAME IN MARCH #2";
+        nation.textContent = "USA";
+        club.textContent = "Chicago Bulls";
+        position.textContent = "PG, SG";
+        stats.innerHTML = "9th - 27.7 PPG";
+        playerImage.src = "/NBA/basket_img/players/c white.jpg";
+    }
+    else if (selectedPlayer === "10") {
+        title.innerHTML = "TOP NBA POINTERS PER<br>GAME IN MARCH #2";
+        nation.textContent = "USA";
+        club.textContent = "Detroit Pistons";
+        position.textContent = "PG, SG";
+        stats.innerHTML = "10th - 27.3 PPG";
+        playerImage.src = "/NBA/basket_img/players/c cunningham.jpg";
+    }
+    else if (selectedPlayer === "11") {
+        title.innerHTML = "TOP NBA POINTERS PER<br>GAME IN MARCH | #11 - #15";
+        nation.textContent = "USA";
+        club.textContent = "Minnesota Timberwolves";
+        position.textContent = "SG, SF";
+        stats.innerHTML = "11th - 26.6 PPG";
+        playerImage.src = "/NBA/basket_img/players/a edwards.jpg";
+    }
+    else if (selectedPlayer === "12") {
+        title.innerHTML = "TOP NBA POINTERS PER<br>GAME IN MARCH | #11 - #15";
+        nation.textContent = "USA";
+        club.textContent = "Philadelphia 76ers";
+        position.textContent = "SG";
+        stats.innerHTML = "12th - 26.6 PPG";
+        playerImage.src = "/NBA/basket_img/players/q grimes.jpg";
+    }
+    else if (selectedPlayer === "13") {
+        title.innerHTML = "TOP NBA POINTERS PER<br>GAME IN MARCH | #11 - #15";
+        nation.textContent = "USA";
+        club.textContent = "Phoenix Suns";
+        position.textContent = "SF, PF";
+        stats.innerHTML = "13th - 26.1 PPG";
+        playerImage.src = "/NBA/basket_img/players/k durant.jpg";
+    }
+    else if (selectedPlayer === "14") {
+        title.innerHTML = "TOP NBA POINTERS PER<br>GAME IN MARCH | #11 - #15";
+        nation.textContent = "USA";
+        club.textContent = "Atlanta Hawks";
+        position.textContent = "PG";
+        stats.innerHTML = "14th - 25.3 PPG";
+        playerImage.src = "/NBA/basket_img/players/t young.jpg";
+    }
+    else if (selectedPlayer === "15") {
+        title.innerHTML = "TOP NBA POINTERS PER<br>GAME IN MARCH | #11 - #15";
+        nation.textContent = "USA";
+        club.textContent = "Los Angeles Clippers";
+        position.textContent = "SG, PG";
+        stats.innerHTML = "15th - 25.3 PPG";
+        playerImage.src = "/NBA/basket_img/players/j harden.jpg";
+    }
     // document.querySelector(".short").style.background = "linear-gradient(-45deg, grey 30%, darkorange 70%)";
 }
 

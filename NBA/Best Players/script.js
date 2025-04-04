@@ -48,6 +48,12 @@ yearSelector.addEventListener("change", () => {
     // SF3.style.left  = "58%";
     // PF3.style.left = "765px";
     // C3.style.left = "940px";
+2
+    PG2.style.border = "3px solid white";
+    SG2.style.border = "3px solid white";
+    SF2.style.border = "3px solid white";
+    PF2.style.border = "3px solid white"
+    C2.style.border = "3px solid white";
 
     PG3.textContent = "";
     SG3.textContent = "";
@@ -67,7 +73,7 @@ function updatePlayerInfo() {
 
     message.innerHTML = ""
 
-    if (selectedYear === "58") {
+    if (selectedYear === "0") {
 
         title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25"
 
@@ -89,7 +95,7 @@ function updatePlayerInfo() {
         sidepic.style.border = "3px solid black"
     }
 
-    if (selectedYear === "59") {
+    if (selectedYear === "1") {
 
         title.innerHTML = "NBA BEST PLAYERS<br>2005 to 2025"
 
@@ -111,7 +117,7 @@ function updatePlayerInfo() {
         sidepic.style.border = "3px solid black"
     }
 
-    if (selectedYear === "68") {
+    if (selectedYear === "2") {
 
         title.innerHTML = "NBA BEST PLAYERS<br>OF THE WEEK"
 
@@ -139,7 +145,7 @@ function updatePlayerInfo() {
         sidepic.style.border = "3px solid black"
     }
 
-    if (selectedYear === "69") {
+    if (selectedYear === "3") {
 
         title.innerHTML = "NBA BEST PLAYERS<br>OF THE WEEK"
 
@@ -167,7 +173,7 @@ function updatePlayerInfo() {
         sidepic.style.border = "3px solid black"
     }
 
-    if (selectedYear === "70") {
+    if (selectedYear === "4") {
 
         title.innerHTML = "<br>NBA BEST PLAYERS"
 
@@ -195,7 +201,7 @@ function updatePlayerInfo() {
         sidepic.style.border = "3px solid black"
     }
 
-    if (selectedYear === "71") {
+    if (selectedYear === "5") {
 
         title.innerHTML = "<br>NBA BEST PLAYERS"
 
@@ -220,6 +226,63 @@ function updatePlayerInfo() {
         sidepic.src = "/NBA/basket_img/logos/nba.gif";
         SF.style.left = "57.5%"
         C.style.left = "46.5%";
+        sidepic.style.border = "3px solid black"
+    }
+
+    if (selectedYear === "6") {
+
+        title.innerHTML = "<br>NBA BEST PLAYERS"
+
+        PG.textContent = "S Curry";
+        SG.textContent = "J Morant";
+        SF.textContent = "D Booker";
+        PF.textContent = "G Antetoko.";
+        C.textContent = "N Jokic";
+
+        PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
+        SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
+        SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
+        PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = "52 PTS !!!";
+        SG3.textContent = "36 PTS";
+        SF3.textContent = "39 PTS";
+        PF3.textContent = "37 PTS";
+        C3.textContent = "61 PTS !!!";
+
+        sidepic.src = "/NBA/basket_img/logos/nba.gif";
+        SF.style.left = "57.5%"
+        C.style.left = "48.5%";
+        sidepic.style.border = "3px solid black"
+        C2.style.border = "3px solid red"
+    }
+
+    if (selectedYear === "7") {
+
+        title.innerHTML = "<br>NBA BEST PLAYERS"
+
+        PG.textContent = "T Young";
+        SG.textContent = "A Edwards";
+        SF.textContent = "S Sharpe";
+        PF.textContent = "D Avdija";
+        C.textContent = "A Gordon";
+
+        PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
+        SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
+        SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
+        PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = "29 PTS";
+        SG3.textContent = "34 PTS";
+        SF3.textContent = "33 PTS";
+        PF3.textContent = "32 PTS";
+        C3.textContent = "30 PTS";
+
+        sidepic.src = "/NBA/basket_img/logos/nba.gif";
+        SF.style.left = "57.5%"
+        C.style.left = "47.5%";
         sidepic.style.border = "3px solid black"
     }
 

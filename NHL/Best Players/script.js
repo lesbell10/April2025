@@ -117,7 +117,7 @@ if (selectedPlayer === "0") {
         FC.style.left = "970px"
     }
 
-    if (selectedPlayer === "1") {
+    if (selectedPlayer === "2") {
 
         title.innerHTML = "NHL BEST PLAYERS<br>OF THE WEEK"
 
@@ -145,7 +145,7 @@ if (selectedPlayer === "0") {
         sidepic.src = "/NHL/hockey_img/logos/nhl.png";
     }
 
-    if (selectedPlayer === "2") {
+    if (selectedPlayer === "3") {
 
         title.innerHTML = "NHL BEST PLAYERS<br>OF THE WEEK"
 
