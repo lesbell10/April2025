@@ -41,9 +41,9 @@ yearSelector.addEventListener("change", () => {
 
     PG.style.left = "45.5%";
     SG.style.left = "34.5%";
-    SF.style.left = "57.5%";
+    SF.style.left = "57%";
     PF.style.left = "36.5%";
-    C.style.left = "48.5%";
+    C.style.left = "47%";
 
     // PG3.style.left = "885px";
     // SG3.style.left ="695px";
@@ -51,11 +51,11 @@ yearSelector.addEventListener("change", () => {
     // PF3.style.left = "765px";
     // C3.style.left = "940px";
 
-    PG2.style.border = "3px solid white";
-    SG2.style.border = "3px solid white";
-    SF2.style.border = "3px solid white";
-    PF2.style.border = "3px solid white"
-    C2.style.border = "3px solid white";
+    PG2.style.border = "3px solid black";
+    SG2.style.border = "3px solid black";
+    SF2.style.border = "3px solid black";
+    PF2.style.border = "3px solid black"
+    C2.style.border = "3px solid black";
 
     PG3.textContent = "";
     SG3.textContent = "";
@@ -397,8 +397,52 @@ function updatePlayerInfo() {
         C3.textContent = "28 PTS";
 
         sidepic.src = "/NBA/basket_img/logos/nba.gif";
+        SF.style.left = "57%"
+        C.style.left = "47%";
+        sidepic.style.border = "3px solid black"
+    }
+
+    if (selectedYear === "12") {
+
+        title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25"
+
+        PG.textContent = "T Young";
+        SG.textContent = "D Daniels";
+        SF.textContent = "C LeVert";
+        PF.textContent = "J Johnson";
+        C.textContent = "O Okongwu";
+
+        PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
+        SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
+        SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
+        PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        sidepic.src = "/NBA/basket_img/logos/atlanta.gif";
         SF.style.left = "56.5%"
-        C.style.left = "46%";
+        C.style.left = "44.5%";
+        sidepic.style.border = "3px solid black"
+    }
+
+    if (selectedYear === "13") {
+
+        title.innerHTML = "NBA BEST PLAYERS<br>2005 to 2025"
+
+        PG.textContent = "T Young";
+        SG.textContent = "Jo Johnson";
+        SF.textContent = "J Smith";
+        PF.textContent = "P Millsap";
+        C.textContent = "A Horford";
+
+        PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
+        SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
+        SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
+        PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        sidepic.src = "/NBA/basket_img/logos/atlanta.gif";
+        SF.style.left = "56.5%"
+        C.style.left = "45.5%";
         sidepic.style.border = "3px solid black"
     }
 
@@ -442,7 +486,7 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NBA/basket_img/logos/nba.gif";
         SF.style.left = "56.5%"
-        C.style.left = "47%";
+        C.style.left = "46%";
         sidepic.style.border = "3px solid black"
     }
 }
