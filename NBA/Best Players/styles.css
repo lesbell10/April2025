@@ -96,7 +96,7 @@ option {
     width: 260%;
     min-height: 117%;
     margin-left: -70px;
-    margin-top: -340px;
+    margin-top: -345px;
 }
 
 .carousel p {
@@ -188,7 +188,7 @@ option {
 }
 
 h4  {
-    font-size: 31px;
+    font-size: 30px;
     width: 100%;
     color: black;
     /* text-shadow: var(--text-shadow); */

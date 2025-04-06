@@ -95,9 +95,9 @@ option {
 .carousel {
     position: relative;
     width: 200%;
-    height: 74%;
+    height: 72%;
     margin-left: 100px;
-    margin-top: -90px;
+    margin-top: -70px;
 }
 
 .carousel p {
@@ -208,7 +208,7 @@ option {
 } */
 
 h1 {
-    font-size: 34px;
+    font-size: 30px;
     color: black;
     /* text-shadow: var(--text-shadow); */
 }

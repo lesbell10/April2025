@@ -43,7 +43,7 @@ function updatePlayerInfo() {
     sidepic.style.borderRadius = "0"
     sidepic.style.boxShadow = "none"
     sidepic.style.width = "163px"
-    sidepic.style.top = "775px"
+    sidepic.style.top = "750px"
     sidepic.style.left = "690px"
 
     FL.style.left = "46%"
@@ -229,6 +229,125 @@ function updatePlayerInfo() {
         sidepic.style.border = "3px solid black"
     }
 
+    if (selectedPlayer === "6") {
+
+        title.innerHTML = "NHL BEST POINTERS<BR>EVERY YEAR"
+
+
+        FL.textContent = "Kovalchuk";
+        FC.textContent = "Sakic";
+        FR.textContent = "St Louis";
+        DL.textContent = "Gonchar";
+        DR.textContent = "S Niedermayer";
+        G.textContent = "Luongo";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        FL3.textContent = "87 PTS";
+        FC3.textContent = "87 PTS";
+        FR3.textContent = "94 PTS";
+        DL3.textContent = "58 PTS";
+        DR3.textContent = "54 PTS";
+        G3.textContent = "SAVES: 93.1%";
+
+        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        FC.style.left = "700px"
+        DR.style.left = "735px"
+    }
+
+    if (selectedPlayer === "7") {
+
+        title.innerHTML = "NHL BEST POINTERS<BR>EVERY YEAR"
+
+
+        FL.textContent = "M Naslund";
+        FC.textContent = "Forsberg";
+        FR.textContent = "Thornton";
+        DL.textContent = "MacInnis";
+        DR.textContent = "Gonchar";
+        G.textContent = "Turco";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        FL3.textContent = "104 PTS";
+        FC3.textContent = "106 PTS";
+        FR3.textContent = "101 PTS";
+        DL3.textContent = "68 PTS";
+        DR3.textContent = "67 PTS";
+        G3.textContent = "SAVES: 93.2%";
+
+        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        FR.style.left = "830px"
+    }
+
+    if (selectedPlayer === "8") {
+
+        title.innerHTML = "NHL BEST POINTERS<BR>EVERY YEAR"
+
+
+        FL.textContent = "Bertuzzi";
+        FC.textContent = "M Naslund";
+        FR.textContent = "Iginla";
+        DL.textContent = "Gonchar";
+        DR.textContent = "Lidstrom";
+        G.textContent = "J Theodore";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        FL3.textContent = "85 PTS";
+        FC3.textContent = "90 PTS";
+        FR3.textContent = "96 PTS";
+        DL3.textContent = "59 PTS";
+        DR3.textContent = "59 PTS";
+        G3.textContent = "SAVES: 93.1%";
+
+        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+    }
+
+    if (selectedPlayer === "9") {
+
+        title.innerHTML = "NHL BEST POINTERS<BR>EVERY YEAR"
+
+
+        FL.textContent = "Elias";
+        FC.textContent = "Sakic";
+        FR.textContent = "Jagr";
+        DL.textContent = "Leetch";
+        DR.textContent = "Lidstrom";
+        G.textContent = "Hasek";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        FL3.textContent = "96 PTS";
+        FC3.textContent = "118 PTS";
+        FR3.textContent = "121 PTS";
+        DL3.textContent = "79 PTS";
+        DR3.textContent = "71 PTS";
+        G3.textContent = "SAVES: 92.1%";
+
+        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+    }
+
     if (selectedPlayer === "300") {
 
         title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25"
@@ -288,7 +407,7 @@ const xPositionDisplay = document.getElementById('x-position');
 // Track mouse movement on the entire document
 container.addEventListener('mousemove', (event) => {
     const x = event.clientX; // Get the X-coordinate relative to the viewport
-    xPositionDisplay.innerHTML = `left: ${x - 175}px`;
+    xPositionDisplay.innerHTML = `left: ${x-200}px`;
 });
 
 // Clear the X display when the mouse leaves the window (optional)
