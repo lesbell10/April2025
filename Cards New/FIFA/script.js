@@ -278,7 +278,7 @@ function displayPlayerInfo() {
     }
 
     else if (selectedPlayer === "25") {
-        title.innerHTML = "LEGENDARY PLAYER PROFILE";
+        title.innerHTML = "FIFA BEST PLAYERS #6";
         nation.textContent = "Germany";
         club.textContent = "Bayern Munich";
         position.textContent = "Goalkeeper";
@@ -287,7 +287,7 @@ function displayPlayerInfo() {
     }
 
     else if (selectedPlayer === "26") {
-        title.innerHTML = "LEGENDARY PLAYER PROFILE";
+        title.innerHTML = "FIFA BEST PLAYERS #6";
         nation.textContent = "England";
         club.textContent = "Liverpool";
         position.textContent = "Midfielder";
@@ -296,7 +296,7 @@ function displayPlayerInfo() {
     }
 
     else if (selectedPlayer === "27") {
-        title.innerHTML = "LEGENDARY PLAYER PROFILE";
+        title.innerHTML = "FIFA BEST PLAYERS #6";
         nation.textContent = "Croatia";
         club.textContent = "Real Madrid";
         position.textContent = "Midfielder";
@@ -305,7 +305,7 @@ function displayPlayerInfo() {
     }
 
     else if (selectedPlayer === "28") {
-        title.innerHTML = "LEGENDARY PLAYER PROFILE";
+        title.innerHTML = "FIFA BEST PLAYERS #6";
         nation.textContent = "Ukraine";
         club.textContent = "AC Milan / Chelsea";
         position.textContent = "Striker";
@@ -314,11 +314,11 @@ function displayPlayerInfo() {
     }
 
     else if (selectedPlayer === "29") {
-        title.innerHTML = "LEGENDARY PLAYER PROFILE";
+        title.innerHTML = "FIFA BEST<br>PLAYERS #6";
         nation.textContent = "England";
         club.textContent = "Manchester United";
-        position.textContent = "Center Back";
-        stats.innerHTML = "6x Premier League Champion - Defensive Leader";
+        position.textContent = "Centre Back";
+        stats.innerHTML = "30th";
         playerImage.src = "/FIFA/football_img/players/ferdinand.webp";
     }
     // 2024-2025
