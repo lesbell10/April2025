@@ -58,34 +58,7 @@ function displayPlayerInfo() {
         position.textContent = "Right Winger";
         stats.innerHTML = "1st - 27 Goals ";
         playerImage.src = "/FIFA/football_img/players/salah.webp";
-    }  else if (selectedPlayer === "100") { // top fifa, nhl, nba 200combined5-2025
-        title.innerHTML = "TOP 10 FIFA, NHL, NBA<BR>COMBINED 2005 to 2025";
-        nation.textContent = "Argentina";
-        club.textContent = "Inter Miami";
-        position.textContent = "Forward";
-        stats.innerHTML = "1st";
-        playerImage.src = "/FIFA/football_img/players/messi.webp";
-        switchTheme("fifa");
-        document.querySelector(".short").style.background = " grey";     
-    }   else if (selectedPlayer === "200") {
-        title.innerHTML = "TOP 10 FIFA, NHL, NBA<BR>COMBINED 2005 to 2025";
-        nation.textContent = "USA";
-        club.textContent = "Los Angeles Lakers";
-        position.textContent = "SF / PF";
-        stats.innerHTML = "2nd";
-        playerImage.src = "/NBA/basket_img/players/l james.jpg";
-        switchTheme("nba");
-        document.querySelector(".short").style.background = " grey";       
-    }  else if (selectedPlayer === "300") {
-        title.innerHTML = "TOP 10 FIFA, NHL, NBA<BR>COMBINED 2005 to 2025";
-        nation.textContent = "Canada";
-        club.textContent = "Pittsburgh Penguins";
-        position.textContent = "Center";
-        stats.innerHTML = "4th";
-        playerImage.src = "/NHL/hockey_img/players/crosby.jpg";
-        switchTheme("nhl");
-        document.querySelector(".short").style.background = " grey";        
-    }
+    }  
 }
 
 document.querySelector(".yearSelector").addEventListener("change", () => {

@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (savedYear) {
         playerDropdown.value = savedYear;
         selectedPlayer = savedYear;  // Update selectedPlayer
-        displayPlayerInfo();  // Automatically update the player info based on the saved year     
+        displayPlayerInfo();  // Automatic<br>ally update the player info based on the saved year     
     }
 });
 
@@ -40,14 +40,16 @@ function displayPlayerInfo() {
     // stats.style.bottom = "190px"
     // document.querySelector(".playerInfo").style.height = "675px"
 
-        if (selectedPlayer === "0") {
+    title.style.fontSize = "34px"
+
+    if (selectedPlayer === "0") {
         title.innerHTML = "TOP NHL POINTERS<BR>IN 2024-25"
         nation.textContent = "Canada";
         club.textContent = "Edmonton Oilers";
         position.textContent = "Center";
         stats.innerHTML = "4th - 89 pts";
         playerImage.src = "/NHL/hockey_img/players/mcdavid.jpg";
-    }  else if (selectedPlayer === "1") {
+    } else if (selectedPlayer === "1") {
         title.innerHTML = "TOP NHL POINTERS<BR>IN MARCH #1";
         nation.textContent = "USA";
         club.textContent = "Vegas Golden Knights";
@@ -66,7 +68,7 @@ function displayPlayerInfo() {
     else if (selectedPlayer === "3") {
         title.innerHTML = "TOP NHL POINTERS<BR>IN MARCH #1";
         nation.textContent = "Finland";
-        club.textContent = "Dallas Stars";
+        club.textContent = "D<br>allas Stars";
         position.textContent = "Center";
         stats.innerHTML = "3rd - 21 POINTS";
         playerImage.src = "/NHL/hockey_img/players/hintz.jpg";
@@ -87,46 +89,46 @@ function displayPlayerInfo() {
         position.textContent = "Left Winger";
         stats.innerHTML = "5th - 20 POINTS";
         playerImage.src = "/NHL/hockey_img/players/panarin.jpg";
-        }
-        else if (selectedPlayer === "6") {
-            title.innerHTML = "TOP NHL POINTERS<BR>IN MARCH #2";
-            nation.textContent = "Canada";
-            club.textContent = "Pittsburgh Penguins";
-            position.textContent = "Center";
-            stats.innerHTML = "6th - 20 POINTS";
-            playerImage.src = "/NHL/hockey_img/players/crosby.jpg";
-        }
-        else if (selectedPlayer === "7") {
-            title.innerHTML = "TOP NHL POINTERS<BR>IN MARCH #2";
-            nation.textContent = "Canada";
-            club.textContent = "Toronto Maple Leafs";
-            position.textContent = "Right Winger";
-            stats.innerHTML = "7th - 20 POINTS";
-            playerImage.src = "/NHL/hockey_img/players/nylander.jpg";
-        }
-        else if (selectedPlayer === "8") {
-            title.innerHTML = "TOP NHL POINTERS<BR>IN MARCH #2";
-            nation.textContent = "Canada";
-            club.textContent = "St. Louis Blues";
-            position.textContent = "Center";
-            stats.innerHTML = "8th - 20 POINTS";
-            playerImage.src = "/NHL/hockey_img/players/thomas.jpg";
-        }
-        else if (selectedPlayer === "9") {
-            title.innerHTML = "TOP NHL POINTERS<BR>IN MARCH #2";
-            nation.textContent = "USA";
-            club.textContent = "Chicago Blackhawks";
-            position.textContent = "Center";
-            stats.innerHTML = "9th - 19 POINTS";
-            playerImage.src = "/NHL/hockey_img/players/donato.jpg";
-        }
-        else if (selectedPlayer === "10") {
-            title.innerHTML = "TOP NHL POINTERS<BR>IN MARCH #2";
-            nation.textContent = "USA";
-            club.textContent = "Toronto Maple Leafs";
-            position.textContent = "Center";
-            stats.innerHTML = "10th - 19 POINTS";
-            playerImage.src = "/NHL/hockey_img/players/matthews.jpg";
+    }
+    else if (selectedPlayer === "6") {
+        title.innerHTML = "TOP NHL POINTERS<BR>IN MARCH #2";
+        nation.textContent = "Canada";
+        club.textContent = "Pittsburgh Penguins";
+        position.textContent = "Center";
+        stats.innerHTML = "6th - 20 POINTS";
+        playerImage.src = "/NHL/hockey_img/players/crosby.jpg";
+    }
+    else if (selectedPlayer === "7") {
+        title.innerHTML = "TOP NHL POINTERS<BR>IN MARCH #2";
+        nation.textContent = "Canada";
+        club.textContent = "Toronto Maple Leafs";
+        position.textContent = "Right Winger";
+        stats.innerHTML = "7th - 20 POINTS";
+        playerImage.src = "/NHL/hockey_img/players/nylander.jpg";
+    }
+    else if (selectedPlayer === "8") {
+        title.innerHTML = "TOP NHL POINTERS<BR>IN MARCH #2";
+        nation.textContent = "Canada";
+        club.textContent = "St. Louis Blues";
+        position.textContent = "Center";
+        stats.innerHTML = "8th - 20 POINTS";
+        playerImage.src = "/NHL/hockey_img/players/thomas.jpg";
+    }
+    else if (selectedPlayer === "9") {
+        title.innerHTML = "TOP NHL POINTERS<BR>IN MARCH #2";
+        nation.textContent = "USA";
+        club.textContent = "Chicago Blackhawks";
+        position.textContent = "Center";
+        stats.innerHTML = "9th - 19 POINTS";
+        playerImage.src = "/NHL/hockey_img/players/donato.jpg";
+    }
+    else if (selectedPlayer === "10") {
+        title.innerHTML = "TOP NHL POINTERS<BR>IN MARCH #2";
+        nation.textContent = "USA";
+        club.textContent = "Toronto Maple Leafs";
+        position.textContent = "Center";
+        stats.innerHTML = "10th - 19 POINTS";
+        playerImage.src = "/NHL/hockey_img/players/matthews.jpg";
     } else if (selectedPlayer === "10") {
         title.innerHTML = "TOP NHL POINTERS<BR>IN MARCH #2";
         nation.textContent = "USA";
@@ -175,8 +177,52 @@ function displayPlayerInfo() {
         stats.innerHTML = "15th - 17 POINTS";
         playerImage.src = "/NHL/hockey_img/players/hischier.jpg";
     }
+    else if (selectedPlayer === "16") {
+        title.innerHTML = "OVECHKIN BEST <br>AMONG NHL TOP SCORERS";
+        title.style.fontSize = "42px"
+        nation.textContent = "Russia";
+        club.textContent = "Washington Capitals";
+        position.textContent = "Right Winger";
+        stats.innerHTML = "1st - 895 Goals";
+        playerImage.src = "/NHL/hockey_img/players/ovechkin.jpg";
+    }
+    else if (selectedPlayer === "17") {
+        title.innerHTML = "OVECHKIN BEST <br>AMONG NHL TOP SCORERS";
+        title.style.fontSize = "42px"
+        nation.textContent = "Canada";
+        club.textContent = "Edmonton Oilers";
+        position.textContent = "Center";
+        stats.innerHTML = "2nd - 894 Goals";
+        playerImage.src = "/NHL/hockey_img/players/gretzky.jpg";
+    }
+    else if (selectedPlayer === "18") {
+        title.innerHTML = "OVECHKIN BEST <br>AMONG NHL TOP SCORERS";
+        title.style.fontSize = "42px"
+        nation.textContent = "Canada";
+        club.textContent = "Detroit Red Wings";
+        position.textContent = "Right Winger";
+        stats.innerHTML = "3rd - 801 Goals";
+        playerImage.src = "/NHL/hockey_img/players/howe.jpg";
+    }
+    else if (selectedPlayer === "19") {
+        title.innerHTML = "OVECHKIN BEST <br>AMONG NHL TOP SCORERS";
+        title.style.fontSize = "42px"
+        nation.textContent = "Czech Republic";
+        club.textContent = "Pittsburgh Penguins";
+        position.textContent = "Right Winger";
+        stats.innerHTML = "4th - 766 Goals";
+        playerImage.src = "/NHL/hockey_img/players/jagr.jpg";
+    }
+    else if (selectedPlayer === "20") {
+        title.innerHTML = "OVECHKIN BEST <br>AMONG NHL TOP SCORERS";
+        title.style.fontSize = "42px"
+        nation.textContent = "USA";
+        club.textContent = "St. Louis Blues";
+        position.textContent = "Right Winger";
+        stats.innerHTML = "5th - 741 Goals";
+        playerImage.src = "/NHL/hockey_img/players/hull.jpg";
+    }
 
-    
     // document.querySelector(".short").style.background = "linear-gradient(-45deg, grey 30%, dodgerblue 70%)";
 }
 

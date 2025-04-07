@@ -614,6 +614,62 @@ function updatePlayerInfo() {
         sidepic.style.border = "3px solid black"
     }
 
+    if (selectedYear === "20") {
+
+        title.innerHTML = "<br>NBA BEST PLAYERS"
+
+        PG.textContent = "J Harden";
+        SG.textContent = "D Bane";
+        SF.textContent = "A Edwards";
+        PF.textContent = "G Antetoko.";
+        C.textContent = "B Adebayo";
+
+        PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
+        SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
+        SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
+        PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = "29 PTS";
+        SG3.textContent = "38 PTS";
+        SF3.textContent = "37 PTS";
+        PF3.textContent = "36 PTS";
+        C3.textContent = "31 PTS";
+
+        sidepic.src = "/NBA/basket_img/logos/nba.gif";
+        SF.style.left = "56.5%"
+        C.style.left = "45%";
+        sidepic.style.border = "3px solid black"
+    }
+
+    if (selectedYear === "21") {
+
+        title.innerHTML = "<br>NBA BEST PLAYERS"
+
+        PG.textContent = "C Cunningham";
+        SG.textContent = "Q Grimes";
+        SF.textContent = "K Leonard";
+        PF.textContent = "A Davis";
+        C.textContent = "KA Towns";
+
+        PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
+        SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
+        SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
+        PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = "25 PTS";
+        SG3.textContent = "28 PTS";
+        SF3.textContent = "29 PTS";
+        PF3.textContent = "27 PTS";
+        C3.textContent = "30 PTS";
+
+        sidepic.src = "/NBA/basket_img/logos/nba.gif";
+        SF.style.left = "56.5%"
+        C.style.left = "46%";
+        sidepic.style.border = "3px solid black"
+    }
+
     if (selectedYear === "300") {
 
         title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25"
