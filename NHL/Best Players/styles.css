@@ -141,17 +141,17 @@ option {
     position: absolute;
 }
 
-#FL { left: 46%; top: 36.5%; }
+#FL { left: 46%; top: 37%; }
 #FL2 { left: 46%; top: 17.5%; }
-#FC { left: 61%; top: 36.5%; }
+#FC { left: 61%; top: 37%; }
 #FC2 { left: 61%; top: 17.5%; }
-#FR { left: 76%; top: 36.5%; }
+#FR { left: 76%; top: 37%; }
 #FR2 { left: 76%; top: 17.5%; }
-#DL { left: 53.5%; top: 67%; }
+#DL { left: 53.5%; top: 67.5%; }
 #DL2 { left: 53.5%; top: 48%; }
-#DR { left: 68.5%; top: 67%; }
+#DR { left: 68.5%; top: 67.5%; }
 #DR2 { left: 68.5%; top: 48%; }
-#G  { left: 61%; top: 98%; }
+#G  { left: 61%; top: 98.5%; }
 #G2 { left: 61%; top: 79%; }
 
 #FL3 {

@@ -348,6 +348,66 @@ function updatePlayerInfo() {
         sidepic.src = "/NHL/hockey_img/logos/nhl.png";
     }
 
+    if (selectedPlayer === "10") {
+
+        title.innerHTML = "NHL BEST PLAYERS<br>OF THE WEEK"
+
+        FL.textContent = "Suzuki";
+        FC.textContent = "Geekie";
+        FR.textContent = "Pastrnak";
+        DL.textContent = "Makar";
+        DR.textContent = "Fowler";
+        G.textContent = "A Forsberg";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        FL3.textContent = "7 PTS";
+        FC3.textContent = "9 PTS";
+        FR3.textContent = "11 PTS";
+        DL3.textContent = "7 PTS";
+        DR3.textContent = "6 PTS";
+        G3.textContent = "SAVES: 100%";
+
+        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        FR.style.left = "840px"
+    }
+
+    if (selectedPlayer === "11") {
+
+        title.innerHTML = "NHL BEST PLAYERS<br>OF THE WEEK"
+
+        FL.textContent = "Ovechkin";
+        FC.textContent = "R Thomas";
+        FR.textContent = "MacKinnon";
+        DL.textContent = "Sanderson";
+        DR.textContent = "Hutson";
+        G.textContent = "Comrie";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        FL3.textContent = "6 PTS";
+        FC3.textContent = "7 PTS";
+        FR3.textContent = "6 PTS";
+        DL3.textContent = "5 PTS";
+        DR3.textContent = "5 PTS";
+        G3.textContent = "SAVES: 100%";
+
+        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        FL.style.left = "500px"
+        FC.style.left = "655px"
+        FR.style.left = "805px"
+    }
+
     if (selectedPlayer === "300") {
 
         title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25"
@@ -389,7 +449,6 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NHL/hockey_img/logos/nhl.png";
     }
-
     // document.querySelector(".short").style.background = "linear-gradient(-45deg, grey 30%, dodgerblue 70%)";
 }
 

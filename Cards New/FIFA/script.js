@@ -50,6 +50,7 @@ function displayPlayerInfo() {
     // stats.style.bottom = "200px"
     document.querySelector(".short").style.background = " linear-gradient(135deg, darkgrey 20%, #00ff66 100%)";
     document.querySelector(".playerInfo").style.border = "1px solid white"
+    document.querySelector("select").style.fontSize = "20px"
 
     // SINCE 2005
     if (selectedPlayer === "0") {
@@ -110,7 +111,7 @@ function displayPlayerInfo() {
         title.innerHTML = "LEGENDARY PLAYER PROFILE";
         nation.textContent = "Italy";
         club.textContent = "Parma / Real Madrid (Legends)";
-        position.textContent = "Center Back";
+        position.textContent = "Centre Back";
         stats.innerHTML = "Ballon d'Or Winner - 2006 World Cup Winner";
         playerImage.src = "/FIFA/football_img/players/cannavaro.webp";
     }
@@ -188,133 +189,133 @@ function displayPlayerInfo() {
     }
 
     else if (selectedPlayer === "15") {
-        title.innerHTML = "LEGENDARY PLAYER PROFILE";
+        title.innerHTML = "FIFA BEST PLAYERS<br>SINCE 2005 #4";
         nation.textContent = "Egypt";
         club.textContent = "Liverpool";
         position.textContent = "Right Winger";
-        stats.innerHTML = "1st - 27 Goals (2024-2025)";
+        stats.innerHTML = "16th";
         playerImage.src = "/FIFA/football_img/players/salah.webp";
     }
 
     else if (selectedPlayer === "16") {
-        title.innerHTML = "LEGENDARY PLAYER PROFILE";
+        title.innerHTML = "FIFA BEST PLAYERS<br>SINCE 2005 #4";
         nation.textContent = "Brazil";
-        club.textContent = "Barcelona / PSG / Juventus";
+        club.textContent = "Barcelona";
         position.textContent = "Right Back";
-        stats.innerHTML = "Most Decorated Player in Football History";
-        playerImage.src = "/FIFA/football_img/players/dani_alves.webp";
+        stats.innerHTML = "17th";
+        playerImage.src = "/FIFA/football_img/players/d alves.webp";
     }
 
     else if (selectedPlayer === "17") {
-        title.innerHTML = "LEGENDARY PLAYER PROFILE";
+        title.innerHTML = "FIFA BEST PLAYERS<br>SINCE 2005 #4";
         nation.textContent = "Belgium";
-        club.textContent = "Chelsea / Real Madrid";
-        position.textContent = "Winger / Attacking Midfielder";
-        stats.innerHTML = "Premier League Star - La Liga Champion";
-        playerImage.src = "/FIFA/football_img/players/hazard.webp";
+        club.textContent = "Chelsea";
+        position.textContent = "Left Winger";
+        stats.innerHTML = "18th";
+        playerImage.src = "/FIFA/football_img/players/e hazard.webp";
     }
 
     else if (selectedPlayer === "18") {
-        title.innerHTML = "LEGENDARY PLAYER PROFILE";
+        title.innerHTML = "FIFA BEST PLAYERS<br>SINCE 2005 #4";
         nation.textContent = "Spain";
-        club.textContent = "Real Madrid / PSG";
-        position.textContent = "Center Back";
-        stats.innerHTML = "World Cup & UCL Winner - Goal-Scoring Defender";
-        playerImage.src = "/FIFA/football_img/players/ramos.webp";
+        club.textContent = "Monterrey";
+        position.textContent = "Centre Back";
+        stats.innerHTML = "19th";
+        playerImage.src = "/FIFA/football_img/players/s ramos.webp";
     }
 
     else if (selectedPlayer === "19") {
-        title.innerHTML = "LEGENDARY PLAYER PROFILE";
+         title.innerHTML = "FIFA BEST PLAYERS<br>SINCE 2005 #4";
         nation.textContent = "France";
-        club.textContent = "Paris Saint-Germain";
-        position.textContent = "Striker / Winger";
-        stats.innerHTML = "World Cup Winner - 40+ Goals in UCL";
+        club.textContent = "Real Madrid";
+        position.textContent = "Forward";
+        stats.innerHTML = "20th";
         playerImage.src = "/FIFA/football_img/players/mbappe.webp";
     }
 
     else if (selectedPlayer === "20") {
-        title.innerHTML = "LEGENDARY PLAYER PROFILE";
+        title.innerHTML = "FIFA BEST PLAYERS<br>SINCE 2005 #5";
         nation.textContent = "Spain";
         club.textContent = "Manchester City";
         position.textContent = "Defensive Midfielder";
-        stats.innerHTML = "UCL Winner - Best CDM in the World (2024)";
+        stats.innerHTML = "21st";
         playerImage.src = "/FIFA/football_img/players/rodri.webp";
     }
 
     else if (selectedPlayer === "21") {
-        title.innerHTML = "LEGENDARY PLAYER PROFILE";
+        title.innerHTML = "FIFA BEST PLAYERS<br>SINCE 2005 #5";
         nation.textContent = "Poland";
-        club.textContent = "Barcelona / Bayern Munich";
+        club.textContent = "Barcelona";
         position.textContent = "Striker";
-        stats.innerHTML = "Multiple Golden Boots - Over 600 Career Goals";
+        stats.innerHTML = "22nd";
         playerImage.src = "/FIFA/football_img/players/lewandowski.webp";
     }
 
     else if (selectedPlayer === "22") {
-        title.innerHTML = "LEGENDARY PLAYER PROFILE";
+        title.innerHTML = "FIFA BEST PLAYERS<br>SINCE 2005 #5";
         nation.textContent = "Netherlands";
         club.textContent = "Liverpool";
-        position.textContent = "Center Back";
-        stats.innerHTML = "Premier League & UCL Champion - Defensive Beast";
-        playerImage.src = "/FIFA/football_img/players/vandijk.webp";
+        position.textContent = "Centre Back";
+        stats.innerHTML = "23rd";
+        playerImage.src = "/FIFA/football_img/players/van dijk.webp";
     }
 
     else if (selectedPlayer === "23") {
-        title.innerHTML = "LEGENDARY PLAYER PROFILE";
+        title.innerHTML = "FIFA BEST PLAYERS<br>SINCE 2005 #5";
         nation.textContent = "France";
-        club.textContent = "Real Madrid / Al-Ittihad";
+        club.textContent = "Al-Ittihad";
         position.textContent = "Striker";
-        stats.innerHTML = "Ballon d'Or Winner - 5x UCL Champion";
+        stats.innerHTML = "24th";
         playerImage.src = "/FIFA/football_img/players/benzema.webp";
     }
 
     else if (selectedPlayer === "24") {
-        title.innerHTML = "LEGENDARY PLAYER PROFILE";
+        title.innerHTML = "FIFA BEST PLAYERS<br>SINCE 2005 #5";
         nation.textContent = "Serbia";
         club.textContent = "Manchester United";
-        position.textContent = "Center Back";
-        stats.innerHTML = "Premier League Champion - Defensive Rock";
+        position.textContent = "Centre Back";
+        stats.innerHTML = "25th";
         playerImage.src = "/FIFA/football_img/players/vidic.webp";
     }
 
     else if (selectedPlayer === "25") {
-        title.innerHTML = "FIFA BEST PLAYERS #6";
+        title.innerHTML = "FIFA BEST PLAYERS<br>SINCE 2005 #6";
+        nation.textContent = "England";
+        club.textContent = "Liverpool";
+        position.textContent = "Central Midfielder";
+        stats.innerHTML = "26th";
+        playerImage.src = "/FIFA/football_img/players/gerrard.webp";
+    }
+        
+    else if (selectedPlayer === "26") {
+        title.innerHTML = "FIFA BEST PLAYERS<br>SINCE 2005 #6";
         nation.textContent = "Germany";
         club.textContent = "Bayern Munich";
         position.textContent = "Goalkeeper";
-        stats.innerHTML = "World Cup Winner - Sweeper Keeper Icon";
+        stats.innerHTML = "27th";
         playerImage.src = "/FIFA/football_img/players/neuer.webp";
     }
 
-    else if (selectedPlayer === "26") {
-        title.innerHTML = "FIFA BEST PLAYERS #6";
-        nation.textContent = "England";
-        club.textContent = "Liverpool";
-        position.textContent = "Midfielder";
-        stats.innerHTML = "Champions League Winner - Club Legend";
-        playerImage.src = "/FIFA/football_img/players/gerrard.webp";
-    }
-
     else if (selectedPlayer === "27") {
-        title.innerHTML = "FIFA BEST PLAYERS #6";
+        title.innerHTML = "FIFA BEST PLAYERS<br>SINCE 2005 #6";
         nation.textContent = "Croatia";
         club.textContent = "Real Madrid";
-        position.textContent = "Midfielder";
-        stats.innerHTML = "Ballon d'Or Winner - 5x UCL Champion";
+        position.textContent = "Central Midfielder";
+        stats.innerHTML = "28th";
         playerImage.src = "/FIFA/football_img/players/modric.webp";
     }
 
     else if (selectedPlayer === "28") {
-        title.innerHTML = "FIFA BEST PLAYERS #6";
+        title.innerHTML = "FIFA BEST PLAYERS<br>SINCE 2005 #6";
         nation.textContent = "Ukraine";
-        club.textContent = "AC Milan / Chelsea";
+        club.textContent = "AC Milan";
         position.textContent = "Striker";
-        stats.innerHTML = "Ballon d'Or Winner - Serie A Legend";
+        stats.innerHTML = "29th";
         playerImage.src = "/FIFA/football_img/players/shevchenko.webp";
     }
 
     else if (selectedPlayer === "29") {
-        title.innerHTML = "FIFA BEST<br>PLAYERS #6";
+        title.innerHTML = "FIFA BEST PLAYERS<br>SINCE 2005 #6";
         nation.textContent = "England";
         club.textContent = "Manchester United";
         position.textContent = "Centre Back";
@@ -389,7 +390,7 @@ else if (selectedPlayer === "30") {
         title.innerHTML = "DEFENSIVE WALL";
         nation.textContent = "Netherlands";
         club.textContent = "Liverpool";
-        position.textContent = "Center Back";
+        position.textContent = "Centre Back";
         stats.innerHTML = "Leader & Rock at the back - 2024";
         playerImage.src = "/FIFA/football_img/players/vandijk.webp";
     }
@@ -497,99 +498,99 @@ else if (selectedPlayer === "30") {
         title.innerHTML = "DEFENSIVE TANK";
         nation.textContent = "Germany";
         club.textContent = "Real Madrid";
-        position.textContent = "Center Back";
+        position.textContent = "Centre Back";
         stats.innerHTML = "Strong, Consistent & Reliable";
         playerImage.src = "/FIFA/football_img/players/rudiger.webp";
     }
 
     else if (selectedPlayer === "50") {
-        title.innerHTML = "ITALIAN WALL";
+        title.innerHTML = "FIFA BEST PLAYERS<BR>IN 2024-2025 #5"
         nation.textContent = "Italy";
         club.textContent = "Paris Saint-Germain";
         position.textContent = "Goalkeeper";
-        stats.innerHTML = "Tall, Young & Solid - Italy's No.1";
+        stats.innerHTML = "21st";
         playerImage.src = "/FIFA/football_img/players/donnarumma.webp";
     }
 
     else if (selectedPlayer === "51") {
-        title.innerHTML = "CITY DEFENDER";
+        title.innerHTML = "FIFA BEST PLAYERS<BR>IN 2024-2025 #5"
         nation.textContent = "Portugal";
         club.textContent = "Manchester City";
-        position.textContent = "Center Back";
-        stats.innerHTML = "Calm, Composed & Effective";
-        playerImage.src = "/FIFA/football_img/players/rubendias.webp";
+        position.textContent = "Centre Back";
+        stats.innerHTML = "22nd";
+        playerImage.src = "/FIFA/football_img/players/r dias.webp";
     }
 
     else if (selectedPlayer === "52") {
-        title.innerHTML = "GERMAN MID";
+          title.innerHTML = "FIFA BEST PLAYERS<BR>IN 2024-2025 #5"
         nation.textContent = "Germany";
         club.textContent = "Bayern Munich";
         position.textContent = "Defensive Midfielder";
-        stats.innerHTML = "Tactical & Reliable - Bayern Engine";
+        stats.innerHTML = "23rd";
         playerImage.src = "/FIFA/football_img/players/kimmich.webp";
     }
 
     else if (selectedPlayer === "53") {
-        title.innerHTML = "URUGUAY ENERGY";
+        title.innerHTML = "FIFA BEST PLAYERS<BR>IN 2024-2025 #5"
         nation.textContent = "Uruguay";
         club.textContent = "Real Madrid";
-        position.textContent = "Midfielder";
-        stats.innerHTML = "Versatile & Hardworking";
+        position.textContent = "Central Midfielder";
+        stats.innerHTML = "24th";
         playerImage.src = "/FIFA/football_img/players/valverde.webp";
     }
 
     else if (selectedPlayer === "54") {
-        title.innerHTML = "ATM KEEPER";
+        title.innerHTML = "FIFA BEST PLAYERS<BR>IN 2024-2025 #5"
         nation.textContent = "Slovenia";
         club.textContent = "Atletico Madrid";
         position.textContent = "Goalkeeper";
-        stats.innerHTML = "La Liga Champion - Elite Saves";
+        stats.innerHTML = "25th";
         playerImage.src = "/FIFA/football_img/players/oblak.webp";
     }
 
     else if (selectedPlayer === "55") {
-        title.innerHTML = "FRENCH STAR";
+        title.innerHTML = "FIFA BEST PLAYERS<BR>IN 2024-2025 #6";
         nation.textContent = "France";
         club.textContent = "Atletico Madrid";
-        position.textContent = "Forward / CAM";
-        stats.innerHTML = "Leader & Top Scorer for France";
+        position.textContent = "Forward";
+        stats.innerHTML = "26th";
         playerImage.src = "/FIFA/football_img/players/griezmann.webp";
     }
 
     else if (selectedPlayer === "56") {
-        title.innerHTML = "FRENCH DEFENDER";
+        title.innerHTML = "FIFA BEST PLAYERS<BR>IN 2024-2025 #6";
         nation.textContent = "France";
         club.textContent = "Barcelona";
-        position.textContent = "Center Back / Right Back";
-        stats.innerHTML = "Fast & Tactical - Barca Core";
+        position.textContent = "Right Back";
+        stats.innerHTML = "27th";
         playerImage.src = "/FIFA/football_img/players/kounde.webp";
     }
 
     else if (selectedPlayer === "57") {
-        title.innerHTML = "LIVERPOOL CREATOR";
+        title.innerHTML = "FIFA BEST PLAYERS<BR>IN 2024-2025 #6";
         nation.textContent = "England";
         club.textContent = "Liverpool";
         position.textContent = "Right Back";
-        stats.innerHTML = "Assist King - Creative Fullback";
-        playerImage.src = "/FIFA/football_img/players/trent.webp";
+        stats.innerHTML = "28th";
+        playerImage.src = "/FIFA/football_img/players/alexander-arnold.webp";
     }
 
     else if (selectedPlayer === "58") {
-        title.innerHTML = "BARCA MID";
+        title.innerHTML = "FIFA BEST PLAYERS<BR>IN 2024-2025 #6";
         nation.textContent = "Spain";
         club.textContent = "Barcelona";
         position.textContent = "Central Midfielder";
-        stats.innerHTML = "La Masia Graduate - Skillful & Smart";
+        stats.innerHTML = "29th";
         playerImage.src = "/FIFA/football_img/players/pedri.webp";
     }
 
     else if (selectedPlayer === "59") {
-        title.innerHTML = "FRENCH FLAIR";
+        title.innerHTML = "FIFA BEST PLAYERS<BR>IN 2024-2025 #6";
         nation.textContent = "France";
         club.textContent = "Paris Saint-Germain";
-        position.textContent = "Right Winger";
-        stats.innerHTML = "Speed, Tricks & Highlights";
-        playerImage.src = "/FIFA/football_img/players/dembele.webp";
+        position.textContent = "Forward";
+        stats.innerHTML = "30th";
+        playerImage.src = "/FIFA/football_img/players/o dembele.webp";
     }
     // IN 2030
 else if (selectedPlayer === "60") {
@@ -659,7 +660,7 @@ else if (selectedPlayer === "60") {
         title.innerHTML = "BARCA WALL";
         nation.textContent = "Spain";
         club.textContent = "Barcelona";
-        position.textContent = "Center Back";
+        position.textContent = "Centre Back";
         stats.innerHTML = "Strong & Composed - Age 17 Phenom";
         playerImage.src = "/FIFA/football_img/players/cubarsi.webp";
     }
@@ -695,7 +696,7 @@ else if (selectedPlayer === "60") {
         title.innerHTML = "PORTUGUESE DEFENSE";
         nation.textContent = "Portugal";
         club.textContent = "Benfica";
-        position.textContent = "Center Back";
+        position.textContent = "Centre Back";
         stats.innerHTML = "Rising Wall - Future Captain Material";
         playerImage.src = "/FIFA/football_img/players/silva.webp";
     }
@@ -773,92 +774,97 @@ else if (selectedPlayer === "60") {
     }
 
     else if (selectedPlayer === "80") {
-        title.innerHTML = "DUTCH CREATOR";
+
+        title.innerHTML = "FIFA BEST PLAYERS<BR>IN 2030 #5";
         nation.textContent = "Netherlands";
         club.textContent = "RB Leipzig";
         position.textContent = "Attacking Midfielder";
-        stats.innerHTML = "Versatile & Skillful";
-        playerImage.src = "/FIFA/football_img/players/xavisimons.webp";
+        stats.innerHTML = "21st";
+        playerImage.src = "/FIFA/football_img/players/x simons.webp";
     }
 
     else if (selectedPlayer === "81") {
-        title.innerHTML = "BELGIAN FLASH";
+
+        title.innerHTML = "FIFA BEST PLAYERS<BR>IN 2030 #5";
         nation.textContent = "Belgium";
         club.textContent = "Manchester City";
-        position.textContent = "Winger";
-        stats.innerHTML = "Fast Feet - Fearless Winger";
+        position.textContent = "Left Winger";
+        stats.innerHTML = "22nd";
         playerImage.src = "/FIFA/football_img/players/doku.webp";
     }
 
     else if (selectedPlayer === "82") {
-        title.innerHTML = "ITALIAN WALL";
+
+        title.innerHTML = "FIFA BEST PLAYERS<BR>IN 2030 #5";
         nation.textContent = "Italy";
         club.textContent = "Atalanta";
-        position.textContent = "Center Back";
-        stats.innerHTML = "Tough Tackler - 2030 Leader";
+        position.textContent = "Centre Back";
+        stats.innerHTML = "23rd";
         playerImage.src = "/FIFA/football_img/players/scalvini.webp";
     }
 
     else if (selectedPlayer === "83") {
-        title.innerHTML = "BARCA SPEEDSTER";
+
+        title.innerHTML = "FIFA BEST PLAYERS<BR>IN 2030 #5";
         nation.textContent = "Spain";
         club.textContent = "Barcelona";
         position.textContent = "Left Back";
-        stats.innerHTML = "Explosive Fullback - Top Prospect";
+        stats.innerHTML = "24th";
         playerImage.src = "/FIFA/football_img/players/balde.webp";
     }
 
     else if (selectedPlayer === "84") {
-        title.innerHTML = "BRAZILIAN TALENT";
+
+        title.innerHTML = "FIFA BEST PLAYERS<BR>IN 2030 #5";
         nation.textContent = "Brazil";
-        club.textContent = "Girona";
-        position.textContent = "Winger";
-        stats.innerHTML = "Top Dribbler - Surprise Star";
+        club.textContent = "Manchester City";
+        position.textContent = "Right Winger";
+        stats.innerHTML = "25th";
         playerImage.src = "/FIFA/football_img/players/savinho.webp";
     }
 
     else if (selectedPlayer === "85") {
-        title.innerHTML = "NIGERIAN POWER";
+        title.innerHTML = "FIFA BEST PLAYERS<BR>IN 2030 #6";
         nation.textContent = "Nigeria";
-        club.textContent = "Napoli";
+        club.textContent = "Galatasaray";
         position.textContent = "Striker";
-        stats.innerHTML = "Top Scorer - Serie A Winner";
+        stats.innerHTML = "26th";
         playerImage.src = "/FIFA/football_img/players/osimhen.webp";
     }
 
     else if (selectedPlayer === "86") {
-        title.innerHTML = "CROATIAN ROCK";
+        title.innerHTML = "FIFA BEST PLAYERS<BR>IN 2030 #6";
         nation.textContent = "Croatia";
         club.textContent = "Manchester City";
-        position.textContent = "Center Back";
-        stats.innerHTML = "Calm & Confident - Future Leader";
+        position.textContent = "Left Back";
+        stats.innerHTML = "27th";
         playerImage.src = "/FIFA/football_img/players/gvardiol.webp";
     }
 
     else if (selectedPlayer === "87") {
-        title.innerHTML = "BRAZIL FUTURE";
+        title.innerHTML = "FIFA BEST PLAYERS<BR>IN 2030 #6";
         nation.textContent = "Brazil";
-        club.textContent = "Palmeiras / Real Madrid";
+        club.textContent = "Real Madrid";
         position.textContent = "Striker";
-        stats.innerHTML = "Next Big Star - Already Delivering";
+        stats.innerHTML = "28th";
         playerImage.src = "/FIFA/football_img/players/endrick.webp";
     }
 
     else if (selectedPlayer === "88") {
-        title.innerHTML = "WORLD CUP HERO";
+        title.innerHTML = "FIFA BEST PLAYERS<BR>IN 2030 #6";
         nation.textContent = "Argentina";
-        club.textContent = "Manchester City";
-        position.textContent = "Striker";
-        stats.innerHTML = "Versatile, Clutch, Champion";
+        club.textContent = "Atletico Madrid";
+        position.textContent = "Forward";
+        stats.innerHTML = "29th";
         playerImage.src = "/FIFA/football_img/players/alvarez.webp";
     }
 
     else if (selectedPlayer === "89") {
-        title.innerHTML = "TURKISH WONDER";
+        title.innerHTML = "FIFA BEST PLAYERS<BR>IN 2030 #6";
         nation.textContent = "Turkey";
         club.textContent = "Real Madrid";
         position.textContent = "Attacking Midfielder";
-        stats.innerHTML = "Silky Playmaker - Huge Potential";
+        stats.innerHTML = "30th";
         playerImage.src = "/FIFA/football_img/players/guler.webp";
     }
 }

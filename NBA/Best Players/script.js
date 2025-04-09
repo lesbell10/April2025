@@ -666,7 +666,173 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NBA/basket_img/logos/nba.gif";
         SF.style.left = "56.5%"
-        C.style.left = "46%";
+        C.style.left = "46.5%";
+        sidepic.style.border = "3px solid black"
+    }
+
+    if (selectedYear === "22") {
+
+        title.innerHTML = "NBA BEST PLAYERS<br>OF THE WEEK"
+
+        PG.textContent = "S Curry";
+        SG.textContent = "D Booker";
+        SF.textContent = "A Edwards";
+        PF.textContent = "G Antetoko.";
+        C.textContent = "N Jokic";
+
+        PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
+        SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
+        SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
+        PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = "32.0 PPG";
+        SG3.textContent = "38.7 PPG";
+        SF3.textContent = "33.0 PPG";
+        PF3.textContent = "36.0 PPG";
+        C3.textContent = "45.0 PPG";
+
+        sidepic.src = "/NBA/basket_img/logos/nba.gif";
+        SF.style.left = "54.5%"
+        C.style.left = "46.5%";
+        sidepic.style.border = "3px solid black"
+    }
+
+    if (selectedYear === "23") {
+
+        title.innerHTML = "NBA BEST PLAYERS<br>OF THE WEEK"
+
+        PG.textContent = "J Morant";
+        SG.textContent = "T Herro";
+        SF.textContent = "D DeRozan";
+        PF.textContent = "D Avdija";
+        C.textContent = "P Banchero";
+
+        PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
+        SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
+        SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
+        PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = "30.7 PPG";
+        SG3.textContent = "29.0 PPG";
+        SF3.textContent = "27.5 PPG";
+        PF3.textContent = "31.7 PPG";
+        C3.textContent = "27.7 PPG";
+
+        sidepic.src = "/NBA/basket_img/logos/nba.gif";
+        SF.style.left = "56.5%"
+        C.style.left = "44.65%";
+        sidepic.style.border = "3px solid black"
+    }
+
+    if (selectedYear === "24") {
+        title.innerHTML = "<br>NBA BEST PLAYERS"
+
+        PG.textContent = "C White";
+        SG.textContent = "D Booker";
+        SF.textContent = "Z LaVine";
+        PF.textContent = "OG Anunoby";
+        C.textContent = "N Jokic";
+
+        PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
+        SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
+        SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
+        PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = "37 PTS";
+        SG3.textContent = "40 PTS";
+        SF3.textContent = "37 PTS";
+        PF3.textContent = "32 PTS";
+        C3.textContent = "41 PTS";
+
+        sidepic.src = "/NBA/basket_img/logos/nba.gif";
+        SF.style.left = "56.5%"
+        C.style.left = "46.5%";
+        sidepic.style.border = "3px solid black"
+    }
+
+    if (selectedYear === "25") {
+        title.innerHTML = "<br>NBA BEST PLAYERS"
+
+        PG.textContent = "K George";
+        SG.textContent = "L Doncic";
+        SF.textContent = "C Braun";
+        PF.textContent = "D Sabonis";
+        C.textContent = "O Okongwu";
+
+        PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
+        SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
+        SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
+        PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = "35 PTS";
+        SG3.textContent = "30 PTS";
+        SF3.textContent = "30 PTS";
+        PF3.textContent = "27 PTS";
+        C3.textContent = "27 PTS";
+
+        sidepic.src = "/NBA/basket_img/logos/nba.gif";
+        SF.style.left = "56.5%"
+        C.style.left = "44.5%";
+        sidepic.style.border = "3px solid black"
+    }
+
+    if (selectedYear === "26") {
+
+        title.innerHTML = "<br>NBA BEST PLAYERS"
+
+        PG.textContent = "C Cunningham";
+        SG.textContent = "Z LaVine";
+        SF.textContent = "L Walker IV";
+        PF.textContent = "D DeRozan";
+        C.textContent = "D Sabonis";
+
+        PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
+        SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
+        SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
+        PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = "35 PTS";
+        SG3.textContent = "43 PTS";
+        SF3.textContent = "29 PTS";
+        PF3.textContent = "37 PTS";
+        C3.textContent = "19 PTS";
+
+        sidepic.src = "/NBA/basket_img/logos/nba.gif";
+        SF.style.left = "54.5%"
+        C.style.left = "45.5%";
+        sidepic.style.border = "3px solid black"
+    }
+
+    if (selectedYear === "27") {
+
+        title.innerHTML = "<br>NBA BEST PLAYERS"
+
+        PG.textContent = "T Herro";
+        SG.textContent = "Q Grimes";
+        SF.textContent = "Du Robinson";
+        PF.textContent = "K Ware";
+        C.textContent = "A Bona";
+
+        PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
+        SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
+        SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
+        PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = "20 PTS";
+        SG3.textContent = "29 PTS";
+        SF3.textContent = "21 PTS";
+        PF3.textContent = "19 PTS";
+        C3.textContent = "16 PTS";
+
+        sidepic.src = "/NBA/basket_img/logos/nba.gif";
+        SF.style.left = "53%"
+        C.style.left = "46.5%";
         sidepic.style.border = "3px solid black"
     }
 
@@ -688,7 +854,7 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NBA/basket_img/logos/nba.gif";
         SF.style.left = "56.5%"
-        C.style.left = "46%";
+        C.style.left = "46.5%";
         sidepic.style.border = "3px solid black"
     }
 
@@ -710,7 +876,7 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NBA/basket_img/logos/nba.gif";
         SF.style.left = "56.5%"
-        C.style.left = "46%";
+        C.style.left = "46.5%";
         sidepic.style.border = "3px solid black"
     }
 }
