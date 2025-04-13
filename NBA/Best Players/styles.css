@@ -193,3 +193,14 @@ h4  {
     color: black;
     /* text-shadow: var(--text-shadow); */
 }
+
+.message {
+    position: absolute;
+    font-size: 30px;
+    right: 720px;
+    font-weight: bold;
+    top: 230px;
+    color: black;
+    /* text-shadow: var(--text-shadow); */
+
+}

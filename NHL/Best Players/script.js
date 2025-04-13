@@ -524,6 +524,72 @@ function updatePlayerInfo() {
         FR.style.left = "830px"
     }
 
+    if (selectedPlayer === "16") {
+
+        title.innerHTML = "DREAM TEAM"
+
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        FR.style.left = "850px"
+    }
+
+    if (selectedPlayer === "17") {
+
+        title.innerHTML = "DREAM TEAM"
+
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        FR.style.left = "850px"
+    }
+
+    if (selectedPlayer === "18") {
+
+        title.innerHTML = "DREAM TEAM"
+
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        FR.style.left = "850px"
+    }
+
     if (selectedPlayer === "300") {
 
         title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25"

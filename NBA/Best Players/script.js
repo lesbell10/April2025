@@ -37,6 +37,12 @@ yearSelector.addEventListener("change", () => {
     title.innerHTML = " NBA BEST PLAYERS"
     title.style.fontSize = "45px"
 
+    PG.style.fontSize = "30px";
+    SG.style.fontSize = "30px";
+    SF.style.fontSize = "30px";
+    PF.style.fontSize = "30px";
+    C.style.fontSize = "30px";
+
     sidepic.style.width = "155px"
 
     PG.style.left = "45.5%";
@@ -1177,15 +1183,16 @@ function updatePlayerInfo() {
         sidepic.style.border = "3px solid black"
     }
 
-    if (selectedYear === "300") {
+    if (selectedYear === "40") {
 
         title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25"
+        document.querySelector("select").style.fontSize = "29px";
 
-        PG.textContent = "";
-        SG.textContent = "";
-        SF.textContent = "";
-        PF.textContent = "";
-        C.textContent = "";
+        PG.textContent = "C Sexton";
+        SG.textContent = "K George";
+        SF.textContent = "L Markkanen";
+        PF.textContent = "J Collins";
+        C.textContent = "W Kessler";
 
         PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
@@ -1193,15 +1200,866 @@ function updatePlayerInfo() {
         PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
         C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
 
-        sidepic.src = "/NBA/basket_img/logos/nba.gif";
+        PG3.textContent = " PTS";
+        SG3.textContent = " PTS";
+        SF3.textContent = " PTS";
+        PF3.textContent = " PTS";
+        C3.textContent = " PTS";
+
+        sidepic.src = "/NBA/basket_img/logos/utah.gif";
+        SF.style.left = "52.5%"
+        C.style.left = "45.5%";
+        sidepic.style.border = "3px solid black"
+        message.innerHTML = "30+ Games"
+    }
+
+    if (selectedYear === "41") {
+
+         title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25"
+        document.querySelector("select").style.fontSize = "28.5px";
+
+        PG.textContent = "J Poole";
+        SG.textContent = "B Coulibaly";
+        SF.textContent = "C Kispert";
+        PF.textContent = "K Kuzma";
+        C.textContent = "A Sarr";
+
+        PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
+        SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
+        SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
+        PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = " PTS";
+        SG3.textContent = " PTS";
+        SF3.textContent = " PTS";
+        PF3.textContent = " PTS";
+        C3.textContent = " PTS";
+
+        sidepic.src = "/NBA/basket_img/logos/washington.gif";
         SF.style.left = "56.5%"
         C.style.left = "46.5%";
         sidepic.style.border = "3px solid black"
     }
 
-    if (selectedYear === "300") {
+    if (selectedYear === "42") {
 
-        title.innerHTML = "NBA BEST PLAYERS<br>2005 to 2025"
+        title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25"
+        document.querySelector("select").style.fontSize = "29px";
+
+        PG.textContent = "La Ball";
+        SG.textContent = "N Smith Jr";
+        SF.textContent = "Mil Bridges";
+        PF.textContent = "J Nurkic";
+        C.textContent = "M Williams";
+
+        PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
+        SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
+        SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
+        PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = " PTS";
+        SG3.textContent = " PTS";
+        SF3.textContent = " PTS";
+        PF3.textContent = " PTS";
+        C3.textContent = " PTS";
+
+        sidepic.src = "/NBA/basket_img/logos/charlotte.gif";
+        SF.style.left = "54%"
+        C.style.left = "45%";
+        sidepic.style.border = "3px solid black"
+    }
+
+    if (selectedYear === "43") {
+
+         title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25"
+        document.querySelector("select").style.fontSize = "27px";
+
+        PG.textContent = "D Murray";
+        SG.textContent = "CJ McCollum";
+        SF.textContent = "T Murphy III";
+        PF.textContent = "Z Williamson";
+        C.textContent = "K Olynyk";
+
+        PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
+        SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
+        SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
+        PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = " PTS";
+        SG3.textContent = " PTS";
+        SF3.textContent = " PTS";
+        PF3.textContent = " PTS";
+        C3.textContent = " PTS";
+
+        sidepic.src = "/NBA/basket_img/logos/new orleans.gif";
+        SG.style.left = "33%"
+        SF.style.left = "53%"
+        C.style.left = "46.5%";
+        sidepic.style.border = "3px solid black"
+    }
+
+    if (selectedYear === "44") {
+
+        title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25"
+        document.querySelector("select").style.fontSize = "29px";
+
+        PG.textContent = "T Maxey";
+        SG.textContent = "Q Grimes";
+        SF.textContent = "P George";
+        PF.textContent = "G Yabusele";
+        C.textContent = "A Drummond";
+
+        PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
+        SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
+        SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
+        PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = " PTS";
+        SG3.textContent = " PTS";
+        SF3.textContent = " PTS";
+        PF3.textContent = " PTS";
+        C3.textContent = " PTS";
+
+        sidepic.src = "/NBA/basket_img/logos/philadelphia.gif";
+        SF.style.left = "56%"
+        C.style.left = "44.25%";
+        sidepic.style.border = "3px solid black"
+        C.style.fontSize = "27px"
+    }
+
+    if (selectedYear === "45") {
+
+        title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25"
+        document.querySelector("select").style.fontSize = "29px";
+
+        PG.textContent = "Ke Johnson";
+        SG.textContent = "Z Williams";
+        SF.textContent = "C Johnson";
+        PF.textContent = "T Watford";
+        C.textContent = "N Claxton";
+
+        PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
+        SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
+        SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
+        PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = " PTS";
+        SG3.textContent = " PTS";
+        SF3.textContent = " PTS";
+        PF3.textContent = " PTS";
+        C3.textContent = " PTS";
+
+        sidepic.src = "/NBA/basket_img/logos/brooklyn.gif";
+        C.style.left = "46.5%";
+        SF.style.left = "56.5%"
+        sidepic.style.border = "3px solid black"
+    }
+
+    if (selectedYear === "46") {
+
+        title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25"
+        document.querySelector("select").style.fontSize = "29px";
+
+        PG.textContent = "I Quickley";
+        SG.textContent = "G Dick";
+        SF.textContent = "RJ Barrett";
+        PF.textContent = "S Barnes";
+        C.textContent = "J Poeltl";
+
+        PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
+        SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
+        SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
+        PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = " PTS";
+        SG3.textContent = " PTS";
+        SF3.textContent = " PTS";
+        PF3.textContent = " PTS";
+        C3.textContent = " PTS";
+
+        sidepic.src = "/NBA/basket_img/logos/toronto.gif";
+        C.style.left = "46.5%";
+        SF.style.left = "56.5%"
+        sidepic.style.border = "3px solid black"
+    }
+
+    if (selectedYear === "47") {
+
+        title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25"
+        document.querySelector("select").style.fontSize = "29px";
+
+        PG.textContent = "S Castle";
+        SG.textContent = "D Vassell";
+        SF.textContent = "K Johnson";
+        PF.textContent = "H Barnes";
+        C.textContent = "V Wemban.";
+
+        PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
+        SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
+        SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
+        PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = " PTS";
+        SG3.textContent = " PTS";
+        SF3.textContent = " PTS";
+        PF3.textContent = " PTS";
+        C3.textContent = " PTS";
+
+        sidepic.src = "/NBA/basket_img/logos/san antonio.gif";
+        C.style.left = "46.5%";
+        SF.style.left = "56.5%"
+        sidepic.style.border = "3px solid black"
+    }
+
+    if (selectedYear === "48") {
+
+        title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25"
+        document.querySelector("select").style.fontSize = "25px";
+
+        PG.textContent = "A Simons";
+        SG.textContent = "S Sharpe";
+        SF.textContent = "D Avdija";
+        PF.textContent = "J Grant";
+        C.textContent = "D Ayton";
+
+        PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
+        SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
+        SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
+        PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = " PTS";
+        SG3.textContent = " PTS";
+        SF3.textContent = " PTS";
+        PF3.textContent = " PTS";
+        C3.textContent = " PTS";
+
+        sidepic.src = "/NBA/basket_img/logos/portland.gif";
+        C.style.left = "46.5%";
+        SF.style.left = "56.5%"
+        sidepic.style.border = "3px solid black"
+    }
+
+    if (selectedYear === "49") {
+
+        title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25"
+        document.querySelector("select").style.fontSize = "29px";
+
+        PG.textContent = "D Booker";
+        SG.textContent = "B Beal";
+        SF.textContent = "G Allen";
+        PF.textContent = "K Durant";
+        C.textContent = "N Richards";
+
+        PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
+        SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
+        SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
+        PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = " PTS";
+        SG3.textContent = " PTS";
+        SF3.textContent = " PTS";
+        PF3.textContent = " PTS";
+        C3.textContent = " PTS";
+
+        sidepic.src = "/NBA/basket_img/logos/phoenix.gif";
+        C.style.left = "46.5%";
+        SF.style.left = "56.5%"
+        sidepic.style.border = "3px solid black"
+    }
+
+    if (selectedYear === "50") {
+
+        title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25"
+        document.querySelector("select").style.fontSize = "29px";
+
+        PG.textContent = "T Rozier";
+        SG.textContent = "T Herro";
+        SF.textContent = "Du Robinson";
+        PF.textContent = "N Jovic";
+        C.textContent = "B Adebayo";
+
+        PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
+        SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
+        SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
+        PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = " PTS";
+        SG3.textContent = " PTS";
+        SF3.textContent = " PTS";
+        PF3.textContent = " PTS";
+        C3.textContent = " PTS";
+
+        sidepic.src = "/NBA/basket_img/logos/miami.gif";
+        C.style.left = "46.5%";
+        SF.style.left = "56.5%"
+        sidepic.style.border = "3px solid black"
+    }
+
+    if (selectedYear === "51") {
+
+        title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25"
+        document.querySelector("select").style.fontSize = "29px";
+
+        PG.textContent = "C White";
+        SG.textContent = "Z LaVine";
+        SF.textContent = "K Huerter";
+        PF.textContent = "J Giddey";
+        C.textContent = "N Vucevic";
+
+        PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
+        SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
+        SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
+        PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = " PTS";
+        SG3.textContent = " PTS";
+        SF3.textContent = " PTS";
+        PF3.textContent = " PTS";
+        C3.textContent = " PTS";
+
+        sidepic.src = "/NBA/basket_img/logos/chicago.gif";
+        C.style.left = "46.5%";
+        SF.style.left = "56.5%"
+        sidepic.style.border = "3px solid black"
+    }
+
+    if (selectedYear === "52") {
+
+        title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25"
+        document.querySelector("select").style.fontSize = "29px";
+
+        PG.textContent = "T Young";
+        SG.textContent = "D Daniels";
+        SF.textContent = "D Hunter";
+        PF.textContent = "J Johnson";
+        C.textContent = "O Okongwu";
+
+        PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
+        SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
+        SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
+        PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = " PTS";
+        SG3.textContent = " PTS";
+        SF3.textContent = " PTS";
+        PF3.textContent = " PTS";
+        C3.textContent = " PTS";
+
+        sidepic.src = "/NBA/basket_img/logos/atlanta.gif";
+        C.style.left = "46.5%";
+        SF.style.left = "56.5%"
+        sidepic.style.border = "3px solid black"
+    }
+
+    if (selectedYear === "53") {
+
+        title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25"
+        document.querySelector("select").style.fontSize = "29px";
+
+        PG.textContent = "";
+        SG.textContent = "";
+        SF.textContent = "";
+        PF.textContent = "";
+        C.textContent = "";
+
+        PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
+        SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
+        SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
+        PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = " PTS";
+        SG3.textContent = " PTS";
+        SF3.textContent = " PTS";
+        PF3.textContent = " PTS";
+        C3.textContent = " PTS";
+
+        sidepic.src = "/NBA/basket_img/logos/dallas.gif";
+        C.style.left = "46.5%";
+        SF.style.left = "56.5%"
+        sidepic.style.border = "3px solid black"
+    }
+
+    if (selectedYear === "54") {
+
+        title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25"
+        document.querySelector("select").style.fontSize = "29px";
+
+        PG.textContent = "";
+        SG.textContent = "";
+        SF.textContent = "";
+        PF.textContent = "";
+        C.textContent = "";
+
+        PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
+        SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
+        SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
+        PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = " PTS";
+        SG3.textContent = " PTS";
+        SF3.textContent = " PTS";
+        PF3.textContent = " PTS";
+        C3.textContent = " PTS";
+
+        sidepic.src = "/NBA/basket_img/logos/nba.gif";
+        C.style.left = "46.5%";
+        SF.style.left = "56.5%"
+        sidepic.style.border = "3px solid black"
+    }
+
+    if (selectedYear === "55") {
+
+        title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25"
+        document.querySelector("select").style.fontSize = "29px";
+
+        PG.textContent = "";
+        SG.textContent = "";
+        SF.textContent = "";
+        PF.textContent = "";
+        C.textContent = "";
+
+        PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
+        SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
+        SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
+        PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = " PTS";
+        SG3.textContent = " PTS";
+        SF3.textContent = " PTS";
+        PF3.textContent = " PTS";
+        C3.textContent = " PTS";
+
+        sidepic.src = "/NBA/basket_img/logos/nba.gif";
+        C.style.left = "46.5%";
+        SF.style.left = "56.5%"
+        sidepic.style.border = "3px solid black"
+    }
+
+    if (selectedYear === "56") {
+
+        title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25"
+        document.querySelector("select").style.fontSize = "29px";
+
+        PG.textContent = "";
+        SG.textContent = "";
+        SF.textContent = "";
+        PF.textContent = "";
+        C.textContent = "";
+
+        PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
+        SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
+        SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
+        PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = " PTS";
+        SG3.textContent = " PTS";
+        SF3.textContent = " PTS";
+        PF3.textContent = " PTS";
+        C3.textContent = " PTS";
+
+        sidepic.src = "/NBA/basket_img/logos/nba.gif";
+        C.style.left = "46.5%";
+        SF.style.left = "56.5%"
+        sidepic.style.border = "3px solid black"
+    }
+
+    if (selectedYear === "57") {
+
+        title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25"
+        document.querySelector("select").style.fontSize = "29px";
+
+        PG.textContent = "";
+        SG.textContent = "";
+        SF.textContent = "";
+        PF.textContent = "";
+        C.textContent = "";
+
+        PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
+        SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
+        SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
+        PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = " PTS";
+        SG3.textContent = " PTS";
+        SF3.textContent = " PTS";
+        PF3.textContent = " PTS";
+        C3.textContent = " PTS";
+
+        sidepic.src = "/NBA/basket_img/logos/nba.gif";
+        C.style.left = "46.5%";
+        SF.style.left = "56.5%"
+        sidepic.style.border = "3px solid black"
+    }
+
+    if (selectedYear === "58") {
+
+        title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25"
+        document.querySelector("select").style.fontSize = "29px";
+
+        PG.textContent = "";
+        SG.textContent = "";
+        SF.textContent = "";
+        PF.textContent = "";
+        C.textContent = "";
+
+        PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
+        SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
+        SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
+        PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = " PTS";
+        SG3.textContent = " PTS";
+        SF3.textContent = " PTS";
+        PF3.textContent = " PTS";
+        C3.textContent = " PTS";
+
+        sidepic.src = "/NBA/basket_img/logos/nba.gif";
+        C.style.left = "46.5%";
+        SF.style.left = "56.5%"
+        sidepic.style.border = "3px solid black"
+    }
+
+    if (selectedYear === "59") {
+
+        title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25"
+        document.querySelector("select").style.fontSize = "29px";
+
+        PG.textContent = "";
+        SG.textContent = "";
+        SF.textContent = "";
+        PF.textContent = "";
+        C.textContent = "";
+
+        PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
+        SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
+        SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
+        PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = " PTS";
+        SG3.textContent = " PTS";
+        SF3.textContent = " PTS";
+        PF3.textContent = " PTS";
+        C3.textContent = " PTS";
+
+        sidepic.src = "/NBA/basket_img/logos/nba.gif";
+        C.style.left = "46.5%";
+        SF.style.left = "56.5%"
+        sidepic.style.border = "3px solid black"
+    }
+
+    if (selectedYear === "60") {
+
+        title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25"
+        document.querySelector("select").style.fontSize = "29px";
+
+        PG.textContent = "";
+        SG.textContent = "";
+        SF.textContent = "";
+        PF.textContent = "";
+        C.textContent = "";
+
+        PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
+        SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
+        SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
+        PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = " PTS";
+        SG3.textContent = " PTS";
+        SF3.textContent = " PTS";
+        PF3.textContent = " PTS";
+        C3.textContent = " PTS";
+
+        sidepic.src = "/NBA/basket_img/logos/nba.gif";
+        C.style.left = "46.5%";
+        SF.style.left = "56.5%"
+        sidepic.style.border = "3px solid black"
+    }
+
+    if (selectedYear === "61") {
+
+        title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25"
+        document.querySelector("select").style.fontSize = "29px";
+
+        PG.textContent = "";
+        SG.textContent = "";
+        SF.textContent = "";
+        PF.textContent = "";
+        C.textContent = "";
+
+        PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
+        SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
+        SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
+        PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = " PTS";
+        SG3.textContent = " PTS";
+        SF3.textContent = " PTS";
+        PF3.textContent = " PTS";
+        C3.textContent = " PTS";
+
+        sidepic.src = "/NBA/basket_img/logos/nba.gif";
+        C.style.left = "46.5%";
+        SF.style.left = "56.5%"
+        sidepic.style.border = "3px solid black"
+    }
+
+    if (selectedYear === "62") {
+
+        title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25"
+        document.querySelector("select").style.fontSize = "29px";
+
+        PG.textContent = "";
+        SG.textContent = "";
+        SF.textContent = "";
+        PF.textContent = "";
+        C.textContent = "";
+
+        PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
+        SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
+        SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
+        PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = " PTS";
+        SG3.textContent = " PTS";
+        SF3.textContent = " PTS";
+        PF3.textContent = " PTS";
+        C3.textContent = " PTS";
+
+        sidepic.src = "/NBA/basket_img/logos/nba.gif";
+        C.style.left = "46.5%";
+        SF.style.left = "56.5%"
+        sidepic.style.border = "3px solid black"
+    }
+
+    if (selectedYear === "63") {
+
+        title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25"
+        document.querySelector("select").style.fontSize = "29px";
+
+        PG.textContent = "";
+        SG.textContent = "";
+        SF.textContent = "";
+        PF.textContent = "";
+        C.textContent = "";
+
+        PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
+        SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
+        SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
+        PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = " PTS";
+        SG3.textContent = " PTS";
+        SF3.textContent = " PTS";
+        PF3.textContent = " PTS";
+        C3.textContent = " PTS";
+
+        sidepic.src = "/NBA/basket_img/logos/nba.gif";
+        C.style.left = "46.5%";
+        SF.style.left = "56.5%"
+        sidepic.style.border = "3px solid black"
+    }
+
+    if (selectedYear === "64") {
+
+        title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25"
+        document.querySelector("select").style.fontSize = "29px";
+
+        PG.textContent = "";
+        SG.textContent = "";
+        SF.textContent = "";
+        PF.textContent = "";
+        C.textContent = "";
+
+        PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
+        SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
+        SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
+        PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = " PTS";
+        SG3.textContent = " PTS";
+        SF3.textContent = " PTS";
+        PF3.textContent = " PTS";
+        C3.textContent = " PTS";
+
+        sidepic.src = "/NBA/basket_img/logos/nba.gif";
+        C.style.left = "46.5%";
+        SF.style.left = "56.5%"
+        sidepic.style.border = "3px solid black"
+    }
+
+    if (selectedYear === "65") {
+
+        title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25"
+        document.querySelector("select").style.fontSize = "29px";
+
+        PG.textContent = "";
+        SG.textContent = "";
+        SF.textContent = "";
+        PF.textContent = "";
+        C.textContent = "";
+
+        PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
+        SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
+        SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
+        PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = " PTS";
+        SG3.textContent = " PTS";
+        SF3.textContent = " PTS";
+        PF3.textContent = " PTS";
+        C3.textContent = " PTS";
+
+        sidepic.src = "/NBA/basket_img/logos/nba.gif";
+        C.style.left = "46.5%";
+        SF.style.left = "56.5%"
+        sidepic.style.border = "3px solid black"
+    }
+
+    if (selectedYear === "66") {
+
+        title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25"
+        document.querySelector("select").style.fontSize = "29px";
+
+        PG.textContent = "";
+        SG.textContent = "";
+        SF.textContent = "";
+        PF.textContent = "";
+        C.textContent = "";
+
+        PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
+        SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
+        SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
+        PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = " PTS";
+        SG3.textContent = " PTS";
+        SF3.textContent = " PTS";
+        PF3.textContent = " PTS";
+        C3.textContent = " PTS";
+
+        sidepic.src = "/NBA/basket_img/logos/nba.gif";
+        C.style.left = "46.5%";
+        SF.style.left = "56.5%"
+        sidepic.style.border = "3px solid black"
+    }
+
+    if (selectedYear === "67") {
+
+        title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25"
+        document.querySelector("select").style.fontSize = "29px";
+
+        PG.textContent = "";
+        SG.textContent = "";
+        SF.textContent = "";
+        PF.textContent = "";
+        C.textContent = "";
+
+        PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
+        SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
+        SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
+        PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = " PTS";
+        SG3.textContent = " PTS";
+        SF3.textContent = " PTS";
+        PF3.textContent = " PTS";
+        C3.textContent = " PTS";
+
+        sidepic.src = "/NBA/basket_img/logos/nba.gif";
+        C.style.left = "46.5%";
+        SF.style.left = "56.5%"
+        sidepic.style.border = "3px solid black"
+    }
+
+    if (selectedYear === "68") {
+
+        title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25"
+        document.querySelector("select").style.fontSize = "29px";
+
+        PG.textContent = "";
+        SG.textContent = "";
+        SF.textContent = "";
+        PF.textContent = "";
+        C.textContent = "";
+
+        PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
+        SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
+        SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
+        PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = " PTS";
+        SG3.textContent = " PTS";
+        SF3.textContent = " PTS";
+        PF3.textContent = " PTS";
+        C3.textContent = " PTS";
+
+        sidepic.src = "/NBA/basket_img/logos/nba.gif";
+        C.style.left = "46.5%";
+        SF.style.left = "56.5%"
+        sidepic.style.border = "3px solid black"
+    }
+
+    if (selectedYear === "69") {
+
+        title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25"
+        document.querySelector("select").style.fontSize = "29px";
+
+        PG.textContent = "";
+        SG.textContent = "";
+        SF.textContent = "";
+        PF.textContent = "";
+        C.textContent = "";
+
+        PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
+        SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
+        SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
+        PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = " PTS";
+        SG3.textContent = " PTS";
+        SF3.textContent = " PTS";
+        PF3.textContent = " PTS";
+        C3.textContent = " PTS";
+
+        sidepic.src = "/NBA/basket_img/logos/nba.gif";
+        C.style.left = "46.5%";
+        SF.style.left = "56.5%"
+        sidepic.style.border = "3px solid black"
+    }
+
+    if (selectedYear === "70") {
+
+        title.innerHTML = "DREAM TEAM"
+        document.querySelector("select").style.fontSize = "29px";
 
         PG.textContent = "";
         SG.textContent = "";
@@ -1216,8 +2074,112 @@ function updatePlayerInfo() {
         C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
 
         sidepic.src = "/NBA/basket_img/logos/nba.gif";
-        SF.style.left = "56.5%"
         C.style.left = "46.5%";
+        SF.style.left = "56.5%"
+        sidepic.style.border = "3px solid black"
+    }
+
+        if (selectedYear === "71") {
+
+        title.innerHTML = "DREAM TEAM"
+        document.querySelector("select").style.fontSize = "29px";
+
+        PG.textContent = "";
+        SG.textContent = "";
+        SF.textContent = "";
+        PF.textContent = "";
+        C.textContent = "";
+
+        PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
+        SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
+        SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
+        PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        sidepic.src = "/NBA/basket_img/logos/nba.gif";
+        C.style.left = "46.5%";
+        SF.style.left = "56.5%"
+        sidepic.style.border = "3px solid black"
+    }
+
+    if (selectedYear === "72") {
+
+        title.innerHTML = "DREAM TEAM"
+        document.querySelector("select").style.fontSize = "29px";
+
+        PG.textContent = "";
+        SG.textContent = "";
+        SF.textContent = "";
+        PF.textContent = "";
+        C.textContent = "";
+
+        PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
+        SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
+        SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
+        PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        sidepic.src = "/NBA/basket_img/logos/nba.gif";
+        C.style.left = "46.5%";
+        SF.style.left = "56.5%"
+        sidepic.style.border = "3px solid black"
+    }
+
+    if (selectedYear === "300") {
+
+        title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25"
+        document.querySelector("select").style.fontSize = "29px";
+
+        PG.textContent = "";
+        SG.textContent = "";
+        SF.textContent = "";
+        PF.textContent = "";
+        C.textContent = "";
+
+        PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
+        SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
+        SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
+        PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = " PTS";
+        SG3.textContent = " PTS";
+        SF3.textContent = " PTS";
+        PF3.textContent = " PTS";
+        C3.textContent = " PTS";
+
+        sidepic.src = "/NBA/basket_img/logos/nba.gif";
+        C.style.left = "46.5%";
+        SF.style.left = "56.5%"
+        sidepic.style.border = "3px solid black"
+    }
+
+    if (selectedYear === "300") {
+
+        title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25"
+        document.querySelector("select").style.fontSize = "29px";
+
+        PG.textContent = "";
+        SG.textContent = "";
+        SF.textContent = "";
+        PF.textContent = "";
+        C.textContent = "";
+
+        PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
+        SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
+        SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
+        PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = " PTS";
+        SG3.textContent = " PTS";
+        SF3.textContent = " PTS";
+        PF3.textContent = " PTS";
+        C3.textContent = " PTS";
+
+        sidepic.src = "/NBA/basket_img/logos/nba.gif";
+        C.style.left = "46.5%";
+        SF.style.left = "56.5%"
         sidepic.style.border = "3px solid black"
     }
 }
@@ -1243,8 +2205,8 @@ document.addEventListener('mouseleave', () => {
     xPositionDisplay.innerHTML = "";
 });
 
-// PG3.textContent = " PTS";
-// SG3.textContent = " PTS";
-// SF3.textContent = " PTS";
-// PF3.textContent = " PTS";
-// C3.textContent = " PTS";
+PG3.textContent = " PTS";
+SG3.textContent = " PTS";
+SF3.textContent = " PTS";
+PF3.textContent = " PTS";
+C3.textContent = " PTS";
