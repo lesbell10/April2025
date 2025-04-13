@@ -21,9 +21,9 @@ function displayPlayerInfo() {
     const stats = document.querySelector(".stats")
     const sidepic = document.querySelector(".sidepic")
     const title = document.querySelector(".title")
-    
+
     // sidepic.src = "/NBA/basket_img/logos/golden state.gif"
-    
+
     // if (selectedPlayer === "100") {
     //     birthDate.textContent = "";
     //     nation.textContent = "";
@@ -35,7 +35,7 @@ function displayPlayerInfo() {
     nation.textContent = ""
     club.textContent = ""
     stats.innerHTML = ""
-    
+
     // sidepic.style.bottom = "55px"
     // stats.style.bottom = "200px"
     // document.querySelector(".playerInfo").style.height = "675px"
@@ -89,93 +89,93 @@ function displayPlayerInfo() {
     }
 
     else if (selectedPlayer === "5") {
-        title.innerHTML = "TOP NBA POINTERS PER<br>GAME IN MARCH #1";
+        title.innerHTML = "NBA BEST PLAYERS<br>SINCE 2005 #2";
         nation.textContent = "USA";
         club.textContent = "San Antonio Spurs";
         position.textContent = "PF, C";
-        stats.innerHTML = "5x Champion - The Big Fundamental";
-        playerImage.src = "/NBA/basket_img/players/duncan.jpg";
+        stats.innerHTML = "6th";
+        playerImage.src = "/NBA/basket_img/players/t duncan.jpg";
     }
 
     else if (selectedPlayer === "6") {
-        title.innerHTML = "TOP NBA POINTERS PER<br>GAME IN MARCH #1";
+        title.innerHTML = "NBA BEST PLAYERS<br>SINCE 2005 #2";
         nation.textContent = "Serbia";
         club.textContent = "Denver Nuggets";
         position.textContent = "C, PF";
-        stats.innerHTML = "1st - 31.6 PPG";
+        stats.innerHTML = "7th";
         playerImage.src = "/NBA/basket_img/players/n jokic.jpg";
     }
 
     else if (selectedPlayer === "7") {
-        title.innerHTML = "TOP NBA POINTERS PER<br>GAME IN MARCH #1";
+        title.innerHTML = "NBA BEST PLAYERS<br>SINCE 2005 #2";
         nation.textContent = "Greece";
         club.textContent = "Milwaukee Bucks";
         position.textContent = "PF, C";
-        stats.innerHTML = "MVP - Unstoppable Force";
-        playerImage.src = "/NBA/basket_img/players/giannis.jpg";
+        stats.innerHTML = "8th";
+        playerImage.src = "/NBA/basket_img/players/g antetoko..jpg";
     }
 
     else if (selectedPlayer === "8") {
-        title.innerHTML = "TOP NBA POINTERS PER<br>GAME IN MARCH #1";
+        title.innerHTML = "NBA BEST PLAYERS<br>SINCE 2005 #2";
         nation.textContent = "Canada";
         club.textContent = "Oklahoma City Thunder";
         position.textContent = "SG, PG";
-        stats.innerHTML = "MVP Candidate - Smooth Scorer";
-        playerImage.src = "/NBA/basket_img/players/shai.jpg";
+        stats.innerHTML = "9th";
+        playerImage.src = "/NBA/basket_img/players/s gilgeous-a.jpg";
     }
 
     else if (selectedPlayer === "9") {
-        title.innerHTML = "TOP NBA POINTERS PER<br>GAME IN MARCH #1";
+        title.innerHTML = "NBA BEST PLAYERS<br>SINCE 2005 #2";
         nation.textContent = "USA";
         club.textContent = "Miami Heat";
         position.textContent = "SG";
-        stats.innerHTML = "3x Champion - Flash";
-        playerImage.src = "/NBA/basket_img/players/wade.jpg";
+        stats.innerHTML = "10th";
+        playerImage.src = "/NBA/basket_img/players/d wade.jpg";
     }
 
     else if (selectedPlayer === "10") {
-        title.innerHTML = "TOP NBA POINTERS PER<br>GAME IN MARCH #1";
+        title.innerHTML = "NBA BEST PLAYERS<br>SINCE 2005 #3";
         nation.textContent = "Cameroon";
         club.textContent = "Philadelphia 76ers";
-        position.textContent = "C";
-        stats.innerHTML = "MVP - Elite Scorer & Defender";
-        playerImage.src = "/NBA/basket_img/players/embiid.jpg";
+        position.textContent = "Center";
+        stats.innerHTML = "11th";
+        playerImage.src = "/NBA/basket_img/players/j embiid.jpg";
     }
 
     else if (selectedPlayer === "11") {
-        title.innerHTML = "TOP NBA POINTERS PER<br>GAME IN MARCH #1";
+        title.innerHTML = "NBA BEST PLAYERS<br>SINCE 2005 #3";
         nation.textContent = "USA";
         club.textContent = "Los Angeles Lakers";
         position.textContent = "PF, C";
-        stats.innerHTML = "Champion - Defensive Anchor";
-        playerImage.src = "/NBA/basket_img/players/davis.jpg";
+        stats.innerHTML = "12th";
+        playerImage.src = "/NBA/basket_img/players/a davis.jpg";
     }
 
     else if (selectedPlayer === "12") {
-        title.innerHTML = "TOP NBA POINTERS PER<br>GAME IN MARCH #1";
+        title.innerHTML = "NBA BEST PLAYERS<br>SINCE 2005 #3";
         nation.textContent = "USA";
         club.textContent = "LA Clippers";
         position.textContent = "SG, PG";
-        stats.innerHTML = "MVP - 60 Point Games";
-        playerImage.src = "/NBA/basket_img/players/harden.jpg";
+        stats.innerHTML = "13th";
+        playerImage.src = "/NBA/basket_img/players/j harden.jpg";
     }
 
     else if (selectedPlayer === "13") {
-        title.innerHTML = "TOP NBA POINTERS PER<br>GAME IN MARCH #1";
+        title.innerHTML = "NBA BEST PLAYERS<br>SINCE 2005 #3";
         nation.textContent = "Slovenia";
         club.textContent = "Dallas Mavericks";
         position.textContent = "PG, SG";
-        stats.innerHTML = "Triple-Double Threat";
-        playerImage.src = "/NBA/basket_img/players/doncic.jpg";
+        stats.innerHTML = "14th";
+        playerImage.src = "/NBA/basket_img/players/l doncic.jpg";
     }
 
     else if (selectedPlayer === "14") {
-        title.innerHTML = "TOP NBA POINTERS PER<br>GAME IN MARCH #1";
+        title.innerHTML = "NBA BEST PLAYERS<br>SINCE 2005 #3";
         nation.textContent = "USA";
-        club.textContent = "Golden State Warriors";
+        club.textContent = "San Antonio Spurs";
         position.textContent = "PG";
-        stats.innerHTML = "Elite Playmaker - Vet Leader";
-        playerImage.src = "/NBA/basket_img/players/paul.jpg";
+        stats.innerHTML = "15th";
+        playerImage.src = "/NBA/basket_img/players/c paul.jpg";
     }
 
     else if (selectedPlayer === "15") {
@@ -360,142 +360,143 @@ function displayPlayerInfo() {
     }
 
     else if (selectedPlayer === "35") {
-        title.innerHTML = "TOP NBA POINTERS PER<br>GAME IN MARCH #1";
+        document.querySelector("select").style.fontSize = "19.5px"
+        title.innerHTML = "NBA BEST PLAYERS<BR>IN 2024-2025 #2";
         nation.textContent = "France";
         club.textContent = "San Antonio Spurs";
         position.textContent = "C, PF";
-        stats.innerHTML = "Rookie Phenom - Defensive Freak";
-        playerImage.src = "/NBA/basket_img/players/wemby.jpg";
+        stats.innerHTML = "6th";
+        playerImage.src = "/NBA/basket_img/players/v wemban..jpg";
     }
 
     else if (selectedPlayer === "36") {
-        title.innerHTML = "TOP NBA POINTERS PER<br>GAME IN MARCH #1";
+        title.innerHTML = "NBA BEST PLAYERS<BR>IN 2024-2025 #2";
         nation.textContent = "USA";
         club.textContent = "Minnesota Timberwolves";
         position.textContent = "SG, SF";
-        stats.innerHTML = "Explosive Scorer - Rising Star";
-        playerImage.src = "/NBA/basket_img/players/edwards.jpg";
+        stats.innerHTML = "7th";
+        playerImage.src = "/NBA/basket_img/players/a edwards.jpg";
     }
 
     else if (selectedPlayer === "37") {
-        title.innerHTML = "TOP NBA POINTERS PER<br>GAME IN MARCH #1";
+        title.innerHTML = "NBA BEST PLAYERS<BR>IN 2024-2025 #2";
         nation.textContent = "USA";
         club.textContent = "Phoenix Suns";
         position.textContent = "SF, PF";
-        stats.innerHTML = "MVP - Elite Shooter";
-        playerImage.src = "/NBA/basket_img/players/durant.jpg";
+        stats.innerHTML = "8th";
+        playerImage.src = "/NBA/basket_img/players/k durant.jpg";
     }
 
     else if (selectedPlayer === "38") {
-        title.innerHTML = "TOP NBA POINTERS PER<br>GAME IN MARCH #1";
+        title.innerHTML = "NBA BEST PLAYERS<BR>IN 2024-2025 #2";
         nation.textContent = "USA";
         club.textContent = "Los Angeles Lakers";
         position.textContent = "SF, PF";
-        stats.innerHTML = "All-Time Scoring Leader";
-        playerImage.src = "/NBA/basket_img/players/lebron.jpg";
+        stats.innerHTML = "9th";
+        playerImage.src = "/NBA/basket_img/players/l james.jpg";
     }
 
     else if (selectedPlayer === "39") {
-        title.innerHTML = "TOP NBA POINTERS PER<br>GAME IN MARCH #1";
+        title.innerHTML = "NBA BEST PLAYERS<BR>IN 2024-2025 #2";
         nation.textContent = "USA";
         club.textContent = "Golden State Warriors";
         position.textContent = "PG";
-        stats.innerHTML = "3PT King - 2x MVP";
-        playerImage.src = "/NBA/basket_img/players/curry.jpg";
+        stats.innerHTML = "10th";
+        playerImage.src = "/NBA/basket_img/players/s curry.jpg";
     }
 
     else if (selectedPlayer === "40") {
-        title.innerHTML = "TOP NBA POINTERS PER<br>GAME IN MARCH #1";
+        title.innerHTML = "NBA BEST PLAYERS<BR>IN 2024-2025 #3";
         nation.textContent = "USA";
-        club.textContent = "Los Angeles Lakers";
-        position.textContent = "PF, C";
-        stats.innerHTML = "Defensive Beast - All-Star";
-        playerImage.src = "/NBA/basket_img/players/davis.jpg";
+        club.textContent = "Philadelphia 76ers";
+        position.textContent = "Center";
+        stats.innerHTML = "11th";
+        playerImage.src = "/NBA/basket_img/players/j embiid.jpg";
     }
-
+    
     else if (selectedPlayer === "41") {
-        title.innerHTML = "TOP NBA POINTERS PER<br>GAME IN MARCH #1";
+        title.innerHTML = "NBA BEST PLAYERS<BR>IN 2024-2025 #3";
         nation.textContent = "USA";
-        club.textContent = "Cleveland Cavaliers";
-        position.textContent = "SG";
-        stats.innerHTML = "Volume Scorer - Leader";
-        playerImage.src = "/NBA/basket_img/players/mitchell.jpg";
+        club.textContent = "Dallas Mavericks";
+        position.textContent = "PF, C";
+        stats.innerHTML = "12th";
+        playerImage.src = "/NBA/basket_img/players/a davis.jpg";
     }
 
     else if (selectedPlayer === "42") {
-        title.innerHTML = "TOP NBA POINTERS PER<br>GAME IN MARCH #1";
+        title.innerHTML = "NBA BEST PLAYERS<BR>IN 2024-2025 #3";
         nation.textContent = "USA";
-        club.textContent = "Boston Celtics";
-        position.textContent = "SF";
-        stats.innerHTML = "All-Star - Two-Way Wing";
-        playerImage.src = "/NBA/basket_img/players/brown.jpg";
+        club.textContent = "Cleveland Cavaliers";
+        position.textContent = "SG";
+        stats.innerHTML = "13th";
+        playerImage.src = "/NBA/basket_img/players/d mitchell.jpg";
     }
 
     else if (selectedPlayer === "43") {
-        title.innerHTML = "TOP NBA POINTERS PER<br>GAME IN MARCH #1";
+        title.innerHTML = "NBA BEST PLAYERS<BR>IN 2024-2025 #3";
         nation.textContent = "USA";
-        club.textContent = "Milwaukee Bucks";
-        position.textContent = "PG";
-        stats.innerHTML = "Deep Range - Clutch Scorer";
-        playerImage.src = "/NBA/basket_img/players/lillard.jpg";
+        club.textContent = "Boston Celtics";
+        position.textContent = "SF";
+        stats.innerHTML = "14th";
+        playerImage.src = "/NBA/basket_img/players/j brown.jpg";
     }
 
     else if (selectedPlayer === "44") {
-        title.innerHTML = "TOP NBA POINTERS PER<br>GAME IN MARCH #1";
+        title.innerHTML = "NBA BEST PLAYERS<BR>IN 2024-2025 #3";
         nation.textContent = "USA";
-        club.textContent = "New York Knicks";
+        club.textContent = "Milwaukee Bucks";
         position.textContent = "PG";
-        stats.innerHTML = "Breakout Year - NY Leader";
-        playerImage.src = "/NBA/basket_img/players/brunson.jpg";
+        stats.innerHTML = "15th";
+        playerImage.src = "/NBA/basket_img/players/d lillard.jpg";
     }
 
     else if (selectedPlayer === "45") {
-        title.innerHTML = "TOP NBA POINTERS PER<br>GAME IN MARCH #1";
+        title.innerHTML = "NBA BEST PLAYERS<BR>IN 2024-2025 #4";
         nation.textContent = "USA";
-        club.textContent = "LA Clippers";
-        position.textContent = "SG, PG";
-        stats.innerHTML = "Elite ISO - Crafty Scorer";
-        playerImage.src = "/NBA/basket_img/players/harden.jpg";
+        club.textContent = "New York Knicks";
+        position.textContent = "PG";
+        stats.innerHTML = "16th";
+        playerImage.src = "/NBA/basket_img/players/j brunson.jpg";
     }
 
     else if (selectedPlayer === "46") {
-        title.innerHTML = "TOP NBA POINTERS PER<br>GAME IN MARCH #1";
+        title.innerHTML = "NBA BEST PLAYERS<BR>IN 2024-2025 #4";
         nation.textContent = "USA";
-        club.textContent = "Atlanta Hawks";
-        position.textContent = "PG";
-        stats.innerHTML = "3PT Range - Assist Machine";
-        playerImage.src = "/NBA/basket_img/players/trae.jpg";
+        club.textContent = "LA Clippers";
+        position.textContent = "SG, PG";
+        stats.innerHTML = "17th";
+        playerImage.src = "/NBA/basket_img/players/j harden.jpg";
     }
 
     else if (selectedPlayer === "47") {
-        title.innerHTML = "TOP NBA POINTERS PER<br>GAME IN MARCH #1";
+        title.innerHTML = "NBA BEST PLAYERS<BR>IN 2024-2025 #4";
         nation.textContent = "USA";
-        club.textContent = "Memphis Grizzlies";
-        position.textContent = "PF, C";
-        stats.innerHTML = "DPOY - Shot Blocker";
-        playerImage.src = "/NBA/basket_img/players/jjj.jpg";
+        club.textContent = "Atlanta Hawks";
+        position.textContent = "PG";
+        stats.innerHTML = "18th";
+        playerImage.src = "/NBA/basket_img/players/t young.jpg";
     }
 
     else if (selectedPlayer === "48") {
-        title.innerHTML = "TOP NBA POINTERS PER<br>GAME IN MARCH #1";
-        nation.textContent = "Cameroon";
-        club.textContent = "Philadelphia 76ers";
-        position.textContent = "C";
-        stats.innerHTML = "MVP - 33+ PPG";
-        playerImage.src = "/NBA/basket_img/players/embiid.jpg";
-    }
-
-    else if (selectedPlayer === "49") {
-        title.innerHTML = "TOP NBA POINTERS PER<br>GAME IN MARCH #1";
+        title.innerHTML = "NBA BEST PLAYERS<BR>IN 2024-2025 #4";
         nation.textContent = "USA";
         club.textContent = "Dallas Mavericks";
         position.textContent = "PG, SG";
-        stats.innerHTML = "Handles + Clutch Finishes";
-        playerImage.src = "/NBA/basket_img/players/kyrie.jpg";
+        stats.innerHTML = "19th";
+        playerImage.src = "/NBA/basket_img/players/k irving.jpg";
+    }
+
+    else if (selectedPlayer === "49") {
+        title.innerHTML = "NBA BEST PLAYERS<BR>IN 2024-2025 #4";
+        nation.textContent = "USA";
+        club.textContent = "Memphis Grizzlies";
+        position.textContent = "PF, C";
+        stats.innerHTML = "20th";
+        playerImage.src = "/NBA/basket_img/players/j jackson jr.jpg";
     }
 
     else if (selectedPlayer === "50") {
-            title.innerHTML = "NBA BEST PLAYERS<BR>IN 2024-2025 #5";
+        title.innerHTML = "NBA BEST PLAYERS<BR>IN 2024-2025 #5";
         nation.textContent = "USA";
         club.textContent = "Sacramento Kings";
         position.textContent = "PG";
@@ -504,7 +505,7 @@ function displayPlayerInfo() {
     }
 
     else if (selectedPlayer === "51") {
-            title.innerHTML = "NBA BEST PLAYERS<BR>IN 2024-2025 #5";
+        title.innerHTML = "NBA BEST PLAYERS<BR>IN 2024-2025 #5";
         nation.textContent = "USA";
         club.textContent = "New York Knicks";
         position.textContent = "C, PF";
@@ -513,7 +514,7 @@ function displayPlayerInfo() {
     }
 
     else if (selectedPlayer === "52") {
-            title.innerHTML = "NBA BEST PLAYERS<BR>IN 2024-2025 #5";
+        title.innerHTML = "NBA BEST PLAYERS<BR>IN 2024-2025 #5";
         nation.textContent = "USA";
         club.textContent = "Phoenix Suns";
         position.textContent = "SG";
@@ -522,7 +523,7 @@ function displayPlayerInfo() {
     }
 
     else if (selectedPlayer === "53") {
-            title.innerHTML = "NBA BEST PLAYERS<BR>IN 2024-2025 #5";
+        title.innerHTML = "NBA BEST PLAYERS<BR>IN 2024-2025 #5";
         nation.textContent = "USA";
         club.textContent = "Memphis Grizzlies";
         position.textContent = "PG";
@@ -531,7 +532,7 @@ function displayPlayerInfo() {
     }
 
     else if (selectedPlayer === "54") {
-            title.innerHTML = "NBA BEST PLAYERS<BR>IN 2024-2025 #5";
+        title.innerHTML = "NBA BEST PLAYERS<BR>IN 2024-2025 #5";
         nation.textContent = "USA";
         club.textContent = "Orlando Magic";
         position.textContent = "PF, SF";
@@ -585,6 +586,7 @@ function displayPlayerInfo() {
     }
     // IN 2030
     else if (selectedPlayer === "60") {
+        document.querySelector("select").style.fontSize = "19.5px"
         title.innerHTML = "TOP NBA POINTERS PER<br>GAME IN MARCH #1";
         nation.textContent = "France";
         club.textContent = "San Antonio Spurs";
@@ -630,138 +632,138 @@ function displayPlayerInfo() {
     }
 
     else if (selectedPlayer === "65") {
-        title.innerHTML = "TOP NBA POINTERS PER<br>GAME IN MARCH #1";
+        title.innerHTML = "NBA BEST PLAYERS<BR>IN 2030 #2";
         nation.textContent = "USA";
         club.textContent = "Minnesota Timberwolves";
         position.textContent = "SG, SF";
-        stats.innerHTML = "All-Star - Explosive Athlete";
-        playerImage.src = "/NBA/basket_img/players/edwards.jpg";
+        stats.innerHTML = "6th";
+        playerImage.src = "/NBA/basket_img/players/a edwards.jpg";
     }
 
     else if (selectedPlayer === "66") {
-        title.innerHTML = "TOP NBA POINTERS PER<br>GAME IN MARCH #1";
+        title.innerHTML = "NBA BEST PLAYERS<BR>IN 2030 #2";
         nation.textContent = "USA";
         club.textContent = "Boston Celtics";
         position.textContent = "SF, PF";
-        stats.innerHTML = "Top Scorer - MVP Caliber";
-        playerImage.src = "/NBA/basket_img/players/tatum.jpg";
+        stats.innerHTML = "7th";
+        playerImage.src = "/NBA/basket_img/players/j tatum.jpg";
     }
 
     else if (selectedPlayer === "67") {
-        title.innerHTML = "TOP NBA POINTERS PER<br>GAME IN MARCH #1";
+        title.innerHTML = "NBA BEST PLAYERS<BR>IN 2030 #2";
         nation.textContent = "USA";
         club.textContent = "Oklahoma City Thunder";
         position.textContent = "C, PF";
-        stats.innerHTML = "Shot Blocker - Stretch Big";
-        playerImage.src = "/NBA/basket_img/players/chet.jpg";
+        stats.innerHTML = "8th";
+        playerImage.src = "/NBA/basket_img/players/c holmgren.jpg";
     }
 
     else if (selectedPlayer === "68") {
-        title.innerHTML = "TOP NBA POINTERS PER<br>GAME IN MARCH #1";
+        title.innerHTML = "NBA BEST PLAYERS<BR>IN 2030 #2";
         nation.textContent = "USA";
         club.textContent = "Memphis Grizzlies";
         position.textContent = "PG";
-        stats.innerHTML = "High Flyer - Clutch Performer";
-        playerImage.src = "/NBA/basket_img/players/morant.jpg";
+        stats.innerHTML = "9th";
+        playerImage.src = "/NBA/basket_img/players/j morant.jpg";
     }
 
     else if (selectedPlayer === "69") {
-        title.innerHTML = "TOP NBA POINTERS PER<br>GAME IN MARCH #1";
+        title.innerHTML = "NBA BEST PLAYERS<BR>IN 2030 #2";
         nation.textContent = "USA";
         club.textContent = "Orlando Magic";
         position.textContent = "PF, SF";
-        stats.innerHTML = "All-Star - Franchise Face";
-        playerImage.src = "/NBA/basket_img/players/banchero.jpg";
+        stats.innerHTML = "10th";
+        playerImage.src = "/NBA/basket_img/players/p banchero.jpg";
     }
 
     else if (selectedPlayer === "70") {
-        title.innerHTML = "TOP NBA POINTERS PER<br>GAME IN MARCH #1";
+        title.innerHTML = "BEST NBA PLAYERS<BR>IN 2030 #3";
         nation.textContent = "USA";
         club.textContent = "Portland Trail Blazers";
         position.textContent = "PG";
-        stats.innerHTML = "Rookie Guard - Fast Break Threat";
-        playerImage.src = "/NBA/basket_img/players/scoot.jpg";
+        stats.innerHTML = "11th";
+        playerImage.src = "/NBA/basket_img/players/s henderson.jpg";
     }
 
     else if (selectedPlayer === "71") {
-        title.innerHTML = "TOP NBA POINTERS PER<br>GAME IN MARCH #1";
+        title.innerHTML = "BEST NBA PLAYERS<BR>IN 2030 #3";
         nation.textContent = "USA";
         club.textContent = "Detroit Pistons";
         position.textContent = "PG, SG";
-        stats.innerHTML = "Young Leader - Playmaker";
-        playerImage.src = "/NBA/basket_img/players/cade.jpg";
+        stats.innerHTML = "12th";
+        playerImage.src = "/NBA/basket_img/players/c cunningham.jpg";
     }
 
     else if (selectedPlayer === "72") {
-        title.innerHTML = "TOP NBA POINTERS PER<br>GAME IN MARCH #1";
+        title.innerHTML = "BEST NBA PLAYERS<BR>IN 2030 #3";
         nation.textContent = "USA";
         club.textContent = "Indiana Pacers";
         position.textContent = "PG";
-        stats.innerHTML = "All-Star Starter - Assist Leader";
-        playerImage.src = "/NBA/basket_img/players/haliburton.jpg";
+        stats.innerHTML = "13th";
+        playerImage.src = "/NBA/basket_img/players/t haliburton.jpg";
     }
 
     else if (selectedPlayer === "73") {
-        title.innerHTML = "TOP NBA POINTERS PER<br>GAME IN MARCH #1";
+        title.innerHTML = "BEST NBA PLAYERS<BR>IN 2030 #3";
         nation.textContent = "USA";
         club.textContent = "Phoenix Suns";
         position.textContent = "SG";
-        stats.innerHTML = "Bucket Getter - 70pt Game";
-        playerImage.src = "/NBA/basket_img/players/booker.jpg";
+        stats.innerHTML = "14th";
+        playerImage.src = "/NBA/basket_img/players/d booker.jpg";
     }
 
     else if (selectedPlayer === "74") {
-        title.innerHTML = "TOP NBA POINTERS PER<br>GAME IN MARCH #1";
+        title.innerHTML = "BEST NBA PLAYERS<BR>IN 2030 #3";
         nation.textContent = "USA";
         club.textContent = "Miami Heat";
         position.textContent = "C, PF";
-        stats.innerHTML = "All-Star - Defensive Anchor";
-        playerImage.src = "/NBA/basket_img/players/bam.jpg";
+        stats.innerHTML = "15th";
+        playerImage.src = "/NBA/basket_img/players/b adebayo.jpg";
     }
 
     else if (selectedPlayer === "75") {
-        title.innerHTML = "TOP NBA POINTERS PER<br>GAME IN MARCH #1";
+        title.innerHTML = "BEST NBA PLAYERS<BR>IN 2030 #4";
         nation.textContent = "USA";
         club.textContent = "Cleveland Cavaliers";
         position.textContent = "PF, C";
-        stats.innerHTML = "Shot Blocker - Young Star";
-        playerImage.src = "/NBA/basket_img/players/mobley.jpg";
+        stats.innerHTML = "16th";
+        playerImage.src = "/NBA/basket_img/players/e mobley.jpg";
     }
 
     else if (selectedPlayer === "76") {
-        title.innerHTML = "TOP NBA POINTERS PER<br>GAME IN MARCH #1";
+        title.innerHTML = "BEST NBA PLAYERS<BR>IN 2030 #4";
         nation.textContent = "USA";
         club.textContent = "Detroit Pistons";
         position.textContent = "SG";
-        stats.innerHTML = "Fast Guard - Crafty Finisher";
-        playerImage.src = "/NBA/basket_img/players/ivey.jpg";
+        stats.innerHTML = "17th";
+        playerImage.src = "/NBA/basket_img/players/j ivey.jpg";
     }
 
     else if (selectedPlayer === "77") {
-        title.innerHTML = "TOP NBA POINTERS PER<br>GAME IN MARCH #1";
+        title.innerHTML = "BEST NBA PLAYERS<BR>IN 2030 #4";
         nation.textContent = "USA";
         club.textContent = "New Orleans Pelicans";
         position.textContent = "PF, SF";
-        stats.innerHTML = "High Flyer - Inside Scorer";
-        playerImage.src = "/NBA/basket_img/players/zion.jpg";
+        stats.innerHTML = "18th";
+        playerImage.src = "/NBA/basket_img/players/z williamson.jpg";
     }
 
     else if (selectedPlayer === "78") {
-        title.innerHTML = "TOP NBA POINTERS PER<br>GAME IN MARCH #1";
+        title.innerHTML = "BEST NBA PLAYERS<BR>IN 2030 #4";
         nation.textContent = "Germany";
         club.textContent = "Orlando Magic";
         position.textContent = "SF, PF";
-        stats.innerHTML = "Versatile Forward - Euro Talent";
-        playerImage.src = "/NBA/basket_img/players/wagner.jpg";
+        stats.innerHTML = "19th";
+        playerImage.src = "/NBA/basket_img/players/f wagner.jpg";
     }
 
     else if (selectedPlayer === "79") {
-        title.innerHTML = "TOP NBA POINTERS PER<br>GAME IN MARCH #1";
+        title.innerHTML = "BEST NBA PLAYERS<BR>IN 2030 #4";
         nation.textContent = "USA";
         club.textContent = "Houston Rockets";
         position.textContent = "SG";
-        stats.innerHTML = "Explosive - Young Scorer";
-        playerImage.src = "/NBA/basket_img/players/green.jpg";
+        stats.innerHTML = "20th";
+        playerImage.src = "/NBA/basket_img/players/j green.jpg";
     }
 
     else if (selectedPlayer === "80") {

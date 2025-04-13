@@ -89,93 +89,93 @@ function displayPlayerInfo() {
     }
 
     else if (selectedPlayer === "5") {
-        title.innerHTML = "TOP NHL POINTERS<BR>IN 2024-25";
+        title.innerHTML = "NHL BEST PLAYERS<br>SINCE 2005 #2";
         nation.textContent = "Germany";
         club.textContent = "Edmonton Oilers";
         position.textContent = "Center";
-        stats.innerHTML = "Consistent Top 5 in Points - McDavid Duo";
+        stats.innerHTML = "6th";
         playerImage.src = "/NHL/hockey_img/players/draisaitl.jpg";
     }
 
     else if (selectedPlayer === "6") {
-        title.innerHTML = "TOP NHL POINTERS<BR>IN 2024-25";
+        title.innerHTML = "NHL BEST PLAYERS<br>SINCE 2005 #2";
         nation.textContent = "Canada";
         club.textContent = "Colorado Avalanche";
         position.textContent = "Center";
-        stats.innerHTML = "Speed + Power - 2022 Cup Winner";
+        stats.innerHTML = "7th";
         playerImage.src = "/NHL/hockey_img/players/mackinnon.jpg";
     }
 
     else if (selectedPlayer === "7") {
-        title.innerHTML = "TOP NHL POINTERS<BR>IN 2024-25";
+        title.innerHTML = "NHL BEST PLAYERS<br>SINCE 2005 #2";
         nation.textContent = "Slovakia";
         club.textContent = "Boston Bruins";
         position.textContent = "Defenseman";
-        stats.innerHTML = "Towering Presence - Norris Winner";
+        stats.innerHTML = "8th";
         playerImage.src = "/NHL/hockey_img/players/chara.jpg";
     }
 
     else if (selectedPlayer === "8") {
-        title.innerHTML = "TOP NHL POINTERS<BR>IN 2024-25";
+        title.innerHTML = "NHL BEST PLAYERS<br>SINCE 2005 #2";
         nation.textContent = "USA";
-        club.textContent = "Chicago Blackhawks";
+        club.textContent = "Detroit Red Wings";
         position.textContent = "Right Wing";
-        stats.innerHTML = "Art Ross Winner - 3x Stanley Cup";
-        playerImage.src = "/NHL/hockey_img/players/kane.jpg";
+        stats.innerHTML = "9th";
+        playerImage.src = "/NHL/hockey_img/players/p kane.jpg";
     }
 
     else if (selectedPlayer === "9") {
-        title.innerHTML = "TOP NHL POINTERS<BR>IN 2024-25";
+        title.innerHTML = "NHL BEST PLAYERS<br>SINCE 2005 #2";
         nation.textContent = "Russia";
         club.textContent = "Pittsburgh Penguins";
         position.textContent = "Center";
-        stats.innerHTML = "3x Cup Champ - Crosby's Wingman";
+        stats.innerHTML = "10th";
         playerImage.src = "/NHL/hockey_img/players/malkin.jpg";
     }
 
     else if (selectedPlayer === "10") {
-        title.innerHTML = "TOP NHL POINTERS<BR>IN 2024-25";
+        title.innerHTML = "NHL BEST PLAYERS<br>SINCE 2005 #3";
         nation.textContent = "Canada";
         club.textContent = "Colorado Avalanche";
         position.textContent = "Defenseman";
-        stats.innerHTML = "2022 Norris + Conn Smythe Winner";
+        stats.innerHTML = "11th";
         playerImage.src = "/NHL/hockey_img/players/makar.jpg";
     }
 
     else if (selectedPlayer === "11") {
-        title.innerHTML = "TOP NHL POINTERS<BR>IN 2024-25";
-        nation.textContent = "USA";
-        club.textContent = "Toronto Maple Leafs";
-        position.textContent = "Center";
-        stats.innerHTML = "Rocket Richard Winner - 60 Goal Season";
-        playerImage.src = "/NHL/hockey_img/players/matthews.jpg";
-    }
-
-    else if (selectedPlayer === "12") {
-        title.innerHTML = "TOP NHL POINTERS<BR>IN 2024-25";
+        title.innerHTML = "NHL BEST PLAYERS<br>SINCE 2005 #3";
         nation.textContent = "Sweden";
         club.textContent = "New York Rangers";
         position.textContent = "Goaltender";
-        stats.innerHTML = "The King - Vezina Trophy Winner";
+        stats.innerHTML = "12th";
         playerImage.src = "/NHL/hockey_img/players/lundqvist.jpg";
     }
 
+    else if (selectedPlayer === "12") {
+        title.innerHTML = "NHL BEST PLAYERS<br>SINCE 2005 #3";
+        nation.textContent = "USA";
+        club.textContent = "Toronto Maple Leafs";
+        position.textContent = "Center";
+        stats.innerHTML = "13th";
+        playerImage.src = "/NHL/hockey_img/players/matthews.jpg";
+    }
+
     else if (selectedPlayer === "13") {
-        title.innerHTML = "TOP NHL POINTERS<BR>IN 2024-25";
+        title.innerHTML = "NHL BEST PLAYERS<br>SINCE 2005 #3";
         nation.textContent = "Sweden";
         club.textContent = "Tampa Bay Lightning";
         position.textContent = "Defenseman";
-        stats.innerHTML = "Shutdown Defender - Stanley Cup Leader";
+        stats.innerHTML = "14th";
         playerImage.src = "/NHL/hockey_img/players/hedman.jpg";
     }
 
     else if (selectedPlayer === "14") {
-        title.innerHTML = "TOP NHL POINTERS<BR>IN 2024-25";
+        title.innerHTML = "NHL BEST PLAYERS<br>SINCE 2005 #3";
         nation.textContent = "Sweden";
         club.textContent = "Pittsburgh Penguins";
         position.textContent = "Defenseman";
-        stats.innerHTML = "Norris Winner - Offensive D-man";
-        playerImage.src = "/NHL/hockey_img/players/karlsson.jpg";
+        stats.innerHTML = "15th";
+        playerImage.src = "/NHL/hockey_img/players/e karlsson.jpg";
     }
 
     else if (selectedPlayer === "15") {
@@ -313,7 +313,7 @@ function displayPlayerInfo() {
         playerImage.src = "/NHL/hockey_img/players/quick.jpg";
     }
     // 2024-2025
-else if (selectedPlayer === "30") {
+    else if (selectedPlayer === "30") {
         title.innerHTML = "NHL BEST PLAYERS<br>SINCE 2005 #6";
         nation.textContent = "Canada";
         club.textContent = "Edmonton Oilers";
@@ -359,138 +359,140 @@ else if (selectedPlayer === "30") {
     }
 
     else if (selectedPlayer === "35") {
-        title.innerHTML = "TOP NHL POINTERS<BR>IN 2024-25";
+        title.innerHTML = "NHL BEST PLAYERS<BR>IN 2024-2025 #2";
         nation.textContent = "Russia";
         club.textContent = "Tampa Bay Lightning";
         position.textContent = "Right Wing";
-        stats.innerHTML = "MVP-Level Scorer - 100+ Points";
+        stats.innerHTML = "6th";
         playerImage.src = "/NHL/hockey_img/players/kucherov.jpg";
     }
 
     else if (selectedPlayer === "36") {
-        title.innerHTML = "TOP NHL POINTERS<BR>IN 2024-25";
+        title.innerHTML = "NHL BEST PLAYERS<BR>IN 2024-2025 #2";
         nation.textContent = "Czech Republic";
         club.textContent = "Boston Bruins";
         position.textContent = "Right Wing";
-        stats.innerHTML = "Sniper - Consistent 40+ Goals";
+        stats.innerHTML = "7th";
         playerImage.src = "/NHL/hockey_img/players/pastrnak.jpg";
     }
 
     else if (selectedPlayer === "37") {
-        title.innerHTML = "TOP NHL POINTERS<BR>IN 2024-25";
+        title.innerHTML = "NHL BEST PLAYERS<BR>IN 2024-2025 #2";
         nation.textContent = "Russia";
         club.textContent = "New York Rangers";
         position.textContent = "Left Wing";
-        stats.innerHTML = "Playmaker - Point Per Game Machine";
+        stats.innerHTML = "8th";
         playerImage.src = "/NHL/hockey_img/players/panarin.jpg";
     }
 
     else if (selectedPlayer === "38") {
-        title.innerHTML = "TOP NHL POINTERS<BR>IN 2024-25";
+        title.innerHTML = "NHL BEST PLAYERS<BR>IN 2024-2025 #2";
         nation.textContent = "USA";
         club.textContent = "Florida Panthers";
         position.textContent = "Left Wing";
-        stats.innerHTML = "Power Forward - Intensity + Skill";
-        playerImage.src = "/NHL/hockey_img/players/tkachuk.jpg";
+        stats.innerHTML = "9th";
+        playerImage.src = "/NHL/hockey_img/players/m tkachuk.jpg";
     }
 
     else if (selectedPlayer === "39") {
-        title.innerHTML = "TOP NHL POINTERS<BR>IN 2024-25";
+        title.innerHTML = "NHL BEST PLAYERS<BR>IN 2024-2025 #2";
         nation.textContent = "USA";
         club.textContent = "Vancouver Canucks";
         position.textContent = "Defenseman";
-        stats.innerHTML = "Skating & Vision - 2024 Norris Contender";
-        playerImage.src = "/NHL/hockey_img/players/hughes.jpg";
+        stats.innerHTML = "10th";
+        playerImage.src = "/NHL/hockey_img/players/q hughes.jpg";
     }
 
     else if (selectedPlayer === "40") {
-        title.innerHTML = "TOP NHL POINTERS<BR>IN 2024-25";
+        document.querySelector("select").style.fontSize = "19.5px"
+        title.innerHTML = "NHL BEST PLAYERS<BR>IN 2024-2025 #3";
         nation.textContent = "Finland";
         club.textContent = "Florida Panthers";
         position.textContent = "Center";
-        stats.innerHTML = "Two-Way Star - Panthers Captain";
+        stats.innerHTML = "11th";
         playerImage.src = "/NHL/hockey_img/players/barkov.jpg";
     }
 
     else if (selectedPlayer === "41") {
-        title.innerHTML = "TOP NHL POINTERS<BR>IN 2024-25";
+        title.innerHTML = "NHL BEST PLAYERS<BR>IN 2024-2025 #3";
         nation.textContent = "Canada";
         club.textContent = "Pittsburgh Penguins";
         position.textContent = "Center";
-        stats.innerHTML = "3x Cup Champion - NHL Legend";
+        stats.innerHTML = "12th";
         playerImage.src = "/NHL/hockey_img/players/crosby.jpg";
     }
 
     else if (selectedPlayer === "42") {
-        title.innerHTML = "TOP NHL POINTERS<BR>IN 2024-25";
+        document.querySelector("select").style.fontSize = "19.5px"
+        title.innerHTML = "NHL BEST PLAYERS<BR>IN 2024-2025 #3";
         nation.textContent = "USA";
         club.textContent = "Winnipeg Jets";
         position.textContent = "Goaltender";
-        stats.innerHTML = "Vezina Winner - Backbone of the Jets";
+        stats.innerHTML = "13th";
         playerImage.src = "/NHL/hockey_img/players/hellebuyck.jpg";
     }
 
     else if (selectedPlayer === "43") {
-        title.innerHTML = "TOP NHL POINTERS<BR>IN 2024-25";
+        title.innerHTML = "NHL BEST PLAYERS<BR>IN 2024-2025 #3";
         nation.textContent = "Russia";
         club.textContent = "Washington Capitals";
         position.textContent = "Left Wing";
-        stats.innerHTML = "800+ Goals - 2nd All-Time Scorer";
+        stats.innerHTML = "14th";
         playerImage.src = "/NHL/hockey_img/players/ovechkin.jpg";
     }
 
     else if (selectedPlayer === "44") {
-        title.innerHTML = "TOP NHL POINTERS<BR>IN 2024-25";
+        title.innerHTML = "NHL BEST PLAYERS<BR>IN 2024-2025 #3";
         nation.textContent = "USA";
         club.textContent = "Vegas Golden Knights";
         position.textContent = "Center";
-        stats.innerHTML = "Clutch Performer - Cup Champion";
+        stats.innerHTML = "15th";
         playerImage.src = "/NHL/hockey_img/players/eichel.jpg";
     }
 
     else if (selectedPlayer === "45") {
-        title.innerHTML = "TOP NHL POINTERS<BR>IN 2024-25";
+        title.innerHTML = "NHL BEST PLAYERS<BR>IN 2024-2025 #4";
         nation.textContent = "Finland";
-        club.textContent = "Colorado Avalanche";
+        club.textContent = "Dallas Stars";
         position.textContent = "Right Wing";
-        stats.innerHTML = "Size + Skill - 90+ Points";
+        stats.innerHTML = "16th";
         playerImage.src = "/NHL/hockey_img/players/rantanen.jpg";
     }
 
     else if (selectedPlayer === "46") {
-        title.innerHTML = "TOP NHL POINTERS<BR>IN 2024-25";
+        title.innerHTML = "NHL BEST PLAYERS<BR>IN 2024-2025 #4";
         nation.textContent = "Russia";
         club.textContent = "Minnesota Wild";
         position.textContent = "Left Wing";
-        stats.innerHTML = "Creative, Electric, Must-Watch";
+        stats.innerHTML = "17th";
         playerImage.src = "/NHL/hockey_img/players/kaprizov.jpg";
     }
 
     else if (selectedPlayer === "47") {
-        title.innerHTML = "TOP NHL POINTERS<BR>IN 2024-25";
+        title.innerHTML = "NHL BEST PLAYERS<BR>IN 2024-2025 #4";
         nation.textContent = "Canada";
         club.textContent = "Toronto Maple Leafs";
         position.textContent = "Right Wing";
-        stats.innerHTML = "Smart & Slick - Point Per Game Guy";
+        stats.innerHTML = "18th";
         playerImage.src = "/NHL/hockey_img/players/marner.jpg";
     }
 
     else if (selectedPlayer === "48") {
-        title.innerHTML = "TOP NHL POINTERS<BR>IN 2024-25";
+        title.innerHTML = "NHL BEST PLAYERS<BR>IN 2024-2025 #4";
         nation.textContent = "Switzerland";
         club.textContent = "Nashville Predators";
         position.textContent = "Defenseman";
-        stats.innerHTML = "Offensive D-man - Norris Trophy Winner";
+        stats.innerHTML = "19th";
         playerImage.src = "/NHL/hockey_img/players/josi.jpg";
     }
 
     else if (selectedPlayer === "49") {
-        title.innerHTML = "TOP NHL POINTERS<BR>IN 2024-25";
+        title.innerHTML = "NHL BEST PLAYERS<BR>IN 2024-2025 #4";
         nation.textContent = "USA";
         club.textContent = "Winnipeg Jets";
         position.textContent = "Left Wing";
-        stats.innerHTML = "Fast & Accurate - Top Sniper";
-        playerImage.src = "/NHL/hockey_img/players/kconnor.jpg";
+        stats.innerHTML = "20th";
+        playerImage.src = "/NHL/hockey_img/players/k connor.jpg";
     }
 
     else if (selectedPlayer === "50") {
@@ -546,7 +548,7 @@ else if (selectedPlayer === "30") {
         stats.innerHTML = "26th";
         playerImage.src = "/NHL/hockey_img/players/point.jpg";
     }
-        
+
     else if (selectedPlayer === "56") {
         title.innerHTML = "NHL BEST PLAYERS<BR>IN 2024-2025 #6";
         nation.textContent = "Russia";
@@ -583,7 +585,7 @@ else if (selectedPlayer === "30") {
         playerImage.src = "/NHL/hockey_img/players/nylander.jpg";
     }
     // in 2030
-else if (selectedPlayer === "60") {
+    else if (selectedPlayer === "60") {
         title.innerHTML = "TOP NHL POINTERS<BR>IN 2030";
         nation.textContent = "Canada";
         club.textContent = "Edmonton Oilers";
@@ -629,137 +631,137 @@ else if (selectedPlayer === "60") {
     }
 
     else if (selectedPlayer === "65") {
-        title.innerHTML = "TOP NHL POINTERS<BR>IN 2030";
+        title.innerHTML = "NHL BEST PLAYERS<BR>IN 2030 #2";
         nation.textContent = "Germany";
         club.textContent = "Edmonton Oilers";
         position.textContent = "Center";
-        stats.innerHTML = "Powerful Scorer - Elite Vision";
+        stats.innerHTML = "6th";
         playerImage.src = "/NHL/hockey_img/players/draisaitl.jpg";
     }
 
     else if (selectedPlayer === "66") {
-        title.innerHTML = "TOP NHL POINTERS<BR>IN 2030";
+        title.innerHTML = "NHL BEST PLAYERS<BR>IN 2030 #2";
         nation.textContent = "USA";
         club.textContent = "New Jersey Devils";
         position.textContent = "Center";
-        stats.innerHTML = "Breakout Speed & Control";
-        playerImage.src = "/NHL/hockey_img/players/jhughes.jpg";
+        stats.innerHTML = "7th";
+        playerImage.src = "/NHL/hockey_img/players/j hughes.jpg";
     }
 
     else if (selectedPlayer === "67") {
-        title.innerHTML = "TOP NHL POINTERS<BR>IN 2030";
+        title.innerHTML = "NHL BEST PLAYERS<BR>IN 2030 #2";
         nation.textContent = "Russia";
         club.textContent = "Minnesota Wild";
         position.textContent = "Left Wing";
-        stats.innerHTML = "Playmaker - Creative Force";
+        stats.innerHTML = "8th";
         playerImage.src = "/NHL/hockey_img/players/kaprizov.jpg";
     }
 
     else if (selectedPlayer === "68") {
-        title.innerHTML = "TOP NHL POINTERS<BR>IN 2030";
+        title.innerHTML = "NHL BEST PLAYERS<BR>IN 2030 #2";
         nation.textContent = "USA";
         club.textContent = "Vancouver Canucks";
         position.textContent = "Defenseman";
-        stats.innerHTML = "Norris Winner - Dynamic Skater";
-        playerImage.src = "/NHL/hockey_img/players/qhughes.jpg";
+        stats.innerHTML ="9th";
+        playerImage.src = "/NHL/hockey_img/players/q hughes.jpg";
     }
 
     else if (selectedPlayer === "69") {
-        title.innerHTML = "TOP NHL POINTERS<BR>IN 2030";
+        title.innerHTML = "NHL BEST PLAYERS<BR>IN 2030 #2";
         nation.textContent = "Sweden";
         club.textContent = "Vancouver Canucks";
         position.textContent = "Center";
-        stats.innerHTML = "Offensive Leader - 2-Way Beast";
+        stats.innerHTML = "10th";
         playerImage.src = "/NHL/hockey_img/players/pettersson.jpg";
     }
 
     else if (selectedPlayer === "70") {
-        title.innerHTML = "TOP NHL POINTERS<BR>IN 2030";
+        title.innerHTML = "BEST NHL PLAYERS<BR>IN 2030 #3";
         nation.textContent = "USA";
         club.textContent = "New York Rangers";
         position.textContent = "Defenseman";
-        stats.innerHTML = "Steady D-core - Smart Plays";
-        playerImage.src = "/NHL/hockey_img/players/fox.jpg";
+        stats.innerHTML = "11th";
+        playerImage.src = "/NHL/hockey_img/players/a fox.jpg";
     }
 
     else if (selectedPlayer === "71") {
-        title.innerHTML = "TOP NHL POINTERS<BR>IN 2030";
+        title.innerHTML = "BEST NHL PLAYERS<BR>IN 2030 #3";
         nation.textContent = "Finland";
-        club.textContent = "Colorado Avalanche";
+        club.textContent = "Dallas Stars";
         position.textContent = "Right Wing";
-        stats.innerHTML = "Big Frame - Clean Finish";
+        stats.innerHTML = "12th";
         playerImage.src = "/NHL/hockey_img/players/rantanen.jpg";
     }
 
     else if (selectedPlayer === "72") {
-        title.innerHTML = "TOP NHL POINTERS<BR>IN 2030";
+        title.innerHTML = "BEST NHL PLAYERS<BR>IN 2030 #3";
         nation.textContent = "Czech Republic";
         club.textContent = "Boston Bruins";
         position.textContent = "Right Wing";
-        stats.innerHTML = "Elite Accuracy - Consistent Goals";
+        stats.innerHTML = "13th";
         playerImage.src = "/NHL/hockey_img/players/pastrnak.jpg";
     }
 
     else if (selectedPlayer === "73") {
-        title.innerHTML = "TOP NHL POINTERS<BR>IN 2030";
+        title.innerHTML = "BEST NHL PLAYERS<BR>IN 2030 #3";
         nation.textContent = "Russia";
         club.textContent = "New York Rangers";
         position.textContent = "Goaltender";
-        stats.innerHTML = "Sharp Reflexes - Calm Presence";
+        stats.innerHTML = "14th";
         playerImage.src = "/NHL/hockey_img/players/shesterkin.jpg";
     }
 
     else if (selectedPlayer === "74") {
-        title.innerHTML = "TOP NHL POINTERS<BR>IN 2030";
+        title.innerHTML = "BEST NHL PLAYERS<BR>IN 2030 #3";
         nation.textContent = "USA";
         club.textContent = "Anaheim Ducks";
         position.textContent = "Center";
-        stats.innerHTML = "Stylish Dangles - NHL Showman";
+        stats.innerHTML = "15th";
         playerImage.src = "/NHL/hockey_img/players/zegras.jpg";
     }
 
     else if (selectedPlayer === "75") {
-        title.innerHTML = "TOP NHL POINTERS<BR>IN 2030";
+        title.innerHTML = "BEST NHL PLAYERS<BR>IN 2030 #4";
         nation.textContent = "Canada";
         club.textContent = "Montreal Canadiens";
         position.textContent = "Center";
-        stats.innerHTML = "Young Captain - Solid 2-Way Play";
+        stats.innerHTML = "16th";
         playerImage.src = "/NHL/hockey_img/players/suzuki.jpg";
     }
 
     else if (selectedPlayer === "76") {
-        title.innerHTML = "TOP NHL POINTERS<BR>IN 2030";
+        title.innerHTML = "BEST NHL PLAYERS<BR>IN 2030 #4";
         nation.textContent = "USA";
         club.textContent = "Ottawa Senators";
         position.textContent = "Left Wing";
-        stats.innerHTML = "Aggressive + Goal-Getter";
-        playerImage.src = "/NHL/hockey_img/players/btkachuk.jpg";
+        stats.innerHTML = "17th";
+        playerImage.src = "/NHL/hockey_img/players/b tkachuk.jpg";
     }
 
     else if (selectedPlayer === "77") {
-        title.innerHTML = "TOP NHL POINTERS<BR>IN 2030";
+        title.innerHTML = "BEST NHL PLAYERS<BR>IN 2030 #4";
         nation.textContent = "Finland";
         club.textContent = "Carolina Hurricanes";
         position.textContent = "Center";
-        stats.innerHTML = "Creative Playmaker - All Situations";
-        playerImage.src = "/NHL/hockey_img/players/aho.jpg";
+        stats.innerHTML = "18th";
+        playerImage.src = "/NHL/hockey_img/players/s aho.jpg";
     }
 
     else if (selectedPlayer === "78") {
-        title.innerHTML = "TOP NHL POINTERS<BR>IN 2030";
+        title.innerHTML = "BEST NHL PLAYERS<BR>IN 2030 #4";
         nation.textContent = "USA";
         club.textContent = "Dallas Stars";
         position.textContent = "Left Wing";
-        stats.innerHTML = "Rising Star - Big Goals in Big Games";
+        stats.innerHTML = "19th";
         playerImage.src = "/NHL/hockey_img/players/robertson.jpg";
     }
 
     else if (selectedPlayer === "79") {
-        title.innerHTML = "TOP NHL POINTERS<BR>IN 2030";
+        title.innerHTML = "BEST NHL PLAYERS<BR>IN 2030 #4";
         nation.textContent = "USA";
         club.textContent = "Montreal Canadiens";
         position.textContent = "Right Wing";
-        stats.innerHTML = "Small Frame, Huge Shot";
+        stats.innerHTML = "20th";
         playerImage.src = "/NHL/hockey_img/players/caufield.jpg";
     }
 

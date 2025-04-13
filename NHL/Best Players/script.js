@@ -408,6 +408,122 @@ function updatePlayerInfo() {
         FR.style.left = "805px"
     }
 
+    if (selectedPlayer === "12") {
+
+        title.innerHTML = "<br>NHL BEST POINTERS #2"
+
+        FL.textContent = "Kaprizov";
+        FC.textContent = "Reinhart";
+        FR.textContent = "Nylander";
+        DL.textContent = "Dobson";
+        DR.textContent = "Morrissey";
+        G.textContent = "Daccord";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+        
+        FL3.textContent = "96 PTS";
+        FC3.textContent = "94 PTS";
+        FR3.textContent = "98 PTS";
+        DL3.textContent = "70 PTS";
+        DR3.textContent = "69 PTS";
+        G3.textContent = "SAVES: 91.6%"
+
+        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        FR.style.left ="830px"
+    }
+
+    if (selectedPlayer === "13") {
+
+        title.innerHTML = "<br>NHL BEST POINTERS #2"
+
+        FL.textContent = "JT Miller";
+        FC.textContent = "Draisaitl";
+        FR.textContent = "Rantanen";
+        DL.textContent = "Hedman";
+        DR.textContent = "A Fox";
+        G.textContent = "Swayman";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        FL3.textContent = "103 PTS";
+        FC3.textContent = "106 PTS";
+        FR3.textContent = "104 PTS";
+        DL3.textContent = "76 PTS";
+        DR3.textContent = "73 PTS";
+        G3.textContent = "SAVES: 91.6%"
+
+        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        FR.style.left = "825px"
+    }
+
+    if (selectedPlayer === "14") {
+
+        title.innerHTML = "<br>NHL BEST POINTERS #1"
+
+        FL.textContent = "Panarin";
+        FC.textContent = "Matthews";
+        FR.textContent = "Pastrnak";
+        DL.textContent = "Josi";
+        DR.textContent = "Bouchard";
+        G.textContent = "Demko";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        FL3.textContent = "120 PTS";
+        FC3.textContent = "107 PTS";
+        FR3.textContent = "110 PTS";
+        DL3.textContent = "85 PTS";
+        DR3.textContent = "82 PTS";
+        G3.textContent = "SAVES: 92.8%"
+
+        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        FR.style.left = "840px"
+    }
+
+    if (selectedPlayer === "15") {
+
+        title.innerHTML = "<br>NHL BEST POINTERS #1"
+
+        FL.textContent = "MacKinnon";
+        FC.textContent = "McDavid";
+        FR.textContent = "Kucherov";
+        DL.textContent = "Q Hughes";
+        DR.textContent = "Makar";
+        G.textContent = "Hellebuyck";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        FL3.textContent = "140 PTS";
+        FC3.textContent = "132 PTS";
+        FR3.textContent = "144 PTS";
+        DL3.textContent = "92 PTS";
+        DR3.textContent = "90 PTS";
+        G3.textContent = "SAVES: 92.1%"
+
+        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        FR.style.left = "830px"
+    }
+
     if (selectedPlayer === "300") {
 
         title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25"
@@ -427,6 +543,7 @@ function updatePlayerInfo() {
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
         sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        FR.style.left = "850px"
     }
 
     if (selectedPlayer === "300") {
@@ -448,6 +565,7 @@ function updatePlayerInfo() {
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
         sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        FR.style.left = "850px"
     }
     // document.querySelector(".short").style.background = "linear-gradient(-45deg, grey 30%, dodgerblue 70%)";
 }
@@ -466,7 +584,7 @@ const xPositionDisplay = document.getElementById('x-position');
 // Track mouse movement on the entire document
 container.addEventListener('mousemove', (event) => {
     const x = event.clientX; // Get the X-coordinate relative to the viewport
-    xPositionDisplay.innerHTML = `left: ${x-200}px`;
+    xPositionDisplay.innerHTML = `left: ${x - 200}px`;
 });
 
 // Clear the X display when the mouse leaves the window (optional)
