@@ -2058,14 +2058,14 @@ function updatePlayerInfo() {
 
     if (selectedYear === "70") {
 
-        title.innerHTML = "DREAM TEAM"
+        title.innerHTML = "<br>DREAM TEAM"
         document.querySelector("select").style.fontSize = "29px";
 
-        PG.textContent = "";
-        SG.textContent = "";
-        SF.textContent = "";
-        PF.textContent = "";
-        C.textContent = "";
+        PG.textContent = "L Doncic";
+        SG.textContent = "D Wade";
+        SF.textContent = "G Antetoko.";
+        PF.textContent = "A Davis";
+        C.textContent = "J Embiid";
 
         PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
@@ -2075,20 +2075,20 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NBA/basket_img/logos/nba.gif";
         C.style.left = "46.5%";
-        SF.style.left = "56.5%"
+        SF.style.left = "53.5%"
         sidepic.style.border = "3px solid black"
     }
 
         if (selectedYear === "71") {
 
-        title.innerHTML = "DREAM TEAM"
+        title.innerHTML = "<br>DREAM TEAM"
         document.querySelector("select").style.fontSize = "29px";
 
-        PG.textContent = "";
-        SG.textContent = "";
-        SF.textContent = "";
-        PF.textContent = "";
-        C.textContent = "";
+        PG.textContent = "S Curry";
+        SG.textContent = "K Bryant";
+        SF.textContent = "L James";
+        PF.textContent = "K Durant";
+        C.textContent = "N Jokic";
 
         PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
@@ -2104,7 +2104,76 @@ function updatePlayerInfo() {
 
     if (selectedYear === "72") {
 
-        title.innerHTML = "DREAM TEAM"
+        title.innerHTML = "<br>DREAM TEAM"
+        document.querySelector("select").style.fontSize = "29px";
+
+        PG.textContent = "S Curry";
+        SG.textContent = "A Edwards";
+        SF.textContent = "L James";
+        PF.textContent = "K Durant";
+        C.textContent = "V Wemban.";
+
+        PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
+        SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
+        SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
+        PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        sidepic.src = "/NBA/basket_img/logos/nba.gif";
+        C.style.left = "44.5%";
+        SF.style.left = "56.5%"
+        sidepic.style.border = "3px solid black"
+    }
+
+    if (selectedYear === "73") {
+
+        title.innerHTML = "<br>DREAM TEAM"
+        document.querySelector("select").style.fontSize = "29px";
+
+        PG.textContent = "S Gilgeous-A";
+        SG.textContent ="L Doncic";
+        SF.textContent = "J Tatum";
+        PF.textContent = "G Antetoko.";
+        C.textContent = "N Jokic";
+
+        PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
+        SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
+        SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
+        PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        sidepic.src = "/NBA/basket_img/logos/nba.gif";
+        C.style.left = "46.5%";
+        SF.style.left = "56.5%"
+        sidepic.style.border = "3px solid black"
+    }
+
+    if (selectedYear === "74") {
+
+        title.innerHTML = "<br>DREAM TEAM"
+        document.querySelector("select").style.fontSize = "29px";
+
+        PG.textContent = "";
+        SG.textContent = "";
+        SF.textContent = "";
+        PF.textContent = "";
+        C.textContent = "";
+
+        PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
+        SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
+        SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
+        PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        sidepic.src = "/NBA/basket_img/logos/nba.gif";
+        C.style.left = "46.5%";
+        SF.style.left = "56.5%"
+        sidepic.style.border = "3px solid black"
+    }
+
+    if (selectedYear === "75") {
+
+        title.innerHTML = "<br>DREAM TEAM"
         document.querySelector("select").style.fontSize = "29px";
 
         PG.textContent = "";
@@ -2205,8 +2274,8 @@ document.addEventListener('mouseleave', () => {
     xPositionDisplay.innerHTML = "";
 });
 
-PG3.textContent = " PTS";
-SG3.textContent = " PTS";
-SF3.textContent = " PTS";
-PF3.textContent = " PTS";
-C3.textContent = " PTS";
+// PG3.textContent = " PTS";
+// SG3.textContent = " PTS";
+// SF3.textContent = " PTS";
+// PF3.textContent = " PTS";
+// C3.textContent = " PTS";

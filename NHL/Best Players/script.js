@@ -528,12 +528,12 @@ function updatePlayerInfo() {
 
         title.innerHTML = "DREAM TEAM"
 
-        FL.textContent = "";
-        FC.textContent = "";
-        FR.textContent = "";
-        DL.textContent = "";
-        DR.textContent = "";
-        G.textContent = "";
+        FL.textContent = "Draisaitl";
+        FC.textContent = "MacKinnon";
+        FR.textContent = "Kucherov";
+        DL.textContent = "Hedman";
+        DR.textContent = "E Karlsson";
+        G.textContent = "Lundqvist";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -544,18 +544,19 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NHL/hockey_img/logos/nhl.png";
         FR.style.left = "850px"
+        FC.style.left = "660px"
     }
 
     if (selectedPlayer === "17") {
 
         title.innerHTML = "DREAM TEAM"
 
-        FL.textContent = "";
-        FC.textContent = "";
-        FR.textContent = "";
-        DL.textContent = "";
-        DR.textContent = "";
-        G.textContent = "";
+        FL.textContent = "Ovechkin";
+        FC.textContent = "McDavid";
+        FR.textContent = "Crosby";
+        DL.textContent = "Chara";
+        DR.textContent = "Makar";
+        G.textContent = "Price";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -572,12 +573,78 @@ function updatePlayerInfo() {
 
         title.innerHTML = "DREAM TEAM"
 
-        FL.textContent = "";
-        FC.textContent = "";
-        FR.textContent = "";
-        DL.textContent = "";
-        DR.textContent = "";
-        G.textContent = "";
+        FL.textContent = "Matthews";
+        FC.textContent = "Draisaitl";
+        FR.textContent = "Pastrnak";
+        DL.textContent = "Josi";
+        DR.textContent = "A Fox";
+        G.textContent = "Shesterkin";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        FR.style.left = "850px"
+    }
+
+    if (selectedPlayer === "19") {
+
+        title.innerHTML = "DREAM TEAM"
+
+        FL.textContent = "MacKinnon";
+        FC.textContent = "McDavid";
+        FR.textContent = "Kucherov";
+        DL.textContent = "Makar";
+        DR.textContent = "Q Hughes";
+        G.textContent = "Hellebuyck";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        FR.style.left = "850px"
+    }
+
+    if (selectedPlayer === "20") {
+
+        title.innerHTML = "DREAM TEAM"
+
+        FL.textContent = "Kaprizov";
+        FC.textContent = "Draisaitl";
+        FR.textContent = "J Hughes";
+        DL.textContent = "Hutson";
+        DR.textContent = "Seider";
+        G.textContent = "Oettinger";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        FR.style.left = "850px"
+    }
+
+    if (selectedPlayer === "21") {
+
+        title.innerHTML = "DREAM TEAM"
+
+        FL.textContent = "MacKinnon";
+        FC.textContent = "McDavid";
+        FR.textContent = "Bedard";
+        DL.textContent = "Makar";
+        DR.textContent = "Q Hughes";
+        G.textContent = "Shesterkin";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
