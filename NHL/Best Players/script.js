@@ -528,8 +528,8 @@ function updatePlayerInfo() {
 
         title.innerHTML = "DREAM TEAM"
 
-        FL.textContent = "Draisaitl";
-        FC.textContent = "MacKinnon";
+        FL.textContent = "MacKinnon";
+        FC.textContent = "Draisaitl";
         FR.textContent = "Kucherov";
         DL.textContent = "Hedman";
         DR.textContent = "E Karlsson";
@@ -544,7 +544,7 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NHL/hockey_img/logos/nhl.png";
         FR.style.left = "850px"
-        FC.style.left = "660px"
+        FL.style.left = "490px"
     }
 
     if (selectedPlayer === "17") {
@@ -611,6 +611,7 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NHL/hockey_img/logos/nhl.png";
         FR.style.left = "850px"
+        FL.style.left = "490px"
     }
 
     if (selectedPlayer === "20") {
@@ -654,6 +655,153 @@ function updatePlayerInfo() {
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
         sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        FR.style.left = "850px"
+        FL.style.left = "490px"
+    }
+
+    if (selectedPlayer === "22") {
+
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25"
+
+        FL.textContent = "K Connor";
+        FC.textContent = "Scheifele";
+        FR.textContent = "Ehlers";
+        DL.textContent = "Morrissey";
+        DR.textContent = "Pionk";
+        G.textContent = "Hellebuyck";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        sidepic.src = "/NHL/hockey_img/logos/winnipeg.gif";
+        FR.style.left = "850px"
+        sidepic.style.borderRadius = "20px"
+        sidepic.style.border = "3px solid black"
+    }
+
+    if (selectedPlayer === "23") {
+
+        title.innerHTML = "NHL BEST PLAYERS<br>2005 to 2025"
+
+        FL.textContent = "Kovalchuk";
+        FC.textContent = "Scheifele";
+        FR.textContent = "Wheeler";
+        DL.textContent = "Byfuglien";
+        DR.textContent = "Morrissey";
+        G.textContent = "Hellebuyck";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        sidepic.src = "/NHL/hockey_img/logos/winnipeg.gif";
+        sidepic.style.borderRadius = "20px"
+        sidepic.style.border = "3px solid black"
+        FR.style.left = "850px"
+    }
+
+    if (selectedPlayer === "24") {
+
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25"
+
+        FL.textContent = "B Tkachuk";
+        FC.textContent = "Stutzle";
+        FR.textContent = "Batherson";
+        DL.textContent = "Sanderson";
+        DR.textContent = "Chabot";
+        G.textContent = "Ullmark";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        sidepic.src = "/NHL/hockey_img/logos/ottawa.gif";
+        sidepic.style.borderRadius = "20px"
+        sidepic.style.border = "3px solid black"
+        FR.style.left = "820px"
+    }
+
+    if (selectedPlayer === "25") {
+
+        title.innerHTML = "NHL BEST PLAYERS<br>2005 to 2025"
+
+        FL.textContent = "Heatley";
+        FC.textContent = "Spezza";
+        FR.textContent = "Alfredsson";
+        DL.textContent = "E Karlsson";
+        DR.textContent = "Redden";
+        G.textContent = "C Anderson";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        sidepic.src = "/NHL/hockey_img/logos/ottawa.gif";
+        sidepic.style.borderRadius = "20px"
+        sidepic.style.border = "3px solid black"
+        FR.style.left = "850px"
+    }
+
+    if (selectedPlayer === "26") {
+
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25"
+
+        FL.textContent = "Peterka";
+        FC.textContent = "T Thompson";
+        FR.textContent = "Tuch";
+        DL.textContent = "Dahlin";
+        DR.textContent = "Byram";
+        G.textContent = "Luukkonen";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        sidepic.src = "/NHL/hockey_img/logos/buffalo.gif";
+        sidepic.style.borderRadius = "20px"
+        sidepic.style.border = "3px solid black"
+        FR.style.left = "850px";
+        FC.style.left = "650px";
+    }
+
+    if (selectedPlayer === "27") {
+
+        title.innerHTML = "NHL BEST PLAYERS<br>2005 to 2025"
+
+        FL.textContent = "Vanek";
+        FC.textContent = "Eichel";
+        FR.textContent = "Pominville";
+        DL.textContent = "Dahlin";
+        DR.textContent = "B Campbell";
+        G.textContent = "R Miller";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        sidepic.src = "/NHL/hockey_img/logos/buffalo.gif";
+        sidepic.style.borderRadius = "20px"
+        sidepic.style.border = "3px solid black"
         FR.style.left = "850px"
     }
 

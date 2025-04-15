@@ -60,7 +60,7 @@ function displayPlayerInfo() {
         position.textContent = "Right Winger";
         stats.innerHTML = "1st - 27 Goals ";
         playerImage.src = "/FIFA/football_img/players/salah.webp";
-    }  else if (selectedPlayer === "100") { // top fifa, nhl, nba 200combined5-2025
+    } else if (selectedPlayer === "100") { // top fifa, nhl, nba 200combined5-2025
         title.innerHTML = "TOP 10 FIFA, NHL, NBA<BR>COMBINED 2005 to 2025";
         nation.textContent = "Argentina";
         club.textContent = "Inter Miami";
@@ -68,8 +68,8 @@ function displayPlayerInfo() {
         stats.innerHTML = "1st";
         playerImage.src = "/FIFA/football_img/players/messi.webp";
         switchTheme("fifa");
-        document.querySelector(".short").style.background = " grey";     
-    }   else if (selectedPlayer === "200") {
+        document.querySelector(".short").style.background = " grey";
+    } else if (selectedPlayer === "200") {
         title.innerHTML = "TOP 10 FIFA, NHL, NBA<BR>COMBINED 2005 to 2025";
         nation.textContent = "USA";
         club.textContent = "Los Angeles Lakers";
@@ -77,8 +77,8 @@ function displayPlayerInfo() {
         stats.innerHTML = "2nd";
         playerImage.src = "/NBA/basket_img/players/l james.jpg";
         switchTheme("nba");
-        document.querySelector(".short").style.background = " grey";       
-    }  else if (selectedPlayer === "300") {
+        document.querySelector(".short").style.background = " grey";
+    } else if (selectedPlayer === "300") {
         title.innerHTML = "TOP 10 FIFA, NHL, NBA<BR>COMBINED 2005 to 2025";
         nation.textContent = "Canada";
         club.textContent = "Pittsburgh Penguins";
@@ -86,7 +86,7 @@ function displayPlayerInfo() {
         stats.innerHTML = "4th";
         playerImage.src = "/NHL/hockey_img/players/crosby.jpg";
         switchTheme("nhl");
-        document.querySelector(".short").style.background = " grey";        
+        document.querySelector(".short").style.background = " grey";
     } else if (selectedPlayer === "1") {
         title.innerHTML = "FIFA TOP ATTACKING<BR>MIDFIELDERS SINCE 2005";
         nation.textContent = "Germany";
@@ -131,18 +131,18 @@ function displayPlayerInfo() {
         playerImage.src = "/FIFA/football_img/players/casemiro.webp";
     } else if (selectedPlayer === "7") {
         title.innerHTML = "FIFA TOP 5 DEFENSIVE<BR>MIDFIELDERS SINCE 2005";
-        nation.textContent = "Ivory Coast";
-        club.textContent = "Manchester City";
-        position.textContent = "";
-        stats.innerHTML = "4th";
-        playerImage.src = "/FIFA/football_img/players/y toure.webp";
-    } else if (selectedPlayer === "8") {
-        title.innerHTML = "FIFA TOP 5 DEFENSIVE<BR>MIDFIELDERS SINCE 2005";
         nation.textContent = "Ghana";
         club.textContent = "Chelsea";
         position.textContent = "";
-        stats.innerHTML = "3rd";
+        stats.innerHTML = "4th";
         playerImage.src = "/FIFA/football_img/players/essien.webp";
+    } else if (selectedPlayer === "8") {
+        title.innerHTML = "FIFA TOP 5 DEFENSIVE<BR>MIDFIELDERS SINCE 2005";
+        nation.textContent = "Ivory Coast";
+        club.textContent = "Manchester City";
+        position.textContent = "";
+        stats.innerHTML = "3rd";
+        playerImage.src = "/FIFA/football_img/players/y toure.webp";
     } else if (selectedPlayer === "9") {
         title.innerHTML = "FIFA TOP 5 DEFENSIVE<BR>MIDFIELDERS SINCE 2005";
         nation.textContent = "Spain";
@@ -159,27 +159,27 @@ function displayPlayerInfo() {
         playerImage.src = "/FIFA/football_img/players/kante.webp";
     } else if (selectedPlayer === "11") {
         title.innerHTML = "FIFA TOP 5 RIGHT<BR>BACKS SINCE 2005";
+        nation.textContent = "Spain";
+        club.textContent = "Real Madrid";
+        position.textContent = "";
+        stats.innerHTML = "5th";
+        playerImage.src = "/FIFA/football_img/players/carvajal.webp";
+    } else if (selectedPlayer === "12") {
+        title.innerHTML = "FIFA TOP 5 RIGHT<BR>BACKS SINCE 2005";
         nation.textContent = "England";
         club.textContent = "AC Milan";
         position.textContent = "";
-        stats.innerHTML = "5th";
+        stats.innerHTML = "4th";
         playerImage.src = "/FIFA/football_img/players/walker.webp";
-    } else if (selectedPlayer === "12") {
+    } else if (selectedPlayer === "13") {
         document.querySelector("select").style.fontSize = "18.25px"
         title.innerHTML = "FIFA TOP 5 RIGHT<BR>BACKS SINCE 2005";
         nation.textContent = "England";
         club.textContent = "Liverpool";
         position.textContent = "";
-        stats.innerHTML = "4th";
-        playerImage.src = "/FIFA/football_img/players/alexander-a.webp";
-    } else if (selectedPlayer === "13") {
-        title.innerHTML = "FIFA TOP 5 RIGHT<BR>BACKS SINCE 2005";
-        nation.textContent = "Spain";
-        club.textContent = "Real Madrid";
-        position.textContent = "";
         stats.innerHTML = "3rd";
-        playerImage.src = "/FIFA/football_img/players/carvajal.webp";
-    } else if (selectedPlayer === "14") {
+        playerImage.src = "/FIFA/football_img/players/alexander-a.webp";
+    }  else if (selectedPlayer === "14") {
         title.innerHTML = "FIFA TOP 5 RIGHT<BR>BACKS SINCE 2005";
         nation.textContent = "Germany";
         club.textContent = "Bayern Munich";
@@ -209,22 +209,22 @@ function displayPlayerInfo() {
         playerImage.src = "/FIFA/football_img/players/evra.webp";
     } else if (selectedPlayer === "18") {
         title.innerHTML = "FIFA TOP 5 LEFT<BR>BACKS SINCE 2005";
-        nation.textContent = "Spain";
-        club.textContent = "Inter Miami";
-        position.textContent = ""
-        stats.innerHTML = "3rd";
-        playerImage.src = "/FIFA/football_img/players/alba.webp";
-    } else if (selectedPlayer === "19") {
-        title.innerHTML = "FIFA TOP 5 LEFT<BR>BACKS SINCE 2005";
         nation.textContent = "England";
         club.textContent = "Chelsea";
         position.textContent = ""
-        stats.innerHTML = "2nd";
+        stats.innerHTML = "3rd";
         playerImage.src = "/FIFA/football_img/players/a cole.webp";
+    } else if (selectedPlayer === "19") {
+        title.innerHTML = "FIFA TOP 5 LEFT<BR>BACKS SINCE 2005";
+        nation.textContent = "Spain";
+        club.textContent = "Inter Miami";
+        position.textContent = ""
+        stats.innerHTML = "2nd";
+        playerImage.src = "/FIFA/football_img/players/alba.webp";
     } else if (selectedPlayer === "20") {
         title.innerHTML = "FIFA TOP 5 LEFT<BR>BACKS SINCE 2005";
         nation.textContent = "Brazil";
-        club.textContent = "Fluminense";
+        club.textContent = "Real Madrid";
         position.textContent = ""
         stats.innerHTML = "1st";
         playerImage.src = "/FIFA/football_img/players/marcelo.webp";

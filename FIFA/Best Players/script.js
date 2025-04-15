@@ -730,7 +730,7 @@ function updatePlayerInfo() {
         Three_Def()
 
         sidepic.src = "/FIFA/football_img/logos/fifa.webp";
-        RB.style.left = "87%"
+        RB.style.left = "78%"
     }
 
     if (selectedTeam == "11") {
@@ -785,7 +785,8 @@ function updatePlayerInfo() {
         Three_Def()
 
         sidepic.src = "/FIFA/football_img/logos/fifa.webp";
-        RB.style.left = "87%"
+        RB.style.left = "85%"
+        LB.style.left = "-10px"
     }
 
     if (selectedTeam == "12") {
@@ -824,7 +825,7 @@ function updatePlayerInfo() {
         setPlayerImage(WR, WR2);
         // DM.textContent = "";
         // setPlayerImage(DM, DM2);
-        LB.textContent = "Lewis-Skelly";
+        LB.textContent = "Lewis-S";
         setPlayerImage(LB, LB2);
         LCB.textContent = "Scalvini";
         setPlayerImage(LCB, LCB2);
@@ -895,7 +896,238 @@ function updatePlayerInfo() {
         Three_Def()
 
         sidepic.src = "/FIFA/football_img/logos/fifa.webp";
+        RB.style.left = "78%"
+        LCM.style.left = "90px"
+        GK.style.left = "140px"
+    }
+
+    if (selectedTeam == "14") {
+
+        title.innerHTML = "FIFA BEST PLAYERS<BR>2005 to 2025"
+
+        STL.textContent = "";
+        setPlayerImage(STL, STL2);
+        STC.textContent = "Havertz";
+        setPlayerImage(STC, STC2);
+        STR.textContent = "";
+        setPlayerImage(STR, STR2);
+        LW.textContent = "Gnabry";
+        setPlayerImage(LW, LW2);
+        LF.textContent = "";
+        setPlayerImage(LF, LF2);
+        AMLC.textContent = "";
+        setPlayerImage(AMLC, AMLC2);
+        AMC.textContent = "Ozil";
+        setPlayerImage(AMC, AMC2);
+        AMRC.textContent = "";
+        setPlayerImage(AMRC, AMRC2);
+        RF.textContent = "";
+        setPlayerImage(RF, RF2);
+        RW.textContent = "Sane";
+        setPlayerImage(RW, RW2);
+        WL.textContent = "";
+        setPlayerImage(WL, WL2);
+        LCM.textContent = "E Can";
+        setPlayerImage(LCM, LCM2);
+        CM.textContent = "";
+        setPlayerImage(CM, CM2);
+        RCM.textContent = "Goretzka";
+        setPlayerImage(RCM, RCM2);
+        WR.textContent = "";
+        setPlayerImage(WR, WR2);
+        // DM.textContent = "";
+        // setPlayerImage(DM, DM2);
+        LB.textContent = "Gosens";
+        setPlayerImage(LB, LB2);
+        LCB.textContent = "Schlotterbeck";
+        setPlayerImage(LCB, LCB2);
+        CB.textContent = "";
+        setPlayerImage(CB, CB2);
+        RCB.textContent = "Mertesacker";
+        setPlayerImage(RCB, RCB2);
+        RB.textContent = "Boateng";
+        setPlayerImage(RB, RB2);
+        GK.textContent = "ter Stegen";
+        setPlayerImage(GK, GK2);
+        Three_Mid()
+        Three_Def()
+
+        sidepic.src = "/FIFA/football_img/logos/germany.webp";
         RB.style.left = "87%"
+        LCB.style.left = "60px"
+    }
+
+    if (selectedTeam == "15") {
+
+        title.innerHTML = "FIFA BEST PLAYERS<BR>2005 to 2025"
+
+        STL.textContent = "";
+        setPlayerImage(STL, STL2);
+        STC.textContent = "Muller";
+        setPlayerImage(STC, STC2);
+        STR.textContent = "";
+        setPlayerImage(STR, STR2);
+        LW.textContent = "";
+        setPlayerImage(LW, LW2);
+        LF.textContent = "Musiala";
+        setPlayerImage(LF, LF2);
+        AMLC.textContent = "";
+        setPlayerImage(AMLC, AMLC2);
+        AMC.textContent = "";
+        setPlayerImage(AMC, AMC2);
+        AMRC.textContent = "";
+        setPlayerImage(AMRC, AMRC2);
+        RF.textContent = "Wirtz";
+        setPlayerImage(RF, RF2);
+        RW.textContent = "";
+        setPlayerImage(RW, RW2);
+        WL.textContent = "";
+        setPlayerImage(WL, WL2);
+        LCM.textContent = "Gundogan";
+        setPlayerImage(LCM, LCM2);
+        CM.textContent = "Schwein.";
+        setPlayerImage(CM, CM2);
+        RCM.textContent = "Kroos";
+        setPlayerImage(RCM, RCM2);
+        WR.textContent = "";
+        setPlayerImage(WR, WR2);
+        // DM.textContent = "";
+        // setPlayerImage(DM, DM2);
+        LB.textContent = "Lahm";
+        setPlayerImage(LB, LB2);
+        LCB.textContent = "Hummels";
+        setPlayerImage(LCB, LCB2);
+        CB.textContent = "";
+        setPlayerImage(CB, CB2);
+        RCB.textContent = "Rudiger";
+        setPlayerImage(RCB, RCB2);
+        RB.textContent = "Kimmich";
+        setPlayerImage(RB, RB2);
+        GK.textContent = "Neuer";
+        setPlayerImage(GK, GK2);
+        Three_Mid()
+        Three_Def()
+
+        sidepic.src = "/FIFA/football_img/logos/germany.webp";
+        RB.style.left = "82%"
+        LCM.style.left = "37px"
+    }
+
+    if (selectedTeam == "16") {
+
+        title.innerHTML = "FIFA BEST PLAYERS<BR>2005 to 2025"
+
+        STL.textContent = "Higuain";
+        setPlayerImage(STL, STL2);
+        STC.textContent = "";
+        setPlayerImage(STC, STC2);
+        STR.textContent = "L Martinez";
+        setPlayerImage(STR, STR2);
+        LW.textContent = "";
+        setPlayerImage(LW, LW2);
+        LF.textContent = "";
+        setPlayerImage(LF, LF2);
+        AMLC.textContent = "";
+        setPlayerImage(AMLC, AMLC2);
+        AMC.textContent = "Dybala";
+        setPlayerImage(AMC, AMC2);
+        AMRC.textContent = "";
+        setPlayerImage(AMRC, AMRC2);
+        RF.textContent = "";
+        setPlayerImage(RF, RF2);
+        RW.textContent = "";
+        setPlayerImage(RW, RW2);
+        WL.textContent = "";
+        setPlayerImage(WL, WL2);
+        LCM.textContent = "Pastore";
+        setPlayerImage(LCM, LCM2);
+        CM.textContent = "Banega";
+        setPlayerImage(CM, CM2);
+        RCM.textContent = "Riquelme";
+        setPlayerImage(RCM, RCM2);
+        WR.textContent = "";
+        setPlayerImage(WR, WR2);
+        // DM.textContent = "";
+        // setPlayerImage(DM, DM2);
+        LB.textContent = "Tagliafico";
+        setPlayerImage(LB, LB2);
+        LCB.textContent = "Samuel";
+        setPlayerImage(LCB, LCB2);
+        CB.textContent = "";
+        setPlayerImage(CB, CB2);
+        RCB.textContent = "Li Martinez";
+        setPlayerImage(RCB, RCB2);
+        RB.textContent = "Zabaleta";
+        setPlayerImage(RB, RB2);
+        GK.textContent = "S Romero";
+        setPlayerImage(GK, GK2);
+        Three_Mid()
+        Three_Def()
+
+        sidepic.src = "/FIFA/football_img/logos/argentina.webp";
+        sidepic.style.left = "700px"
+        RB.style.left = "87%"
+        LB.style.left = "-15px"
+        LCM.style.left = "75px"
+        STL.style.left = "120px"
+    }
+
+    if (selectedTeam == "17") {
+
+        title.innerHTML = "FIFA BEST PLAYERS<BR>2005 to 2025"
+
+        STL.textContent = "";
+        setPlayerImage(STL, STL2);
+        STC.textContent = "Aguero";
+        setPlayerImage(STC, STC2);
+        STR.textContent = "";
+        setPlayerImage(STR, STR2);
+        LW.textContent = "Di Maria";
+        setPlayerImage(LW, LW2);
+        LF.textContent = "";
+        setPlayerImage(LF, LF2);
+        AMLC.textContent = "";
+        setPlayerImage(AMLC, AMLC2);
+        AMC.textContent = "Tevez";
+        setPlayerImage(AMC, AMC2);
+        AMRC.textContent = "";
+        setPlayerImage(AMRC, AMRC2);
+        RF.textContent = "";
+        setPlayerImage(RF, RF2);
+        RW.textContent = "Messi";
+        setPlayerImage(RW, RW2);
+        WL.textContent = "";
+        setPlayerImage(WL, WL2);
+        LCM.textContent = "Mascherano";
+        setPlayerImage(LCM, LCM2);
+        CM.textContent = "";
+        setPlayerImage(CM, CM2);
+        RCM.textContent = "De Paul";
+        setPlayerImage(RCM, RCM2);
+        WR.textContent = "";
+        setPlayerImage(WR, WR2);
+        // DM.textContent = "";
+        // setPlayerImage(DM, DM2);
+        LB.textContent = "Rojo";
+        setPlayerImage(LB, LB2);
+        LCB.textContent = "Otamendi";
+        setPlayerImage(LCB, LCB2);
+        CB.textContent = "";
+        setPlayerImage(CB, CB2);
+        RCB.textContent = "Ayala";
+        setPlayerImage(RCB, RCB2);
+        RB.textContent = "Zanetti";
+        setPlayerImage(RB, RB2);
+        GK.textContent = "E Martinez";
+        setPlayerImage(GK, GK2);
+        Three_Mid()
+        Three_Def()
+
+        sidepic.src = "/FIFA/football_img/logos/argentina.webp";
+        sidepic.style.left = "700px"
+        RB.style.left = "87%"
+        LCM.style.left = "80px"
+        LCB.style.left = "100px"
     }
 
     if (selectedTeam == "300") {

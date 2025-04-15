@@ -165,6 +165,46 @@ function displayPlayerInfo() {
         stats.innerHTML = "15th - 25.3 PPG";
         playerImage.src = "/NBA/basket_img/players/j harden.jpg";
     }
+    else if (selectedPlayer === "16") {
+        title.innerHTML = "NBA PLAYERS MOST<br>3 POINTS MADE IN 2024-25";
+        nation.textContent = "USA";
+        club.textContent = "Boston Celtics";
+        position.textContent = "PG, SG";
+        stats.innerHTML = "5th - 255 3PTS";
+        playerImage.src = "/NBA/basket_img/players/P pritchard.jpg";
+    }
+    else if (selectedPlayer === "17") {
+        title.innerHTML = "NBA PLAYERS MOST<br>3 POINTS MADE IN 2024-25";
+        nation.textContent = "USA";
+        club.textContent = "Boston Celtics";
+        position.textContent = "PG, SG";
+        stats.innerHTML = "4th - 265 3PTS";
+        playerImage.src = "/NBA/basket_img/players/d white.jpg";
+    }
+    else if (selectedPlayer === "18") {
+        title.innerHTML = "NBA PLAYERS MOST<br>3 POINTS MADE IN 2024-25";
+        nation.textContent = "USA";
+        club.textContent = "Golden State Warriors";
+        position.textContent = "PG, SG";
+        stats.innerHTML = "3rd - 311 3PTS";
+        playerImage.src = "/NBA/basket_img/players/s curry.jpg";
+    }
+    else if (selectedPlayer === "19") {
+        title.innerHTML = "NBA PLAYERS MOST<br>3 POINTS MADE IN 2024-25";
+        nation.textContent = "USA";
+        club.textContent = "Detroit Pistons";
+        position.textContent = "SG, SF";
+        stats.innerHTML = "2nd - 319 3PTS";
+        playerImage.src = "/NBA/basket_img/players/m beasley.jpg";
+    }
+    else if (selectedPlayer === "20") {
+        title.innerHTML = "NBA PLAYERS MOST<br>3 POINTS MADE IN 2024-25";
+        nation.textContent = "USA";
+        club.textContent = "Minnesota Timberwolves";
+        position.textContent = "SG, SF";
+        stats.innerHTML = "1st - 320 3PTS";
+        playerImage.src = "/NBA/basket_img/players/a edwards.jpg";
+    }
     // document.querySelector(".short").style.background = "linear-gradient(-45deg, grey 30%, darkorange 70%)";
 }
 
