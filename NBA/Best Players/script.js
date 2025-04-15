@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
 yearSelector.addEventListener("change", () => {
 
     title.innerHTML = " NBA BEST PLAYERS"
-    title.style.fontSize = "45px"
+    title.style.fontSize = "41px"
 
     PG.style.fontSize = "30px";
     SG.style.fontSize = "30px";
@@ -2263,11 +2263,11 @@ function updatePlayerInfo() {
         title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25"
         document.querySelector("select").style.fontSize = "29px";
 
-        PG.textContent = "";
-        SG.textContent = "";
-        SF.textContent = "";
-        PF.textContent = "";
-        C.textContent = "";
+        PG.textContent = "K George";
+        SG.textContent = "C Sexton";
+        SF.textContent = "L Markkanen";
+        PF.textContent = "J Collins";
+        C.textContent = "W Kessler";
 
         PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
@@ -2276,8 +2276,8 @@ function updatePlayerInfo() {
         C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
 
         sidepic.src = "/NBA/basket_img/logos/utah.gif";
-        C.style.left = "46.5%";
-        SF.style.left = "56.5%"
+        C.style.left = "45.75%";
+        SF.style.left = "53%"
         sidepic.style.border = "3px solid black"
     }
 
@@ -2286,11 +2286,11 @@ function updatePlayerInfo() {
         title.innerHTML = "NBA BEST PLAYERS<br>2005 to 2025"
         document.querySelector("select").style.fontSize = "29px";
 
-        PG.textContent = "";
-        SG.textContent = "";
-        SF.textContent = "";
-        PF.textContent = "";
-        C.textContent = "";
+        PG.textContent = "D Williams";
+        SG.textContent = "D Mitchell";
+        SF.textContent = "G Hayward";
+        PF.textContent = "C Boozer";
+        C.textContent = "R Gobert";
 
         PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
@@ -2300,7 +2300,7 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NBA/basket_img/logos/utah.gif";
         C.style.left = "46.5%";
-        SF.style.left = "56.5%"
+        SF.style.left = "55%"
         sidepic.style.border = "3px solid black"
     }
 
@@ -2309,11 +2309,11 @@ function updatePlayerInfo() {
         title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25"
         document.querySelector("select").style.fontSize = "29px";
 
-        PG.textContent = "";
-        SG.textContent = "";
-        SF.textContent = "";
-        PF.textContent = "";
-        C.textContent = "";
+        PG.textContent = "M Conley";
+        SG.textContent = "A Edwards";
+        SF.textContent = "J McDaniels";
+        PF.textContent = "J Randle";
+        C.textContent = "R Gobert";
 
         PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
@@ -2323,7 +2323,7 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NBA/basket_img/logos/minnesota.gif";
         C.style.left = "46.5%";
-        SF.style.left = "56.5%"
+        SF.style.left = "54%"
         sidepic.style.border = "3px solid black"
     }
 
@@ -2332,11 +2332,11 @@ function updatePlayerInfo() {
         title.innerHTML = "NBA BEST PLAYERS<br>2005 to 2025"
         document.querySelector("select").style.fontSize = "29px";
 
-        PG.textContent = "";
-        SG.textContent = "";
-        SF.textContent = "";
-        PF.textContent = "";
-        C.textContent = "";
+        PG.textContent = "Z LaVine";
+        SG.textContent = "A Edwards";
+        SF.textContent = "J Butler";
+        PF.textContent = "K Garnett";
+        C.textContent = "KA Towns";
 
         PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
@@ -2345,7 +2345,7 @@ function updatePlayerInfo() {
         C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
 
         sidepic.src = "/NBA/basket_img/logos/minnesota.gif";
-        C.style.left = "46.5%";
+        C.style.left = "46%";
         SF.style.left = "56.5%"
         sidepic.style.border = "3px solid black"
     }

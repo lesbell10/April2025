@@ -96,7 +96,7 @@ function setPlayerImage(element, imgElement) {
 
 function updatePlayerInfo() {
     title.innerHTML = " FIFA<br>BEST PLAYERS";
-    title.style.fontSize = "45px"
+    title.style.fontSize = "41px"
     sidepic.style.borderRadius = "10px";
     sidepic.style.border = "none";
     sidepic.style.width = "100px";

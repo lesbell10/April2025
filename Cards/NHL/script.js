@@ -40,7 +40,7 @@ function displayPlayerInfo() {
     // stats.style.bottom = "190px"
     // document.querySelector(".playerInfo").style.height = "675px"
 
-    title.style.fontSize = "34px"
+    title.style.fontSize = "31px"
 
     if (selectedPlayer === "0") {
         title.innerHTML = "TOP NHL POINTERS<BR>IN 2024-25"

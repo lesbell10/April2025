@@ -30,7 +30,7 @@ body {
 /* Select Dropdown */
 select {
     padding: 12px;
-    font-size: 29px;
+    font-size: 32px;
     font-weight: bold;
     text-align: center;
     border-radius: 14px;
@@ -46,7 +46,6 @@ select {
     z-index: 100;
     background-color: transparent; 
     color: black;
-    font-family: Arial Black;
     margin-top: -5px;
 }
 
@@ -66,8 +65,15 @@ option {
     margin: 0px 0 20px;
     font-weight: normal;
     text-align: center;
-    color: black;
-    /* text-shadow: var(--text-shadow); */
+        font-family: 'Arial Black', sans-serif;
+    color: #663300
+; 
+   text-shadow: 
+       -2px -2px 0 #ffffff,
+         2px -2px 0 #ffffff,
+        -2px  2px 0 #ffffff,
+         2px  2px 0 #ffffff,
+         0px  0px 8px rgba(255, 255, 255, 0.5);
 }
 
 /* .message {

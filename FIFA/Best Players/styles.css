@@ -31,7 +31,7 @@ body {
 select {
     margin-left: -60px;
     padding: 12px;
-    font-size: 29px;
+    font-size: 32px;
     font-weight: bold;
     text-align: center;
     border-radius: 14px;
@@ -41,7 +41,6 @@ select {
     color: black;
     box-shadow: 0 0 50px var(--neon-green);
     outline: none;
-    font-family: 'Arial Black', sans-serif;
     /* text-shadow: var(--text-shadow); */
     margin-top: -5px;
     transition: all 0.3s ease-in-out;
@@ -68,8 +67,14 @@ option {
     margin-bottom:  20px;
     font-weight: normal;
     text-align: center;
-    color: black;
-    /* text-shadow: var(--text-shadow); */
+    font-family: 'Arial Black', sans-serif;
+    color: #003300; 
+   text-shadow: 
+       -2px -2px 0 #ffffff,
+         2px -2px 0 #ffffff,
+        -2px  2px 0 #ffffff,
+         2px  2px 0 #ffffff,
+         0px  0px 8px rgba(255, 255, 255, 0.5);
 }
 
 /* Message */

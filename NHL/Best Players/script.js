@@ -38,13 +38,13 @@ function updatePlayerInfo() {
     selectedPlayer = playerDropdown.value;
 
     title.innerHTML = "NHL BEST<br>PLAYERS 2024-25"
-    title.style.fontSize = "45px"
+    title.style.fontSize = "41px"
     sidepic.style.border = "none"
     sidepic.style.borderRadius = "0"
     sidepic.style.boxShadow = "none"
     sidepic.style.width = "163px"
     sidepic.style.top = "750px"
-    sidepic.style.left = "690px"
+    sidepic.style.left = "685px"
 
     FL.style.left = "46%"
     FC.style.left = "61%"
@@ -728,7 +728,7 @@ function updatePlayerInfo() {
         sidepic.src = "/NHL/hockey_img/logos/ottawa.gif";
         sidepic.style.borderRadius = "20px"
         sidepic.style.border = "3px solid black"
-        FR.style.left = "820px"
+        FR.style.left = "825px"
     }
 
     if (selectedPlayer === "25") {
@@ -752,7 +752,7 @@ function updatePlayerInfo() {
         sidepic.src = "/NHL/hockey_img/logos/ottawa.gif";
         sidepic.style.borderRadius = "20px"
         sidepic.style.border = "3px solid black"
-        FR.style.left = "850px"
+        FR.style.left = "820px"
     }
 
     if (selectedPlayer === "26") {
@@ -802,7 +802,7 @@ function updatePlayerInfo() {
         sidepic.src = "/NHL/hockey_img/logos/buffalo.gif";
         sidepic.style.borderRadius = "20px"
         sidepic.style.border = "3px solid black"
-        FR.style.left = "850px"
+        FR.style.left = "820px"
     }
 
     if (selectedPlayer === "300") {
