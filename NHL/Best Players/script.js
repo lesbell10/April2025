@@ -39,6 +39,7 @@ function updatePlayerInfo() {
 
     title.innerHTML = "NHL BEST<br>PLAYERS 2024-25"
     title.style.fontSize = "41px"
+    document.querySelector("select").style.fontSize = "32px";
     sidepic.style.border = "none"
     sidepic.style.borderRadius = "0"
     sidepic.style.boxShadow = "none"

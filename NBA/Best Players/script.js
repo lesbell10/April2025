@@ -36,7 +36,7 @@ yearSelector.addEventListener("change", () => {
 
     title.innerHTML = " NBA BEST PLAYERS"
     title.style.fontSize = "41px"
-
+    document.querySelector("select").style.fontSize = "32px";
     PG.style.fontSize = "30px";
     SG.style.fontSize = "30px";
     SF.style.fontSize = "30px";
@@ -1186,7 +1186,7 @@ function updatePlayerInfo() {
     if (selectedYear === "40") {
 
         title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25 #6"
-        document.querySelector("select").style.fontSize = "29px";
+        document.querySelector("select").style.fontSize = "32px";
 
         PG.textContent = "C Sexton";
         SG.textContent = "K George";
@@ -1216,7 +1216,7 @@ function updatePlayerInfo() {
     if (selectedYear === "41") {
 
         title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25 #6"
-        document.querySelector("select").style.fontSize = "28.5px";
+        document.querySelector("select").style.fontSize = "32px";
 
         PG.textContent = "J Poole";
         SG.textContent = "B Coulibaly";
@@ -1245,7 +1245,7 @@ function updatePlayerInfo() {
     if (selectedYear === "42") {
 
         title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25 #6"
-        document.querySelector("select").style.fontSize = "29px";
+        document.querySelector("select").style.fontSize = "32px";
 
         PG.textContent = "La Ball";
         SG.textContent = "N Smith Jr";
@@ -1274,7 +1274,7 @@ function updatePlayerInfo() {
     if (selectedYear === "43") {
 
         title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25 #6"
-        document.querySelector("select").style.fontSize = "27px";
+        document.querySelector("select").style.fontSize = "31px";
 
         PG.textContent = "D Murray";
         SG.textContent = "CJ McCollum";
@@ -1304,7 +1304,7 @@ function updatePlayerInfo() {
     if (selectedYear === "44") {
 
         title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25 #6"
-        document.querySelector("select").style.fontSize = "29px";
+        document.querySelector("select").style.fontSize = "32px";
 
         PG.textContent = "T Maxey";
         SG.textContent = "Q Grimes";
@@ -1334,7 +1334,7 @@ function updatePlayerInfo() {
     if (selectedYear === "45") {
 
         title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25 #5"
-        document.querySelector("select").style.fontSize = "29px";
+        document.querySelector("select").style.fontSize = "32px";
 
         PG.textContent = "Ke Johnson";
         SG.textContent = "Z Williams";
@@ -1364,7 +1364,7 @@ function updatePlayerInfo() {
     if (selectedYear === "46") {
 
         title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25 #5"
-        document.querySelector("select").style.fontSize = "29px";
+        document.querySelector("select").style.fontSize = "32px";
 
         PG.textContent = "I Quickley";
         SG.textContent = "G Dick";
@@ -1393,7 +1393,7 @@ function updatePlayerInfo() {
     if (selectedYear === "47") {
 
         title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25 #5"
-        document.querySelector("select").style.fontSize = "29px";
+        document.querySelector("select").style.fontSize = "32px";
 
         PG.textContent = "D Fox";
         SG.textContent = "S Castle";
@@ -1423,7 +1423,7 @@ function updatePlayerInfo() {
     if (selectedYear === "48") {
 
         title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25 #5"
-        document.querySelector("select").style.fontSize = "29px";
+        document.querySelector("select").style.fontSize = "32px";
 
         PG.textContent = "D Booker";
         SG.textContent = "B Beal";
@@ -1452,7 +1452,7 @@ function updatePlayerInfo() {
     if (selectedYear === "49") {
 
         title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25 #5"
-        document.querySelector("select").style.fontSize = "25px";
+        document.querySelector("select").style.fontSize = "30px";
 
         PG.textContent = "A Simons";
         SG.textContent = "S Sharpe";
@@ -1481,7 +1481,7 @@ function updatePlayerInfo() {
     if (selectedYear === "50") {
 
         title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25 #4"
-        document.querySelector("select").style.fontSize = "29px";
+        document.querySelector("select").style.fontSize = "32px";
 
         PG.textContent = "T Rozier";
         SG.textContent = "T Herro";
@@ -1511,10 +1511,10 @@ function updatePlayerInfo() {
     if (selectedYear === "51") {
 
         title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25 #4"
-        document.querySelector("select").style.fontSize = "29px";
+        document.querySelector("select").style.fontSize = "32px";
 
         PG.textContent = "C White";
-        SG.textContent = "Z LaVine";
+        SG.textContent = "A Dosunmu";
         SF.textContent = "K Huerter";
         PF.textContent = "J Giddey";
         C.textContent = "N Vucevic";
@@ -1526,21 +1526,21 @@ function updatePlayerInfo() {
         C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
 
         PG3.textContent = "20.4 PPG";
-        SG3.textContent = "24.0 PPG";
+        SG3.textContent = "12.3 PPG";
         SF3.textContent = "13.2 PPG";
         PF3.textContent = "14.6 PPG";
         C3.textContent = "18.5 PPG";
 
         sidepic.src = "/NBA/basket_img/logos/chicago.gif";
         C.style.left = "45.5%";
-        SF.style.left = "56.5%"
+        SF.style.left = "55.5%"
         sidepic.style.border = "3px solid black"
     }
 
     if (selectedYear === "52") {
 
         title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25 #4"
-        document.querySelector("select").style.fontSize = "29px";
+        document.querySelector("select").style.fontSize = "32px";
 
         PG.textContent = "K Irving";
         SG.textContent = "K Thompson";
@@ -1554,22 +1554,23 @@ function updatePlayerInfo() {
         PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
         C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
 
-        PG3.textContent = " PPG";
-        SG3.textContent = " PPG";
-        SF3.textContent = " PPG";
-        PF3.textContent = " PPG";
-        C3.textContent = " PPG";
+        PG3.textContent = "24.7 PPG";
+        SG3.textContent = "14.0 PPG";
+        SF3.textContent = "13.2 PPG";
+        PF3.textContent = "14.7 PPG";
+        C3.textContent = "20.0 PPG";
 
         sidepic.src = "/NBA/basket_img/logos/dallas.gif";
         C.style.left = "46.5%";
-        SF.style.left = "56.5%"
+        SF.style.left = "55%"
+        SG.style.left = "485px"
         sidepic.style.border = "3px solid black"
     }
 
     if (selectedYear === "53") {
 
         title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25 #4"
-        document.querySelector("select").style.fontSize = "29px";
+        document.querySelector("select").style.fontSize = "32px";
 
         PG.textContent = "T Young";
         SG.textContent = "D Daniels";
@@ -1583,14 +1584,14 @@ function updatePlayerInfo() {
         PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
         C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
 
-        PG3.textContent = " PPG";
-        SG3.textContent = " PPG";
-        SF3.textContent = " PPG";
-        PF3.textContent = " PPG";
-        C3.textContent = " PPG";
+        PG3.textContent = "24.2 PPG";
+        SG3.textContent = "14.1 PPG";
+        SF3.textContent = "19.0 PPG";
+        PF3.textContent = "18.9 PPG";
+        C3.textContent = "13.4 PPG";
 
         sidepic.src = "/NBA/basket_img/logos/atlanta.gif";
-        C.style.left = "46.5%";
+        C.style.left = "44.5%";
         SF.style.left = "56.5%"
         sidepic.style.border = "3px solid black"
     }
@@ -1598,13 +1599,13 @@ function updatePlayerInfo() {
     if (selectedYear === "54") {
 
         title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25 #4"
-        document.querySelector("select").style.fontSize = "29px";
+        document.querySelector("select").style.fontSize = "32px";
 
-        PG.textContent = "";
-        SG.textContent = "";
-        SF.textContent = "";
-        PF.textContent = "";
-        C.textContent = "";
+        PG.textContent = "M Monk";
+        SG.textContent = "Z LaVine";
+        SF.textContent = "D DeRozan";
+        PF.textContent = "K Murray";
+        C.textContent = "D Sabonis";
 
         PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
@@ -1612,28 +1613,28 @@ function updatePlayerInfo() {
         PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
         C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
 
-        PG3.textContent = " PPG";
-        SG3.textContent = " PPG";
-        SF3.textContent = " PPG";
-        PF3.textContent = " PPG";
-        C3.textContent = " PPG";
+        PG3.textContent = "17.2 PPG";
+        SG3.textContent = "22.4 PPG";
+        SF3.textContent = "22.2 PPG";
+        PF3.textContent = "12.4 PPG";
+        C3.textContent = "19.1 PPG";
 
         sidepic.src = "/NBA/basket_img/logos/sacramento.gif";
         C.style.left = "46.5%";
-        SF.style.left = "56.5%"
+        SF.style.left = "54.5%"
         sidepic.style.border = "3px solid black"
     }
 
     if (selectedYear === "55") {
 
         title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25 #3"
-        document.querySelector("select").style.fontSize = "29px";
+        document.querySelector("select").style.fontSize = "32px";
 
-        PG.textContent = "";
-        SG.textContent = "";
-        SF.textContent = "";
-        PF.textContent = "";
-        C.textContent = "";
+        PG.textContent = "A Black";
+        SG.textContent = "J Suggs";
+        SF.textContent = "F Wagner";
+        PF.textContent = "P Banchero";
+        C.textContent = "M Wagner";
 
         PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
@@ -1657,7 +1658,7 @@ function updatePlayerInfo() {
     if (selectedYear === "56") {
 
         title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25 #3"
-        document.querySelector("select").style.fontSize = "29px";
+        document.querySelector("select").style.fontSize = "32px";
 
         PG.textContent = "";
         SG.textContent = "";
@@ -1686,7 +1687,7 @@ function updatePlayerInfo() {
     if (selectedYear === "57") {
 
         title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25 #3"
-        document.querySelector("select").style.fontSize = "25.75px";
+        document.querySelector("select").style.fontSize = "30px";
 
         PG.textContent = "";
         SG.textContent = "";
@@ -1715,7 +1716,7 @@ function updatePlayerInfo() {
     if (selectedYear === "58") {
 
         title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25 #3"
-        document.querySelector("select").style.fontSize = "29px";
+        document.querySelector("select").style.fontSize = "32px";
 
         PG.textContent = "";
         SG.textContent = "";
@@ -1744,7 +1745,7 @@ function updatePlayerInfo() {
     if (selectedYear === "59") {
 
         title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25 #3"
-        document.querySelector("select").style.fontSize = "29px";
+        document.querySelector("select").style.fontSize = "32px";
 
         PG.textContent = "";
         SG.textContent = "";
@@ -1773,7 +1774,7 @@ function updatePlayerInfo() {
     if (selectedYear === "60") {
 
         title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25 #2"
-        document.querySelector("select").style.fontSize = "24.25px";
+        document.querySelector("select").style.fontSize = "28px";
 
         PG.textContent = "";
         SG.textContent = "";
@@ -1803,7 +1804,7 @@ function updatePlayerInfo() {
     if (selectedYear === "61") {
 
         title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25 #2"
-        document.querySelector("select").style.fontSize = "29px";
+        document.querySelector("select").style.fontSize = "32px";
 
         PG.textContent = "";
         SG.textContent = "";
@@ -1832,7 +1833,7 @@ function updatePlayerInfo() {
     if (selectedYear === "62") {
 
         title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25 #2"
-        document.querySelector("select").style.fontSize = "29px";
+        document.querySelector("select").style.fontSize = "32px";
 
         PG.textContent = "";
         SG.textContent = "";
@@ -1861,7 +1862,7 @@ function updatePlayerInfo() {
     if (selectedYear === "63") {
 
         title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25 #2"
-        document.querySelector("select").style.fontSize = "29px";
+        document.querySelector("select").style.fontSize = "32px";
 
         PG.textContent = "";
         SG.textContent = "";
@@ -1890,7 +1891,7 @@ function updatePlayerInfo() {
     if (selectedYear === "64") {
 
         title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25 #2"
-        document.querySelector("select").style.fontSize = "29px";
+        document.querySelector("select").style.fontSize = "32px";
 
         PG.textContent = "";
         SG.textContent = "";
@@ -1919,7 +1920,7 @@ function updatePlayerInfo() {
     if (selectedYear === "65") {
 
         title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25 #1"
-        document.querySelector("select").style.fontSize = "29px";
+        document.querySelector("select").style.fontSize = "32px";
 
         PG.textContent = "";
         SG.textContent = "";
@@ -1949,7 +1950,7 @@ function updatePlayerInfo() {
     if (selectedYear === "66") {
 
         title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25 #1"
-        document.querySelector("select").style.fontSize = "29px";
+        document.querySelector("select").style.fontSize = "32px";
 
         PG.textContent = "";
         SG.textContent = "";
@@ -1978,7 +1979,7 @@ function updatePlayerInfo() {
     if (selectedYear === "67") {
 
         title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25 #1"
-        document.querySelector("select").style.fontSize = "29px";
+        document.querySelector("select").style.fontSize = "32px";
 
         PG.textContent = "";
         SG.textContent = "";
@@ -2007,7 +2008,7 @@ function updatePlayerInfo() {
     if (selectedYear === "68") {
 
         title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25 #1"
-        document.querySelector("select").style.fontSize = "29px";
+        document.querySelector("select").style.fontSize = "32px";
 
         PG.textContent = "";
         SG.textContent = "";
@@ -2036,7 +2037,7 @@ function updatePlayerInfo() {
     if (selectedYear === "69") {
 
         title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25 #1"
-        document.querySelector("select").style.fontSize = "26px";
+        document.querySelector("select").style.fontSize = "30px";
 
         PG.textContent = "";
         SG.textContent = "";
@@ -2065,7 +2066,7 @@ function updatePlayerInfo() {
     if (selectedYear === "70") {
 
         title.innerHTML = "<br>DREAM TEAM"
-        document.querySelector("select").style.fontSize = "29px";
+        document.querySelector("select").style.fontSize = "32px";
 
         PG.textContent = "L Doncic";
         SG.textContent = "D Wade";
@@ -2088,7 +2089,7 @@ function updatePlayerInfo() {
     if (selectedYear === "71") {
 
         title.innerHTML = "<br>DREAM TEAM"
-        document.querySelector("select").style.fontSize = "29px";
+        document.querySelector("select").style.fontSize = "32px";
 
         PG.textContent = "S Curry";
         SG.textContent = "K Bryant";
@@ -2111,7 +2112,7 @@ function updatePlayerInfo() {
     if (selectedYear === "72") {
 
         title.innerHTML = "<br>DREAM TEAM"
-        document.querySelector("select").style.fontSize = "29px";
+        document.querySelector("select").style.fontSize = "32px";
 
         PG.textContent = "S Curry";
         SG.textContent = "A Edwards";
@@ -2134,7 +2135,7 @@ function updatePlayerInfo() {
     if (selectedYear === "73") {
 
         title.innerHTML = "<br>DREAM TEAM"
-        document.querySelector("select").style.fontSize = "29px";
+        document.querySelector("select").style.fontSize = "32px";
 
         PG.textContent = "S Gilgeous-A";
         SG.textContent = "L Doncic";
@@ -2157,7 +2158,7 @@ function updatePlayerInfo() {
     if (selectedYear === "74") {
 
         title.innerHTML = "<br>DREAM TEAM"
-        document.querySelector("select").style.fontSize = "29px";
+        document.querySelector("select").style.fontSize = "32px";
 
         PG.textContent = "J Morant";
         SG.textContent = "A Edwards";
@@ -2180,7 +2181,7 @@ function updatePlayerInfo() {
     if (selectedYear === "75") {
 
         title.innerHTML = "<br>DREAM TEAM"
-        document.querySelector("select").style.fontSize = "29px";
+        document.querySelector("select").style.fontSize = "32px";
 
         PG.textContent = "S Gilgeous-A";
         SG.textContent = "L Doncic";
@@ -2203,7 +2204,7 @@ function updatePlayerInfo() {
     if (selectedYear === "76") {
 
         title.innerHTML = "<br>NBA BEST PLAYERS"
-        document.querySelector("select").style.fontSize = "29px";
+        document.querySelector("select").style.fontSize = "32px";
 
         PG.textContent = "D Lillard";
         SG.textContent = "J Green";
@@ -2232,7 +2233,7 @@ function updatePlayerInfo() {
     if (selectedYear === "77") {
 
         title.innerHTML = "<br>NBA BEST PLAYERS"
-        document.querySelector("select").style.fontSize = "29px";
+        document.querySelector("select").style.fontSize = "32px";
 
         PG.textContent = "S Curry";
         SG.textContent = "K Irving";
@@ -2261,7 +2262,7 @@ function updatePlayerInfo() {
     if (selectedYear === "78") {
 
         title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25"
-        document.querySelector("select").style.fontSize = "29px";
+        document.querySelector("select").style.fontSize = "32px";
 
         PG.textContent = "K George";
         SG.textContent = "C Sexton";
@@ -2284,7 +2285,7 @@ function updatePlayerInfo() {
     if (selectedYear === "79") {
 
         title.innerHTML = "NBA BEST PLAYERS<br>2005 to 2025"
-        document.querySelector("select").style.fontSize = "29px";
+        document.querySelector("select").style.fontSize = "32px";
 
         PG.textContent = "D Williams";
         SG.textContent = "D Mitchell";
@@ -2307,7 +2308,7 @@ function updatePlayerInfo() {
     if (selectedYear === "80") {
 
         title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25"
-        document.querySelector("select").style.fontSize = "29px";
+        document.querySelector("select").style.fontSize = "32px";
 
         PG.textContent = "M Conley";
         SG.textContent = "A Edwards";
@@ -2330,7 +2331,7 @@ function updatePlayerInfo() {
     if (selectedYear === "81") {
 
         title.innerHTML = "NBA BEST PLAYERS<br>2005 to 2025"
-        document.querySelector("select").style.fontSize = "29px";
+        document.querySelector("select").style.fontSize = "32px";
 
         PG.textContent = "Z LaVine";
         SG.textContent = "A Edwards";
@@ -2353,7 +2354,7 @@ function updatePlayerInfo() {
     if (selectedYear === "300") {
 
         title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25"
-        document.querySelector("select").style.fontSize = "29px";
+        document.querySelector("select").style.fontSize = "32px";
 
         PG.textContent = "";
         SG.textContent = "";
@@ -2376,7 +2377,7 @@ function updatePlayerInfo() {
     if (selectedYear === "300") {
 
         title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25"
-        document.querySelector("select").style.fontSize = "29px";
+        document.querySelector("select").style.fontSize = "32px";
 
         PG.textContent = "";
         SG.textContent = "";
