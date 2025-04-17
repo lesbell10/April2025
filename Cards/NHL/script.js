@@ -40,7 +40,8 @@ function displayPlayerInfo() {
     // stats.style.bottom = "190px"
     // document.querySelector(".playerInfo").style.height = "675px"
 
-    title.style.fontSize = "31px"
+    title.style.fontSize = "36px"
+    document.querySelector("select").style.fontSize = "24px"
 
     if (selectedPlayer === "0") {
         title.innerHTML = "TOP NHL POINTERS<BR>IN 2024-25"
@@ -221,6 +222,127 @@ function displayPlayerInfo() {
         position.textContent = "Right Winger";
         stats.innerHTML = "5th - 741 Goals";
         playerImage.src = "/NHL/hockey_img/players/hull.jpg";
+    }
+    else if (selectedPlayer === "21") {
+        title.innerHTML = "NHL TOP 5 GOALIES<BR>SINCE 2005";
+        nation.textContent = "USA";
+        club.textContent = "New York Rangers";
+        position.textContent = "";
+        stats.innerHTML = "5th";
+        playerImage.src = "/NHL/hockey_img/players/quick.jpg";
+    }
+    else if (selectedPlayer === "22") {
+        title.innerHTML = "NHL TOP 5 GOALIES<BR>SINCE 2005";
+        nation.textContent = "Russia";
+        club.textContent = "Tampa Bay Lightning";
+        position.textContent = "";
+        stats.innerHTML = "4th";
+        playerImage.src = "/NHL/hockey_img/players/vasilevskiy.jpg";
+    }
+    else if (selectedPlayer === "23") {
+        document.querySelector("select").style.fontSize = "23.5px"
+        title.innerHTML = "NHL TOP 5 GOALIES<BR>SINCE 2005";
+        nation.textContent = "Canada";
+        club.textContent = "Minnesota Wild";
+        position.textContent = "";
+        stats.innerHTML = "3rd";
+        playerImage.src = "/NHL/hockey_img/players/fleury.jpg";
+    }
+    else if (selectedPlayer === "24") {
+        title.innerHTML = "NHL TOP 5 GOALIES<BR>SINCE 2005";
+        nation.textContent = "Sweden";
+        club.textContent = "New York Rangers";
+        position.textContent = "";
+        stats.innerHTML = "2nd";
+        playerImage.src = "/NHL/hockey_img/players/lundqvist.jpg";
+    }
+    else if (selectedPlayer === "25") {
+        title.innerHTML = "NHL TOP 5 GOALIES<BR>SINCE 2005";
+        nation.textContent = "Canada";
+        club.textContent = "Montreal Canadiens";
+        position.textContent = "";
+        stats.innerHTML = "1st";
+        playerImage.src = "/NHL/hockey_img/players/price.jpg";
+    }
+    else if (selectedPlayer === "26") {
+        title.innerHTML = "TOP NHL U24<br>PLAYERS IN 2025 #1";
+        nation.textContent = "USA";
+        club.textContent = "Ottawa Senators";
+        position.textContent = "Defenseman";
+        stats.innerHTML = "10th";
+        playerImage.src = "/NHL/hockey_img/players/sanderson.jpg";
+    }
+    else if (selectedPlayer === "27") {
+        title.innerHTML = "TOP NHL U24<br>PLAYERS IN 2025 #1";
+        nation.textContent = "Russia";
+        club.textContent = "Montreal Canadiens";
+        position.textContent = "Right Wing";
+        stats.innerHTML = "9th";
+        playerImage.src = "/NHL/hockey_img/players/demidov.jpg";
+    }
+    else if (selectedPlayer === "28") {
+        title.innerHTML = "TOP NHL U24<br>PLAYERS IN 2025 #1";
+        nation.textContent = "USA";
+        club.textContent = "Anaheim Ducks";
+        position.textContent = "Center";
+        stats.innerHTML = "8th";
+        playerImage.src = "/NHL/hockey_img/players/zegras.jpg";
+    }
+    else if (selectedPlayer === "29") {
+        title.innerHTML = "TOP NHL U24<br>PLAYERS IN 2025 #1";
+        nation.textContent = "Germany";
+        club.textContent = "Detroit Red Wings";
+        position.textContent = "Defenseman";
+        stats.innerHTML = "7th";
+        playerImage.src = "/NHL/hockey_img/players/seider.jpg";
+    }
+    else if (selectedPlayer === "30") {
+        title.innerHTML = "TOP NHL U24<br>PLAYERS IN 2025 #1";
+        nation.textContent = "Sweden";
+        club.textContent = "Detroit Red Wings";
+        position.textContent = "Left Wing";
+        stats.innerHTML = "6th";
+        playerImage.src = "/NHL/hockey_img/players/raymond.jpg";
+    }
+    else if (selectedPlayer === "31") {
+        title.innerHTML = "TOP NHL U24<br>PLAYERS IN 2025 #2";
+        nation.textContent = "USA";
+        club.textContent = "Montreal Canadiens";
+        position.textContent = "Right Wing";
+        stats.innerHTML = "5th";
+        playerImage.src = "/NHL/hockey_img/players/caufield.jpg";
+    }
+    else if (selectedPlayer === "32") {
+        title.innerHTML = "TOP NHL U24<br>PLAYERS IN 2025 #2";
+        nation.textContent = "Germany";
+        club.textContent = "Ottawa Senators";
+        position.textContent = "Center";
+        stats.innerHTML = "4th";
+        playerImage.src = "/NHL/hockey_img/players/stutzle.jpg";
+    }
+    else if (selectedPlayer === "33") {
+        title.innerHTML = "TOP NHL U24<br>PLAYERS IN 2025 #2";
+        nation.textContent = "USA";
+        club.textContent = "New Jersey Devils";
+        position.textContent = "Center";
+        stats.innerHTML = "3rd";
+        playerImage.src = "/NHL/hockey_img/players/j hughes.jpg";
+    }
+    else if (selectedPlayer === "34") {
+        title.innerHTML = "TOP NHL U24<br>PLAYERS IN 2025 #2";
+        nation.textContent = "Canada";
+        club.textContent = "Chicago Blackhawks";
+        position.textContent = "Center";
+        stats.innerHTML = "2nd";
+        playerImage.src = "/NHL/hockey_img/players/bedard.jpg";
+    }
+    else if (selectedPlayer === "35") {
+        title.innerHTML = "TOP NHL U24<br>PLAYERS IN 2025 #2";
+        nation.textContent = "USA";
+        club.textContent = "Vancouver Canucks";
+        position.textContent = "Defenseman";
+        stats.innerHTML = "1st";
+        playerImage.src = "/NHL/hockey_img/players/q hughes.jpg";
     }
 
     // document.querySelector(".short").style.background = "linear-gradient(-45deg, grey 30%, dodgerblue 70%)";

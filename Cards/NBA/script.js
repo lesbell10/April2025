@@ -35,16 +35,16 @@ function displayPlayerInfo() {
     nation.textContent = ""
     club.textContent = ""
     stats.innerHTML = ""
-    title.style.fontSize = "31px"
-    
+    title.style.fontSize = "36px"
+    document.querySelector("select").style.fontSize = "24px"
+
     // sidepic.style.bottom = "55px"
     // stats.style.bottom = "200px"
     // document.querySelector(".playerInfo").style.height = "675px"
     // club.style.fontSize = "30px"
-    // document.querySelector("select").style.fontSize = "24.5px"
 
     if (selectedPlayer === "0") {
-        title.innerHTML= "TOP NBA POINTERS PER<br>GAME IN MARCH #1"
+        title.innerHTML = "TOP NBA POINTERS PER<br>GAME IN MARCH #1"
         nation.textContent = "Serbia";
         club.textContent = "Denver Nuggets";
         position.textContent = "C, PF";
@@ -206,6 +206,128 @@ function displayPlayerInfo() {
         stats.innerHTML = "1st - 320 3PTS";
         playerImage.src = "/NBA/basket_img/players/a edwards.jpg";
     }
+    else if (selectedPlayer === "21") {
+        title.innerHTML = "NBA TOP 5 EUROPEAN<br>PLAYERS SINCE 2005";
+        nation.textContent = "France";
+        club.textContent = "San Antonio Spurs";
+        position.textContent = "PG";
+        stats.innerHTML = "5th";
+        playerImage.src = "/NBA/basket_img/players/T parker.jpg";
+    }
+    else if (selectedPlayer === "22") {
+        title.innerHTML = "NBA TOP 5 EUROPEAN<br>PLAYERS SINCE 2005";
+        nation.textContent = "Slovenia";
+        club.textContent = "Dallas Mavericks";
+        position.textContent = "PG / SG";
+        stats.innerHTML = "4th";
+        playerImage.src = "/NBA/basket_img/players/l doncic.jpg";
+    }
+    else if (selectedPlayer === "23") {
+        title.innerHTML = "NBA TOP 5 EUROPEAN<br>PLAYERS SINCE 2005";
+        nation.textContent = "Serbia";
+        club.textContent = "Denver Nuggets";
+        position.textContent = "Center";
+        stats.innerHTML = "3rd";
+        playerImage.src = "/NBA/basket_img/players/n jokic.jpg";
+    }
+    else if (selectedPlayer === "24") {
+        title.innerHTML = "NBA TOP 5 EUROPEAN<br>PLAYERS SINCE 2005";
+        nation.textContent = "Germany";
+        club.textContent = "Dallas Mavericks";
+        position.textContent = "PF";
+        stats.innerHTML = "2nd";
+        playerImage.src = "/NBA/basket_img/players/d nowitzki.jpg";
+    }
+    else if (selectedPlayer === "25") {
+        title.innerHTML = "NBA TOP 5 EUROPEAN<br>PLAYERS SINCE 2005";
+        nation.textContent = "Greece";
+        club.textContent = "Milwaukee Bucks";
+        position.textContent = "PF / C";
+        stats.innerHTML = "1st";
+        playerImage.src = "/NBA/basket_img/players/g antetoko..jpg";
+    }
+    else if (selectedPlayer === "26") {
+        title.innerHTML = "NBA TOP U24<br>PLAYERS IN 2025 #1";
+        nation.textContent = "USA";
+        club.textContent = "Houston Rockets";
+        position.textContent = "SG / PG";
+        stats.innerHTML = "10th";
+        playerImage.src = "/NBA/basket_img/players/j green.jpg";
+    }
+    else if (selectedPlayer === "27") {
+        title.innerHTML = "NBA TOP U24<br>PLAYERS IN 2025 #1";
+        nation.textContent = "USA";
+        club.textContent = "Oklahoma City Thunder";
+        position.textContent = "C / PF";
+        stats.innerHTML = "9th";
+        playerImage.src = "/NBA/basket_img/players/c holmgren.jpg";
+    }
+    else if (selectedPlayer === "28") {
+        title.innerHTML = "NBA TOP U24<br>PLAYERS IN 2025 #1";
+        nation.textContent = "USA";
+        club.textContent = "Philadelphia 76ers";
+        position.textContent = "SG / PG";
+        stats.innerHTML = "8th";
+        playerImage.src = "/NBA/basket_img/players/t maxey.jpg";
+    }
+    else if (selectedPlayer === "29") {
+        title.innerHTML = "NBA TOP U24<br>PLAYERS IN 2025 #1";
+        nation.textContent = "Germany";
+        club.textContent = "Orlando Magic";
+        position.textContent = "SF / PF";
+        stats.innerHTML = "7th";
+        playerImage.src = "/NBA/basket_img/players/f wagner.jpg";
+    }
+    else if (selectedPlayer === "30") {
+        title.innerHTML = "NBA TOP U24<br>PLAYERS IN 2025 #1";
+        nation.textContent = "USA";
+        club.textContent = "Charlotte Hornets";
+        position.textContent = "PG / SG";
+        stats.innerHTML = "6th";
+        playerImage.src = "/NBA/basket_img/players/la ball.jpg";
+    }
+    else if (selectedPlayer === "31") {
+        title.innerHTML = "NBA TOP U24<br>PLAYERS IN 2025 #2";
+        nation.textContent = "USA";
+        club.textContent = "Detroit Pistons";
+        position.textContent = "PG / SG";
+        stats.innerHTML = "5th";
+        playerImage.src = "/NBA/basket_img/players/c cunningham.jpg";
+    }
+    else if (selectedPlayer === "32") {
+        title.innerHTML = "NBA TOP U24<br>PLAYERS IN 2025 #2";
+        nation.textContent = "USA";
+        club.textContent = "Orlando Magic";
+        position.textContent = "PF / SF";
+        stats.innerHTML = "4th";
+        playerImage.src = "/NBA/basket_img/players/p banchero.jpg";
+    }
+    else if (selectedPlayer === "33") {
+        title.innerHTML = "NBA TOP U24<br>PLAYERS IN 2025 #2";
+        nation.textContent = "USA";
+        club.textContent = "Indiana Pacers";
+        position.textContent = "PG / SG";
+        stats.innerHTML = "3rd";
+        playerImage.src = "/NBA/basket_img/players/t haliburton.jpg";
+    }
+    else if (selectedPlayer === "34") {
+        title.innerHTML = "NBA TOP U24<br>PLAYERS IN 2025 #2";
+        nation.textContent = "USA";
+        club.textContent = "Minnesota Timberwolves";
+        position.textContent = "SG / SF";
+        stats.innerHTML = "2nd";
+        playerImage.src = "/NBA/basket_img/players/a edwards.jpg";
+    }
+    else if (selectedPlayer === "35") {
+        document.querySelector("select").style.fontSize = "22px"
+        title.innerHTML = "NBA TOP U24<br>PLAYERS IN 2025 #2";
+        nation.textContent = "France";
+        club.textContent = "San Antonio Spurs";
+        position.textContent = "C / PF";
+        stats.innerHTML = "1st";
+        playerImage.src = "/NBA/basket_img/players/v wembanyama.jpg";
+    }
+
     // document.querySelector(".short").style.background = "linear-gradient(-45deg, grey 30%, darkorange 70%)";
 }
 

@@ -87,17 +87,11 @@ body {
 
 h1.title {
     font-size: 31px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     /* text-shadow: var(--text-shadow); */
     text-align: center;
     font-family: 'Arial Black', sans-serif;
     color: black; 
-   text-shadow: 
-       -2px -2px 0 #ffffff,
-         2px -2px 0 #ffffff,
-        -2px  2px 0 #ffffff,
-         2px  2px 0 #ffffff,
-         0px  0px 8px rgba(255, 255, 255, 0.5);
 }
 
 select {
@@ -146,7 +140,7 @@ option {
 }
 
 .playerInfo img.playerImage {
-    min-width: 90%;
+    width: 90%;
     height: auto;
     border-radius: 20px;
     border: 2px solid var(--neon-color);

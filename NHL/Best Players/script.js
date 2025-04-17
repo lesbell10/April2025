@@ -426,7 +426,7 @@ function updatePlayerInfo() {
         DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
         DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
-        
+
         FL3.textContent = "96 PTS";
         FC3.textContent = "94 PTS";
         FR3.textContent = "98 PTS";
@@ -435,7 +435,7 @@ function updatePlayerInfo() {
         G3.textContent = "SAVES: 91.6%"
 
         sidepic.src = "/NHL/hockey_img/logos/nhl.png";
-        FR.style.left ="830px"
+        FR.style.left = "830px"
     }
 
     if (selectedPlayer === "13") {
@@ -804,6 +804,64 @@ function updatePlayerInfo() {
         sidepic.style.borderRadius = "20px"
         sidepic.style.border = "3px solid black"
         FR.style.left = "820px"
+    }
+
+    if (selectedPlayer === "28") {
+
+        title.innerHTML = "NHL PLAYERS<br>OF THE WEEK"
+
+        FL.textContent = "Panarin";
+        FC.textContent = "Celebrini";
+        FR.textContent = "W Smith";
+        DL.textContent = "Morrissey";
+        DR.textContent = "A Fox";
+        G.textContent = "Hellebuyck";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        FL3.textContent = "7 PTS";
+        FC3.textContent = "7 PTS";
+        FR3.textContent = "7 PTS";
+        DL3.textContent = "5 PTS";
+        DR3.textContent = "5 PTS";
+        G3.textContent = "SAVES: 93.1%";
+
+        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        FR.style.left = "850px"
+    }
+
+    if (selectedPlayer === "29") {
+
+        title.innerHTML = "NHL PLAYERS<br>OF THE WEEK"
+
+        FL.textContent = "Hagel";
+        FC.textContent = "McDavid";
+        FR.textContent = "Kucherov";
+        DL.textContent = "Chabot";
+        DR.textContent = "Dahlin";
+        G.textContent = "Greaves";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        FL3.textContent = "8 PTS";
+        FC3.textContent = "9 PTS";
+        FR3.textContent = "7 PTS";
+        DL3.textContent = "6 PTS";
+        DR3.textContent = "6 PTS";
+        G3.textContent = "SAVES: 96.8%";
+
+        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        FR.style.left = "850px"
     }
 
     if (selectedPlayer === "300") {

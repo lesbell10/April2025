@@ -66,14 +66,7 @@ option {
     font-weight: normal;
     text-align: center;
         font-family: 'Arial Black', sans-serif;
-    color: #663300
-; 
-   text-shadow: 
-       -2px -2px 0 #ffffff,
-         2px -2px 0 #ffffff,
-        -2px  2px 0 #ffffff,
-         2px  2px 0 #ffffff,
-         0px  0px 8px rgba(255, 255, 255, 0.5);
+    color: black
 }
 
 /* .message {
@@ -202,7 +195,7 @@ h4  {
 
 .message {
     position: absolute;
-    font-size: 30px;
+    font-size: 24px;
     right: 720px;
     font-weight: bold;
     top: 230px;

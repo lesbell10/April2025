@@ -47,8 +47,8 @@ function displayPlayerInfo() {
     nation.textContent = ""
     club.textContent = ""
     stats.innerHTML = ""
-    title.style.fontSize = "31px"
-
+    title.style.fontSize = "36px"
+    document.querySelector("select").style.fontSize = "24px"
     // sidepic.style.bottom = "30px"
     // stats.style.bottom = "200px"
     document.querySelector(".short").style.background = " linear-gradient(135deg, darkgrey 20%, #00ff66 100%)";
@@ -229,6 +229,126 @@ function displayPlayerInfo() {
         position.textContent = ""
         stats.innerHTML = "1st";
         playerImage.src = "/FIFA/football_img/players/marcelo.webp";
+    }
+    else if (selectedPlayer === "21") {
+        title.innerHTML = "FIFA TOP 5 CENTRE<BR>BACKS SINCE 2005";
+        nation.textContent = "Portugal";
+        club.textContent = "Manchester City";
+        position.textContent = "";
+        stats.innerHTML = "5th";
+        playerImage.src = "/FIFA/football_img/players/r dias.webp";
+    }
+    else if (selectedPlayer === "22") {
+        title.innerHTML = "FIFA TOP 5 CENTRE<BR>BACKS SINCE 2005";
+        nation.textContent = "Brazil";
+        club.textContent = "Paris Saint-Germain";
+        position.textContent = "";
+        stats.innerHTML = "4th";
+        playerImage.src = "/FIFA/football_img/players/t silva.webp";
+    }
+    else if (selectedPlayer === "23") {
+        title.innerHTML = "FIFA TOP 5 CENTRE<BR>BACKS SINCE 2005";
+        nation.textContent = "Italy";
+        club.textContent = "Juventus";
+        position.textContent = "";
+        stats.innerHTML = "3rd";
+        playerImage.src = "/FIFA/football_img/players/chiellini.webp";
+    }
+    else if (selectedPlayer === "24") {
+        title.innerHTML = "FIFA TOP 5 CENTRE<BR>BACKS SINCE 2005";
+        nation.textContent = "Netherlands";
+        club.textContent = "Liverpool";
+        position.textContent = "";
+        stats.innerHTML = "2nd";
+        playerImage.src = "/FIFA/football_img/players/van dijk.webp";
+    }
+    else if (selectedPlayer === "25") {
+        title.innerHTML = "FIFA TOP 5 CENTRE<BR>BACKS SINCE 2005";
+        nation.textContent = "Spain";
+        club.textContent = "Real Madrid";
+        position.textContent = "";
+        stats.innerHTML = "1st";
+        playerImage.src = "/FIFA/football_img/players/s ramos.webp";
+    }
+    else if (selectedPlayer === "26") {
+        title.innerHTML = "FIFA TOP U24<br>PLAYERS IN 2025 #1";
+        nation.textContent = "France";
+        club.textContent = "Real Madrid";
+        position.textContent = "Defensive Midfielder";
+        stats.innerHTML = "10th";
+        playerImage.src = "/FIFA/football_img/players/camavinga.webp";
+    }
+    else if (selectedPlayer === "27") {
+        title.innerHTML = "FIFA TOP U24<br>PLAYERS IN 2025 #1";
+        nation.textContent = "Portugal";
+        club.textContent = "Paris Saint-Germain";
+        position.textContent = "Central Midfielder";
+        stats.innerHTML = "9th";
+        playerImage.src = "/FIFA/football_img/players/j neves.webp";
+    }
+    else if (selectedPlayer === "28") {
+        title.innerHTML = "FIFA TOP U24<br>PLAYERS IN 2025 #1";
+        nation.textContent = "Spain";
+        club.textContent = "Barcelona";
+        position.textContent = "Centre Back";
+        stats.innerHTML = "8th";
+        playerImage.src = "/FIFA/football_img/players/cubarsi.webp";
+    }
+    else if (selectedPlayer === "29") {
+        title.innerHTML = "FIFA TOP U24<br>PLAYERS IN 2025 #1";
+        nation.textContent = "Germany";
+        club.textContent = "Bayer Leverkusen";
+        position.textContent = "Attacking Midfielder";
+        stats.innerHTML = "7th";
+        playerImage.src = "/FIFA/football_img/players/wirtz.webp";
+    }
+    else if (selectedPlayer === "30") {
+        title.innerHTML = "FIFA TOP U24<br>PLAYERS IN 2025 #1";
+        nation.textContent = "Spain";
+        club.textContent = "Barcelona";
+        position.textContent = "Attacking Midfielder";
+        stats.innerHTML = "6th";
+        playerImage.src = "/FIFA/football_img/players/gavi.webp";
+    }
+    else if (selectedPlayer === "31") {
+        title.innerHTML = "FIFA TOP U24<br>PLAYERS IN 2025 #2";
+        nation.textContent = "Germany";
+        club.textContent = "Bayern Munich";
+        position.textContent = "Attacking Midfielder";
+        stats.innerHTML = "5th";
+        playerImage.src = "/FIFA/football_img/players/musiala.webp";
+    }
+    else if (selectedPlayer === "32") {
+        title.innerHTML = "FIFA TOP U24<br>PLAYERS IN 2025 #2";
+        nation.textContent = "Spain";
+        club.textContent = "Barcelona";
+        position.textContent = "Central Midfielder";
+        stats.innerHTML = "4th";
+        playerImage.src = "/FIFA/football_img/players/pedri.webp";
+    }
+    else if (selectedPlayer === "33") {
+        title.innerHTML = "FIFA TOP U24<br>PLAYERS IN 2025 #2";
+        nation.textContent = "England";
+        club.textContent = "Arsenal";
+        position.textContent = "Right Winger";
+        stats.innerHTML = "3rd";
+        playerImage.src = "/FIFA/football_img/players/saka.webp";
+    }
+    else if (selectedPlayer === "34") {
+        title.innerHTML = "FIFA TOP U24<br>PLAYERS IN 2025 #2";
+        nation.textContent = "England";
+        club.textContent = "Real Madrid";
+        position.textContent = "Attacking Midfielder";
+        stats.innerHTML = "2nd";
+        playerImage.src = "/FIFA/football_img/players/bellingham.webp";
+    }
+    else if (selectedPlayer === "35") {
+        title.innerHTML = "FIFA TOP U24<br>PLAYERS IN 2025 #2";
+        nation.textContent = "Spain";
+        club.textContent = "Barcelona";
+        position.textContent = "Right Winger";
+        stats.innerHTML = "1st";
+        playerImage.src = "/FIFA/football_img/players/yamal.webp";
     }
 }
 

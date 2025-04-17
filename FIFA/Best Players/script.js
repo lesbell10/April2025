@@ -1131,6 +1131,118 @@ function updatePlayerInfo() {
         LCB.style.left = "100px"
     }
 
+
+    if (selectedTeam == "18") {
+
+        title.innerHTML = "FIFA BEST PLAYERS<BR>1980 to 2000"
+
+        STL.textContent = "";
+        setPlayerImage(STL, STL2);
+        STC.textContent = "R Baggio";
+        setPlayerImage(STC, STC2);
+        STR.textContent = "";
+        setPlayerImage(STR, STR2);
+        LW.textContent = "Giggs";
+        setPlayerImage(LW, LW2);
+        LF.textContent = "";
+        setPlayerImage(LF, LF2);
+        AMLC.textContent = "";
+        setPlayerImage(AMLC, AMLC2);
+        AMC.textContent = "Platini";
+        setPlayerImage(AMC, AMC2);
+        AMRC.textContent = "";
+        setPlayerImage(AMRC, AMRC2);
+        RF.textContent = "";
+        setPlayerImage(RF, RF2);
+        RW.textContent = "van Basten";
+        setPlayerImage(RW, RW2);
+        WL.textContent = "";
+        setPlayerImage(WL, WL2);
+        LCM.textContent = "Rijkaard";
+        setPlayerImage(LCM, LCM2);
+        CM.textContent = "";
+        setPlayerImage(CM, CM2);
+        RCM.textContent = "Matthaus";
+        setPlayerImage(RCM, RCM2);
+        WR.textContent = "";
+        setPlayerImage(WR, WR2);
+        // DM.textContent = "";
+        // setPlayerImage(DM, DM2);
+        LB.textContent = "Lizarazu";
+        setPlayerImage(LB, LB2);
+        LCB.textContent = "R Koeman";
+        setPlayerImage(LCB, LCB2);
+        CB.textContent = "";
+        setPlayerImage(CB, CB2);
+        RCB.textContent = "Baresi";
+        setPlayerImage(RCB, RCB2);
+        RB.textContent = "Bergomi";
+        setPlayerImage(RB, RB2);
+        GK.textContent = "Kahn";
+        setPlayerImage(GK, GK2);
+        Three_Mid()
+        Three_Def()
+
+        sidepic.src = "/FIFA/football_img/logos/fifa.webp";
+        RB.style.left = "87%"
+        LCB.style.left = "100px"
+    }
+
+    if (selectedTeam == "19") {
+
+        title.innerHTML = "FIFA BEST PLAYERS<BR>1980 to 2000"
+
+        STL.textContent = "";
+        setPlayerImage(STL, STL2);
+        STC.textContent ="Ronaldo";
+        setPlayerImage(STC, STC2);
+        STR.textContent = "";
+        setPlayerImage(STR, STR2);
+        LW.textContent = "Figo";
+        setPlayerImage(LW, LW2);
+        LF.textContent = "";
+        setPlayerImage(LF, LF2);
+        AMLC.textContent = "";
+        setPlayerImage(AMLC, AMLC2);
+        AMC.textContent = "Maradona";
+        setPlayerImage(AMC, AMC2);
+        AMRC.textContent = "";
+        setPlayerImage(AMRC, AMRC2);
+        RF.textContent = "";
+        setPlayerImage(RF, RF2);
+        RW.textContent = "Beckham";
+        setPlayerImage(RW, RW2);
+        WL.textContent = "";
+        setPlayerImage(WL, WL2);
+        LCM.textContent = "Davids";
+        setPlayerImage(LCM, LCM2);
+        CM.textContent = "";
+        setPlayerImage(CM, CM2);
+        RCM.textContent = "Zidane";
+        setPlayerImage(RCM, RCM2);
+        WR.textContent = "";
+        setPlayerImage(WR, WR2);
+        // DM.textContent = "";
+        // setPlayerImage(DM, DM2);
+        LB.textContent = "R Carlos";
+        setPlayerImage(LB, LB2);
+        LCB.textContent = "Maldini";
+        setPlayerImage(LCB, LCB2);
+        CB.textContent = "";
+        setPlayerImage(CB, CB2);
+        RCB.textContent = "Desailly";
+        setPlayerImage(RCB, RCB2);
+        RB.textContent = "Cafu";
+        setPlayerImage(RB, RB2);
+        GK.textContent = "Schmeichel";
+        setPlayerImage(GK, GK2);
+        Three_Mid()
+        Three_Def()
+
+        sidepic.src = "/FIFA/football_img/logos/fifa.webp";
+        RB.style.left = "87%"
+    }
+
     if (selectedTeam == "300") {
 
         title.innerHTML = "FIFA BEST PLAYERS<BR>2005 to 2025"
