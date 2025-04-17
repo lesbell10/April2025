@@ -1813,7 +1813,7 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NBA/basket_img/logos/minnesota.gif";
         C.style.left = "46.5%";
-        SF.style.left = "56.5%"
+        SF.style.left = "53.5%"
         sidepic.style.border = "3px solid black"
         message.innerHTML = "30+ Games"
     }
@@ -1843,7 +1843,7 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NBA/basket_img/logos/denver.gif";
         C.style.left = "46.5%";
-        SF.style.left = "56.5%"
+        SF.style.left = "54%"
         sidepic.style.border = "3px solid black"
         message.innerHTML = "30+ Games"
     }
@@ -1853,11 +1853,11 @@ function updatePlayerInfo() {
         title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25 #2"
         document.querySelector("select").style.fontSize = "32px";
 
-        PG.textContent = "";
-        SG.textContent = "";
-        SF.textContent = "";
-        PF.textContent = "";
-        C.textContent = "";
+        PG.textContent = "T Haliburton";
+        SG.textContent = "B Mathurin";
+        SF.textContent = "A Nesmith";
+        PF.textContent = "P Siakam";
+        C.textContent = "M Turner";
 
         PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
@@ -1865,15 +1865,15 @@ function updatePlayerInfo() {
         PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
         C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
 
-        PG3.textContent = " PPG";
-        SG3.textContent = " PPG";
-        SF3.textContent = " PPG";
-        PF3.textContent = " PPG";
-        C3.textContent = " PPG";
+        PG3.textContent = "18.6 PPG";
+        SG3.textContent = "16.1 PPG";
+        SF3.textContent = "12.0 PPG";
+        PF3.textContent = "20.2 PPG";
+        C3.textContent = "15.6 PPG";
 
         sidepic.src = "/NBA/basket_img/logos/indiana.gif";
         C.style.left = "46.5%";
-        SF.style.left = "56.5%"
+        SF.style.left = "55%"
         sidepic.style.border = "3px solid black"
         message.innerHTML = "30+ Games"
     }
@@ -1883,11 +1883,11 @@ function updatePlayerInfo() {
         title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25 #2"
         document.querySelector("select").style.fontSize = "32px";
 
-        PG.textContent = "";
-        SG.textContent = "";
-        SF.textContent = "";
-        PF.textContent = "";
-        C.textContent = "";
+        PG.textContent = "J Harden";
+        SG.textContent = "N Powell";
+        SF.textContent = "Bog Bogdanovic";
+        PF.textContent = "K Leonard";
+        C.textContent = "I Zubac";
 
         PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
@@ -1895,15 +1895,15 @@ function updatePlayerInfo() {
         PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
         C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
 
-        PG3.textContent = " PPG";
-        SG3.textContent = " PPG";
-        SF3.textContent = " PPG";
-        PF3.textContent = " PPG";
-        C3.textContent = " PPG";
+        PG3.textContent = "22.8 PPG";
+        SG3.textContent = "21.8 PPG";
+        SF3.textContent = "11.4 PPG";
+        PF3.textContent = "21.5 PPG";
+        C3.textContent = "16.8 PPG";
 
         sidepic.src = "/NBA/basket_img/logos/la clippers.gif";
         C.style.left = "46.5%";
-        SF.style.left = "56.5%"
+        SF.style.left = "49%"
         sidepic.style.border = "3px solid black"
         message.innerHTML = "30+ Games"
     }
@@ -1913,11 +1913,11 @@ function updatePlayerInfo() {
         title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25 #2"
         document.querySelector("select").style.fontSize = "32px";
 
-        PG.textContent = "";
-        SG.textContent = "";
-        SF.textContent = "";
-        PF.textContent = "";
-        C.textContent = "";
+        PG.textContent = "L Doncic";
+        SG.textContent = "A Reaves";
+        SF.textContent = "D Knecht";
+        PF.textContent = "L James";
+        C.textContent = "R Hachimura";
 
         PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
@@ -1925,17 +1925,18 @@ function updatePlayerInfo() {
         PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
         C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
 
-        PG3.textContent = " PPG";
-        SG3.textContent = " PPG";
-        SF3.textContent = " PPG";
-        PF3.textContent = " PPG";
-        C3.textContent = " PPG";
+        PG3.textContent = "28.2 PPG";
+        SG3.textContent = "20.2 PPG";
+        SF3.textContent = "9.1 PPG";
+        PF3.textContent = "24.4 PPG";
+        C3.textContent = "13.1 PPG";
 
         sidepic.src = "/NBA/basket_img/logos/la lakers.gif";
-        C.style.left = "46.5%";
-        SF.style.left = "56.5%"
+        C.style.left = "44.5%";
+        SF.style.left = "56%"
         sidepic.style.border = "3px solid black"
         message.innerHTML = "30+ Games"
+        C.style.fontSize = "27px";
     }
 
     if (selectedYear === "65") {
@@ -1943,11 +1944,11 @@ function updatePlayerInfo() {
         title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25 #1"
         document.querySelector("select").style.fontSize = "32px";
 
-        PG.textContent = "";
-        SG.textContent = "";
-        SF.textContent = "";
-        PF.textContent = "";
-        C.textContent = "";
+        PG.textContent = "J Brunson";
+        SG.textContent = "Mik Bridges";
+        SF.textContent = "OG Anunoby";
+        PF.textContent = "J Hart";
+        C.textContent = "KA Towns";
 
         PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
@@ -1955,15 +1956,16 @@ function updatePlayerInfo() {
         PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
         C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
 
-        PG3.textContent = " PPG";
-        SG3.textContent = " PPG";
-        SF3.textContent = " PPG";
-        PF3.textContent = " PPG";
-        C3.textContent = " PPG";
+        PG3.textContent = "26.0 PPG";
+        SG3.textContent = "17.6 PPG";
+        SF3.textContent = "18.0 PPG";
+        PF3.textContent = "13.6 PPG";
+        C3.textContent = "24.4 PPG";
 
         sidepic.src = "/NBA/basket_img/logos/new york.gif";
-        C.style.left = "46.5%";
-        SF.style.left = "56.5%"
+        C.style.left = "46%";
+        SF.style.left = "52.5%"
+        SG.style.left  = "490px"
         sidepic.style.border = "3px solid black"
         message.innerHTML = "30+ Games"
     }
@@ -1973,11 +1975,11 @@ function updatePlayerInfo() {
         title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25 #1"
         document.querySelector("select").style.fontSize = "32px";
 
-        PG.textContent = "";
-        SG.textContent = "";
-        SF.textContent = "";
-        PF.textContent = "";
-        C.textContent = "";
+        PG.textContent = "F VanVleet";
+        SG.textContent = "J Green";
+        SF.textContent = "Am Thompson";
+        PF.textContent = "J Smith Jr";
+        C.textContent = "A Sengun";
 
         PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
@@ -1985,15 +1987,15 @@ function updatePlayerInfo() {
         PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
         C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
 
-        PG3.textContent = " PPG";
-        SG3.textContent = " PPG";
-        SF3.textContent = " PPG";
-        PF3.textContent = " PPG";
-        C3.textContent = " PPG";
+        PG3.textContent = "14.1 PPG";
+        SG3.textContent = "21.0 PPG";
+        SF3.textContent = "14.1 PPG";
+        PF3.textContent = "12.2 PPG";
+        C3.textContent = "19.1 PPG";
 
         sidepic.src = "/NBA/basket_img/logos/houston.gif";
         C.style.left = "46.5%";
-        SF.style.left = "56.5%"
+        SF.style.left = "50.5%"
         sidepic.style.border = "3px solid black"
         message.innerHTML = "30+ Games"
     }
@@ -2003,11 +2005,11 @@ function updatePlayerInfo() {
         title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25 #1"
         document.querySelector("select").style.fontSize = "32px";
 
-        PG.textContent = "";
-        SG.textContent = "";
-        SF.textContent = "";
-        PF.textContent = "";
-        C.textContent = "";
+        PG.textContent = "P Pritchard";
+        SG.textContent = "D White";
+        SF.textContent = "J Brown";
+        PF.textContent = "J Tatum";
+        C.textContent = "K Porzingis";
 
         PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
@@ -2015,14 +2017,14 @@ function updatePlayerInfo() {
         PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
         C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
 
-        PG3.textContent = " PPG";
-        SG3.textContent = " PPG";
-        SF3.textContent = " PPG";
-        PF3.textContent = " PPG";
-        C3.textContent = " PPG";
+        PG3.textContent = "14.3 PPG";
+        SG3.textContent = "16.4 PPG";
+        SF3.textContent = "22.2 PPG";
+        PF3.textContent = "26.8 PPG";
+        C3.textContent = "19.5 PPG";
 
         sidepic.src = "/NBA/basket_img/logos/boston.gif";
-        C.style.left = "46.5%";
+        C.style.left = "45%";
         SF.style.left = "56.5%"
         sidepic.style.border = "3px solid black"
         message.innerHTML = "30+ Games"
@@ -2033,11 +2035,11 @@ function updatePlayerInfo() {
         title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25 #1"
         document.querySelector("select").style.fontSize = "32px";
 
-        PG.textContent = "";
-        SG.textContent = "";
-        SF.textContent = "";
-        PF.textContent = "";
-        C.textContent = "";
+        PG.textContent = "D Garland";
+        SG.textContent = "D Mitchell";
+        SF.textContent = "C LeVert";
+        PF.textContent = "E Mobley";
+        C.textContent = "J Allen";
 
         PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";

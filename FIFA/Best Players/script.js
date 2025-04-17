@@ -97,6 +97,7 @@ function setPlayerImage(element, imgElement) {
 function updatePlayerInfo() {
     title.innerHTML = " FIFA<br>BEST PLAYERS";
     title.style.fontSize = "41px"
+    title.style.marginLeft = "-60px"
     document.querySelector("select").style.fontSize = "32px";
     sidepic.style.borderRadius = "10px";
     sidepic.style.border = "none";
@@ -1235,6 +1236,119 @@ function updatePlayerInfo() {
         RB.textContent = "Cafu";
         setPlayerImage(RB, RB2);
         GK.textContent = "Schmeichel";
+        setPlayerImage(GK, GK2);
+        Three_Mid()
+        Three_Def()
+
+        sidepic.src = "/FIFA/football_img/logos/fifa.webp";
+        RB.style.left = "87%"
+    }
+
+    if (selectedTeam == "20") {
+
+        title.innerHTML = "FIFA BEST PLAYERS <BR>U24 YEARS OLD IN 2025"
+        title.style.marginLeft = "0"
+
+        STL.textContent = "";
+        setPlayerImage(STL, STL2);
+        STC.textContent = "Sesko";
+        setPlayerImage(STC, STC2);
+        STR.textContent = "";
+        setPlayerImage(STR, STR2);
+        LW.textContent = "N Williams";
+        setPlayerImage(LW, LW2);
+        LF.textContent = "";
+        setPlayerImage(LF, LF2);
+        AMLC.textContent = "";
+        setPlayerImage(AMLC, AMLC2);
+        AMC.textContent = "Wirtz";
+        setPlayerImage(AMC, AMC2);
+        AMRC.textContent = "";
+        setPlayerImage(AMRC, AMRC2);
+        RF.textContent = "";
+        setPlayerImage(RF, RF2);
+        RW.textContent = "Doku";
+        setPlayerImage(RW, RW2);
+        WL.textContent = "";
+        setPlayerImage(WL, WL2);
+        LCM.textContent = "Camavinga";
+        setPlayerImage(LCM, LCM2);
+        CM.textContent = "";
+        setPlayerImage(CM, CM2);
+        RCM.textContent = "Gavi";
+        setPlayerImage(RCM, RCM2);
+        WR.textContent = "";
+        setPlayerImage(WR, WR2);
+        // DM.textContent = "";
+        // setPlayerImage(DM, DM2);
+        LB.textContent = "Kerkez";
+        setPlayerImage(LB, LB2);
+        LCB.textContent = "Scalvini";
+        setPlayerImage(LCB, LCB2);
+        CB.textContent = "";
+        setPlayerImage(CB, CB2);
+        RCB.textContent = "A Silva";
+        setPlayerImage(RCB, RCB2);
+        RB.textContent = "R Lewis";
+        setPlayerImage(RB, RB2);
+        GK.textContent = "Vandevoordt";
+        setPlayerImage(GK, GK2);
+        Three_Mid()
+        Three_Def()
+
+        sidepic.src = "/FIFA/football_img/logos/fifa.webp";
+        RB.style.left = "84%"
+        LCM.style.left = "95px"
+    }
+
+    if (selectedTeam == "21") {
+
+        title.innerHTML = "FIFA BEST PLAYERS <BR>U24 YEARS OLD IN 2025"
+        title.style.marginLeft = "0"
+
+        STL.textContent = "";
+        setPlayerImage(STL, STL2);
+        STC.textContent = "Endrick";
+        setPlayerImage(STC, STC2);
+        STR.textContent = "";
+        setPlayerImage(STR, STR2);
+        LW.textContent = "Saka";
+        setPlayerImage(LW, LW2);
+        LF.textContent = "";
+        setPlayerImage(LF, LF2);
+        AMLC.textContent = "";
+        setPlayerImage(AMLC, AMLC2);
+        AMC.textContent = "Musiala";
+        setPlayerImage(AMC, AMC2);
+        AMRC.textContent = "";
+        setPlayerImage(AMRC, AMRC2);
+        RF.textContent = "";
+        setPlayerImage(RF, RF2);
+        RW.textContent = "L Yamal";
+        setPlayerImage(RW, RW2);
+        WL.textContent = "";
+        setPlayerImage(WL, WL2);
+        LCM.textContent = "J Neves";
+        setPlayerImage(LCM, LCM2);
+        CM.textContent = "";
+        setPlayerImage(CM, CM2);
+        RCM.textContent = "Bellingham";
+        setPlayerImage(RCM, RCM2);
+        WR.textContent = "";
+        setPlayerImage(WR, WR2);
+        // DM.textContent = "";
+        // setPlayerImage(DM, DM2);
+        LB.textContent = "Balde";
+        setPlayerImage(LB, LB2);
+        LCB.textContent = "Cubarsi";
+        setPlayerImage(LCB, LCB2);
+        CB.textContent = "";
+        setPlayerImage(CB, CB2);
+        RCB.textContent = "Saliba";
+        setPlayerImage(RCB, RCB2);
+        RB.textContent = "Gusto";
+        setPlayerImage(RB, RB2);
+        GK.textContent = "D Costa";
         setPlayerImage(GK, GK2);
         Three_Mid()
         Three_Def()

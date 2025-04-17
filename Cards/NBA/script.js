@@ -21,9 +21,9 @@ function displayPlayerInfo() {
     const stats = document.querySelector(".stats")
     const sidepic = document.querySelector(".sidepic")
     const title = document.querySelector(".title")
-    
+
     // sidepic.src = "/NBA/basket_img/logos/golden state.gif"
-    
+
     // if (selectedPlayer === "100") {
     //     birthDate.textContent = "";
     //     nation.textContent = "";
@@ -36,7 +36,7 @@ function displayPlayerInfo() {
     club.textContent = ""
     stats.innerHTML = ""
     title.style.fontSize = "36px"
-    document.querySelector("select").style.fontSize = "24px"
+    document.querySelector("select").style.fontSize = "26px"
 
     // sidepic.style.bottom = "55px"
     // stats.style.bottom = "200px"
@@ -255,12 +255,12 @@ function displayPlayerInfo() {
         playerImage.src = "/NBA/basket_img/players/j green.jpg";
     }
     else if (selectedPlayer === "27") {
-        title.innerHTML = "NBA TOP U24<br>PLAYERS IN 2025 #1";
+        title.innerHTML = "NBA TOP U24<br>PLAYERS IN 2025";
         nation.textContent = "USA";
-        club.textContent = "Oklahoma City Thunder";
-        position.textContent = "C / PF";
+        club.textContent = "Detroit Pistons";
+        position.textContent = "PG / SG";
         stats.innerHTML = "9th";
-        playerImage.src = "/NBA/basket_img/players/c holmgren.jpg";
+        playerImage.src = "/NBA/basket_img/players/c cunningham.jpg";
     }
     else if (selectedPlayer === "28") {
         title.innerHTML = "NBA TOP U24<br>PLAYERS IN 2025 #1";
@@ -287,15 +287,15 @@ function displayPlayerInfo() {
         playerImage.src = "/NBA/basket_img/players/la ball.jpg";
     }
     else if (selectedPlayer === "31") {
-        title.innerHTML = "NBA TOP U24<br>PLAYERS IN 2025 #2";
+        title.innerHTML = "NBA TOP 5<br>UNDER 24 IN 2025";
         nation.textContent = "USA";
-        club.textContent = "Detroit Pistons";
-        position.textContent = "PG / SG";
+        club.textContent = "Oklahoma City Thunder";
+        position.textContent = "C / PF";
         stats.innerHTML = "5th";
-        playerImage.src = "/NBA/basket_img/players/c cunningham.jpg";
+        playerImage.src = "/NBA/basket_img/players/c holmgren.jpg";
     }
     else if (selectedPlayer === "32") {
-        title.innerHTML = "NBA TOP U24<br>PLAYERS IN 2025 #2";
+        title.innerHTML = "NBA TOP 5<br>UNDER 24 IN 2025";
         nation.textContent = "USA";
         club.textContent = "Orlando Magic";
         position.textContent = "PF / SF";
@@ -303,7 +303,8 @@ function displayPlayerInfo() {
         playerImage.src = "/NBA/basket_img/players/p banchero.jpg";
     }
     else if (selectedPlayer === "33") {
-        title.innerHTML = "NBA TOP U24<br>PLAYERS IN 2025 #2";
+        document.querySelector("select").style.fontSize = "24.5px"
+        title.innerHTML = "NBA TOP 5<br>UNDER 24 IN 2025";
         nation.textContent = "USA";
         club.textContent = "Indiana Pacers";
         position.textContent = "PG / SG";
@@ -311,7 +312,8 @@ function displayPlayerInfo() {
         playerImage.src = "/NBA/basket_img/players/t haliburton.jpg";
     }
     else if (selectedPlayer === "34") {
-        title.innerHTML = "NBA TOP U24<br>PLAYERS IN 2025 #2";
+        document.querySelector("select").style.fontSize = "24.5px"
+        title.innerHTML = "NBA TOP 5<br>UNDER 24 IN 2025";
         nation.textContent = "USA";
         club.textContent = "Minnesota Timberwolves";
         position.textContent = "SG / SF";
@@ -320,7 +322,7 @@ function displayPlayerInfo() {
     }
     else if (selectedPlayer === "35") {
         document.querySelector("select").style.fontSize = "22px"
-        title.innerHTML = "NBA TOP U24<br>PLAYERS IN 2025 #2";
+        title.innerHTML = "NBA TOP 5<br>UNDER 24 IN 2025";
         nation.textContent = "France";
         club.textContent = "San Antonio Spurs";
         position.textContent = "C / PF";

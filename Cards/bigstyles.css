@@ -90,14 +90,13 @@ h1.title {
     margin-bottom: 20px;
     /* text-shadow: var(--text-shadow); */
     text-align: center;
-    font-family: 'Arial Black', sans-serif;
     color: black; 
 }
 
 select {
     background-color: rgba(255, 255, 255, 0.05);
     padding: 12px 16px;
-    font-size: 24px;
+    font-size: 32px;
     color: black;
     font-weight: bold;
     width: 90%;

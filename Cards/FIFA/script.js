@@ -48,7 +48,7 @@ function displayPlayerInfo() {
     club.textContent = ""
     stats.innerHTML = ""
     title.style.fontSize = "36px"
-    document.querySelector("select").style.fontSize = "24px"
+    document.querySelector("select").style.fontSize = "26px"
     // sidepic.style.bottom = "30px"
     // stats.style.bottom = "200px"
     document.querySelector(".short").style.background = " linear-gradient(135deg, darkgrey 20%, #00ff66 100%)";
@@ -311,7 +311,7 @@ function displayPlayerInfo() {
         playerImage.src = "/FIFA/football_img/players/gavi.webp";
     }
     else if (selectedPlayer === "31") {
-        title.innerHTML = "FIFA TOP U24<br>PLAYERS IN 2025 #2";
+        title.innerHTML = "FIFA TOP 5<br>UNDER 24 IN 2025";
         nation.textContent = "Germany";
         club.textContent = "Bayern Munich";
         position.textContent = "Attacking Midfielder";
@@ -319,7 +319,7 @@ function displayPlayerInfo() {
         playerImage.src = "/FIFA/football_img/players/musiala.webp";
     }
     else if (selectedPlayer === "32") {
-        title.innerHTML = "FIFA TOP U24<br>PLAYERS IN 2025 #2";
+        title.innerHTML = "FIFA TOP 5<br>UNDER 24 IN 2025";
         nation.textContent = "Spain";
         club.textContent = "Barcelona";
         position.textContent = "Central Midfielder";
@@ -327,7 +327,7 @@ function displayPlayerInfo() {
         playerImage.src = "/FIFA/football_img/players/pedri.webp";
     }
     else if (selectedPlayer === "33") {
-        title.innerHTML = "FIFA TOP U24<br>PLAYERS IN 2025 #2";
+        title.innerHTML = "FIFA TOP 5<br>UNDER 24 IN 2025";
         nation.textContent = "England";
         club.textContent = "Arsenal";
         position.textContent = "Right Winger";
@@ -335,7 +335,7 @@ function displayPlayerInfo() {
         playerImage.src = "/FIFA/football_img/players/saka.webp";
     }
     else if (selectedPlayer === "34") {
-        title.innerHTML = "FIFA TOP U24<br>PLAYERS IN 2025 #2";
+        title.innerHTML = "FIFA TOP 5<br>UNDER 24 IN 2025";
         nation.textContent = "England";
         club.textContent = "Real Madrid";
         position.textContent = "Attacking Midfielder";
@@ -343,7 +343,7 @@ function displayPlayerInfo() {
         playerImage.src = "/FIFA/football_img/players/bellingham.webp";
     }
     else if (selectedPlayer === "35") {
-        title.innerHTML = "FIFA TOP U24<br>PLAYERS IN 2025 #2";
+        title.innerHTML = "FIFA TOP 5<br>UNDER 24 IN 2025";
         nation.textContent = "Spain";
         club.textContent = "Barcelona";
         position.textContent = "Right Winger";

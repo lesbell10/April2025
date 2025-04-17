@@ -864,6 +864,50 @@ function updatePlayerInfo() {
         FR.style.left = "850px"
     }
 
+    if (selectedPlayer === "30") {
+
+        title.innerHTML = "NHL BEST PLAYERS<BR>U24  YEARS OLD IN 2025"
+
+        FL.textContent = "Guenther";
+        FC.textContent = "Stutzle";
+        FR.textContent = "Michkov";
+        DL.textContent = "Sanderson";
+        DR.textContent = "L Hughes";
+        G.textContent = "Levi";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        FR.style.left = "850px"
+    }
+
+    if (selectedPlayer === "31") {
+
+        title.innerHTML = "NHL BEST PLAYERS<BR>U24  YEARS OLD IN 2025"
+
+        FL.textContent = "Caufield";
+        FC.textContent = "Bedard";
+        FR.textContent = "J Hughes";
+        DL.textContent = "Dahlin";
+        DR.textContent = "Seider";
+        G.textContent = "Wallstedt";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        FR.style.left = "830px"
+    }
+
     if (selectedPlayer === "300") {
 
         title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25"
