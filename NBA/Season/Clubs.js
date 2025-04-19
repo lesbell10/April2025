@@ -30,12 +30,6 @@ teamSelector.addEventListener("change", () => {
 
     localStorage.setItem("selectedTeam", teamSelector.value);
 
-    PG3.style.fontWeight = "400";
-    SG3.style.fontWeight = "400";
-    SF3.style.fontWeight = "400";
-    PF3.style.fontWeight = "400";
-    C3.style.fontWeight = "400";
-
     updatePlayerInfo();
 });
 
@@ -50,17 +44,17 @@ function updatePlayerInfo() {
 
     if (selectedTeam == "50") {
 
-        PG.textContent = "La Ball";
+        PG.textContent = "S Gilgeous-A";
         SG.textContent = "L Doncic";
-        SF.textContent = "S Gilgeous-A";
+        SF.textContent = "A Edwards";
         PF.textContent = "G Antetokounmpo";
         C.textContent = "N Jokic";
 
-        PG3.textContent = "29.5 PPG";
-        SG3.textContent = "28.1 PPG";
-        SF3.textContent = "31.6 PPG";
-        PF3.textContent = "31.4 PPG";
-        C3.textContent = "30.4 PPG";
+        PG3.textContent = "32.7 PPG";
+        SG3.textContent = "28.2 PPG";
+        SF3.textContent = "27.6 PPG";
+        PF3.textContent = "30.4 PPG";
+        C3.textContent = "29.6 PPG";
 
         PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
@@ -69,10 +63,9 @@ function updatePlayerInfo() {
         C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
 
         sidepic.src = "/NBA/basket_img/logos/nba.gif"
-        manager.innerHTML = "Best Head Coach: Kenny Atkinson"
+        manager.innerHTML = "Best Head Coach: Erik Spoelstra"
         manager.style.fontSize = "42px";
-        SF3.style.fontWeight = "1000";
-    }
+   }
 
     if (selectedTeam == "0") {
 
@@ -96,7 +89,6 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NBA/basket_img/logos/atlanta.gif";
         manager.textContent += "Quin Snyder"
-        PG3.style.fontWeight = "1000";
     }    
 
     if (selectedTeam == "1") {
@@ -121,7 +113,6 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NBA/basket_img/logos/boston.gif";
         manager.textContent += "Joe Mazzulla"
-        PF3.style.fontWeight = "1000";
     }
 
     if (selectedTeam == "2") {
@@ -146,7 +137,6 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NBA/basket_img/logos/brooklyn.gif";
         manager.textContent += "Jordi Fernandez"
-        SG3.style.fontWeight = "1000";
     }
 
     if (selectedTeam == "3") {
@@ -171,7 +161,6 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NBA/basket_img/logos/charlotte.gif";
         manager.textContent += "Charles Lee"
-        PG3.style.fontWeight = "1000";
     }
 
     if (selectedTeam == "4") {
@@ -196,8 +185,7 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NBA/basket_img/logos/chicago.gif";
         manager.textContent += "Billy Donovan"
-        SF3.style.fontWeight = "1000";
-    }
+   }
 
     if (selectedTeam == "5") {
 
@@ -221,7 +209,6 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NBA/basket_img/logos/cleveland.gif";
         manager.textContent += "Kenny Atkinson"
-        SG3.style.fontWeight = "1000";
     }
 
     if (selectedTeam == "6") {
@@ -246,7 +233,6 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NBA/basket_img/logos/dallas.gif";
         manager.textContent += "Jason Kidd"
-        PG3.style.fontWeight = "1000";
     }
 
     if (selectedTeam == "7") {
@@ -270,8 +256,7 @@ function updatePlayerInfo() {
         C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg"
 
         sidepic.src = "/NBA/basket_img/logos/denver.gif";
-        manager.textContent += "Michael Malone"
-        C3.style.fontWeight = "1000";
+        manager.textContent += "David Adelman"
     }
 
     if (selectedTeam == "8") {
@@ -296,7 +281,6 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NBA/basket_img/logos/detroit.gif";
         manager.textContent += "JB Bickerstaff"
-        PG3.style.fontWeight = "1000";
     }
 
     if (selectedTeam == "9") {
@@ -321,7 +305,7 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NBA/basket_img/logos/golden state.gif";
         manager.textContent += "Steve Kerr"
-        PG3.style.fontWeight = "1000";
+
     }
 
     if (selectedTeam == "10") {
@@ -346,7 +330,6 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NBA/basket_img/logos/houston.gif";
         manager.textContent += "Ime Udoka"
-        SG3.style.fontWeight = "1000";
     }
 
     if (selectedTeam == "11") {
@@ -371,8 +354,6 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NBA/basket_img/logos/indiana.gif";
         manager.textContent += "Rick Carlisle"
-        PF3.style.fontWeight = "1000";
-
     }
 
     if (selectedTeam == "12") {
@@ -397,8 +378,6 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NBA/basket_img/logos/la clippers.gif";
         manager.textContent += "Tyronn Lue"
-        SG3.style.fontWeight = "1000";
-
     }
 
     if (selectedTeam == "13") {
@@ -423,8 +402,6 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NBA/basket_img/logos/la lakers.gif";
         manager.textContent += "JJ Redick"
-        C3.style.fontWeight = "1000";
-
     }
 
     if (selectedTeam == "14") {
@@ -448,9 +425,7 @@ function updatePlayerInfo() {
         C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg"
 
         sidepic.src = "/NBA/basket_img/logos/memphis.gif";
-        manager.textContent += "Taylor Jenkins"
-        C3.style.fontWeight = "1000";
-
+        manager.textContent += "Tuomas Iisalo"
     }
 
     if (selectedTeam == "15") {
@@ -475,8 +450,6 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NBA/basket_img/logos/miami.gif";
         manager.textContent += "Erik Spoelstra"
-        SG3.style.fontWeight = "1000";
-
     }
 
     if (selectedTeam == "16") {
@@ -501,9 +474,8 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NBA/basket_img/logos/milwaukee.gif";
         manager.textContent += "Doc Rivers"
-        PF3.style.fontWeight = "1000";
-
     }
+    
 
     if (selectedTeam == "17") {
 
@@ -527,8 +499,6 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NBA/basket_img/logos/minnesota.gif";
         manager.textContent += "Chris Finch"
-        SG3.style.fontWeight = "1000";
-
     }
 
     if (selectedTeam == "18") {
@@ -553,8 +523,6 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NBA/basket_img/logos/new orleans.gif";
         manager.textContent += "Willie Green"
-        PF3.style.fontWeight = "1000";
-
     }
 
     if (selectedTeam == "19") {
@@ -579,8 +547,6 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NBA/basket_img/logos/new york.gif";
         manager.textContent += "Tom Thibodeau"
-        PG3.style.fontWeight = "1000";
-
     }
 
     if (selectedTeam == "20") {
@@ -605,8 +571,6 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NBA/basket_img/logos/oklahoma city.gif";
         manager.textContent += "Mark Daigneault"
-        PG3.style.fontWeight = "1000";
-
     }
 
     if (selectedTeam == "21") {
@@ -631,8 +595,7 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NBA/basket_img/logos/orlando.gif";
         manager.textContent += "Jamahl Mosley"
-        SF3.style.fontWeight = "1000";
-    }
+   }
 
     if (selectedTeam == "22") {
 
@@ -656,8 +619,6 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NBA/basket_img/logos/philadelphia.gif";
         manager.textContent += "Nick Nurse"
-        PG3.style.fontWeight = "1000";
-
     }
 
     if (selectedTeam == "23") {
@@ -682,8 +643,6 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NBA/basket_img/logos/phoenix.gif";
         manager.textContent += "Mike Budenholzer"
-        PF3.style.fontWeight = "1000";
-
     }
 
     if (selectedTeam == "24") {
@@ -708,8 +667,6 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NBA/basket_img/logos/portland.gif";
         manager.textContent += "Chauncey Billups"
-        PG3.style.fontWeight = "1000";
-        SG3.style.fontWeight = "1000";
     }
 
     if (selectedTeam == "25") {
@@ -734,8 +691,6 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NBA/basket_img/logos/sacramento.gif";
         manager.textContent += "Doug Christie"
-        PG3.style.fontWeight = "1000";
-
     }
 
     if (selectedTeam == "26") {
@@ -760,8 +715,6 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NBA/basket_img/logos/san antonio.gif";
         manager.textContent += "Gregg Popovich"
-        C3.style.fontWeight = "1000";
-
     }
 
     if (selectedTeam == "27") {
@@ -786,8 +739,6 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NBA/basket_img/logos/toronto.gif";
         manager.textContent += "Darko Rajakovic"
-        SF3.style.fontWeight = "1000";
-
     }
 
     if (selectedTeam == "28") {
@@ -812,8 +763,6 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NBA/basket_img/logos/utah.gif";
         manager.textContent += "Will Hardy"
-        SF3.style.fontWeight = "1000";
-
     }
 
     if (selectedTeam == "29") {
@@ -838,6 +787,5 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NBA/basket_img/logos/washington.gif";
         manager.textContent += "Brian Keefe"
-        SG3.style.fontWeight = "1000";
     }
 }

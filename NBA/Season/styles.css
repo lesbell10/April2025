@@ -14,7 +14,6 @@ body {
     background-position: center;
     background-size: cover;
     overflow: hidden;
-
 }
 
 select {
@@ -34,10 +33,10 @@ select {
     -moz-appearance: none;
     appearance: none;
 }
-
+/* 
 .mainbutton {
     text-align: center;
-}
+} */
 
 option {
     font-weight: bold;
@@ -58,7 +57,7 @@ option {
     bottom:30px;
     left: 90px;
     text-shadow: 1px 1px 1px #000;
-} */
+}
 
 .carousel {
     color: black;
@@ -83,12 +82,14 @@ option {
 }
 
 .carousel img {
-    height: 22%;
+    /* height: 22%; */
     /* width: 8.5%; */
     cursor: pointer;
     transition: .5s;
     border-radius: 20px;
     box-shadow: 0px 0px 25px 0px black;
+    width: 166.67px;
+    height: 250px;
 }
 
 .sidepic {
@@ -213,11 +214,6 @@ option {
     left: 64.5%; /* Increased by 2% */
     top: 61%;
 }
-.carousel-item img {
-    width: 166.67px;
-    height: 250px;
-}
-
 
 .message {
     position: absolute;
@@ -227,5 +223,4 @@ option {
     font-weight: bold;
     color: black;
     /* text-shadow: var(--text-shadow); */
-
 }
