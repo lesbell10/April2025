@@ -329,7 +329,47 @@ function displayPlayerInfo() {
         stats.innerHTML = "1st";
         playerImage.src = "/NBA/basket_img/players/v wembanyama.jpg";
     }
-
+    else if (selectedPlayer === "36") {
+        title.innerHTML = "NBA TOP 5<br>OVER 34 IN 2025";
+        nation.textContent = "USA";
+        club.textContent = "Los Angeles Clippers";
+        position.textContent = "SG / PG";
+        stats.innerHTML = "5th";
+        playerImage.src = "/NBA/basket_img/players/j harden.jpg";
+    }
+    else if (selectedPlayer === "37") {
+        title.innerHTML = "NBA TOP 5<br>OVER 34 IN 2025";
+        nation.textContent = "USA";
+        club.textContent = "Golden State Warriors";
+        position.textContent = "SF / SG"; 
+        stats.innerHTML = "4th";
+        playerImage.src = "/NBA/basket_img/players/j butler.jpg";
+    }
+    
+    else if (selectedPlayer === "38") {
+        title.innerHTML = "NBA TOP 5<br>OVER 34 IN 2025";
+        nation.textContent = "USA";
+        club.textContent = "Phoenix Suns";
+        position.textContent = "SF / PF";
+        stats.innerHTML = "3rd";
+        playerImage.src = "/NBA/basket_img/players/k durant.jpg";
+    }
+    else if (selectedPlayer === "39") {
+        title.innerHTML = "NBA TOP 5<br>OVER 34 IN 2025";
+        nation.textContent = "USA";
+        club.textContent = "Golden State Warriors";
+        position.textContent = "PG";
+        stats.innerHTML = "2nd";
+        playerImage.src = "/NBA/basket_img/players/s curry.jpg";
+    }
+    else if (selectedPlayer === "40") {
+        title.innerHTML = "NBA TOP 5<br>OVER 34 IN 2025";
+        nation.textContent = "USA";
+        club.textContent = "Los Angeles Lakers";
+        position.textContent = "SF / PF";
+        stats.innerHTML = "1st";
+        playerImage.src = "/NBA/basket_img/players/l james.jpg";
+    }
     // document.querySelector(".short").style.background = "linear-gradient(-45deg, grey 30%, darkorange 70%)";
 }
 

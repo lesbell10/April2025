@@ -44,6 +44,7 @@ yearSelector.addEventListener("change", () => {
     C.style.fontSize = "30px";
 
     sidepic.style.width = "155px"
+    sidepic.style.borderRadius = "0"
 
     PG.style.left = "45.5%";
     SG.style.left = "34.5%";
@@ -1700,7 +1701,7 @@ function updatePlayerInfo() {
     if (selectedYear === "57") {
 
         title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25 #3"
-        document.querySelector("select").style.fontSize = "30px";
+        document.querySelector("select").style.fontSize = "32px";
 
         PG.textContent = "S Curry";
         SG.textContent = "B Podziemski";
@@ -1791,7 +1792,7 @@ function updatePlayerInfo() {
     if (selectedYear === "60") {
 
         title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25 #2"
-        document.querySelector("select").style.fontSize = "28px";
+        document.querySelector("select").style.fontSize = "32px";
 
         PG.textContent = "D DiVincenzo";
         SG.textContent = "A Edwards";
@@ -1965,7 +1966,7 @@ function updatePlayerInfo() {
         sidepic.src = "/NBA/basket_img/logos/new york.gif";
         C.style.left = "46%";
         SF.style.left = "52.5%"
-        SG.style.left  = "490px"
+        SG.style.left = "490px"
         sidepic.style.border = "3px solid black"
         message.innerHTML = "30+ Games"
     }
@@ -2047,11 +2048,11 @@ function updatePlayerInfo() {
         PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
         C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
 
-        PG3.textContent = " PPG";
-        SG3.textContent = " PPG";
-        SF3.textContent = " PPG";
-        PF3.textContent = " PPG";
-        C3.textContent = " PPG";
+        PG3.textContent = "20.6 PPG";
+        SG3.textContent = "24.0 PPG";
+        SF3.textContent = "10.2 PPG";
+        PF3.textContent = "18.5 PPG";
+        C3.textContent = "13.5 PPG";
 
         sidepic.src = "/NBA/basket_img/logos/cleveland.gif";
         C.style.left = "46.5%";
@@ -2063,13 +2064,13 @@ function updatePlayerInfo() {
     if (selectedYear === "69") {
 
         title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25 #1"
-        document.querySelector("select").style.fontSize = "30px";
+        document.querySelector("select").style.fontSize = "32px";
 
-        PG.textContent = "";
-        SG.textContent = "";
-        SF.textContent = "";
-        PF.textContent = "";
-        C.textContent = "";
+        PG.textContent = "S Gilgeous-A";
+        SG.textContent = "Aa Wiggins";
+        SF.textContent = "J Williams";
+        PF.textContent = "C Holmgren";
+        C.textContent = "I Hartenstein";
 
         PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
@@ -2077,17 +2078,18 @@ function updatePlayerInfo() {
         PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
         C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
 
-        PG3.textContent = " PPG";
-        SG3.textContent = " PPG";
-        SF3.textContent = " PPG";
-        PF3.textContent = " PPG";
-        C3.textContent = " PPG";
+        PG3.textContent = "32.7 PPG";
+        SG3.textContent = "12.0 PPG";
+        SF3.textContent = "21.6 PPG";
+        PF3.textContent = "15.0 PPG";
+        C3.textContent = "11.2 PPG";
 
         sidepic.src = "/NBA/basket_img/logos/oklahoma city.gif";
-        C.style.left = "46.5%";
+        C.style.left = "44.5%";
         SF.style.left = "56.5%"
         sidepic.style.border = "3px solid black"
         message.innerHTML = "30+ Games"
+        C.style.fontSize = "27px";
     }
 
     if (selectedYear === "70") {
@@ -2380,7 +2382,7 @@ function updatePlayerInfo() {
 
     if (selectedYear === "82") {
 
-        title.innerHTML = "NBA BEST PLAYERS<BR>U24  YEARS OLD IN 2025"
+        title.innerHTML = "NBA BEST PLAYERS<BR>U24 YEARS OLD IN 2025"
         document.querySelector("select").style.fontSize = "32px";
 
         PG.textContent = "S Henderson";
@@ -2403,7 +2405,7 @@ function updatePlayerInfo() {
 
     if (selectedYear === "83") {
 
-        title.innerHTML = "NBA BEST PLAYERS<BR>U24  YEARS OLD IN 2025"
+        title.innerHTML = "NBA BEST PLAYERS<BR>U24 YEARS OLD IN 2025"
         document.querySelector("select").style.fontSize = "32px";
 
         PG.textContent = "T Maxey";
@@ -2422,6 +2424,100 @@ function updatePlayerInfo() {
         C.style.left = "44.5%";
         SF.style.left = "56.5%"
         sidepic.style.border = "3px solid black"
+    }
+
+    if (selectedYear === "84") {
+
+        title.innerHTML = "NBA BEST PLAYERS<BR>OVER 34 IN 2025"
+        document.querySelector("select").style.fontSize = "32px";
+
+        PG.textContent = "S Curry";
+        SG.textContent = "J Harden";
+        SF.textContent = "J Butler";
+        PF.textContent = "L James";
+        C.textContent = "K Durant";
+
+        PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
+        SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
+        SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
+        PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        sidepic.src = "/NBA/basket_img/logos/nba.gif";
+        C.style.left = "46.5%";
+        SF.style.left = "56.5%"
+        sidepic.style.border = "3px solid black"
+    }
+
+    if (selectedYear === "85") {
+
+        title.innerHTML = "NBA BEST PLAYERS<BR>OVER 34 IN 2025"
+        document.querySelector("select").style.fontSize = "32px";
+
+        PG.textContent = "C Paul";
+        SG.textContent = "M Conley";
+        SF.textContent = "D DeRozan";
+        PF.textContent = "A Horford";
+        C.textContent = "B Lopez";
+
+        PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
+        SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
+        SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
+        PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        sidepic.src = "/NBA/basket_img/logos/nba.gif";
+        C.style.left = "46.5%";
+        SF.style.left = "54.5%"
+        sidepic.style.border = "3px solid black"
+    }
+
+    if (selectedYear === "86") {
+
+        title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25"
+        document.querySelector("select").style.fontSize = "32px";
+
+        PG.textContent = "Z Risacher";
+        SG.textContent = "B Coulibaly";
+        SF.textContent = "T Salaun";
+        PF.textContent = "V Wemban.";
+        C.textContent = "R Gobert";
+
+        PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
+        SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
+        SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
+        PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        sidepic.src = "/NBA/basket_img/logos/france.webp";
+        C.style.left = "46.5%";
+        SF.style.left = "56.5%"
+        sidepic.style.border = "3px solid black"
+        sidepic.style.borderRadius = "50%"
+    }
+
+    if (selectedYear === "87") {
+
+        title.innerHTML = "NBA BEST PLAYERS<br>SINCE 2005"
+        document.querySelector("select").style.fontSize = "32px";
+
+        PG.textContent = "T Parker";
+        SG.textContent = "E Fournier";
+        SF.textContent = "N Batum";
+        PF.textContent = "R Gobert";
+        C.textContent = "J Noah";
+
+        PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
+        SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
+        SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
+        PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        sidepic.src = "/NBA/basket_img/logos/france.webp";
+        C.style.left = "46.5%";
+        SF.style.left = "56.5%"
+        sidepic.style.border = "3px solid black"
+        sidepic.style.borderRadius = "50%"
     }
 
     if (selectedYear === "300") {

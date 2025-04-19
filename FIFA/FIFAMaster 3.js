@@ -134,8 +134,8 @@ function applyPositioningForRectangle(rectangleClass) {
     applyPositioning(rectangleClass, 'WL2', '33%', '4%');
     applyPositioning(rectangleClass, 'LCM', '54%', '27%');
     applyPositioning(rectangleClass, 'LCM2', '33%', '27%');
-    applyPositioning(rectangleClass, 'CM', '60.5%', '44%');
-    applyPositioning(rectangleClass, 'CM2', '39.5%', '44%');
+    applyPositioning(rectangleClass, 'CM', '59%', '44%');
+    applyPositioning(rectangleClass, 'CM2', '38%', '44%');
     applyPositioning(rectangleClass, 'RCM', '54%', '61%');
     applyPositioning(rectangleClass, 'RCM2', '33%', '61%');
     applyPositioning(rectangleClass, 'WR', '54%', '84%');

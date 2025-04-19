@@ -908,6 +908,96 @@ function updatePlayerInfo() {
         FR.style.left = "830px"
     }
 
+    if (selectedPlayer === "32") {
+
+        title.innerHTML = "NHL BEST PLAYERS<BR>OVER 34 IN 2025"
+
+
+        FL.textContent = "Ovechkin";
+        FC.textContent = "Crosby";
+        FR.textContent = "Malkin";
+        DL.textContent = "Burns";
+        DR.textContent = "Letang";
+        G.textContent = "Fleury";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        FR.style.left = "850px"
+    }
+
+    if (selectedPlayer === "33") {
+
+        title.innerHTML = "NHL BEST PLAYERS<BR>OVER 34 IN 2025"
+
+        FL.textContent = "Perron";
+        FC.textContent = "J Staal";
+        FR.textContent = "Perry";
+        DL.textContent = "R Suter";
+        DR.textContent = "Vlasic";
+        G.textContent = "Quick";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        FR.style.left = "850px"
+    }
+
+    if (selectedPlayer === "34") {
+
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25"
+
+        FL.textContent = "McTavish";
+        FC.textContent = "R Strome";
+        FR.textContent = "Terry";
+        DL.textContent = "Trouba";
+        DR.textContent = "Gudas";
+        G.textContent = "Gibson";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        FR.style.left = "850px"
+    }
+
+    if (selectedPlayer === "35") {
+
+        title.innerHTML = "NHL BEST PLAYERS<br>2005 to 2025"
+
+        FL.textContent = "Perry";
+        FC.textContent = "Getzlaf";
+        FR.textContent = "Selanne";
+        DL.textContent = "Fowler";
+        DR.textContent = "S Niedermayer";
+        G.textContent = "Giguere";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        FR.style.left = "850px"
+        DR.style.left = "745px"
+    }
+
     if (selectedPlayer === "300") {
 
         title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25"

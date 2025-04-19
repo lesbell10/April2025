@@ -1357,6 +1357,232 @@ function updatePlayerInfo() {
         RB.style.left = "87%"
     }
 
+    if (selectedTeam == "22") {
+
+        title.innerHTML = "FIFA BEST PLAYERS<BR>OVER 34 IN 2025"
+
+        STL.textContent = "Suarez";
+        setPlayerImage(STL, STL2);
+        STC.textContent = "";
+        setPlayerImage(STC, STC2);
+        STR.textContent = "Lewandowski";
+        setPlayerImage(STR, STR2);
+        LW.textContent = "C Ronaldo";
+        setPlayerImage(LW, LW2);
+        LF.textContent = "";
+        setPlayerImage(LF, LF2);
+        AMLC.textContent = "";
+        setPlayerImage(AMLC, AMLC2);
+        AMC.textContent = "";
+        setPlayerImage(AMC, AMC2);
+        AMRC.textContent = "";
+        setPlayerImage(AMRC, AMRC2);
+        RF.textContent = "";
+        setPlayerImage(RF, RF2);
+        RW.textContent = "Messi";
+        setPlayerImage(RW, RW2);
+        WL.textContent = "";
+        setPlayerImage(WL, WL2);
+        LCM.textContent = "Kante";
+        setPlayerImage(LCM, LCM2);
+        CM.textContent = "";
+        setPlayerImage(CM, CM2);
+        RCM.textContent = "Modric";
+        setPlayerImage(RCM, RCM2);
+        WR.textContent = "";
+        setPlayerImage(WR, WR2);
+        // DM.textContent = "";
+        // setPlayerImage(DM, DM2);
+        LB.textContent = "Alba";
+        setPlayerImage(LB, LB2);
+        LCB.textContent = "S Ramos";
+        setPlayerImage(LCB, LCB2);
+        CB.textContent = "";
+        setPlayerImage(CB, CB2);
+        RCB.textContent = "T Silva";
+        setPlayerImage(RCB, RCB2);
+        RB.textContent = "Walker";
+        setPlayerImage(RB, RB2);
+        GK.textContent = "Neuer";
+        setPlayerImage(GK, GK2);
+        Three_Mid()
+        Three_Def()
+
+        sidepic.src = "/FIFA/football_img/logos/fifa.webp";
+        RB.style.left = "87%"
+    }
+
+    if (selectedTeam == "23") {
+
+        title.innerHTML = "FIFA BEST PLAYERS<BR>OVER 34 IN 2025"
+
+        STL.textContent = "Dzeko";
+        setPlayerImage(STL, STL2);
+        STC.textContent = "";
+        setPlayerImage(STC, STC2);
+        STR.textContent = "Benzema";
+        setPlayerImage(STR, STR2);
+        LW.textContent = "A Sanchez";
+        setPlayerImage(LW, LW2);
+        LF.textContent = "";
+        setPlayerImage(LF, LF2);
+        AMLC.textContent = "";
+        setPlayerImage(AMLC, AMLC2);
+        AMC.textContent = "";
+        setPlayerImage(AMC, AMC2);
+        AMRC.textContent = "";
+        setPlayerImage(AMRC, AMRC2);
+        RF.textContent = "";
+        setPlayerImage(RF, RF2);
+        RW.textContent = "Di Maria";
+        setPlayerImage(RW, RW2);
+        WL.textContent = "";
+        setPlayerImage(WL, WL2);
+        LCM.textContent = "Casemiro";
+        setPlayerImage(LCM, LCM2);
+        CM.textContent = "";
+        setPlayerImage(CM, CM2);
+        RCM.textContent = "Gundogan";
+        setPlayerImage(RCM, RCM2);
+        WR.textContent = "";
+        setPlayerImage(WR, WR2);
+        // DM.textContent = "";
+        // setPlayerImage(DM, DM2);
+        LB.textContent = "A Sandro";
+        setPlayerImage(LB, LB2);
+        LCB.textContent = "Otamendi";
+        setPlayerImage(LCB, LCB2);
+        CB.textContent = "";
+        setPlayerImage(CB, CB2);
+        RCB.textContent = "Hummels";
+        setPlayerImage(RCB, RCB2);
+        RB.textContent = "Danilo";
+        setPlayerImage(RB, RB2);
+        GK.textContent = "Lloris";
+        setPlayerImage(GK, GK2);
+        Three_Mid()
+        Three_Def()
+
+        sidepic.src = "/FIFA/football_img/logos/fifa.webp";
+        RB.style.left = "87%"
+        LB.style.left = "-10px"
+        LCB.style.left = "100px"
+    }
+
+    if (selectedTeam == "24") {
+
+        title.innerHTML = "FIFA BEST PLAYERS<BR>IN 2025"
+
+        STL.textContent = "";
+        setPlayerImage(STL, STL2);
+        STC.textContent = "Retegui";
+        setPlayerImage(STC, STC2);
+        STR.textContent = "";
+        setPlayerImage(STR, STR2);
+        LW.textContent = "Zaccagni";
+        setPlayerImage(LW, LW2);
+        LF.textContent = "";
+        setPlayerImage(LF, LF2);
+        AMLC.textContent = "";
+        setPlayerImage(AMLC, AMLC2);
+        AMC.textContent = "";
+        setPlayerImage(AMC, AMC2);
+        AMRC.textContent = "";
+        setPlayerImage(AMRC, AMRC2);
+        RF.textContent = "";
+        setPlayerImage(RF, RF2);
+        RW.textContent = "Chiesa";
+        setPlayerImage(RW, RW2);
+        WL.textContent = "";
+        setPlayerImage(WL, WL2);
+        LCM.textContent = "Barella";
+        setPlayerImage(LCM, LCM2);
+        CM.textContent = "Locatelli";
+        setPlayerImage(CM, CM2);
+        RCM.textContent = "Tonali";
+        setPlayerImage(RCM, RCM2);
+        WR.textContent = "";
+        setPlayerImage(WR, WR2);
+        // DM.textContent = "";
+        // setPlayerImage(DM, DM2);
+        LB.textContent = "Dimarco";
+        setPlayerImage(LB, LB2);
+        LCB.textContent = "Bastoni";
+        setPlayerImage(LCB, LCB2);
+        CB.textContent = "";
+        setPlayerImage(CB, CB2);
+        RCB.textContent = "G Mancini";
+        setPlayerImage(RCB, RCB2);
+        RB.textContent = "Di Lorenzo";
+        setPlayerImage(RB, RB2);
+        GK.textContent = "Donnarumma";
+        setPlayerImage(GK, GK2);
+        Three_Mid()
+        Three_Def()
+
+        sidepic.src = "/FIFA/football_img/logos/fifa.webp";
+        RB.style.left = "78%"
+        GK.style.left = "150px" 
+    }
+
+    if (selectedTeam == "25") {
+
+        title.innerHTML = "FIFA BEST PLAYERS<BR>IN 2025"
+
+        STL.textContent = "";
+        setPlayerImage(STL, STL2);
+        STC.textContent = "Scamacca";
+        setPlayerImage(STC, STC2);
+        STR.textContent = "";
+        setPlayerImage(STR, STR2);
+        LW.textContent = "Orsolini";
+        setPlayerImage(LW, LW2);
+        LF.textContent = "";
+        setPlayerImage(LF, LF2);
+        AMLC.textContent = "";
+        setPlayerImage(AMLC, AMLC2);
+        AMC.textContent = "";
+        setPlayerImage(AMC, AMC2);
+        AMRC.textContent = "";
+        setPlayerImage(AMRC, AMRC2);
+        RF.textContent = "";
+        setPlayerImage(RF, RF2);
+        RW.textContent = "Berardi";
+        setPlayerImage(RW, RW2);
+        WL.textContent = "";
+        setPlayerImage(WL, WL2);
+        LCM.textContent = "Pellegrini";
+        setPlayerImage(LCM, LCM2);
+        CM.textContent = "Jorginho";
+        setPlayerImage(CM, CM2);
+        RCM.textContent = "Frattesi";
+        setPlayerImage(RCM, RCM2);
+        WR.textContent = "";
+        setPlayerImage(WR, WR2);
+        // DM.textContent = "";
+        // setPlayerImage(DM, DM2);
+        LB.textContent = "Udogie";
+        setPlayerImage(LB, LB2);
+        LCB.textContent = "Romagnoli";
+        setPlayerImage(LCB, LCB2);
+        CB.textContent = "";
+        setPlayerImage(CB, CB2);
+        RCB.textContent = "Buongiorno";
+        setPlayerImage(RCB, RCB2);
+        RB.textContent = "Darmian";
+        setPlayerImage(RB, RB2);
+        GK.textContent = "Vicario";
+        setPlayerImage(GK, GK2);
+        Three_Mid()
+        Three_Def()
+
+        sidepic.src = "/FIFA/football_img/logos/fifa.webp";
+        RB.style.left = "82%"
+        LCB.style.left = "95px"
+        LCM.style.left = "55px"
+        CM.style.left = "175px"
+    }
+
     if (selectedTeam == "300") {
 
         title.innerHTML = "FIFA BEST PLAYERS<BR>2005 to 2025"

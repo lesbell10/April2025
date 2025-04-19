@@ -91,6 +91,7 @@ h1.title {
     /* text-shadow: var(--text-shadow); */
     text-align: center;
     color: black; 
+    font-weight: normal;
 }
 
 select {

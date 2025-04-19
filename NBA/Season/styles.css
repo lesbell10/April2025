@@ -1,0 +1,231 @@
+*, html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(-45deg, grey 30%, darkorange 70%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+select {
+    padding: 10px;
+    display: flex;
+    font-size: 46px;
+    text-shadow: 1px 1px 2px #000;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 5px solid black;
+    width: 36%;
+    margin-left: 4%;
+    background-color: white;
+    box-shadow: 0px 0px 25px 0px black;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.mainbutton {
+    text-align: center;
+}
+
+option {
+    font-weight: bold;
+}
+
+.manager {
+    position: absolute;
+    right: 70px;
+    top: 45px;
+    font-size: 46px;
+    color: black;
+    text-shadow: 1px 1px 3px #000;
+}
+
+.substitutes {
+    font-size: 40px;
+    position: absolute;
+    bottom:30px;
+    left: 90px;
+    text-shadow: 1px 1px 1px #000;
+} */
+
+.carousel {
+    color: black;
+    font-size: 3.1vh;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+.carousel-item {
+  flex: 0 0 100%;
+  transition: transform 0.5s;
+}
+
+.carousel-item p {
+    color: black;
+    font-size: 46px;
+    padding: 0 7px;
+    transition: .5s;
+    border-radius: 7px;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.carousel img {
+    height: 22%;
+    /* width: 8.5%; */
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 20px;
+    box-shadow: 0px 0px 25px 0px black;
+}
+
+.sidepic {
+    position: absolute;
+    top:68%;
+    left: 4%;
+    height: 275px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 35px 0px black;
+}
+
+.title {
+    font-size: 55px;
+    margin: 40px;
+    text-shadow: 1px 1px 6px #000;
+}
+
+.label {
+    margin-top:10px;
+    margin-left: 4.5%;
+    font-size: 46px;
+    color: black;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 5px 15px;
+    text-shadow: 1px 1px 3px #000;
+}
+
+.carousel-item span {
+    position: absolute;
+    font-size: 38px;
+    text-shadow: 1px 1px 2px #000;
+    font-weight: 500;
+}
+
+#PG {
+    position: absolute;
+    left: 51.5%; /* Increased by 2% */
+    top: 41%;
+}
+
+#PG2 {
+    position: absolute;
+    left: 51.5%; /* Increased by 2% */
+    top: 18%;
+}
+
+#PG3 {
+    position: absolute;
+    left: 61%; /* Increased by 2% */
+    top: 24%;
+}
+
+#SG {
+    position: absolute;
+    left: 27%; /* Increased by 2% */
+    top: 61%;
+}
+
+#SG2 {
+    position: absolute;
+    left: 27%; /* Increased by 2% */
+    top: 38%;
+}
+
+#SG3 {
+    position: absolute;
+    left: 36.5%; /* Increased by 2% */
+    top: 44%;
+}
+
+#SF {
+    position: absolute;
+    left: 77.5%; /* Increased by 2% */
+    top: 73%;
+}
+
+#SF2 {
+    position: absolute;
+    left: 77.5%; /* Increased by 2% */
+    top: 50%;
+}
+
+#SF3 {
+    position: absolute;
+    left: 87%; /* Increased by 2% */
+    top: 56%;
+}
+
+#PF {
+    position: absolute;
+    left: 32%; /* Increased by 2% */
+    top: 91%;
+}
+
+#PF2 {
+    position: absolute;
+    left: 32%; /* Increased by 2% */
+    top: 68%;
+}
+
+#PF3 {
+    position: absolute;
+    left: 41.5%; /* Increased by 2% */
+    top: 74%;
+}
+
+#C {
+    position: absolute;
+    left: 55%; /* Increased by 2% */
+    top: 78%;
+}
+
+#C2 {
+    position: absolute;
+    left: 55%; /* Increased by 2% */
+    top: 55%;
+}
+
+#C3 {
+    position: absolute;
+    left: 64.5%; /* Increased by 2% */
+    top: 61%;
+}
+.carousel-item img {
+    width: 166.67px;
+    height: 250px;
+}
+
+
+.message {
+    position: absolute;
+    font-size: 28px;
+    left: 90px;
+        top: 375px;
+    font-weight: bold;
+    color: black;
+    /* text-shadow: var(--text-shadow); */
+
+}

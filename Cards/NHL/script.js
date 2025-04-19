@@ -344,7 +344,46 @@ function displayPlayerInfo() {
         stats.innerHTML = "1st";
         playerImage.src = "/NHL/hockey_img/players/bedard.jpg";
     }
-
+    else if (selectedPlayer === "36") {
+        title.innerHTML = "NHL TOP 5<BR>OVER 34 IN 2025";
+        nation.textContent = "Canada";
+        club.textContent = "Edmonton Oilers";
+        position.textContent = "Right Wing";
+        stats.innerHTML = "5th";
+        playerImage.src = "/NHL/hockey_img/players/perry.jpg";
+    }
+    else if (selectedPlayer === "37") {
+        title.innerHTML = "NHL TOP 5<BR>OVER 34 IN 2025";
+        nation.textContent = "Canada";
+        club.textContent = "Carolina Hurricanes";
+        position.textContent = "Defenseman";
+        stats.innerHTML = "4th";
+        playerImage.src = "/NHL/hockey_img/players/burns.jpg";
+    }
+    else if (selectedPlayer === "38") {
+        title.innerHTML = "NHL TOP 5<BR>OVER 34 IN 2025";
+        nation.textContent = "Canada";
+        club.textContent = "Nashville Predators";
+        position.textContent = "Center";
+        stats.innerHTML = "3rd";
+        playerImage.src = "/NHL/hockey_img/players/stamkos.jpg";
+    }
+    else if (selectedPlayer === "39") {
+        title.innerHTML = "NHL TOP 5<BR>OVER 34 IN 2025";
+        nation.textContent = "Canada";
+        club.textContent = "Pittsburgh Penguins";
+        position.textContent = "Center";
+        stats.innerHTML = "2nd";
+        playerImage.src = "/NHL/hockey_img/players/crosby.jpg";
+    }
+    else if (selectedPlayer === "40") {
+        title.innerHTML = "NHL TOP 5<BR>OVER 34 IN 2025";
+        nation.textContent = "Russia";
+        club.textContent = "Washington Capitals";
+        position.textContent = "Left Wing";
+        stats.innerHTML = "1st";
+        playerImage.src = "/NHL/hockey_img/players/ovechkin.jpg";
+    }
 
     // document.querySelector(".short").style.background = "linear-gradient(-45deg, grey 30%, dodgerblue 70%)";
 }

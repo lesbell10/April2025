@@ -1,0 +1,231 @@
+*, html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(-45deg, grey 30%, dodgerblue 70%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+select {
+    padding: 10px;
+    display: flex;
+    font-size: 46px;
+    text-shadow: 1px 1px 2px #000;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 5px solid black;
+    width: 36%;
+    margin-left: 4%;
+    background-color: white;
+    box-shadow: 0px 0px 35px 0px black;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+option {
+    font-weight: bold;
+}
+
+.manager {
+    position: absolute;
+    right: 70px;
+    top: 22px;
+    font-size: 42px;
+    color: black;
+    text-shadow: 1px 1px 3px #000;
+}
+
+.substitutes {
+    font-size: 46px;
+    position: absolute;
+    bottom:30px;
+    left: 90px;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.carousel { 
+    font-weight: bold;
+    color: black;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+.carousel-item p {
+    color: black;
+    font-size: 46px;
+    font-weight: normal;
+    padding: 0 7px;
+    transition: .5s; 
+    border-radius: 7px;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.carousel img {
+    height:240px;
+    width: 160px;
+    cursor: pointer;
+    border-radius:15px;
+    transition: .5s;
+    box-shadow: 0px 0px 35px 0px black;
+}
+
+.sidepic {
+    position: absolute;
+    top:50%;
+    left: 8%;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 35px 0px black;
+}
+
+.title {
+    font-size: 55px;
+    margin: 30px;
+    margin-left: 40px;
+    text-shadow: 1px 1px 6px #000;
+}
+
+.label {
+    margin-top: 0px;
+    margin-left: 4.5%;
+    font-size: 46px;
+    color: black;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 5px 15px;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.carousel-item span {
+    position: absolute;
+    font-size: 38px;
+    text-shadow: 1px 1px 2px #000;
+    font-weight: 500;
+}
+
+#FL {
+    position: absolute;
+    left: 43.5%; /* Updated value */                
+    top: 34.5%; 
+}
+
+#FL2 {
+    position: absolute;
+    left: 44%; /* Updated value */               
+    top: 13%; 
+}
+
+#FL3 {
+    position: absolute;
+    left: 53%; /* Updated value */                
+    top: 21%;
+    font-size: 40px;
+}
+
+#FC {
+    position: absolute;
+    left: 61.5%; /* Updated value */               
+    top: 34.5%; 
+}
+
+#FC2 {
+    position: absolute;
+    left: 62%; /* Updated value */                
+    top: 13%;
+}
+
+#FC3 {
+    position: absolute;
+    left: 71%; /* Updated value */                
+    top: 21%;
+    font-size: 40px;
+}
+
+#FR {
+    position: absolute;
+    left: 79.5%; /* Updated value */               
+    top: 34.5%;
+}
+
+#FR2 {
+    position: absolute;
+    left: 80%; /* Updated value */                
+    top: 13%;
+}
+
+#FR3 {
+    position: absolute;
+    left: 89%; /* Updated value */                
+    top: 21%;
+    font-size: 40px;
+}
+
+#DL {
+    position: absolute;
+    left: 52.5%; /* Updated value */               
+    top: 64.5%;
+}
+
+#DL2 {
+    position: absolute;
+    left: 53%; /* Updated value */                
+    top: 43%;
+}
+
+#DL3 {
+    position: absolute;
+    left: 62%; /* Updated value */                
+    top: 51%;
+    font-size: 40px;
+}
+
+#DR {
+    position: absolute;
+    left: 70.5%; /* Updated value */               
+    top: 64.5%;
+}
+
+#DR2 {
+    position: absolute;
+    left: 71%; /* Updated value */                
+    top: 43%;
+}
+
+#DR3 {
+    position: absolute;
+    left: 80%; /* Updated value */                
+    top: 51%;
+    font-size: 40px;
+}
+
+#G {
+    position: absolute;
+    left: 61.5%; /* Updated value */               
+    top: 93.5%;
+}
+
+#G2 {
+    position: absolute;
+    left: 62%; /* Updated value */                
+    top: 72%;
+}
+
+#G3 {
+    position: absolute;
+    left: 71%; /* Updated value */                
+    top: 80%;
+    font-size: 40px;
+}

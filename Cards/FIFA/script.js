@@ -350,6 +350,47 @@ function displayPlayerInfo() {
         stats.innerHTML = "1st";
         playerImage.src = "/FIFA/football_img/players/yamal.webp";
     }
+    else if (selectedPlayer === "36") {
+        title.innerHTML = "FIFA TOP 5<br>OVER 34 IN 2025";
+        nation.textContent = "France";
+        club.textContent = "Al-Ittihad";
+        position.textContent = "Striker";
+        stats.innerHTML = "5th";
+        playerImage.src = "/FIFA/football_img/players/benzema.webp";
+    }
+    else if (selectedPlayer === "37") {
+        title.innerHTML = "FIFA TOP 5<br>OVER 34 IN 2025";
+        nation.textContent = "Croatia";
+        club.textContent = "Real Madrid";
+        position.textContent = "Central Midfielder";
+        stats.innerHTML = "4th";
+        playerImage.src = "/FIFA/football_img/players/modric.webp";
+    }
+    else if (selectedPlayer === "38") {
+        title.innerHTML = "FIFA TOP 5<br>OVER 34 IN 2025";
+        nation.textContent = "Portugal";
+        club.textContent = "Al Nassr";
+        position.textContent = "Forward";
+        stats.innerHTML = "3rd";
+        playerImage.src = "/FIFA/football_img/players/c ronaldo.webp";
+    }
+    else if (selectedPlayer === "39") {
+        document.querySelector("select").style.fontSize = "25px"
+        title.innerHTML = "FIFA TOP 5<br>OVER 34 IN 2025";
+        nation.textContent = "Poland";
+        club.textContent = "Barcelona";
+        position.textContent = "Striker";
+        stats.innerHTML = "2nd";
+        playerImage.src = "/FIFA/football_img/players/lewandowski.webp";
+    }
+    else if (selectedPlayer === "40") {
+        title.innerHTML = "FIFA TOP 5<br>OVER 34 IN 2025";
+        nation.textContent = "Argentina";
+        club.textContent = "Inter Miami";
+        position.textContent = "Forward";
+        stats.innerHTML = "1st";
+        playerImage.src = "/FIFA/football_img/players/messi.webp";
+    }
 }
 
 document.querySelector(".yearSelector").addEventListener("change", () => {
