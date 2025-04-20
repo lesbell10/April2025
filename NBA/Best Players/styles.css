@@ -136,14 +136,14 @@ option {
 
 #PG { left: 46%; top: 47%; }
 #PG2 { left: 46%; top: 33.5%; }
-#SG { left: 34.5%; top: 59%; }
-#SG2 { left: 34.5%; top: 45.5%; }
-#SF { left: 57%; top: 79%; width: 150%;}
-#SF2 { left: 57%; top: 65.5%; }
-#PF { left: 36.5%; top: 83%; }
-#PF2 { left: 36.5%; top: 69.5%; }
-#C { left: 47%; top: 71%; }
-#C2 { left: 47%; top: 57.5%; }
+#SG { left: 34.5%; top: 56%; }
+#SG2 { left: 34.5%; top: 42.5%; }
+#SF { left: 57%; top: 76%; width: 150%;}
+#SF2 { left: 57%; top: 62.5%; }
+#PF { left: 36.5%; top: 80%; }
+#PF2 { left: 36.5%; top: 66.5%; }
+#C { left: 47%; top: 70%; }
+#C2 { left: 47%; top: 56.5%; }
 
 /* X Position */
 #x-position {
@@ -164,25 +164,25 @@ option {
 #SG3 {
     position: absolute;
     left: 34.5%; /* Decreased by 4% */
-    top: 42%;
+    top: 39%;
 }
 
 #SF3 {
     position: absolute;
     left: 57%; /* Decreased by 4% */
-    top: 62%;
+    top: 59%;
 }   
 
 #PF3 {
     position: absolute;
     left: 36.5%; /* Decreased by 4% */
-    top: 66%;
+    top: 63%;
 }  
 
 #C3 {
     position: absolute;
     left: 47%; /* Decreased by 4% */
-    top: 54%;
+    top: 53%;
 }
 
 h4  {
