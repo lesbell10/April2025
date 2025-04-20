@@ -16,6 +16,7 @@ const PF3 = document.getElementById("PF3");
 const C3 = document.getElementById("C3");
 const sidepic = document.querySelector(".sidepic");
 const manager = document.querySelector(".manager")
+const message = document.querySelector(".message")
 
 document.addEventListener("DOMContentLoaded", () => {
     // Load the saved team from localStorage
@@ -41,10 +42,11 @@ function updatePlayerInfo() {
     manager.style.fontSize = "46px";
     manager.textContent = "Head Coach: "
     // substitutes.innerHTML = "Substitutes: "
+    message.style.display = "none"
 
     if (selectedTeam == "50") {
 
-        PG.textContent = "S Gilgeous-A";
+        PG.textContent = "S Gilgeous-Alexander";
         SG.textContent = "L Doncic";
         SF.textContent = "A Edwards";
         PF.textContent = "G Antetokounmpo";
@@ -65,6 +67,7 @@ function updatePlayerInfo() {
         sidepic.src = "/NBA/basket_img/logos/nba.gif"
         manager.innerHTML = "Best Head Coach: Erik Spoelstra"
         manager.style.fontSize = "42px";
+        message.style.display = "block"
    }
 
     if (selectedTeam == "0") {
@@ -89,27 +92,28 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NBA/basket_img/logos/atlanta.gif";
         manager.textContent += "Quin Snyder"
+        message.style.display = "block"
     }    
 
     if (selectedTeam == "1") {
 
-        PG.textContent = "D White";
-        SG.textContent = "P Pritchard";
+        PG.textContent = "P Pritchard";
+        SG.textContent = "D White";
         SF.textContent = "J Brown";
         PF.textContent = "J Tatum";
         C.textContent = "K Porzingis";
-
-        PG3.textContent = "16.1 PPG";
-        SG3.textContent = "14.5 PPG";
-        SF3.textContent = " 23.3 PPG";
-        PF3.textContent = "27.8 PPG";
-        C3.textContent = "18.8 PPG";
 
         PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
         SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
         PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
-        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg"
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = "14.3 PPG";
+        SG3.textContent = "16.4 PPG";
+        SF3.textContent = "22.2 PPG";
+        PF3.textContent = "26.8 PPG";
+        C3.textContent = "19.5 PPG";
 
         sidepic.src = "/NBA/basket_img/logos/boston.gif";
         manager.textContent += "Joe Mazzulla"
@@ -117,23 +121,23 @@ function updatePlayerInfo() {
 
     if (selectedTeam == "2") {
 
-        PG.textContent = "D Schroder";
-        SG.textContent = "C Thomas";
-        SF.textContent = "Z Williams";
-        PF.textContent = "C Johnson";
-        C.textContent = "D Finney-Smith";
-
-        PG3.textContent = "18.4 PPG";
-        SG3.textContent = "24.7 PPG";
-        SF3.textContent = "9.7 PPG";
-        PF3.textContent = "19.6 PPG";
-        C3.textContent = "10.4 PPG";
+        PG.textContent = "Ke Johnson";
+        SG.textContent = "Z Williams";
+        SF.textContent = "C Johnson";
+        PF.textContent = "T Watford";
+        C.textContent = "N Claxton";
 
         PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
         SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
         PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
-        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg"
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = "10.6 PPG";
+        SG3.textContent = "10.0 PPG";
+        SF3.textContent = "18.8 PPG";
+        PF3.textContent = "10.2 PPG";
+        C3.textContent = "10.3 PPG";
 
         sidepic.src = "/NBA/basket_img/logos/brooklyn.gif";
         manager.textContent += "Jordi Fernandez"
@@ -142,22 +146,22 @@ function updatePlayerInfo() {
     if (selectedTeam == "3") {
 
         PG.textContent = "La Ball";
-        SG.textContent = "Tr Mann";
-        SF.textContent = "B Miller";
-        PF.textContent = "Mil Bridges";
+        SG.textContent = "N Smith Jr";
+        SF.textContent = "Mil Bridges";
+        PF.textContent = "J Nurkic";
         C.textContent = "M Williams";
-
-        PG3.textContent = "29.5 PPG";
-        SG3.textContent = "14.1 PPG";
-        SF3.textContent = "21.0 PPG";
-        PF3.textContent = "18.4 PPG";
-        C3.textContent = "14.5 PPG";
 
         PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
         SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
         PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
-        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg"
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = "25.2 PPG";
+        SG3.textContent = "9.9 PPG";
+        SF3.textContent = "20.3 PPG";
+        PF3.textContent = "9.2 PPG";
+        C3.textContent = "15.3 PPG";
 
         sidepic.src = "/NBA/basket_img/logos/charlotte.gif";
         manager.textContent += "Charles Lee"
@@ -167,21 +171,21 @@ function updatePlayerInfo() {
 
         PG.textContent = "C White";
         SG.textContent = "A Dosunmu";
-        SF.textContent = "Z LaVine";
-        PF.textContent = "P Williams";
+        SF.textContent = "K Huerter";
+        PF.textContent = "J Giddey";
         C.textContent = "N Vucevic";
-
-        PG3.textContent = "18.5 PPG";
-        SG3.textContent = "12.3 PPG";
-        SF3.textContent = "23.6 PPG";
-        PF3.textContent = "9.3 PPG";
-        C3.textContent = "20.6 PPG";
 
         PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
         SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
         PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
-        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg"
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = "20.4 PPG";
+        SG3.textContent = "12.3 PPG";
+        SF3.textContent = "13.2 PPG";
+        PF3.textContent = "14.6 PPG";
+        C3.textContent = "18.5 PPG";
 
         sidepic.src = "/NBA/basket_img/logos/chicago.gif";
         manager.textContent += "Billy Donovan"
@@ -195,17 +199,17 @@ function updatePlayerInfo() {
         PF.textContent = "E Mobley";
         C.textContent = "J Allen";
 
-        PG3.textContent = "21.0 PPG";
-        SG3.textContent = "22.7 PPG";
-        SF3.textContent = "11.1 PPG";
-        PF3.textContent = "18.6 PPG";
-        C3.textContent = "14.1 PPG";
-
         PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
         SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
         PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
-        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg"
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = "20.6 PPG";
+        SG3.textContent = "24.0 PPG";
+        SF3.textContent = "10.2 PPG";
+        PF3.textContent = "18.5 PPG";
+        C3.textContent = "13.5 PPG";
 
         sidepic.src = "/NBA/basket_img/logos/cleveland.gif";
         manager.textContent += "Kenny Atkinson"
@@ -213,23 +217,23 @@ function updatePlayerInfo() {
 
     if (selectedTeam == "6") {
 
-        PG.textContent = "L Doncic";
-        SG.textContent = "K Irving";
-        SF.textContent = "K Thompson";
+        PG.textContent = "K Irving";
+        SG.textContent = "K Thompson";
+        SF.textContent = "N Marshall";
         PF.textContent = "PJ Washington";
-        C.textContent = "D Gafford";
-
-        PG3.textContent = "28.1 PPG";
-        SG3.textContent = "23.9 PPG";
-        SF3.textContent = "13.7 PPG";
-        PF3.textContent = "13.1 PPG";
-        C3.textContent = "11.7 PPG";
+        C.textContent = "A Davis";
 
         PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
         SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
         PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
-        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg"
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = "24.7 PPG";
+        SG3.textContent = "14.0 PPG";
+        SF3.textContent = "13.2 PPG";
+        PF3.textContent = "14.7 PPG";
+        C3.textContent = "20.0 PPG";
 
         sidepic.src = "/NBA/basket_img/logos/dallas.gif";
         manager.textContent += "Jason Kidd"
@@ -243,17 +247,17 @@ function updatePlayerInfo() {
         PF.textContent = "A Gordon";
         C.textContent = "N Jokic";
 
-        PG3.textContent = "20.1 PPG";
-        SG3.textContent = "13.6 PPG";
-        SF3.textContent = "18.3 PPG";
-        PF3.textContent = "13.5 PPG";
-        C3.textContent = "30.4 PPG";
-
         PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
         SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
         PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
-        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg"
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = "21.4 PPG";
+        SG3.textContent = "15.4 PPG";
+        SF3.textContent = "18.2 PPG";
+        PF3.textContent = "14.7 PPG";
+        C3.textContent = "29.6 PPG";
 
         sidepic.src = "/NBA/basket_img/logos/denver.gif";
         manager.textContent += "David Adelman"
@@ -267,17 +271,17 @@ function updatePlayerInfo() {
         PF.textContent = "T Harris";
         C.textContent = "J Duren";
 
-        PG3.textContent = "24.4 PPG";
-        SG3.textContent = "17.6 PPG";
-        SF3.textContent = "16.1 PPG";
-        PF3.textContent = "13.2 PPG";
-        C3.textContent = "9.7 PPG";
-
         PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
         SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
         PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
-        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg"
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = "26.1 PPG";
+        SG3.textContent = "17.6 PPG";
+        SF3.textContent = "16.3 PPG";
+        PF3.textContent = "13.7 PPG";
+        C3.textContent = "11.8 PPG";
 
         sidepic.src = "/NBA/basket_img/logos/detroit.gif";
         manager.textContent += "JB Bickerstaff"
@@ -286,22 +290,22 @@ function updatePlayerInfo() {
     if (selectedTeam == "9") {
 
         PG.textContent = "S Curry";
-        SG.textContent = "D Schroder";
-        SF.textContent = "B Hield";
-        PF.textContent = "An Wiggins";
-        C.textContent = "J Kuminga";
-
-        PG3.textContent = "22.9 PPG";
-        SG3.textContent = "10.2 PPG";
-        SF3.textContent = "12.5 PPG";
-        PF3.textContent = "16.8 PPG";
-        C3.textContent = "16.8 PPG";
+        SG.textContent = "B Podziemski";
+        SF.textContent = "J Butler III";
+        PF.textContent = "J Kuminga";
+        C.textContent = "D Green";
 
         PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
         SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
         PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
-        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg"
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = "24.5 PPG";
+        SG3.textContent = "11.7 PPG";
+        SF3.textContent = "17.9 PPG";
+        PF3.textContent = "15.3 PPG";
+        C3.textContent = "9.0 PPG";
 
         sidepic.src = "/NBA/basket_img/logos/golden state.gif";
         manager.textContent += "Steve Kerr"
@@ -312,21 +316,21 @@ function updatePlayerInfo() {
 
         PG.textContent = "F VanVleet";
         SG.textContent = "J Green";
-        SF.textContent = "D Brooks";
+        SF.textContent = "Am Thompson";
         PF.textContent = "J Smith Jr";
         C.textContent = "A Sengun";
-
-        PG3.textContent = "15.0 PPG";
-        SG3.textContent = "21.5 PPG";
-        SF3.textContent = "13.0 PPG";
-        PF3.textContent = "11.9 PPG";
-        C3.textContent = "19.3 PPG";
 
         PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
         SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
         PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
-        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg"
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = "14.1 PPG";
+        SG3.textContent = "21.0 PPG";
+        SF3.textContent = "14.1 PPG";
+        PF3.textContent = "12.2 PPG";
+        C3.textContent = "19.1 PPG";
 
         sidepic.src = "/NBA/basket_img/logos/houston.gif";
         manager.textContent += "Ime Udoka"
@@ -335,22 +339,22 @@ function updatePlayerInfo() {
     if (selectedTeam == "11") {
 
         PG.textContent = "T Haliburton";
-        SG.textContent = "A Nembhard";
-        SF.textContent = "B Mathurin";
+        SG.textContent = "B Mathurin";
+        SF.textContent = "A Nesmith";
         PF.textContent = "P Siakam";
         C.textContent = "M Turner";
-
-        PG3.textContent = "18.1 PPG";
-        SG3.textContent = "10.7 PPG";
-        SF3.textContent = "16.5 PPG";
-        PF3.textContent = "20.1 PPG";
-        C3.textContent = "15.4 PPG";
 
         PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
         SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
         PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
-        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg"
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = "18.6 PPG";
+        SG3.textContent = "16.1 PPG";
+        SF3.textContent = "12.0 PPG";
+        PF3.textContent = "20.2 PPG";
+        C3.textContent = "15.6 PPG";
 
         sidepic.src = "/NBA/basket_img/logos/indiana.gif";
         manager.textContent += "Rick Carlisle"
@@ -360,21 +364,21 @@ function updatePlayerInfo() {
 
         PG.textContent = "J Harden";
         SG.textContent = "N Powell";
-        SF.textContent = "A Coffey";
-        PF.textContent = "D Jones Jr";
+        SF.textContent = "Bog Bogdanovic";
+        PF.textContent = "K Leonard";
         C.textContent = "I Zubac";
-
-        PG3.textContent = "21.4 PPG";
-        SG3.textContent = "23.7 PPG";
-        SF3.textContent = "10.4 PPG";
-        PF3.textContent = "9.8 PPG";
-        C3.textContent = "14.9 PPG";
 
         PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
         SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
         PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
-        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg"
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = "22.8 PPG";
+        SG3.textContent = "21.8 PPG";
+        SF3.textContent = "11.4 PPG";
+        PF3.textContent = "21.5 PPG";
+        C3.textContent = "16.8 PPG";
 
         sidepic.src = "/NBA/basket_img/logos/la clippers.gif";
         manager.textContent += "Tyronn Lue"
@@ -382,23 +386,23 @@ function updatePlayerInfo() {
 
     if (selectedTeam == "13") {
 
-        PG.textContent = "D Russell";
+        PG.textContent = "L Doncic";
         SG.textContent = "A Reaves";
-        SF.textContent = "L James";
-        PF.textContent = "R Hachimura";
-        C.textContent = "A Davis";
-
-        PG3.textContent = "12.4 PPG";
-        SG3.textContent = "18.5 PPG";
-        SF3.textContent = "23.8 PPG";
-        PF3.textContent = "12.1 PPG";
-        C3.textContent = "25.8 PPG";
+        SF.textContent = "D Knecht";
+        PF.textContent = "L James";
+        C.textContent = "R Hachimura";
 
         PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
         SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
         PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
-        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg"
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = "28.2 PPG";
+        SG3.textContent = "20.2 PPG";
+        SF3.textContent = "9.1 PPG";
+        PF3.textContent = "24.4 PPG";
+        C3.textContent = "13.1 PPG";
 
         sidepic.src = "/NBA/basket_img/logos/la lakers.gif";
         manager.textContent += "JJ Redick"
@@ -409,20 +413,20 @@ function updatePlayerInfo() {
         PG.textContent = "J Morant";
         SG.textContent = "D Bane";
         SF.textContent = "J Wells";
-        PF.textContent = "S Aldama";
-        C.textContent = "J Jackson Jr";
-
-        PG3.textContent = "21.4 PPG";
-        SG3.textContent = "17.3 PPG";
-        SF3.textContent = "11.8 PPG";
-        PF3.textContent = "13.3 PPG";
-        C3.textContent = "22.6 PPG";
+        PF.textContent = "J Jackson Jr";
+        C.textContent = "S Aldama";
 
         PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
         SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
         PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
-        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg"
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = "23.2 PPG";
+        SG3.textContent = "19.2 PPG";
+        SF3.textContent = "10.4 PPG";
+        PF3.textContent = "22.2 PPG";
+        C3.textContent = "12.5 PPG";
 
         sidepic.src = "/NBA/basket_img/logos/memphis.gif";
         manager.textContent += "Tuomas Iisalo"
@@ -430,23 +434,23 @@ function updatePlayerInfo() {
 
     if (selectedTeam == "15") {
 
-        PG.textContent = "T Rozier III";
+        PG.textContent = "T Rozier";
         SG.textContent = "T Herro";
-        SF.textContent = "J Butler";
+        SF.textContent = "Du Robinson";
         PF.textContent = "N Jovic";
         C.textContent = "B Adebayo";
-
-        PG3.textContent = "11.8 PPG";
-        SG3.textContent = "24.2 PPG";
-        SF3.textContent = "17.6 PPG";
-        PF3.textContent = "10.0 PPG";
-        C3.textContent = "16.0 PPG";
 
         PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
         SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
         PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
-        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg"
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = "10.6 PPG";
+        SG3.textContent = "23.9 PPG";
+        SF3.textContent = "11.0 PPG";
+        PF3.textContent = "10.7 PPG";
+        C3.textContent = "18.1 PPG";
 
         sidepic.src = "/NBA/basket_img/logos/miami.gif";
         manager.textContent += "Erik Spoelstra"
@@ -455,22 +459,22 @@ function updatePlayerInfo() {
     if (selectedTeam == "16") {
 
         PG.textContent = "D Lillard";
-        SG.textContent = "G Trent Jr";
-        SF.textContent = "K Middleton";
-        PF.textContent = "G Antetokounmpo";
+        SG.textContent = "K Porter Jr";
+        SF.textContent = "K Kuzma";
+        PF.textContent = "G Antetoko.";
         C.textContent = "B Portis";
-
-        PG3.textContent = "25.0 PPG";
-        SG3.textContent = "9.6 PPG";
-        SF3.textContent = "12.6 PPG";
-        PF3.textContent = "31.4 PPG";
-        C3.textContent = "13.5 PPG";
 
         PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
         SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
         PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
-        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg"
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = "24.9 PPG";
+        SG3.textContent = "11.7 PPG";
+        SF3.textContent = "14.5 PPG";
+        PF3.textContent = "30.4 PPG";
+        C3.textContent = "13.9 PPG";
 
         sidepic.src = "/NBA/basket_img/logos/milwaukee.gif";
         manager.textContent += "Doc Rivers"
@@ -481,21 +485,21 @@ function updatePlayerInfo() {
 
         PG.textContent = "D DiVincenzo";
         SG.textContent = "A Edwards";
-        SF.textContent = "J Randle";
-        PF.textContent = "R Gobert";
+        SF.textContent = "J McDaniels";
+        PF.textContent = "J Randle";
         C.textContent = "N Reid";
-
-        PG3.textContent = "11.0 PPG";
-        SG3.textContent = "26.1 PPG";
-        SF3.textContent = "19.2 PPG";
-        PF3.textContent = "10.0 PPG";
-        C3.textContent = "13.2 PPG";
 
         PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
         SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
         PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
-        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg"
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = "11.7 PPG";
+        SG3.textContent = "27.6 PPG";
+        SF3.textContent = "12.2 PPG";
+        PF3.textContent = "18.7 PPG";
+        C3.textContent = "14.2 PPG";
 
         sidepic.src = "/NBA/basket_img/logos/minnesota.gif";
         manager.textContent += "Chris Finch"
@@ -506,20 +510,20 @@ function updatePlayerInfo() {
         PG.textContent = "D Murray";
         SG.textContent = "CJ McCollum";
         SF.textContent = "T Murphy III";
-        PF.textContent = "B Ingram";
-        C.textContent = "H Jones";
-
-        PG3.textContent = "16.8 PPG";
-        SG3.textContent = "21.6 PPG";
-        SF3.textContent = "21.5 PPG";
-        PF3.textContent = "22.2 PPG";
-        C3.textContent = "10.3 PPG";
+        PF.textContent = "Z Williamson";
+        C.textContent = "K Olynyk";
 
         PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
         SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
         PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
-        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg"
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = "17.5 PPG";
+        SG3.textContent = "21.1 PPG";
+        SF3.textContent = "21.2 PPG";
+        PF3.textContent = "24.6 PPG";
+        C3.textContent = "10.7 PPG";
 
         sidepic.src = "/NBA/basket_img/logos/new orleans.gif";
         manager.textContent += "Willie Green"
@@ -529,21 +533,21 @@ function updatePlayerInfo() {
 
         PG.textContent = "J Brunson";
         SG.textContent = "Mik Bridges";
-        SF.textContent = "J Hart";
-        PF.textContent = "OG Anunoby";
+        SF.textContent = "OG Anunoby";
+        PF.textContent = "J Hart";
         C.textContent = "KA Towns";
-
-        PG3.textContent = "26.0 PPG";
-        SG3.textContent = "17.9 PPG";
-        SF3.textContent = "14.2 PPG";
-        PF3.textContent = "16.0 PPG";
-        C3.textContent = "25.4 PPG";
 
         PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
         SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
         PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
-        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg"
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = "26.0 PPG";
+        SG3.textContent = "17.6 PPG";
+        SF3.textContent = "18.0 PPG";
+        PF3.textContent = "13.6 PPG";
+        C3.textContent = "24.4 PPG";
 
         sidepic.src = "/NBA/basket_img/logos/new york.gif";
         manager.textContent += "Tom Thibodeau"
@@ -552,22 +556,22 @@ function updatePlayerInfo() {
     if (selectedTeam == "20") {
 
         PG.textContent = "S Gilgeous-A";
-        SG.textContent = "L Dort";
-        SF.textContent = "Jal Williams"
-        PF.textContent = "I Hartenstein";
-        C.textContent = "C Holmgren";
-
-        PG3.textContent = "31.6 PPG";
-        SG3.textContent = "10.2 PPG";
-        SF3.textContent = "20.6 PPG";
-        PF3.textContent = "11.8 PPG";
-        C3.textContent = "16.4 PPG";
+        SG.textContent = "Aa Wiggins";
+        SF.textContent = "J Williams";
+        PF.textContent = "C Holmgren";
+        C.textContent = "I Hartenstein";
 
         PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
         SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
         PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
-        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg"
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = "32.7 PPG";
+        SG3.textContent = "12.0 PPG";
+        SF3.textContent = "21.6 PPG";
+        PF3.textContent = "15.0 PPG";
+        C3.textContent = "11.2 PPG";
 
         sidepic.src = "/NBA/basket_img/logos/oklahoma city.gif";
         manager.textContent += "Mark Daigneault"
@@ -575,23 +579,23 @@ function updatePlayerInfo() {
 
     if (selectedTeam == "21") {
 
-        PG.textContent = "J Suggs";
-        SG.textContent = "K Caldwell-P";
+        PG.textContent = "A Black";
+        SG.textContent = "J Suggs";
         SF.textContent = "F Wagner";
-        PF.textContent = "G Bitadze";
+        PF.textContent = "P Banchero";
         C.textContent = "M Wagner";
-
-        PG3.textContent = "16.4 PPG";
-        SG3.textContent = "9.0 PPG";
-        SF3.textContent = "24.4 PPG";
-        PF3.textContent = "9.6 PPG";
-        C3.textContent = "12.9 PPG";
 
         PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
         SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
         PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
-        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg"
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = "9.4 PPG";
+        SG3.textContent = "16.2 PPG";
+        SF3.textContent = "24.2 PPG";
+        PF3.textContent = "25.9 PPG";
+        C3.textContent = "12.9 PPG";
 
         sidepic.src = "/NBA/basket_img/logos/orlando.gif";
         manager.textContent += "Jamahl Mosley"
@@ -600,22 +604,22 @@ function updatePlayerInfo() {
     if (selectedTeam == "22") {
 
         PG.textContent = "T Maxey";
-        SG.textContent = "P George";
-        SF.textContent = "K Oubre Jr";
+        SG.textContent = "Q Grimes";
+        SF.textContent = "P George";
         PF.textContent = "G Yabusele";
-        C.textContent = "J Embiid";
-
-        PG3.textContent = "26.0 PPG";
-        SG3.textContent = "17.2 PPG";
-        SF3.textContent = "13.4 PPG";
-        PF3.textContent = "10.1 PPG";
-        C3.textContent = "24.4 PPG";
+        C.textContent = "A Drummond";
 
         PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
         SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
         PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
-        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg"
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = "26.3 PPG";
+        SG3.textContent = "21.9 PPG";
+        SF3.textContent = "16.2 PPG";
+        PF3.textContent = "11.0 PPG";
+        C3.textContent = "7.3 PPG";
 
         sidepic.src = "/NBA/basket_img/logos/philadelphia.gif";
         manager.textContent += "Nick Nurse"
@@ -623,23 +627,23 @@ function updatePlayerInfo() {
 
     if (selectedTeam == "23") {
 
-        PG.textContent = "B Beal";
-        SG.textContent = "D Booker";
+        PG.textContent = "D Booker";
+        SG.textContent = "B Beal";
         SF.textContent = "G Allen";
         PF.textContent = "K Durant";
-        C.textContent = "J Nurkic";
-
-        PG3.textContent = "17.5 PPG";
-        SG3.textContent = "25.5 PPG";
-        SF3.textContent = "11.2 PPG";
-        PF3.textContent = "27.1 PPG";
-        C3.textContent = "8.6 PPG";
+        C.textContent = "N Richards";
 
         PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
         SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
         PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
-        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg"
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = "25.6 PPG";
+        SG3.textContent = "17.0 PPG";
+        SF3.textContent = "10.6 PPG";
+        PF3.textContent = "26.6 PPG";
+        C3.textContent = "9.5 PPG";
 
         sidepic.src = "/NBA/basket_img/logos/phoenix.gif";
         manager.textContent += "Mike Budenholzer"
@@ -653,17 +657,17 @@ function updatePlayerInfo() {
         PF.textContent = "J Grant";
         C.textContent = "D Ayton";
 
-        PG3.textContent = "18.2 PPG";
-        SG3.textContent = "18.2 PPG";
-        SF3.textContent = "14.0 PPG";
-        PF3.textContent = "15.0 PPG";
-        C3.textContent = "13.5 PPG";
-
         PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
         SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
         PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
-        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg"
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = "19.3 PPG";
+        SG3.textContent = "18.5 PPG";
+        SF3.textContent = "16.9 PPG";
+        PF3.textContent = "14.4 PPG";
+        C3.textContent = "14.4 PPG";
 
         sidepic.src = "/NBA/basket_img/logos/portland.gif";
         manager.textContent += "Chauncey Billups"
@@ -671,23 +675,23 @@ function updatePlayerInfo() {
 
     if (selectedTeam == "25") {
 
-        PG.textContent = "D Fox";
-        SG.textContent = "M Monk";
+        PG.textContent = "M Monk";
+        SG.textContent = "Z LaVine";
         SF.textContent = "D DeRozan";
         PF.textContent = "K Murray";
         C.textContent = "D Sabonis";
-
-        PG3.textContent = "26.3 PPG";
-        SG3.textContent = "17.5 PPG";
-        SF3.textContent = "21.5 PPG";
-        PF3.textContent = "12.1 PPG";
-        C3.textContent = "20.6 PPG";
 
         PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
         SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
         PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
-        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg"
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = "17.2 PPG";
+        SG3.textContent = "22.4 PPG";
+        SF3.textContent = "22.2 PPG";
+        PF3.textContent = "12.4 PPG";
+        C3.textContent = "19.1 PPG";
 
         sidepic.src = "/NBA/basket_img/logos/sacramento.gif";
         manager.textContent += "Doug Christie"
@@ -695,23 +699,23 @@ function updatePlayerInfo() {
 
     if (selectedTeam == "26") {
 
-        PG.textContent = "S Castle";
-        SG.textContent = "D Vassell";
-        SF.textContent = "K Johnson";
-        PF.textContent = "J Sochan";
+        PG.textContent = "D Fox";
+        SG.textContent = "S Castle";
+        SF.textContent = "D Vassell";
+        PF.textContent = "K Johnson";
         C.textContent = "V Wembanyama";
-
-        PG3.textContent = "11.6 PPG";
-        SG3.textContent = "16.0 PPG";
-        SF3.textContent = "12.4 PPG";
-        PF3.textContent = "13.4 PPG";
-        C3.textContent = "24.5 PPG";
 
         PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
         SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
         PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
-        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg"
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = "19.7 PPG";
+        SG3.textContent = "14.7 PPG";
+        SF3.textContent = "16.3 PPG";
+        PF3.textContent = "12.7 PPG";
+        C3.textContent = "24.3 PPG";
 
         sidepic.src = "/NBA/basket_img/logos/san antonio.gif";
         manager.textContent += "Gregg Popovich"
@@ -725,17 +729,17 @@ function updatePlayerInfo() {
         PF.textContent = "S Barnes";
         C.textContent = "J Poeltl";
 
-        PG3.textContent = "16.2 PPG";
-        SG3.textContent = "16.1 PPG";
-        SF3.textContent = "22.4 PPG";
-        PF3.textContent = "19.9 PPG";
-        C3.textContent = "14.8 PPG";
-
         PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
         SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
         PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
-        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg"
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = "17.1 PPG";
+        SG3.textContent = "14.4 PPG";
+        SF3.textContent = "21.1 PPG";
+        PF3.textContent = "19.3 PPG";
+        C3.textContent = "14.5 PPG";
 
         sidepic.src = "/NBA/basket_img/logos/toronto.gif";
         manager.textContent += "Darko Rajakovic"
@@ -749,17 +753,17 @@ function updatePlayerInfo() {
         PF.textContent = "J Collins";
         C.textContent = "W Kessler";
 
-        PG3.textContent = "18.3 PPG";
-        SG3.textContent = "16.3 PPG";
-        SF3.textContent = "20.1 PPG";
-        PF3.textContent = "17.9 PPG";
-        C3.textContent = "10.8 PPG";
-
         PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
         SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
         PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
-        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg"
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = "18.4 PPG";
+        SG3.textContent = "16.8 PPG";
+        SF3.textContent = "19.0 PPG";
+        PF3.textContent = "19.0 PPG";
+        C3.textContent = "11.1 PPG";
 
         sidepic.src = "/NBA/basket_img/logos/utah.gif";
         manager.textContent += "Will Hardy"
@@ -767,23 +771,23 @@ function updatePlayerInfo() {
 
     if (selectedTeam == "29") {
 
-        PG.textContent = "M Brogdon";
-        SG.textContent = "J Poole";
-        SF.textContent = "B Coulibaly";
+        PG.textContent = "J Poole";
+        SG.textContent = "B Coulibaly";
+        SF.textContent = "C Kispert";
         PF.textContent = "K Kuzma";
         C.textContent = "A Sarr";
-
-        PG3.textContent = "13.8 PPG";
-        SG3.textContent = "21.4 PPG";
-        SF3.textContent = "12.4 PPG";
-        PF3.textContent = "14.1 PPG";
-        C3.textContent = "11.8 PPG";
 
         PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
         SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
         PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
-        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg"
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        PG3.textContent = "20.5 PPG";
+        SG3.textContent = "12.3 PPG";
+        SF3.textContent = "11.6 PPG";
+        PF3.textContent = "15.2 PPG";
+        C3.textContent = "13.0 PPG";
 
         sidepic.src = "/NBA/basket_img/logos/washington.gif";
         manager.textContent += "Brian Keefe"
