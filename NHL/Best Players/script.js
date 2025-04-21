@@ -44,7 +44,7 @@ function updatePlayerInfo() {
     sidepic.style.borderRadius = "0"
     sidepic.style.boxShadow = "none"
     sidepic.style.width = "163px"
-    sidepic.style.top = "750px"
+    sidepic.style.top = "700px"
     sidepic.style.left = "685px"
 
     FL.style.left = "46%"
@@ -861,7 +861,7 @@ function updatePlayerInfo() {
         G3.textContent = "SAVES: 96.8%";
 
         sidepic.src = "/NHL/hockey_img/logos/nhl.png";
-        FR.style.left = "850px"
+        FR.style.left = "810px"
     }
 
     if (selectedPlayer === "30") {

@@ -97,9 +97,9 @@ option {
 .rectangle {
     position: relative;
     margin-left: 690px;
-    margin-top: -720px;
+    margin-top: -735px;
     width: 430px;
-    height: 445px;
+    height: 420px;
 }
 
 .rectangle > div {
@@ -115,7 +115,7 @@ option {
     position: absolute;
     cursor: pointer;
     border-radius: 15px;
-    height: 100px;
+    height: 91px;
     box-shadow: 0px 0px 15px 0px black;
     transition: transform 0.2s ease;
 }

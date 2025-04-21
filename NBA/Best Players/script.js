@@ -1718,6 +1718,7 @@ function updatePlayerInfo() {
         sidepic.style.border = "3px solid black";
         C.style.left = "46.5%";
         SF.style.left = "53%";
+        SG.style.left = "33%"
     }
 
     if (selectedYear === "59") {
@@ -1891,7 +1892,7 @@ function updatePlayerInfo() {
     }
 
     if (selectedYear === "65") {
-        title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25 TEAM 25-30"
+        title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25 TEAM 26-30"
         document.querySelector("select").style.fontSize = "32px";
 
         PG.textContent = "M Monk";
@@ -1919,7 +1920,7 @@ function updatePlayerInfo() {
     }
 
     if (selectedYear === "66") {
-        title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25 TEAM 25-30"
+        title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25 TEAM 26-30"
         document.querySelector("select").style.fontSize = "32px";
 
         PG.textContent = "D Fox";
@@ -1947,7 +1948,7 @@ function updatePlayerInfo() {
     }
 
     if (selectedYear === "67") {
-        title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25 TEAM 25-30"
+        title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25 TEAM 26-30"
         document.querySelector("select").style.fontSize = "32px";
 
         PG.textContent = "I Quickley";
@@ -1975,7 +1976,7 @@ function updatePlayerInfo() {
     }
 
     if (selectedYear === "68") {
-        title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25 TEAM 25-30"
+        title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25 TEAM 26-30"
         document.querySelector("select").style.fontSize = "32px";
 
         PG.textContent = "C Sexton";
@@ -2003,7 +2004,7 @@ function updatePlayerInfo() {
     }
 
     if (selectedYear === "69") {
-        title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25 TEAM 25-30"
+        title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25 TEAM 26-30"
         document.querySelector("select").style.fontSize = "32px";
 
         PG.textContent = "J Poole";

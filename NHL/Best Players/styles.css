@@ -92,8 +92,8 @@ option {
 /* Carousel */
 .carousel {
     position: relative;
-    width: 200%;
-    height: 72%;
+    width: 190%;
+    height: 67%;
     margin-left: 80px;
     margin-top: -70px;
 }
@@ -154,31 +154,31 @@ option {
 
 #FL3 {
     position: absolute;
-    left: 24%;
+    left: 23%;
     top: 12%;
 }
 
 #FC3 {
     position: absolute;
-    left: 39%;
+    left: 38%;
     top: 12%;
 }
 
 #FR3 {
     position: absolute;
-    left: 53.5%;
+    left: 53%;
     top: 12%;
 }
 
 #DL3 {
     position: absolute;
-    left: 31.5%;
+    left: 30.5%;
     top: 42.5%;
 }
 
 #DR3 {
     position: absolute;
-    left: 46.5%;
+    left: 45.5%;
     top: 42.5%;
 }
 

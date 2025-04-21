@@ -48,7 +48,7 @@ function displayPlayerInfo() {
     club.textContent = ""
     stats.innerHTML = ""
     title.style.fontSize = "36px"
-    document.querySelector("select").style.fontSize = "26px"
+    document.querySelector("select").style.fontSize = "24px"
     // sidepic.style.bottom = "30px"
     // stats.style.bottom = "200px"
     document.querySelector(".short").style.background = " linear-gradient(135deg, darkgrey 20%, #00ff66 100%)";
