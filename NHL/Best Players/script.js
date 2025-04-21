@@ -972,7 +972,7 @@ function updatePlayerInfo() {
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
         sidepic.src = "/NHL/hockey_img/logos/nhl.png";
-        FR.style.left = "850px"
+        FR.style.left = "810px"
     }
 
     if (selectedPlayer === "35") {
@@ -998,31 +998,10 @@ function updatePlayerInfo() {
         DR.style.left = "745px"
     }
 
-    if (selectedPlayer === "300") {
 
-        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25"
+    if (selectedPlayer === "36") {
 
-        FL.textContent = "";
-        FC.textContent = "";
-        FR.textContent = "";
-        DL.textContent = "";
-        DR.textContent = "";
-        G.textContent = "";
-
-        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
-        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
-        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
-        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
-        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
-        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
-
-        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
-        FR.style.left = "850px"
-    }
-
-    if (selectedPlayer === "300") {
-
-        title.innerHTML = "NHL BEST PLAYERS<br>2005 to 2025"
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
 
         FL.textContent = "";
         FC.textContent = "";
@@ -1039,8 +1018,715 @@ function updatePlayerInfo() {
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
         sidepic.src = "/NHL/hockey_img/logos/nhl.png";
-        FR.style.left = "850px"
+        FR.style.left = "810px"
     }
+
+
+    if (selectedPlayer === "37") {
+
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-2025";
+
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        FR.style.left = "810px"
+    }
+
+
+    if (selectedPlayer === "38") {
+
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
+
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        FR.style.left = "810px"
+    }
+
+
+    if (selectedPlayer === "39") {
+
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-2025";
+
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        FR.style.left = "810px"
+    }
+
+
+    if (selectedPlayer === "40") {
+
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
+
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        FR.style.left = "810px"
+    }
+
+
+    if (selectedPlayer === "41") {
+
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-2025";
+
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        FR.style.left = "810px"
+    }
+
+
+    if (selectedPlayer === "42") {
+
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
+
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        FR.style.left = "810px"
+    }
+
+
+    if (selectedPlayer === "43") {
+
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-2025";
+
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        FR.style.left = "810px"
+    }
+
+
+    if (selectedPlayer === "44") {
+
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
+
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        FR.style.left = "810px"
+    }
+
+
+    if (selectedPlayer === "45") {
+
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-2025";
+
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        FR.style.left = "810px"
+    }
+
+
+    if (selectedPlayer === "46") {
+
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
+
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        FR.style.left = "810px"
+    }
+
+
+    if (selectedPlayer === "47") {
+
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-2025";
+
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        FR.style.left = "810px"
+    }
+
+
+    if (selectedPlayer === "48") {
+
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
+
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        FR.style.left = "810px"
+    }
+
+
+    if (selectedPlayer === "49") {
+
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-2025";
+
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        FR.style.left = "810px"
+    }
+
+
+    if (selectedPlayer === "50") {
+
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
+
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        FR.style.left = "810px"
+    }
+
+
+    if (selectedPlayer === "51") {
+
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-2025";
+
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        FR.style.left = "810px"
+    }
+
+
+    if (selectedPlayer === "52") {
+
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
+
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        FR.style.left = "810px"
+    }
+
+
+    if (selectedPlayer === "53") {
+
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-2025";
+
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        FR.style.left = "810px"
+    }
+
+
+    if (selectedPlayer === "54") {
+
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
+
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        FR.style.left = "810px"
+    }
+
+
+    if (selectedPlayer === "55") {
+
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-2025";
+
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        FR.style.left = "810px"
+    }
+
+
+    if (selectedPlayer === "56") {
+
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
+
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        FR.style.left = "810px"
+    }
+
+
+    if (selectedPlayer === "57") {
+
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-2025";
+
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        FR.style.left = "810px"
+    }
+
+
+    if (selectedPlayer === "58") {
+
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
+
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        FR.style.left = "810px"
+    }
+
+
+    if (selectedPlayer === "59") {
+
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-2025";
+
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        FR.style.left = "810px"
+    }
+
+
+    if (selectedPlayer === "60") {
+
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
+
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        FR.style.left = "810px"
+    }
+
+    if (selectedPlayer === "61") {
+
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
+
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        FR.style.left = "810px"
+    }
+
+    if (selectedPlayer === "62") {
+
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
+
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        FR.style.left = "810px"
+    }
+
+    if (selectedPlayer === "63") {
+
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
+
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        FR.style.left = "810px"
+    }
+
+    if (selectedPlayer === "64") {
+
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
+
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        FR.style.left = "810px"
+    }
+
+    if (selectedPlayer === "65") {
+
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
+
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        FR.style.left = "810px"
+    }
+
+    if (selectedPlayer === "66") {
+
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
+
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        FR.style.left = "810px"
+    }
+
+    if (selectedPlayer === "67") {
+
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
+
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/NHL/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/NHL/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
+
+        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        FR.style.left = "810px"
+    }
+
     // document.querySelector(".short").style.background = "linear-gradient(-45deg, grey 30%, dodgerblue 70%)";
 }
 
