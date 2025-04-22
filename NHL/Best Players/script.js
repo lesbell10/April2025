@@ -1024,7 +1024,7 @@ function updatePlayerInfo() {
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
         sidepic.src = "/NHL/hockey_img/logos/anaheim.gif";
-        FR.style.left = "830px"
+        FR.style.left = "850px"
     }
 
 
@@ -1032,18 +1032,18 @@ function updatePlayerInfo() {
 
         title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
 
-        FL.textContent = "Marchand";
-        FC.textContent = "Zacha";
+        FL.textContent = "E Lindholm";
+        FC.textContent = "Geekie";
         FR.textContent = "Pastrnak";
-        DL.textContent = "McAvoy";
-        DR.textContent = "Lohrei";
+        DL.textContent = "Lohrei";
+        DR.textContent = "McAvoy";
         G.textContent = "Swayman";
 
-        FL3.textContent = "";
-        FC3.textContent = "";
-        FR3.textContent = "";
-        DL3.textContent = "";
-        DR3.textContent = "";
+        FL3.textContent = "47 PTS";
+        FC3.textContent = "57 PTS";
+        FR3.textContent = "106 PTS";
+        DL3.textContent = "33 PTS";
+        DR3.textContent = "23 PTS";
         G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
@@ -1054,7 +1054,7 @@ function updatePlayerInfo() {
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
         sidepic.src = "/NHL/hockey_img/logos/boston.gif";
-        FR.style.left = "830px"
+        FR.style.left = "850px"
     }
 
 
@@ -1062,18 +1062,18 @@ function updatePlayerInfo() {
 
         title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
 
-        FL.textContent = "Zucker";
+        FL.textContent = "Tuch";
         FC.textContent = "T Thompson";
-        FR.textContent = "Tuch";
+        FR.textContent = "Peterka";
         DL.textContent = "Dahlin";
-        DR.textContent = "Byram";
+        DR.textContent = "O Power";
         G.textContent = "Luukkonen";
 
-        FL3.textContent = "";
-        FC3.textContent = "";
-        FR3.textContent = "";
-        DL3.textContent = "";
-        DR3.textContent = "";
+        FL3.textContent = "67 PTS";
+        FC3.textContent = "72 PTS";
+        FR3.textContent = "68 PTS";
+        DL3.textContent = "68 PTS";
+        DR3.textContent = "40 PTS";
         G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
@@ -1084,7 +1084,7 @@ function updatePlayerInfo() {
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
         sidepic.src = "/NHL/hockey_img/logos/buffalo.gif";
-        FR.style.left = "830px"
+        FR.style.left = "850px"
     }
 
 
@@ -1114,7 +1114,7 @@ function updatePlayerInfo() {
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
         sidepic.src = "/NHL/hockey_img/logos/calgary.gif";
-        FR.style.left = "830px"
+        FR.style.left = "850px"
     }
 
 
@@ -1144,7 +1144,7 @@ function updatePlayerInfo() {
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
         sidepic.src = "/NHL/hockey_img/logos/carolina.gif";
-        FR.style.left = "830px"
+        FR.style.left = "850px"
     }
 
 
@@ -1157,7 +1157,7 @@ function updatePlayerInfo() {
         FR.textContent = "Teravainen";
         DL.textContent = "A Vlasic";
         DR.textContent = "S Jones";
-        G.textContent = "Mrazek";
+        G.textContent = "Soderblom";
 
         FL3.textContent = "";
         FC3.textContent = "";
@@ -1174,7 +1174,7 @@ function updatePlayerInfo() {
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
         sidepic.src = "/NHL/hockey_img/logos/chicago.gif";
-        FR.style.left = "830px"
+        FR.style.left = "850px"
     }
 
 
@@ -1187,7 +1187,7 @@ function updatePlayerInfo() {
         FR.textContent = "Rantanen";
         DL.textContent = "Makar";
         DR.textContent = "D Toews";
-        G.textContent = "Georgiev";
+        G.textContent = "Blackwood";
 
         FL3.textContent = "";
         FC3.textContent = "";
@@ -1234,7 +1234,7 @@ function updatePlayerInfo() {
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
         sidepic.src = "/NHL/hockey_img/logos/columbus.gif";
-        FR.style.left = "830px"
+        FR.style.left = "850px"
     }
 
 
@@ -1264,7 +1264,7 @@ function updatePlayerInfo() {
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
         sidepic.src = "/NHL/hockey_img/logos/dallas.gif";
-        FR.style.left = "830px"
+        FR.style.left = "850px"
     }
 
 
@@ -1294,7 +1294,7 @@ function updatePlayerInfo() {
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
         sidepic.src = "/NHL/hockey_img/logos/detroit.gif";
-        FR.style.left = "830px"
+        FR.style.left = "850px"
     }
 
 
@@ -1324,7 +1324,7 @@ function updatePlayerInfo() {
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
         sidepic.src = "/NHL/hockey_img/logos/edmonton.gif";
-        FR.style.left = "830px"
+        FR.style.left = "850px"
     }
 
 
@@ -1354,7 +1354,7 @@ function updatePlayerInfo() {
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
         sidepic.src = "/NHL/hockey_img/logos/florida.gif";
-        FR.style.left = "830px"
+        FR.style.left = "850px"
     }
 
     if (selectedPlayer === "48") {
@@ -1383,7 +1383,7 @@ function updatePlayerInfo() {
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
         sidepic.src = "/NHL/hockey_img/logos/los angeles.gif";
-        FR.style.left = "830px"
+        FR.style.left = "850px"
     }
 
 
@@ -1413,7 +1413,7 @@ function updatePlayerInfo() {
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
         sidepic.src = "/NHL/hockey_img/logos/minnesota.gif";
-        FR.style.left = "830px"
+        FR.style.left = "850px"
     }
 
 
@@ -1443,7 +1443,7 @@ function updatePlayerInfo() {
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
         sidepic.src = "/NHL/hockey_img/logos/montreal.gif";
-        FR.style.left = "830px"
+        FR.style.left = "850px"
     }
 
 
@@ -1473,7 +1473,7 @@ function updatePlayerInfo() {
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
         sidepic.src = "/NHL/hockey_img/logos/nashville.gif";
-        FR.style.left = "830px"
+        FR.style.left = "850px"
     }
 
 
@@ -1503,7 +1503,7 @@ function updatePlayerInfo() {
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
         sidepic.src = "/NHL/hockey_img/logos/new jersey.gif";
-        FR.style.left = "830px"
+        FR.style.left = "850px"
     }
 
     if (selectedPlayer === "53") {
@@ -1532,7 +1532,7 @@ function updatePlayerInfo() {
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
         sidepic.src = "/NHL/hockey_img/logos/ny islanders.gif";
-        FR.style.left = "830px"
+        FR.style.left = "850px"
     }
 
     if (selectedPlayer === "54") {
@@ -1561,7 +1561,7 @@ function updatePlayerInfo() {
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
         sidepic.src = "/NHL/hockey_img/logos/ny rangers.gif";
-        FR.style.left = "830px"
+        FR.style.left = "850px"
     }
 
 
@@ -1591,7 +1591,7 @@ function updatePlayerInfo() {
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
         sidepic.src = "/NHL/hockey_img/logos/ottawa.gif";
-        FR.style.left = "830px"
+        FR.style.left = "850px"
     }
 
 
@@ -1621,7 +1621,7 @@ function updatePlayerInfo() {
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
         sidepic.src = "/NHL/hockey_img/logos/philadelphia.gif";
-        FR.style.left = "830px"
+        FR.style.left = "850px"
     }
 
 
@@ -1634,7 +1634,7 @@ function updatePlayerInfo() {
         FR.textContent = "Rakell";
         DL.textContent = "E Karlsson";
         DR.textContent = "Grzelcyk";
-        G.textContent = "Jarry";
+        G.textContent = "Nedeljkovic";
 
         FL3.textContent = "";
         FC3.textContent = "";
@@ -1651,7 +1651,7 @@ function updatePlayerInfo() {
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
         sidepic.src = "/NHL/hockey_img/logos/pittsburgh.gif";
-        FR.style.left = "830px"
+        FR.style.left = "850px"
     }
 
 
@@ -1664,7 +1664,7 @@ function updatePlayerInfo() {
         FR.textContent = "Celebrini";
         DL.textContent = "Walman";
         DR.textContent = "Ceci";
-        G.textContent = "Blackwood";
+        G.textContent = "Georgiev";
 
         FL3.textContent = "";
         FC3.textContent = "";
@@ -1681,7 +1681,7 @@ function updatePlayerInfo() {
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
         sidepic.src = "/NHL/hockey_img/logos/san jose.gif";
-        FR.style.left = "830px"
+        FR.style.left = "850px"
     }
 
 
@@ -1711,7 +1711,7 @@ function updatePlayerInfo() {
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
         sidepic.src = "/NHL/hockey_img/logos/seattle.gif";
-        FR.style.left = "830px"
+        FR.style.left = "850px"
     }
 
     if (selectedPlayer === "60") {
@@ -1740,7 +1740,7 @@ function updatePlayerInfo() {
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
         sidepic.src = "/NHL/hockey_img/logos/st louis.gif";
-        FR.style.left = "830px"
+        FR.style.left = "850px"
     }
 
     if (selectedPlayer === "61") {
@@ -1769,7 +1769,7 @@ function updatePlayerInfo() {
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
         sidepic.src = "/NHL/hockey_img/logos/tampa bay.gif";
-        FR.style.left = "830px"
+        FR.style.left = "850px"
     }
 
     if (selectedPlayer === "62") {
@@ -1798,7 +1798,7 @@ function updatePlayerInfo() {
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
         sidepic.src = "/NHL/hockey_img/logos/toronto.gif";
-        FR.style.left = "830px"
+        FR.style.left = "850px"
     }
 
     if (selectedPlayer === "63") {
@@ -1827,7 +1827,7 @@ function updatePlayerInfo() {
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
         sidepic.src = "/NHL/hockey_img/logos/utah.gif";
-        FR.style.left = "830px"
+        FR.style.left = "850px"
     }
 
     if (selectedPlayer === "64") {
@@ -1856,7 +1856,7 @@ function updatePlayerInfo() {
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
         sidepic.src = "/NHL/hockey_img/logos/vancouver.gif";
-        FR.style.left = "830px"
+        FR.style.left = "850px"
     }
 
     if (selectedPlayer === "65") {
@@ -1885,7 +1885,7 @@ function updatePlayerInfo() {
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
         sidepic.src = "/NHL/hockey_img/logos/vegas.gif";
-        FR.style.left = "830px"
+        FR.style.left = "850px"
     }
 
     if (selectedPlayer === "66") {
@@ -1914,7 +1914,7 @@ function updatePlayerInfo() {
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
         sidepic.src = "/NHL/hockey_img/logos/washington.gif";
-        FR.style.left = "830px"
+        FR.style.left = "850px"
     }
 
     if (selectedPlayer === "67") {
@@ -1943,7 +1943,7 @@ function updatePlayerInfo() {
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
         sidepic.src = "/NHL/hockey_img/logos/winnipeg.gif";
-        FR.style.left = "830px"
+        FR.style.left = "850px"
     }
 
     // document.querySelector(".short").style.background = "linear-gradient(-45deg, grey 30%, dodgerblue 70%)";
