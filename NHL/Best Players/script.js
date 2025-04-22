@@ -40,12 +40,12 @@ function updatePlayerInfo() {
     title.innerHTML = "NHL BEST<br>PLAYERS 2024-25"
     title.style.fontSize = "41px"
     document.querySelector("select").style.fontSize = "32px";
-    sidepic.style.border = "none"
-    sidepic.style.borderRadius = "0"
+    sidepic.style.border = "3px solid black"
+    sidepic.style.borderRadius = "15px"
     sidepic.style.boxShadow = "none"
-    sidepic.style.width = "163px"
-    sidepic.style.top = "700px"
-    sidepic.style.left = "685px"
+    sidepic.style.width = "130px"
+    sidepic.style.top = "730px"
+    sidepic.style.left = "695px"
 
     FL.style.left = "46%"
     FC.style.left = "61%"
@@ -799,7 +799,6 @@ function updatePlayerInfo() {
         DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
-        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
         sidepic.src = "/NHL/hockey_img/logos/buffalo.gif";
         sidepic.style.borderRadius = "20px"
         sidepic.style.border = "3px solid black"
@@ -861,7 +860,7 @@ function updatePlayerInfo() {
         G3.textContent = "SAVES: 96.8%";
 
         sidepic.src = "/NHL/hockey_img/logos/nhl.png";
-        FR.style.left = "810px"
+        FR.style.left = "830px"
     }
 
     if (selectedPlayer === "30") {
@@ -971,8 +970,8 @@ function updatePlayerInfo() {
         DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
-        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
-        FR.style.left = "810px"
+        sidepic.src = "/NHL/hockey_img/logos/anaheim.gif";
+        FR.style.left = "830px"
     }
 
     if (selectedPlayer === "35") {
@@ -993,7 +992,7 @@ function updatePlayerInfo() {
         DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
-        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
+        sidepic.src = "/NHL/hockey_img/logos/anaheim.gif";
         FR.style.left = "850px"
         DR.style.left = "745px"
     }
@@ -1003,12 +1002,19 @@ function updatePlayerInfo() {
 
         title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
 
-        FL.textContent = "";
-        FC.textContent = "";
-        FR.textContent = "";
-        DL.textContent = "";
-        DR.textContent = "";
-        G.textContent = "";
+        FL.textContent = "Vatrano";
+        FC.textContent = "R Strome";
+        FR.textContent = "Terry";
+        DL.textContent = "LaCombe";
+        DR.textContent = "Zellweger";
+        G.textContent = "Dostal";
+
+        FL3.textContent = "45 PTS";
+        FC3.textContent = "52 PTS";
+        FR3.textContent = "55 PTS";
+        DL3.textContent = "43 PTS";
+        DR3.textContent = "20 PTS";
+        G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -1017,21 +1023,28 @@ function updatePlayerInfo() {
         DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
-        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
-        FR.style.left = "810px"
+        sidepic.src = "/NHL/hockey_img/logos/anaheim.gif";
+        FR.style.left = "830px"
     }
 
 
     if (selectedPlayer === "37") {
 
-        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-2025";
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
 
-        FL.textContent = "";
-        FC.textContent = "";
-        FR.textContent = "";
-        DL.textContent = "";
-        DR.textContent = "";
-        G.textContent = "";
+        FL.textContent = "Marchand";
+        FC.textContent = "Zacha";
+        FR.textContent = "Pastrnak";
+        DL.textContent = "McAvoy";
+        DR.textContent = "Lohrei";
+        G.textContent = "Swayman";
+
+        FL3.textContent = "";
+        FC3.textContent = "";
+        FR3.textContent = "";
+        DL3.textContent = "";
+        DR3.textContent = "";
+        G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -1040,8 +1053,8 @@ function updatePlayerInfo() {
         DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
-        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
-        FR.style.left = "810px"
+        sidepic.src = "/NHL/hockey_img/logos/boston.gif";
+        FR.style.left = "830px"
     }
 
 
@@ -1049,12 +1062,19 @@ function updatePlayerInfo() {
 
         title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
 
-        FL.textContent = "";
-        FC.textContent = "";
-        FR.textContent = "";
-        DL.textContent = "";
-        DR.textContent = "";
-        G.textContent = "";
+        FL.textContent = "Zucker";
+        FC.textContent = "T Thompson";
+        FR.textContent = "Tuch";
+        DL.textContent = "Dahlin";
+        DR.textContent = "Byram";
+        G.textContent = "Luukkonen";
+
+        FL3.textContent = "";
+        FC3.textContent = "";
+        FR3.textContent = "";
+        DL3.textContent = "";
+        DR3.textContent = "";
+        G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -1063,21 +1083,28 @@ function updatePlayerInfo() {
         DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
-        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
-        FR.style.left = "810px"
+        sidepic.src = "/NHL/hockey_img/logos/buffalo.gif";
+        FR.style.left = "830px"
     }
 
 
     if (selectedPlayer === "39") {
 
-        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-2025";
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
 
-        FL.textContent = "";
-        FC.textContent = "";
-        FR.textContent = "";
-        DL.textContent = "";
-        DR.textContent = "";
-        G.textContent = "";
+        FL.textContent = "Kadri";
+        FC.textContent = "Huberdeau";
+        FR.textContent = "Zary";
+        DL.textContent = "Weegar";
+        DR.textContent = "R Andersson";
+        G.textContent = "Wolf";
+
+        FL3.textContent = "";
+        FC3.textContent = "";
+        FR3.textContent = "";
+        DL3.textContent = "";
+        DR3.textContent = "";
+        G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -1086,8 +1113,8 @@ function updatePlayerInfo() {
         DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
-        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
-        FR.style.left = "810px"
+        sidepic.src = "/NHL/hockey_img/logos/calgary.gif";
+        FR.style.left = "830px"
     }
 
 
@@ -1095,12 +1122,19 @@ function updatePlayerInfo() {
 
         title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
 
-        FL.textContent = "";
-        FC.textContent = "";
-        FR.textContent = "";
-        DL.textContent = "";
-        DR.textContent = "";
-        G.textContent = "";
+        FL.textContent = "S Aho";
+        FC.textContent = "Necas";
+        FR.textContent = "Svechnikov";
+        DL.textContent = "Gostisbehere";
+        DR.textContent = "Orlov";
+        G.textContent = "Kochetkov";
+
+        FL3.textContent = "";
+        FC3.textContent = "";
+        FR3.textContent = "";
+        DL3.textContent = "";
+        DR3.textContent = "";
+        G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -1109,21 +1143,28 @@ function updatePlayerInfo() {
         DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
-        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
-        FR.style.left = "810px"
+        sidepic.src = "/NHL/hockey_img/logos/carolina.gif";
+        FR.style.left = "830px"
     }
 
 
     if (selectedPlayer === "41") {
 
-        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-2025";
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
 
-        FL.textContent = "";
-        FC.textContent = "";
-        FR.textContent = "";
-        DL.textContent = "";
-        DR.textContent = "";
-        G.textContent = "";
+        FL.textContent = "T Bertuzzi";
+        FC.textContent = "Bedard";
+        FR.textContent = "Teravainen";
+        DL.textContent = "A Vlasic";
+        DR.textContent = "S Jones";
+        G.textContent = "Mrazek";
+
+        FL3.textContent = "";
+        FC3.textContent = "";
+        FR3.textContent = "";
+        DL3.textContent = "";
+        DR3.textContent = "";
+        G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -1132,8 +1173,8 @@ function updatePlayerInfo() {
         DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
-        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
-        FR.style.left = "810px"
+        sidepic.src = "/NHL/hockey_img/logos/chicago.gif";
+        FR.style.left = "830px"
     }
 
 
@@ -1141,12 +1182,19 @@ function updatePlayerInfo() {
 
         title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
 
-        FL.textContent = "";
-        FC.textContent = "";
-        FR.textContent = "";
-        DL.textContent = "";
-        DR.textContent = "";
-        G.textContent = "";
+        FL.textContent = "Mittelstadt";
+        FC.textContent = "MacKinnon";
+        FR.textContent = "Rantanen";
+        DL.textContent = "Makar";
+        DR.textContent = "D Toews";
+        G.textContent = "Georgiev";
+
+        FL3.textContent = "";
+        FC3.textContent = "";
+        FR3.textContent = "";
+        DL3.textContent = "";
+        DR3.textContent = "";
+        G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -1155,21 +1203,28 @@ function updatePlayerInfo() {
         DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
-        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
-        FR.style.left = "810px"
+        sidepic.src = "/NHL/hockey_img/logos/colorado.gif";
+        FR.style.left = "850px"
     }
 
 
     if (selectedPlayer === "43") {
 
-        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-2025";
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
 
-        FL.textContent = "";
-        FC.textContent = "";
-        FR.textContent = "";
-        DL.textContent = "";
-        DR.textContent = "";
-        G.textContent = "";
+        FL.textContent = "Voronkov";
+        FC.textContent = "Monahan";
+        FR.textContent = "Marchenko";
+        DL.textContent = "Werenski";
+        DR.textContent = "Provorov";
+        G.textContent = "Merzlikins";
+
+        FL3.textContent = "";
+        FC3.textContent = "";
+        FR3.textContent = "";
+        DL3.textContent = "";
+        DR3.textContent = "";
+        G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -1178,8 +1233,8 @@ function updatePlayerInfo() {
         DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
-        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
-        FR.style.left = "810px"
+        sidepic.src = "/NHL/hockey_img/logos/columbus.gif";
+        FR.style.left = "830px"
     }
 
 
@@ -1187,12 +1242,19 @@ function updatePlayerInfo() {
 
         title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
 
-        FL.textContent = "";
-        FC.textContent = "";
-        FR.textContent = "";
-        DL.textContent = "";
-        DR.textContent = "";
-        G.textContent = "";
+        FL.textContent = "J Robertson";
+        FC.textContent = "Duchene";
+        FR.textContent = "Benn";
+        DL.textContent = "Harley";
+        DR.textContent = "Heiskanen";
+        G.textContent = "Oettinger";
+
+        FL3.textContent = "";
+        FC3.textContent = "";
+        FR3.textContent = "";
+        DL3.textContent = "";
+        DR3.textContent = "";
+        G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -1201,21 +1263,28 @@ function updatePlayerInfo() {
         DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
-        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
-        FR.style.left = "810px"
+        sidepic.src = "/NHL/hockey_img/logos/dallas.gif";
+        FR.style.left = "830px"
     }
 
 
     if (selectedPlayer === "45") {
 
-        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-2025";
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
 
-        FL.textContent = "";
-        FC.textContent = "";
-        FR.textContent = "";
-        DL.textContent = "";
-        DR.textContent = "";
-        G.textContent = "";
+        FL.textContent = "L Raymond";
+        FC.textContent = "Larkin";
+        FR.textContent = "DeBrincat";
+        DL.textContent = "Seider";
+        DR.textContent = "Edvinsson";
+        G.textContent = "C Talbot";
+
+        FL3.textContent = "";
+        FC3.textContent = "";
+        FR3.textContent = "";
+        DL3.textContent = "";
+        DR3.textContent = "";
+        G3.textContent = " MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -1224,8 +1293,8 @@ function updatePlayerInfo() {
         DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
-        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
-        FR.style.left = "810px"
+        sidepic.src = "/NHL/hockey_img/logos/detroit.gif";
+        FR.style.left = "830px"
     }
 
 
@@ -1233,12 +1302,19 @@ function updatePlayerInfo() {
 
         title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
 
-        FL.textContent = "";
-        FC.textContent = "";
-        FR.textContent = "";
-        DL.textContent = "";
-        DR.textContent = "";
-        G.textContent = "";
+        FL.textContent = "Hyman";
+        FC.textContent = "McDavid";
+        FR.textContent = "Draisaitl";
+        DL.textContent = "Bouchard";
+        DR.textContent = "Ekholm";
+        G.textContent = "S Skinner";
+
+        FL3.textContent = "";
+        FC3.textContent = "";
+        FR3.textContent = "";
+        DL3.textContent = "";
+        DR3.textContent = "";
+        G3.textContent = " MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -1247,21 +1323,28 @@ function updatePlayerInfo() {
         DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
-        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
-        FR.style.left = "810px"
+        sidepic.src = "/NHL/hockey_img/logos/edmonton.gif";
+        FR.style.left = "830px"
     }
 
 
     if (selectedPlayer === "47") {
 
-        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-2025";
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
 
-        FL.textContent = "";
-        FC.textContent = "";
-        FR.textContent = "";
-        DL.textContent = "";
-        DR.textContent = "";
-        G.textContent = "";
+        FL.textContent = "M Tkachuk";
+        FC.textContent = "Reinhart";
+        FR.textContent = "Barkov";
+        DL.textContent = "Ekblad";
+        DR.textContent = "Forsling";
+        G.textContent = "Bobrovsky";
+
+        FL3.textContent = "";
+        FC3.textContent = "";
+        FR3.textContent = "";
+        DL3.textContent = "";
+        DR3.textContent = "";
+        G3.textContent = " MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -1270,21 +1353,27 @@ function updatePlayerInfo() {
         DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
-        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
-        FR.style.left = "810px"
+        sidepic.src = "/NHL/hockey_img/logos/florida.gif";
+        FR.style.left = "830px"
     }
-
 
     if (selectedPlayer === "48") {
 
         title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
 
-        FL.textContent = "";
-        FC.textContent = "";
-        FR.textContent = "";
-        DL.textContent = "";
-        DR.textContent = "";
-        G.textContent = "";
+        FL.textContent = "Laferriere";
+        FC.textContent = "Kopitar";
+        FR.textContent = "Kempe";
+        DL.textContent = "B Clarke";
+        DR.textContent = "Gavrikov";
+        G.textContent = "Kuemper";
+
+        FL3.textContent = "";
+        FC3.textContent = "";
+        FR3.textContent = "";
+        DL3.textContent = "";
+        DR3.textContent = "";
+        G3.textContent = " MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -1293,21 +1382,28 @@ function updatePlayerInfo() {
         DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
-        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
-        FR.style.left = "810px"
+        sidepic.src = "/NHL/hockey_img/logos/los angeles.gif";
+        FR.style.left = "830px"
     }
 
 
     if (selectedPlayer === "49") {
 
-        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-2025";
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
 
-        FL.textContent = "";
-        FC.textContent = "";
-        FR.textContent = "";
-        DL.textContent = "";
-        DR.textContent = "";
-        G.textContent = "";
+        FL.textContent = "Kaprizov";
+        FC.textContent = "Rossi";
+        FR.textContent = "Boldy";
+        DL.textContent = "Faber";
+        DR.textContent = "Brodin";
+        G.textContent = "Gustavsson";
+
+        FL3.textContent = "";
+        FC3.textContent = "";
+        FR3.textContent = "";
+        DL3.textContent = "";
+        DR3.textContent = "";
+        G3.textContent = " MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -1316,8 +1412,8 @@ function updatePlayerInfo() {
         DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
-        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
-        FR.style.left = "810px"
+        sidepic.src = "/NHL/hockey_img/logos/minnesota.gif";
+        FR.style.left = "830px"
     }
 
 
@@ -1325,12 +1421,19 @@ function updatePlayerInfo() {
 
         title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
 
-        FL.textContent = "";
-        FC.textContent = "";
-        FR.textContent = "";
-        DL.textContent = "";
-        DR.textContent = "";
-        G.textContent = "";
+        FL.textContent = "Slafkovsky";
+        FC.textContent = "Suzuki";
+        FR.textContent = "Caufield";
+        DL.textContent = "Hutson";
+        DR.textContent = "Matheson";
+        G.textContent = "Montembeault";
+
+        FL3.textContent = "";
+        FC3.textContent = "";
+        FR3.textContent = "";
+        DL3.textContent = "";
+        DR3.textContent = "";
+        G3.textContent = " MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -1339,21 +1442,28 @@ function updatePlayerInfo() {
         DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
-        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
-        FR.style.left = "810px"
+        sidepic.src = "/NHL/hockey_img/logos/montreal.gif";
+        FR.style.left = "830px"
     }
 
 
     if (selectedPlayer === "51") {
 
-        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-2025";
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
 
-        FL.textContent = "";
-        FC.textContent = "";
-        FR.textContent = "";
-        DL.textContent = "";
-        DR.textContent = "";
-        G.textContent = "";
+        FL.textContent = "F Forsberg";
+        FC.textContent = "Stamkos";
+        FR.textContent = "Marchessault";
+        DL.textContent = "Josi";
+        DR.textContent = "Skjei";
+        G.textContent = "Saros";
+
+        FL3.textContent = "";
+        FC3.textContent = "";
+        FR3.textContent = "";
+        DL3.textContent = "";
+        DR3.textContent = "";
+        G3.textContent = " MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -1362,8 +1472,8 @@ function updatePlayerInfo() {
         DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
-        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
-        FR.style.left = "810px"
+        sidepic.src = "/NHL/hockey_img/logos/nashville.gif";
+        FR.style.left = "830px"
     }
 
 
@@ -1371,12 +1481,19 @@ function updatePlayerInfo() {
 
         title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
 
-        FL.textContent = "";
-        FC.textContent = "";
-        FR.textContent = "";
-        DL.textContent = "";
-        DR.textContent = "";
-        G.textContent = "";
+        FL.textContent = "Bratt";
+        FC.textContent = "J Hughes";
+        FR.textContent = "Hischier";
+        DL.textContent = "Hamilton";
+        DR.textContent = "L Hughes";
+        G.textContent = "Markstrom";
+
+        FL3.textContent = "";
+        FC3.textContent = "";
+        FR3.textContent = "";
+        DL3.textContent = "";
+        DR3.textContent = "";
+        G3.textContent = " MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -1385,21 +1502,27 @@ function updatePlayerInfo() {
         DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
-        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
-        FR.style.left = "810px"
+        sidepic.src = "/NHL/hockey_img/logos/new jersey.gif";
+        FR.style.left = "830px"
     }
-
 
     if (selectedPlayer === "53") {
 
-        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-2025";
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
 
-        FL.textContent = "";
-        FC.textContent = "";
-        FR.textContent = "";
-        DL.textContent = "";
-        DR.textContent = "";
-        G.textContent = "";
+        FL.textContent = "A Lee";
+        FC.textContent = "Horvat";
+        FR.textContent = "Palmieri";
+        DL.textContent = "Dobson";
+        DR.textContent = "Pulock";
+        G.textContent = "Sorokin";
+
+        FL3.textContent = "";
+        FC3.textContent = "";
+        FR3.textContent = "";
+        DL3.textContent = "";
+        DR3.textContent = "";
+        G3.textContent = " MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -1408,21 +1531,27 @@ function updatePlayerInfo() {
         DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
-        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
-        FR.style.left = "810px"
+        sidepic.src = "/NHL/hockey_img/logos/ny islanders.gif";
+        FR.style.left = "830px"
     }
-
 
     if (selectedPlayer === "54") {
 
         title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
 
-        FL.textContent = "";
-        FC.textContent = "";
-        FR.textContent = "";
-        DL.textContent = "";
-        DR.textContent = "";
-        G.textContent = "";
+        FL.textContent = "Panarin";
+        FC.textContent = "Trocheck";
+        FR.textContent = "Zibanejad";
+        DL.textContent = "A Fox";
+        DR.textContent = "B Schneider";
+        G.textContent = "Shesterkin";
+
+        FL3.textContent = "";
+        FC3.textContent = "";
+        FR3.textContent = "";
+        DL3.textContent = "";
+        DR3.textContent = "";
+        G3.textContent = " MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -1431,21 +1560,28 @@ function updatePlayerInfo() {
         DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
-        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
-        FR.style.left = "810px"
+        sidepic.src = "/NHL/hockey_img/logos/ny rangers.gif";
+        FR.style.left = "830px"
     }
 
 
     if (selectedPlayer === "55") {
 
-        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-2025";
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
 
-        FL.textContent = "";
-        FC.textContent = "";
-        FR.textContent = "";
-        DL.textContent = "";
-        DR.textContent = "";
-        G.textContent = "";
+        FL.textContent = "B Tkachuk";
+        FC.textContent = "Stutzle";
+        FR.textContent = "Batherson";
+        DL.textContent = "J Sanderson";
+        DR.textContent = "Chabot";
+        G.textContent = "Ullmark";
+
+        FL3.textContent = "";
+        FC3.textContent = "";
+        FR3.textContent = "";
+        DL3.textContent = "";
+        DR3.textContent = "";
+        G3.textContent = " MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -1454,8 +1590,8 @@ function updatePlayerInfo() {
         DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
-        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
-        FR.style.left = "810px"
+        sidepic.src = "/NHL/hockey_img/logos/ottawa.gif";
+        FR.style.left = "830px"
     }
 
 
@@ -1463,12 +1599,19 @@ function updatePlayerInfo() {
 
         title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
 
-        FL.textContent = "";
-        FC.textContent = "";
-        FR.textContent = "";
-        DL.textContent = "";
-        DR.textContent = "";
-        G.textContent = "";
+        FL.textContent = "Tippett";
+        FC.textContent = "Konecny";
+        FR.textContent = "Michkov";
+        DL.textContent = "Sanheim";
+        DR.textContent = "Seeler";
+        G.textContent = "Ersson";
+
+        FL3.textContent = "";
+        FC3.textContent = "";
+        FR3.textContent = "";
+        DL3.textContent = "";
+        DR3.textContent = "";
+        G3.textContent = " MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -1477,21 +1620,28 @@ function updatePlayerInfo() {
         DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
-        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
-        FR.style.left = "810px"
+        sidepic.src = "/NHL/hockey_img/logos/philadelphia.gif";
+        FR.style.left = "830px"
     }
 
 
     if (selectedPlayer === "57") {
 
-        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-2025";
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
 
-        FL.textContent = "";
-        FC.textContent = "";
-        FR.textContent = "";
-        DL.textContent = "";
-        DR.textContent = "";
-        G.textContent = "";
+        FL.textContent = "Malkin";
+        FC.textContent = "Crosby";
+        FR.textContent = "Rakell";
+        DL.textContent = "E Karlsson";
+        DR.textContent = "Grzelcyk";
+        G.textContent = "Jarry";
+
+        FL3.textContent = "";
+        FC3.textContent = "";
+        FR3.textContent = "";
+        DL3.textContent = "";
+        DR3.textContent = "";
+        G3.textContent = " MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -1500,8 +1650,8 @@ function updatePlayerInfo() {
         DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
-        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
-        FR.style.left = "810px"
+        sidepic.src = "/NHL/hockey_img/logos/pittsburgh.gif";
+        FR.style.left = "830px"
     }
 
 
@@ -1509,12 +1659,19 @@ function updatePlayerInfo() {
 
         title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
 
-        FL.textContent = "";
-        FC.textContent = "";
-        FR.textContent = "";
-        DL.textContent = "";
-        DR.textContent = "";
-        G.textContent = "";
+        FL.textContent = "Eklund";
+        FC.textContent = "Granlund";
+        FR.textContent = "Celebrini";
+        DL.textContent = "Walman";
+        DR.textContent = "Ceci";
+        G.textContent = "Blackwood";
+
+        FL3.textContent = "";
+        FC3.textContent = "";
+        FR3.textContent = "";
+        DL3.textContent = "";
+        DR3.textContent = "";
+        G3.textContent = " MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -1523,21 +1680,28 @@ function updatePlayerInfo() {
         DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
-        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
-        FR.style.left = "810px"
+        sidepic.src = "/NHL/hockey_img/logos/san jose.gif";
+        FR.style.left = "830px"
     }
 
 
     if (selectedPlayer === "59") {
 
-        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-2025";
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
 
-        FL.textContent = "";
-        FC.textContent = "";
-        FR.textContent = "";
-        DL.textContent = "";
-        DR.textContent = "";
-        G.textContent = "";
+        FL.textContent = "McCann";
+        FC.textContent = "Schwartz";
+        FR.textContent = "Bjorkstrand";
+        DL.textContent = "Montour";
+        DR.textContent = "Dunn";
+        G.textContent = "Daccord";
+
+        FL3.textContent = "";
+        FC3.textContent = "";
+        FR3.textContent = "";
+        DL3.textContent = "";
+        DR3.textContent = "";
+        G3.textContent = " MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -1546,21 +1710,27 @@ function updatePlayerInfo() {
         DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
-        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
-        FR.style.left = "810px"
+        sidepic.src = "/NHL/hockey_img/logos/seattle.gif";
+        FR.style.left = "830px"
     }
-
 
     if (selectedPlayer === "60") {
 
         title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
 
-        FL.textContent = "";
-        FC.textContent = "";
-        FR.textContent = "";
-        DL.textContent = "";
-        DR.textContent = "";
-        G.textContent = "";
+        FL.textContent = "Holloway";
+        FC.textContent = "Kyrou";
+        FR.textContent = "R Thomas";
+        DL.textContent = "Parayko";
+        DR.textContent = "Broberg";
+        G.textContent = "Binnington";
+
+        FL3.textContent = "";
+        FC3.textContent = "";
+        FR3.textContent = "";
+        DL3.textContent = "";
+        DR3.textContent = "";
+        G3.textContent = " MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -1569,20 +1739,27 @@ function updatePlayerInfo() {
         DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
-        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
-        FR.style.left = "810px"
+        sidepic.src = "/NHL/hockey_img/logos/st louis.gif";
+        FR.style.left = "830px"
     }
 
     if (selectedPlayer === "61") {
 
         title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
 
-        FL.textContent = "";
-        FC.textContent = "";
-        FR.textContent = "";
-        DL.textContent = "";
-        DR.textContent = "";
-        G.textContent = "";
+        FL.textContent = "Hagel";
+        FC.textContent = "Point";
+        FR.textContent = "Kucherov";
+        DL.textContent = "Hedman";
+        DR.textContent = "McDonagh";
+        G.textContent = "Vasilevskiy";
+
+        FL3.textContent = "";
+        FC3.textContent = "";
+        FR3.textContent = "";
+        DL3.textContent = "";
+        DR3.textContent = "";
+        G3.textContent = " MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -1591,20 +1768,27 @@ function updatePlayerInfo() {
         DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
-        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
-        FR.style.left = "810px"
+        sidepic.src = "/NHL/hockey_img/logos/tampa bay.gif";
+        FR.style.left = "830px"
     }
 
     if (selectedPlayer === "62") {
 
         title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
 
-        FL.textContent = "";
-        FC.textContent = "";
-        FR.textContent = "";
-        DL.textContent = "";
-        DR.textContent = "";
-        G.textContent = "";
+        FL.textContent = "Nylander";
+        FC.textContent = "Tavares";
+        FR.textContent = "Marner";
+        DL.textContent = "Rielly";
+        DR.textContent = "Ekman-Larsson";
+        G.textContent = "Woll";
+
+        FL3.textContent = "";
+        FC3.textContent = "";
+        FR3.textContent = "";
+        DL3.textContent = "";
+        DR3.textContent = "";
+        G3.textContent = " MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -1613,20 +1797,27 @@ function updatePlayerInfo() {
         DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
-        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
-        FR.style.left = "810px"
+        sidepic.src = "/NHL/hockey_img/logos/toronto.gif";
+        FR.style.left = "830px"
     }
 
     if (selectedPlayer === "63") {
 
         title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
 
-        FL.textContent = "";
-        FC.textContent = "";
-        FR.textContent = "";
-        DL.textContent = "";
-        DR.textContent = "";
-        G.textContent = "";
+        FL.textContent = "Guenther";
+        FC.textContent = "L Cooley";
+        FR.textContent = "C Keller";
+        DL.textContent = "Sergachev";
+        DR.textContent = "Kesselring";
+        G.textContent = "Vejmelka";
+
+        FL3.textContent = "";
+        FC3.textContent = "";
+        FR3.textContent = "";
+        DL3.textContent = "";
+        DR3.textContent = "";
+        G3.textContent = " MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -1635,20 +1826,27 @@ function updatePlayerInfo() {
         DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
-        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
-        FR.style.left = "810px"
+        sidepic.src = "/NHL/hockey_img/logos/utah.gif";
+        FR.style.left = "830px"
     }
 
     if (selectedPlayer === "64") {
 
         title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
 
-        FL.textContent = "";
-        FC.textContent = "";
-        FR.textContent = "";
-        DL.textContent = "";
-        DR.textContent = "";
-        G.textContent = "";
+        FL.textContent = "DeBrusk";
+        FC.textContent = "JT Miller";
+        FR.textContent = "Garland";
+        DL.textContent = "Q Hughes";
+        DR.textContent = "Myers";
+        G.textContent = "Lankinen";
+
+        FL3.textContent = "";
+        FC3.textContent = "";
+        FR3.textContent = "";
+        DL3.textContent = "";
+        DR3.textContent = "";
+        G3.textContent = " MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -1657,20 +1855,27 @@ function updatePlayerInfo() {
         DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
-        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
-        FR.style.left = "810px"
+        sidepic.src = "/NHL/hockey_img/logos/vancouver.gif";
+        FR.style.left = "830px"
     }
 
     if (selectedPlayer === "65") {
 
         title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
 
-        FL.textContent = "";
-        FC.textContent = "";
-        FR.textContent = "";
-        DL.textContent = "";
-        DR.textContent = "";
-        G.textContent = "";
+        FL.textContent = "Barbashev";
+        FC.textContent = "Eichel";
+        FR.textContent = "Stone";
+        DL.textContent = "S Theodore";
+        DR.textContent = "Pietrangelo";
+        G.textContent = "A Hill";
+
+        FL3.textContent = "";
+        FC3.textContent = "";
+        FR3.textContent = "";
+        DL3.textContent = "";
+        DR3.textContent = "";
+        G3.textContent = " MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -1679,20 +1884,27 @@ function updatePlayerInfo() {
         DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
-        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
-        FR.style.left = "810px"
+        sidepic.src = "/NHL/hockey_img/logos/vegas.gif";
+        FR.style.left = "830px"
     }
 
     if (selectedPlayer === "66") {
 
         title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
 
-        FL.textContent = "";
-        FC.textContent = "";
-        FR.textContent = "";
-        DL.textContent = "";
-        DR.textContent = "";
-        G.textContent = "";
+        FL.textContent = "Dubois";
+        FC.textContent = "D Strome";
+        FR.textContent = "Protas";
+        DL.textContent = "Chychrun";
+        DR.textContent = "Carlson";
+        G.textContent = "L Thompson";
+
+        FL3.textContent = "";
+        FC3.textContent = "";
+        FR3.textContent = "";
+        DL3.textContent = "";
+        DR3.textContent = "";
+        G3.textContent = " MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -1701,20 +1913,27 @@ function updatePlayerInfo() {
         DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
-        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
-        FR.style.left = "810px"
+        sidepic.src = "/NHL/hockey_img/logos/washington.gif";
+        FR.style.left = "830px"
     }
 
     if (selectedPlayer === "67") {
 
         title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
 
-        FL.textContent = "";
-        FC.textContent = "";
-        FR.textContent = "";
-        DL.textContent = "";
-        DR.textContent = "";
-        G.textContent = "";
+        FL.textContent = "K Connor";
+        FC.textContent = "Scheifele";
+        FR.textContent = "Vilardi";
+        DL.textContent = "Morrissey";
+        DR.textContent = "Pionk";
+        G.textContent = "Hellebuyck";
+
+        FL3.textContent = "";
+        FC3.textContent = "";
+        FR3.textContent = "";
+        DL3.textContent = "";
+        DR3.textContent = "";
+        G3.textContent = " MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -1723,8 +1942,8 @@ function updatePlayerInfo() {
         DR2.src = "/NHL/hockey_img/players/" + DR.textContent + ".jpg";
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
-        sidepic.src = "/NHL/hockey_img/logos/nhl.png";
-        FR.style.left = "810px"
+        sidepic.src = "/NHL/hockey_img/logos/winnipeg.gif";
+        FR.style.left = "830px"
     }
 
     // document.querySelector(".short").style.background = "linear-gradient(-45deg, grey 30%, dodgerblue 70%)";

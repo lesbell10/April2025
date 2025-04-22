@@ -92,14 +92,14 @@ option {
 /* Carousel */
 .carousel {
     position: relative;
-    width: 190%;
+    width: 200%;
     height: 67%;
     margin-left: 80px;
     margin-top: -70px;
 }
 
 .carousel p {
-    font-size: 30px;
+    font-size: 28px;
     color: black;
     font-weight: bold;
     /* text-shadow: var(--text-shadow); */
@@ -154,31 +154,31 @@ option {
 
 #FL3 {
     position: absolute;
-    left: 23%;
+    left: 24%;
     top: 12%;
 }
 
 #FC3 {
     position: absolute;
-    left: 38%;
+    left: 39%;
     top: 12%;
 }
 
 #FR3 {
     position: absolute;
-    left: 53%;
+    left: 54%;
     top: 12%;
 }
 
 #DL3 {
     position: absolute;
-    left: 30.5%;
+    left: 31.5%;
     top: 42.5%;
 }
 
 #DR3 {
     position: absolute;
-    left: 45.5%;
+    left: 46.5%;
     top: 42.5%;
 }
 
@@ -207,7 +207,7 @@ option {
 } */
 
 h1 {
-    font-size: 30px;
+    font-size: 28px;
     color: black;
     /* text-shadow: var(--text-shadow); */
 }
