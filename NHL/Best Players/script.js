@@ -1428,11 +1428,11 @@ message.innerHTML = ""
         DR.textContent = "Matheson";
         G.textContent = "Montembeault";
 
-        FL3.textContent = "";
-        FC3.textContent = "";
-        FR3.textContent = "";
-        DL3.textContent = "";
-        DR3.textContent = "";
+        FL3.textContent = "51 PTS";
+        FC3.textContent = "89 PTS";
+        FR3.textContent = "70 PTS";
+        DL3.textContent = "66 PTS";
+        DR3.textContent = "31 PTS";
         G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
