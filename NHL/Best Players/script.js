@@ -20,7 +20,7 @@ const G = document.getElementById("G");
 const G2 = document.getElementById("G2");
 const G3 = document.getElementById("G3");
 const sidepic = document.querySelector(".sidepic");
-const message = document.querySelector(".message")
+constmessage = document.querySelector(".message")
 const title = document.querySelector(".title")
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -68,7 +68,7 @@ function updatePlayerInfo() {
     DR3.textContent = "";
     G3.textContent = "";
 
-    message.innerHTML = ""
+message.innerHTML = ""
 
     if (selectedPlayer === "0") {
 
@@ -442,7 +442,7 @@ function updatePlayerInfo() {
 
         title.innerHTML = "<br>NHL BEST POINTERS #2"
 
-        FL.textContent = "JT Miller";
+        FL.textContent = "JTMiller";
         FC.textContent = "Draisaitl";
         FR.textContent = "Rantanen";
         DL.textContent = "Hedman";
@@ -790,7 +790,7 @@ function updatePlayerInfo() {
         FR.textContent = "Pominville";
         DL.textContent = "Dahlin";
         DR.textContent = "B Campbell";
-        G.textContent = "R Miller";
+        G.textContent = "RMiller";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -1092,18 +1092,18 @@ function updatePlayerInfo() {
 
         title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
 
-        FL.textContent = "Kadri";
-        FC.textContent = "Huberdeau";
-        FR.textContent = "Zary";
+        FL.textContent = "Huberdeau";
+        FC.textContent = "Kadri";
+        FR.textContent = "Coronato";
         DL.textContent = "Weegar";
         DR.textContent = "R Andersson";
         G.textContent = "Wolf";
 
-        FL3.textContent = "";
-        FC3.textContent = "";
-        FR3.textContent = "";
-        DL3.textContent = "";
-        DR3.textContent = "";
+        FL3.textContent = "62 PTS";
+        FC3.textContent = "67 PTS";
+        FR3.textContent = "47 PTS";
+        DL3.textContent = "47 PTS";
+        DR3.textContent = "31 PTS";
         G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
@@ -1129,11 +1129,11 @@ function updatePlayerInfo() {
         DR.textContent = "Orlov";
         G.textContent = "Kochetkov";
 
-        FL3.textContent = "";
-        FC3.textContent = "";
-        FR3.textContent = "";
-        DL3.textContent = "";
-        DR3.textContent = "";
+        FL3.textContent = "74 PTS";
+        FC3.textContent = "55 PTS";
+        FR3.textContent = "48 PTS";
+        DL3.textContent = "45 PTS";
+        DR3.textContent = "28 PTS";
         G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
@@ -1152,18 +1152,18 @@ function updatePlayerInfo() {
 
         title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
 
-        FL.textContent = "T Bertuzzi";
+        FL.textContent = "Donato";
         FC.textContent = "Bedard";
         FR.textContent = "Teravainen";
         DL.textContent = "A Vlasic";
         DR.textContent = "S Jones";
         G.textContent = "Soderblom";
 
-        FL3.textContent = "";
-        FC3.textContent = "";
-        FR3.textContent = "";
-        DL3.textContent = "";
-        DR3.textContent = "";
+        FL3.textContent = "62 PTS";
+        FC3.textContent = "67 PTS";
+        FR3.textContent = "58 PTS";
+        DL3.textContent = "30 PTS";
+        DR3.textContent = "27 PTS";
         G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
@@ -1182,18 +1182,18 @@ function updatePlayerInfo() {
 
         title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
 
-        FL.textContent = "Mittelstadt";
+        FL.textContent = "Lehkonen";
         FC.textContent = "MacKinnon";
-        FR.textContent = "Rantanen";
+        FR.textContent = "Drouin";
         DL.textContent = "Makar";
         DR.textContent = "D Toews";
         G.textContent = "Blackwood";
 
-        FL3.textContent = "";
-        FC3.textContent = "";
-        FR3.textContent = "";
-        DL3.textContent = "";
-        DR3.textContent = "";
+        FL3.textContent = "45 PTS";
+        FC3.textContent = "116 PTS";
+        FR3.textContent = "37 PTS";
+        DL3.textContent = "92 PTS";
+        DR3.textContent = "44 PTS";
         G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
@@ -1212,18 +1212,18 @@ function updatePlayerInfo() {
 
         title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
 
-        FL.textContent = "Voronkov";
-        FC.textContent = "Monahan";
+        FL.textContent = "Monahan";
+        FC.textContent = "K Johnson";
         FR.textContent = "Marchenko";
         DL.textContent = "Werenski";
         DR.textContent = "Provorov";
         G.textContent = "Merzlikins";
 
-        FL3.textContent = "";
-        FC3.textContent = "";
-        FR3.textContent = "";
-        DL3.textContent = "";
-        DR3.textContent = "";
+        FL3.textContent = "57 PTS";
+        FC3.textContent = "57 PTS";
+        FR3.textContent = "74 PTS";
+        DL3.textContent = "82 PTS";
+        DR3.textContent = "33 PTS";
         G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
@@ -1244,16 +1244,16 @@ function updatePlayerInfo() {
 
         FL.textContent = "J Robertson";
         FC.textContent = "Duchene";
-        FR.textContent = "Benn";
+        FR.textContent = "Johnston";
         DL.textContent = "Harley";
-        DR.textContent = "Heiskanen";
+        DR.textContent = "Lindell";
         G.textContent = "Oettinger";
 
-        FL3.textContent = "";
-        FC3.textContent = "";
-        FR3.textContent = "";
-        DL3.textContent = "";
-        DR3.textContent = "";
+        FL3.textContent = "80 PTS";
+        FC3.textContent = "82 PTS";
+        FR3.textContent = "71 PTS";
+        DL3.textContent = "50 PTS";
+        DR3.textContent = "26 PTS";
         G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
@@ -1279,12 +1279,12 @@ function updatePlayerInfo() {
         DR.textContent = "Edvinsson";
         G.textContent = "C Talbot";
 
-        FL3.textContent = "";
-        FC3.textContent = "";
-        FR3.textContent = "";
-        DL3.textContent = "";
-        DR3.textContent = "";
-        G3.textContent = " MOST GAMES";
+        FL3.textContent = "80 PTS";
+        FC3.textContent = "70 PTS";
+        FR3.textContent = "70 PTS";
+        DL3.textContent = "46 PTS";
+        DR3.textContent = "31 PTS";
+        G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -1302,19 +1302,19 @@ function updatePlayerInfo() {
 
         title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
 
-        FL.textContent = "Hyman";
+        FL.textContent = "Draisaitl";
         FC.textContent = "McDavid";
-        FR.textContent = "Draisaitl";
+        FR.textContent = "Nugent-H";
         DL.textContent = "Bouchard";
         DR.textContent = "Ekholm";
         G.textContent = "S Skinner";
 
-        FL3.textContent = "";
-        FC3.textContent = "";
-        FR3.textContent = "";
-        DL3.textContent = "";
-        DR3.textContent = "";
-        G3.textContent = " MOST GAMES";
+        FL3.textContent = "106 PTS";
+        FC3.textContent = "100 PTS";
+        FR3.textContent = "49 PTS";
+        DL3.textContent = "67 PTS";
+        DR3.textContent = "33 PTS";
+        G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -1333,18 +1333,18 @@ function updatePlayerInfo() {
         title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
 
         FL.textContent = "M Tkachuk";
-        FC.textContent = "Reinhart";
-        FR.textContent = "Barkov";
+        FC.textContent = "Barkov";
+        FR.textContent = "Reinhart";
         DL.textContent = "Ekblad";
         DR.textContent = "Forsling";
         G.textContent = "Bobrovsky";
 
-        FL3.textContent = "";
-        FC3.textContent = "";
-        FR3.textContent = "";
-        DL3.textContent = "";
-        DR3.textContent = "";
-        G3.textContent = " MOST GAMES";
+        FL3.textContent = "57 PTS";
+        FC3.textContent = "71 PTS";
+        FR3.textContent = "81 PTS";
+        DL3.textContent = "33 PTS";
+        DR3.textContent = "31 PTS";
+        G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -1361,19 +1361,19 @@ function updatePlayerInfo() {
 
         title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
 
-        FL.textContent = "Laferriere";
+        FL.textContent = "Fiala";
         FC.textContent = "Kopitar";
         FR.textContent = "Kempe";
         DL.textContent = "B Clarke";
         DR.textContent = "Gavrikov";
         G.textContent = "Kuemper";
 
-        FL3.textContent = "";
-        FC3.textContent = "";
-        FR3.textContent = "";
-        DL3.textContent = "";
-        DR3.textContent = "";
-        G3.textContent = " MOST GAMES";
+        FL3.textContent = "60 PTS";
+        FC3.textContent = "67 PTS";
+        FR3.textContent = "73 PTS";
+        DL3.textContent = "33 PTS";
+        DR3.textContent = "30 PTS";
+        G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -1394,16 +1394,16 @@ function updatePlayerInfo() {
         FL.textContent = "Kaprizov";
         FC.textContent = "Rossi";
         FR.textContent = "Boldy";
-        DL.textContent = "Faber";
-        DR.textContent = "Brodin";
+        DL.textContent = "Spurgeon";
+        DR.textContent = "Faber";
         G.textContent = "Gustavsson";
 
-        FL3.textContent = "";
-        FC3.textContent = "";
-        FR3.textContent = "";
-        DL3.textContent = "";
-        DR3.textContent = "";
-        G3.textContent = " MOST GAMES";
+        FL3.textContent = "56 PTS";
+        FC3.textContent = "60 PTS";
+        FR3.textContent = "73 PTS";
+        DL3.textContent = "32 PTS";
+        DR3.textContent = "29 PTS";
+        G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -1433,7 +1433,7 @@ function updatePlayerInfo() {
         FR3.textContent = "";
         DL3.textContent = "";
         DR3.textContent = "";
-        G3.textContent = " MOST GAMES";
+        G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -1463,7 +1463,7 @@ function updatePlayerInfo() {
         FR3.textContent = "";
         DL3.textContent = "";
         DR3.textContent = "";
-        G3.textContent = " MOST GAMES";
+        G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -1493,7 +1493,7 @@ function updatePlayerInfo() {
         FR3.textContent = "";
         DL3.textContent = "";
         DR3.textContent = "";
-        G3.textContent = " MOST GAMES";
+        G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -1522,7 +1522,7 @@ function updatePlayerInfo() {
         FR3.textContent = "";
         DL3.textContent = "";
         DR3.textContent = "";
-        G3.textContent = " MOST GAMES";
+        G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -1551,7 +1551,7 @@ function updatePlayerInfo() {
         FR3.textContent = "";
         DL3.textContent = "";
         DR3.textContent = "";
-        G3.textContent = " MOST GAMES";
+        G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -1581,7 +1581,7 @@ function updatePlayerInfo() {
         FR3.textContent = "";
         DL3.textContent = "";
         DR3.textContent = "";
-        G3.textContent = " MOST GAMES";
+        G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -1611,7 +1611,7 @@ function updatePlayerInfo() {
         FR3.textContent = "";
         DL3.textContent = "";
         DR3.textContent = "";
-        G3.textContent = " MOST GAMES";
+        G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -1641,7 +1641,7 @@ function updatePlayerInfo() {
         FR3.textContent = "";
         DL3.textContent = "";
         DR3.textContent = "";
-        G3.textContent = " MOST GAMES";
+        G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -1671,7 +1671,7 @@ function updatePlayerInfo() {
         FR3.textContent = "";
         DL3.textContent = "";
         DR3.textContent = "";
-        G3.textContent = " MOST GAMES";
+        G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -1701,7 +1701,7 @@ function updatePlayerInfo() {
         FR3.textContent = "";
         DL3.textContent = "";
         DR3.textContent = "";
-        G3.textContent = " MOST GAMES";
+        G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -1730,7 +1730,7 @@ function updatePlayerInfo() {
         FR3.textContent = "";
         DL3.textContent = "";
         DR3.textContent = "";
-        G3.textContent = " MOST GAMES";
+        G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -1759,7 +1759,7 @@ function updatePlayerInfo() {
         FR3.textContent = "";
         DL3.textContent = "";
         DR3.textContent = "";
-        G3.textContent = " MOST GAMES";
+        G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -1788,7 +1788,7 @@ function updatePlayerInfo() {
         FR3.textContent = "";
         DL3.textContent = "";
         DR3.textContent = "";
-        G3.textContent = " MOST GAMES";
+        G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -1817,7 +1817,7 @@ function updatePlayerInfo() {
         FR3.textContent = "";
         DL3.textContent = "";
         DR3.textContent = "";
-        G3.textContent = " MOST GAMES";
+        G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -1835,7 +1835,7 @@ function updatePlayerInfo() {
         title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
 
         FL.textContent = "DeBrusk";
-        FC.textContent = "JT Miller";
+        FC.textContent = "JTMiller";
         FR.textContent = "Garland";
         DL.textContent = "Q Hughes";
         DR.textContent = "Myers";
@@ -1846,7 +1846,7 @@ function updatePlayerInfo() {
         FR3.textContent = "";
         DL3.textContent = "";
         DR3.textContent = "";
-        G3.textContent = " MOST GAMES";
+        G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -1875,7 +1875,7 @@ function updatePlayerInfo() {
         FR3.textContent = "";
         DL3.textContent = "";
         DR3.textContent = "";
-        G3.textContent = " MOST GAMES";
+        G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -1904,7 +1904,7 @@ function updatePlayerInfo() {
         FR3.textContent = "";
         DL3.textContent = "";
         DR3.textContent = "";
-        G3.textContent = " MOST GAMES";
+        G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -1933,7 +1933,7 @@ function updatePlayerInfo() {
         FR3.textContent = "";
         DL3.textContent = "";
         DR3.textContent = "";
-        G3.textContent = " MOST GAMES";
+        G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -1960,13 +1960,13 @@ document.querySelector(".yearSelector").addEventListener("change", () => {
 const container = document.querySelector('.short');
 const xPositionDisplay = document.getElementById('x-position');
 
-// Track mouse movement on the entire document
+// Trackmousemovement on the entire document
 container.addEventListener('mousemove', (event) => {
     const x = event.clientX; // Get the X-coordinate relative to the viewport
     xPositionDisplay.innerHTML = `left: ${x - 200}px`;
 });
 
-// Clear the X display when the mouse leaves the window (optional)
+// Clear the X display when themouse leaves the window (optional)
 container.addEventListener('mouseleave', () => {
     xPositionDisplay.innerHTML = "";
 });
