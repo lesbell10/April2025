@@ -54,16 +54,16 @@ function updatePlayerInfo() {
 
         FL.textContent = "Draisaitl";
         FC.textContent = "MacKinnon";
-        FR.textContent = "Rantanen";
+        FR.textContent = "Kucherov";
         DL.textContent = "Makar";
         DR.textContent = "Werenski";
         G.textContent = "Hellebuyck";
 
-        FL3.textContent = "61 PTS";
-        FC3.textContent = "66 PTS";
-        FR3.textContent = "58 PTS";
-        DL3.textContent = "49 PTS";
-        DR3.textContent = "46 PTS";
+        FL3.textContent = "106 PTS";
+        FC3.textContent = "116 PTS";
+        FR3.textContent = "121 PTS";
+        DL3.textContent = "92 PTS";
+        DR3.textContent = "82 PTS";
         G3.textContent = "BEST STATS";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
@@ -74,8 +74,7 @@ function updatePlayerInfo() {
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
         sidepic.src = "/NHL/hockey_img/logos/nhl.gif";
-        manager.textContent = ""
-        FC3.style.fontWeight = "1000";
+        manager.textContent = "Best Head Coach: Spencer Carbery"
     }
 
     if (selectedTeam == "0") {
@@ -87,11 +86,11 @@ function updatePlayerInfo() {
         DR.textContent = "Zellweger";
         G.textContent = "Dostal";
 
-        FL3.textContent = "23 PTS";
-        FC3.textContent = "24 PTS";
-        FR3.textContent = "33 PTS";
-        DL3.textContent = "18 PTS";
-        DR3.textContent = "12 PTS";
+        FL3.textContent = "45 PTS";
+        FC3.textContent = "52 PTS";
+        FR3.textContent = "55 PTS";
+        DL3.textContent = "43 PTS";
+        DR3.textContent = "20 PTS";
         G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
@@ -102,24 +101,23 @@ function updatePlayerInfo() {
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
         sidepic.src = "/NHL/hockey_img/logos/anaheim.gif";
-        manager.textContent += "Greg Cronin"
-        FR3.style.fontWeight = "1000";
+        manager.textContent += "Vacant"
     }
 
     if (selectedTeam == "1") {
 
-        FL.textContent = "Marchand";
-        FC.textContent = "Zacha";
+        FL.textContent = "E Lindholm";
+        FC.textContent = "M Geekie";
         FR.textContent = "Pastrnak";
-        DL.textContent = "McAvoy";
-        DR.textContent = "Lohrei";
+        DL.textContent = "Lohrei";
+        DR.textContent = "McAvoy";
         G.textContent = "Swayman";
 
-        FL3.textContent = "32 PTS";
-        FC3.textContent = "20 PTS";
-        FR3.textContent = "40 PTS";
-        DL3.textContent = "18 PTS";
-        DR3.textContent = "16 PTS";
+        FL3.textContent = "47 PTS";
+        FC3.textContent = "57 PTS";
+        FR3.textContent = "106 PTS";
+        DL3.textContent = "33 PTS";
+        DR3.textContent = "23 PTS";
         G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
@@ -131,23 +129,22 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NHL/hockey_img/logos/boston.gif";
         manager.textContent += "Joe Sacco"
-        FR3.style.fontWeight = "1000";
     }
 
     if (selectedTeam == "2") {
 
-        FL.textContent = "Zucker";
+  FL.textContent = "Tuch";
         FC.textContent = "T Thompson";
-        FR.textContent = "Tuch";
+        FR.textContent = "Peterka";
         DL.textContent = "Dahlin";
-        DR.textContent = "Byram";
+        DR.textContent = "O Power";
         G.textContent = "Luukkonen";
 
-        FL3.textContent = "31 PTS";
-        FC3.textContent = "34 PTS";
-        FR3.textContent = "30 PTS";
-        DL3.textContent = "29 PTS";
-        DR3.textContent = "22 PTS";
+        FL3.textContent = "67 PTS";
+        FC3.textContent = "72 PTS";
+        FR3.textContent = "68 PTS";
+        DL3.textContent = "68 PTS";
+        DR3.textContent = "40 PTS";
         G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
@@ -159,23 +156,22 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NHL/hockey_img/logos/buffalo.gif";
         manager.textContent += "Lindy Ruff"
-        FC3.style.fontWeight = "1000";
     }
 
     if (selectedTeam == "3") {
 
-        FL.textContent = "Kadri";
-        FC.textContent = "Huberdeau";
-        FR.textContent = "Zary";
+        FL.textContent = "Huberdeau";
+        FC.textContent = "Kadri";
+        FR.textContent = "Coronato";
         DL.textContent = "Weegar";
         DR.textContent = "R Andersson";
         G.textContent = "Wolf";
 
-        FL3.textContent = "29 PTS";
-        FC3.textContent = "31 PTS";
-        FR3.textContent = "22 PTS";
-        DL3.textContent = "22 PTS";
-        DR3.textContent = "18 PTS";
+        FL3.textContent = "62 PTS";
+        FC3.textContent = "67 PTS";
+        FR3.textContent = "47 PTS";
+        DL3.textContent = "47 PTS";
+        DR3.textContent = "31 PTS";
         G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
@@ -187,7 +183,6 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NHL/hockey_img/logos/calgary.gif";
         manager.textContent += "Ryan Huska"
-        FC3.style.fontWeight = "1000";
     }
 
     if (selectedTeam == "4") {
@@ -199,11 +194,11 @@ function updatePlayerInfo() {
         DR.textContent = "Orlov";
         G.textContent = "Kochetkov";
 
-        FL3.textContent = "43 PTS";
-        FC3.textContent = "47 PTS";
-        FR3.textContent = "29 PTS";
-        DL3.textContent = "27 PTS";
-        DR3.textContent = "18 PTS";
+        FL3.textContent = "74 PTS";
+        FC3.textContent = "55 PTS";
+        FR3.textContent = "48 PTS";
+        DL3.textContent = "45 PTS";
+        DR3.textContent = "28 PTS";
         G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
@@ -215,23 +210,22 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NHL/hockey_img/logos/carolina.gif";
         manager.textContent += "Rod Brind'Amour"
-        FC3.style.fontWeight = "1000";
     }
 
     if (selectedTeam == "5") {
 
-        FL.textContent = "T Bertuzzi";
+        FL.textContent = "Donato";
         FC.textContent = "Bedard";
         FR.textContent = "Teravainen";
         DL.textContent = "A Vlasic";
         DR.textContent = "S Jones";
-        G.textContent = "Mrazek";
+        G.textContent = "Soderblom";
 
-        FL3.textContent = "22 PTS";
-        FC3.textContent = "37 PTS";
-        FR3.textContent = "26 PTS";
-        DL3.textContent = "17 PTS";
-        DR3.textContent = "14 PTS";
+        FL3.textContent = "62 PTS";
+        FC3.textContent = "67 PTS";
+        FR3.textContent = "58 PTS";
+        DL3.textContent = "30 PTS";
+        DR3.textContent = "27 PTS";
         G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
@@ -243,23 +237,22 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NHL/hockey_img/logos/chicago.gif";
         manager.textContent += "Anders Sorensen"
-        FC3.style.fontWeight = "1000";
     }
 
     if (selectedTeam == "6") {
 
-        FL.textContent = "Mittelstadt";
+        FL.textContent = "Lehkonen";
         FC.textContent = "MacKinnon";
-        FR.textContent = "Rantanen";
+        FR.textContent = "Drouin";
         DL.textContent = "Makar";
         DR.textContent = "D Toews";
-        G.textContent = "Georgiev";
+        G.textContent = "Blackwood";
 
-        FL3.textContent = "26 PTS";
-        FC3.textContent = "66 PTS";
-        FR3.textContent = "58 PTS";
-        DL3.textContent = "49 PTS";
-        DR3.textContent = "20 PTS";
+        FL3.textContent = "45 PTS";
+        FC3.textContent = "116 PTS";
+        FR3.textContent = "37 PTS";
+        DL3.textContent = "92 PTS";
+        DR3.textContent = "44 PTS";
         G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
@@ -271,23 +264,22 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NHL/hockey_img/logos/colorado.gif";
         manager.textContent += "Jared Bednar"
-        FC3.style.fontWeight = "1000";
     }
 
     if (selectedTeam == "7") {
 
-        FL.textContent = "Voronkov";
+        FL.textContent = "K Johnson";
         FC.textContent = "Monahan";
         FR.textContent = "Marchenko";
         DL.textContent = "Werenski";
         DR.textContent = "Provorov";
         G.textContent = "Merzlikins";
 
-        FL3.textContent = "28 PTS";
-        FC3.textContent = "41 PTS";
-        FR3.textContent = "45 PTS";
-        DL3.textContent = "46 PTS";
-        DR3.textContent = "18 PTS";
+        FL3.textContent = "57 PTS";
+        FC3.textContent = "57 PTS";
+        FR3.textContent = "74 PTS";
+        DL3.textContent = "82 PTS";
+        DR3.textContent = "33 PTS";
         G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
@@ -299,23 +291,22 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NHL/hockey_img/logos/columbus.gif";
         manager.textContent += "Dean Evason"
-        DL3.style.fontWeight = "1000";
     }
 
     if (selectedTeam == "8") {
 
         FL.textContent = "J Robertson";
         FC.textContent = "Duchene";
-        FR.textContent = "Benn";
+        FR.textContent = "Johnston";
         DL.textContent = "Harley";
-        DR.textContent = "Heiskanen";
+        DR.textContent = "Lindell";
         G.textContent = "Oettinger";
 
-        FL3.textContent = "34 PTS";
-        FC3.textContent = "38 PTS";
-        FR3.textContent = "30 PTS";
-        DL3.textContent = "21 PTS";
-        DR3.textContent = "19 PTS";
+        FL3.textContent = "80 PTS";
+        FC3.textContent = "82 PTS";
+        FR3.textContent = "71 PTS";
+        DL3.textContent = "50 PTS";
+        DR3.textContent = "26 PTS";
         G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
@@ -327,7 +318,6 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NHL/hockey_img/logos/dallas.gif";
         manager.textContent += "Peter DeBoer"
-        FC3.style.fontWeight = "1000";
     }
 
     if (selectedTeam == "9") {
@@ -339,12 +329,12 @@ function updatePlayerInfo() {
         DR.textContent = "Edvinsson";
         G.textContent = "C Talbot";
 
-        FL3.textContent = "44 PTS";
-        FC3.textContent = "35 PTS";
-        FR3.textContent = "35 PTS";
-        DL3.textContent = "24 PTS";
-        DR3.textContent = "16 PTS";
-        G3.textContent = " MOST GAMES";
+        FL3.textContent = "80 PTS";
+        FC3.textContent = "70 PTS";
+        FR3.textContent = "70 PTS";
+        DL3.textContent = "46 PTS";
+        DR3.textContent = "31 PTS";
+        G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -354,25 +344,24 @@ function updatePlayerInfo() {
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
         sidepic.src = "/NHL/hockey_img/logos/detroit.gif";
-        manager.textContent += "Derek Lalonde"
-        FL3.style.fontWeight = "1000";
+        manager.textContent += "Todd McLellan"
     }
 
     if (selectedTeam == "10") {
 
-        FL.textContent = "Hyman";
+        FL.textContent = "Draisaitl";
         FC.textContent = "McDavid";
-        FR.textContent = "Draisaitl";
+        FR.textContent = "Nugent-H";
         DL.textContent = "Bouchard";
         DR.textContent = "Ekholm";
         G.textContent = "S Skinner";
 
-        FL3.textContent = "24 PTS";
-        FC3.textContent = "58 PTS";
-        FR3.textContent = "61 PTS";
-        DL3.textContent = "31 PTS";
-        DR3.textContent = "18 PTS";
-        G3.textContent = " MOST GAMES";
+        FL3.textContent = "106 PTS";
+        FC3.textContent = "100 PTS";
+        FR3.textContent = "49 PTS";
+        DL3.textContent = "67 PTS";
+        DR3.textContent = "33 PTS";
+        G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -383,24 +372,23 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NHL/hockey_img/logos/edmonton.gif";
         manager.textContent += "Kris Knoblauch"
-        FR3.style.fontWeight = "1000";
     }
 
     if (selectedTeam == "11") {
 
         FL.textContent = "M Tkachuk";
-        FC.textContent = "Reinhart";
-        FR.textContent = "Barkov";
+        FC.textContent = "Barkov";
+        FR.textContent = "Reinhart";
         DL.textContent = "Ekblad";
         DR.textContent = "Forsling";
         G.textContent = "Bobrovsky";
 
-        FL3.textContent = "36 PTS";
-        FC3.textContent = "46 PTS";
-        FR3.textContent = "35 PTS";
-        DL3.textContent = "20 PTS";
-        DR3.textContent = "15 PTS";
-        G3.textContent = " MOST GAMES";
+        FL3.textContent = "57 PTS";
+        FC3.textContent = "71 PTS";
+        FR3.textContent = "81 PTS";
+        DL3.textContent = "33 PTS";
+        DR3.textContent = "31 PTS";
+        G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -411,24 +399,23 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NHL/hockey_img/logos/florida.gif";
         manager.textContent += "Paul Maurice"
-        FC3.style.fontWeight = "1000";
     }
 
     if (selectedTeam == "12") {
 
-        FL.textContent = "Laferriere";
+        FL.textContent = "Fiala";
         FC.textContent = "Kopitar";
         FR.textContent = "Kempe";
         DL.textContent = "B Clarke";
         DR.textContent = "Gavrikov";
         G.textContent = "Kuemper";
 
-        FL3.textContent = "26 PTS";
-        FC3.textContent = "40 PTS";
-        FR3.textContent = "39 PTS";
-        DL3.textContent = "22 PTS";
-        DR3.textContent = "16 PTS";
-        G3.textContent = " MOST GAMES";
+        FL3.textContent = "60 PTS";
+        FC3.textContent = "67 PTS";
+        FR3.textContent = "73 PTS";
+        DL3.textContent = "33 PTS";
+        DR3.textContent = "30 PTS";
+        G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -439,7 +426,6 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NHL/hockey_img/logos/los angeles.gif";
         manager.textContent += "Jim Hiller"
-        FC3.style.fontWeight = "1000";
     }
 
     if (selectedTeam == "13") {
@@ -447,16 +433,16 @@ function updatePlayerInfo() {
         FL.textContent = "Kaprizov";
         FC.textContent = "Rossi";
         FR.textContent = "Boldy";
-        DL.textContent = "Faber";
-        DR.textContent = "Brodin";
+        DL.textContent = "Spurgeon";
+        DR.textContent = "Faber";
         G.textContent = "Gustavsson";
 
-        FL3.textContent = "50 PTS";
-        FC3.textContent = "37 PTS";
-        FR3.textContent = "35 PTS";
-        DL3.textContent = "20 PTS";
-        DR3.textContent = "16 PTS";
-        G3.textContent = " MOST GAMES";
+        FL3.textContent = "56 PTS";
+        FC3.textContent = "60 PTS";
+        FR3.textContent = "73 PTS";
+        DL3.textContent = "32 PTS";
+        DR3.textContent = "29 PTS";
+        G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -467,7 +453,6 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NHL/hockey_img/logos/minnesota.gif";
         manager.textContent += "John Hynes"
-        FL3.style.fontWeight = "1000";
     }
 
     if (selectedTeam == "14") {
@@ -479,12 +464,12 @@ function updatePlayerInfo() {
         DR.textContent = "Matheson";
         G.textContent = "Montembeault";
 
-        FL3.textContent = "23 PTS";
-        FC3.textContent = "42 PTS";
-        FR3.textContent = "40 PTS";
-        DL3.textContent = "31 PTS";
-        DR3.textContent = "20 PTS";
-        G3.textContent = " MOST GAMES";
+        FL3.textContent = "51 PTS";
+        FC3.textContent = "89 PTS";
+        FR3.textContent = "70 PTS";
+        DL3.textContent = "66 PTS";
+        DR3.textContent = "31 PTS";
+        G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -495,7 +480,6 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NHL/hockey_img/logos/montreal.gif";
         manager.textContent += "Martin St Louis"
-        FC3.style.fontWeight = "1000";
     }
 
     if (selectedTeam == "15") {
@@ -507,12 +491,12 @@ function updatePlayerInfo() {
         DR.textContent = "Skjei";
         G.textContent = "Saros";
 
-        FL3.textContent = "34 PTS";
-        FC3.textContent = "25 PTS";
-        FR3.textContent = "30 PTS";
-        DL3.textContent = "27 PTS";
-        DR3.textContent = "13 PTS";
-        G3.textContent = " MOST GAMES";
+        FL3.textContent = "76 PTS";
+        FC3.textContent = "53 PTS";
+        FR3.textContent = "56 PTS";
+        DL3.textContent = "38 PTS";
+        DR3.textContent = "33 PTS";
+        G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -523,7 +507,6 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NHL/hockey_img/logos/nashville.gif";
         manager.textContent += "Andrew Brunette"
-        FL3.style.fontWeight = "1000";
     }
 
     if (selectedTeam == "16") {
@@ -531,16 +514,16 @@ function updatePlayerInfo() {
         FL.textContent = "Bratt";
         FC.textContent = "J Hughes";
         FR.textContent = "Hischier";
-        DL.textContent = "Hamilton";
-        DR.textContent = "L Hughes";
+        DL.textContent = "L Hughes";
+        DR.textContent = "Hamilton";
         G.textContent = "Markstrom";
 
-        FL3.textContent = "47 PTS";
-        FC3.textContent = "46 PTS";
-        FR3.textContent = "34 PTS";
-        DL3.textContent = "25 PTS";
-        DR3.textContent = "17 PTS";
-        G3.textContent = " MOST GAMES";
+        FL3.textContent = "88 PTS";
+        FC3.textContent = "70 PTS";
+        FR3.textContent = "69 PTS";
+        DL3.textContent = "44 PTS";
+        DR3.textContent = "40 PTS";
+        G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -551,7 +534,6 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NHL/hockey_img/logos/new jersey.gif";
         manager.textContent += "Sheldon Keefe"
-        FL3.style.fontWeight = "1000";
     }
 
     if (selectedTeam == "17") {
@@ -563,12 +545,12 @@ function updatePlayerInfo() {
         DR.textContent = "Pulock";
         G.textContent = "Sorokin";
 
-        FL3.textContent = "33 PTS";
-        FC3.textContent = "30 PTS";
-        FR3.textContent = "27 PTS";
-        DL3.textContent = "21 PTS";
-        DR3.textContent = "15 PTS";
-        G3.textContent = " MOST GAMES";
+        FL3.textContent = "54 PTS";
+        FC3.textContent = "57 PTS";
+        FR3.textContent = "48 PTS";
+        DL3.textContent = "39 PTS";
+        DR3.textContent = "23 PTS";
+        G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -579,24 +561,23 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NHL/hockey_img/logos/ny islanders.gif";
         manager.textContent += "Patrick Roy"
-        FL3.style.fontWeight = "1000";
     }
 
     if (selectedTeam == "18") {
 
         FL.textContent = "Panarin";
-        FC.textContent = "Trocheck";
-        FR.textContent = "Zibanejad";
+        FC.textContent = "Zibanejad";
+        FR.textContent = "Trocheck";
         DL.textContent = "A Fox";
-        DR.textContent = "B Schneider";
+        DR.textContent = "K Miller";
         G.textContent = "Shesterkin";
 
-        FL3.textContent = "44 PTS";
-        FC3.textContent = "28 PTS";
-        FR3.textContent = "26 PTS";
-        DL3.textContent = "33 PTS";
-        DR3.textContent = "10 PTS";
-        G3.textContent = " MOST GAMES";
+        FL3.textContent = "89 PTS";
+        FC3.textContent = "62 PTS";
+        FR3.textContent = "59 PTS";
+        DL3.textContent = "61 PTS";
+        DR3.textContent = "27 PTS";
+        G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -606,8 +587,7 @@ function updatePlayerInfo() {
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
         sidepic.src = "/NHL/hockey_img/logos/ny rangers.gif";
-        manager.textContent += "Peter Laviolette"
-        FL3.style.fontWeight = "1000";
+        manager.textContent += "Vacant"
     }
 
     if (selectedTeam == "19") {
@@ -619,12 +599,12 @@ function updatePlayerInfo() {
         DR.textContent = "Chabot";
         G.textContent = "Ullmark";
 
-        FL3.textContent = "38 PTS";
-        FC3.textContent = "41 PTS";
-        FR3.textContent = "36 PTS";
-        DL3.textContent = "22 PTS";
-        DR3.textContent = "18 PTS";
-        G3.textContent = " MOST GAMES";
+        FL3.textContent = "55 PTS";
+        FC3.textContent = "79 PTS";
+        FR3.textContent = "68 PTS";
+        DL3.textContent = "57 PTS";
+        DR3.textContent = "45 PTS";
+        G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -635,24 +615,23 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NHL/hockey_img/logos/ottawa.gif";
         manager.textContent += "Travis Green"
-        FC3.style.fontWeight = "1000";
     }
 
     if (selectedTeam == "20") {
 
-        FL.textContent = "Tippett";
-        FC.textContent = "Konecny";
-        FR.textContent = "Michkov";
+        FL.textContent = "Michkov";
+        FC.textContent = "Couturier";
+        FR.textContent = "Konecny";
         DL.textContent = "Sanheim";
-        DR.textContent = "Seeler";
+        DR.textContent = "Drysdale";
         G.textContent = "Ersson";
 
-        FL3.textContent = "24 PTS";
+        FL3.textContent = "63 PTS";
         FC3.textContent = "45 PTS";
-        FR3.textContent = "29 PTS";
-        DL3.textContent = "21 PTS";
-        DR3.textContent = "12 PTS";
-        G3.textContent = " MOST GAMES";
+        FR3.textContent = "76 PTS";
+        DL3.textContent = "30 PTS";
+        DR3.textContent = "20 PTS";
+        G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -662,25 +641,24 @@ function updatePlayerInfo() {
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
         sidepic.src = "/NHL/hockey_img/logos/philadelphia.gif";
-        manager.textContent += "John Tortorella"
-        FC3.style.fontWeight = "1000";
+        manager.textContent += "Brad Shaw"
     }
 
     if (selectedTeam == "21") {
 
-        FL.textContent = "Malkin";
+        FL.textContent = "Rust";
         FC.textContent = "Crosby";
         FR.textContent = "Rakell";
         DL.textContent = "E Karlsson";
         DR.textContent = "Grzelcyk";
-        G.textContent = "Jarry";
+        G.textContent = "Nedeljkovic";
 
-        FL3.textContent = "32 PTS";
-        FC3.textContent = "42 PTS";
-        FR3.textContent = "33 PTS";
-        DL3.textContent = "28 PTS";
-        DR3.textContent = "21 PTS";
-        G3.textContent = " MOST GAMES";
+        FL3.textContent = "65 PTS";
+        FC3.textContent = "91 PTS";
+        FR3.textContent = "70 PTS";
+        DL3.textContent = "53 PTS";
+        DR3.textContent = "40 PTS";
+        G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -691,24 +669,23 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NHL/hockey_img/logos/pittsburgh.gif";
         manager.textContent += "Mike Sullivan"
-        FC3.style.fontWeight = "1000";
     }
 
     if (selectedTeam == "22") {
 
         FL.textContent = "Eklund";
-        FC.textContent = "Granlund";
-        FR.textContent = "Celebrini";
+        FC.textContent = "Celebrini";
+        FR.textContent = "Toffoli";
         DL.textContent = "Walman";
-        DR.textContent = "Ceci";
-        G.textContent = "Blackwood";
+        DR.textContent = "Liljegren";
+        G.textContent = "Georgiev";
 
-        FL3.textContent = "27 PTS";
-        FC3.textContent = "35 PTS";
-        FR3.textContent = "27 PTS";
-        DL3.textContent = "25 PTS";
-        DR3.textContent = "10 PTS";
-        G3.textContent = " MOST GAMES";
+        FL3.textContent = "58 PTS";
+        FC3.textContent = "63 PTS";
+        FR3.textContent = "54 PTS";
+        DL3.textContent = "32 PTS";
+        DR3.textContent = "17 PTS";
+        G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -719,24 +696,23 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NHL/hockey_img/logos/san jose.gif";
         manager.textContent += "Ryan Warsofsky"
-        FC3.style.fontWeight = "1000";
     }
 
     if (selectedTeam == "23") {
 
         FL.textContent = "McCann";
-        FC.textContent = "Schwartz";
-        FR.textContent = "Bjorkstrand";
+        FC.textContent = "Stephenson";
+        FR.textContent = "Schwartz";
         DL.textContent = "Montour";
         DR.textContent = "Dunn";
         G.textContent = "Daccord";
 
-        FL3.textContent = "29 PTS";
-        FC3.textContent = "26 PTS";
-        FR3.textContent = "26 PTS";
-        DL3.textContent = "22 PTS";
-        DR3.textContent = "18 PTS";
-        G3.textContent = " MOST GAMES";
+        FL3.textContent = "61 PTS";
+        FC3.textContent = "51 PTS";
+        FR3.textContent = "49 PTS";
+        DL3.textContent = "41 PTS";
+        DR3.textContent = "39 PTS";
+        G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -746,25 +722,24 @@ function updatePlayerInfo() {
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
         sidepic.src = "/NHL/hockey_img/logos/seattle.gif";
-        manager.textContent += "Dave Hakstol"
-        FL3.style.fontWeight = "1000";
+        manager.textContent += "Vacant"
     }
 
     if (selectedTeam == "24") {
 
         FL.textContent = "Holloway";
-        FC.textContent = "Kyrou";
-        FR.textContent = "R Thomas";
+        FC.textContent = "R Thomas";
+        FR.textContent = "Kyrou";
         DL.textContent = "Parayko";
-        DR.textContent = "Broberg";
+        DR.textContent = "Fowler";
         G.textContent = "Binnington";
 
-        FL3.textContent = "29 PTS";
-        FC3.textContent = "35 PTS";
-        FR3.textContent = "30 PTS";
-        DL3.textContent = "23 PTS";
-        DR3.textContent = "14 PTS";
-        G3.textContent = " MOST GAMES";
+        FL3.textContent = "63 PTS";
+        FC3.textContent = "81 PTS";
+        FR3.textContent = "70 PTS";
+        DL3.textContent = "36 PTS";
+        DR3.textContent = "36 PTS";
+        G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -775,7 +750,6 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NHL/hockey_img/logos/st louis.gif";
         manager.textContent += "Jim Montgomery"
-        FC3.style.fontWeight = "1000";
     }
 
     if (selectedTeam == "25") {
@@ -784,15 +758,15 @@ function updatePlayerInfo() {
         FC.textContent = "Point";
         FR.textContent = "Kucherov";
         DL.textContent = "Hedman";
-        DR.textContent = "McDonagh";
+        DR.textContent = "D Raddysh";
         G.textContent = "Vasilevskiy";
 
-        FL3.textContent = "48 PTS";
-        FC3.textContent = "47 PTS";
-        FR3.textContent = "62 PTS";
-        DL3.textContent = "32 PTS";
-        DR3.textContent = "14 PTS";
-        G3.textContent = " MOST GAMES";
+        FL3.textContent = "90 PTS";
+        FC3.textContent = "82 PTS";
+        FR3.textContent = "121 PTS";
+        DL3.textContent = "66 PTS";
+        DR3.textContent = "37 PTS";
+        G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -803,24 +777,23 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NHL/hockey_img/logos/tampa bay.gif";
         manager.textContent += "Jon Cooper"
-        FR3.style.fontWeight = "1000";
     }
 
     if (selectedTeam == "26") {
 
         FL.textContent = "Nylander";
-        FC.textContent = "Tavares";
+        FC.textContent = "Matthews";
         FR.textContent = "Marner";
         DL.textContent = "Rielly";
         DR.textContent = "Ekman-Larsson";
         G.textContent = "Woll";
 
-        FL3.textContent = "43 PTS";
-        FC3.textContent = "40 PTS";
-        FR3.textContent = "56 PTS";
-        DL3.textContent = "19 PTS";
-        DR3.textContent = "15 PTS";
-        G3.textContent = " MOST GAMES";
+        FL3.textContent = "84 PTS";
+        FC3.textContent = "78 PTS";
+        FR3.textContent = "102 PTS";
+        DL3.textContent = "41 PTS";
+        DR3.textContent = "29 PTS";
+        G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -831,24 +804,23 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NHL/hockey_img/logos/toronto.gif";
         manager.textContent += "Craig Berube"
-        FR3.style.fontWeight = "1000";
     }
 
     if (selectedTeam == "27") {
 
-        FL.textContent = "Guenther";
+        FL.textContent = "Schmaltz";
         FC.textContent = "L Cooley";
         FR.textContent = "C Keller";
         DL.textContent = "Sergachev";
         DR.textContent = "Kesselring";
         G.textContent = "Vejmelka";
 
-        FL3.textContent = "34 PTS";
-        FC3.textContent = "35 PTS";
-        FR3.textContent = "41 PTS";
-        DL3.textContent = "29 PTS";
-        DR3.textContent = "15 PTS";
-        G3.textContent = " MOST GAMES";
+        FL3.textContent = "63 PTS";
+        FC3.textContent = "65 PTS";
+        FR3.textContent = "90 PTS";
+        DL3.textContent = "53 PTS";
+        DR3.textContent = "29 PTS";
+        G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -859,24 +831,23 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NHL/hockey_img/logos/utah.gif";
         manager.textContent += "Andre Tourigny"
-        FR3.style.fontWeight = "1000";
     }
 
     if (selectedTeam == "28") {
 
         FL.textContent = "DeBrusk";
-        FC.textContent = "JT Miller";
+        FC.textContent = "Boeser";
         FR.textContent = "Garland";
         DL.textContent = "Q Hughes";
-        DR.textContent = "Myers";
+        DR.textContent = "Hronek";
         G.textContent = "Lankinen";
 
-        FL3.textContent = "29 PTS";
-        FC3.textContent = "29 PTS";
-        FR3.textContent = "30 PTS";
-        DL3.textContent = "45 PTS";
-        DR3.textContent = "10 PTS";
-        G3.textContent = " MOST GAMES";
+        FL3.textContent = "48 PTS";
+        FC3.textContent = "50 PTS";
+        FR3.textContent = "50 PTS";
+        DL3.textContent = "76 PTS";
+        DR3.textContent = "33 PTS";
+        G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -887,24 +858,23 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NHL/hockey_img/logos/vancouver.gif";
         manager.textContent += "Rick Tocchet"
-        DL3.style.fontWeight = "1000";
     }
 
     if (selectedTeam == "29") {
 
-        FL.textContent = "Barbashev";
+        FL.textContent = "Hertl";
         FC.textContent = "Eichel";
         FR.textContent = "Stone";
         DL.textContent = "S Theodore";
-        DR.textContent = "Pietrangelo";
+        DR.textContent = "Hanifin";
         G.textContent = "A Hill";
 
-        FL3.textContent = "30 PTS";
-        FC3.textContent = "53 PTS";
-        FR3.textContent = "35 PTS";
-        DL3.textContent = "33 PTS";
-        DR3.textContent = "21 PTS";
-        G3.textContent = " MOST GAMES";
+        FL3.textContent = "61 PTS";
+        FC3.textContent = "94 PTS";
+        FR3.textContent = "67 PTS";
+        DL3.textContent = "57 PTS";
+        DR3.textContent = "39 PTS";
+        G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -915,24 +885,23 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NHL/hockey_img/logos/vegas.gif";
         manager.textContent += "Bruce Cassidy"
-        FC3.style.fontWeight = "1000";
     }
 
     if (selectedTeam == "30") {
 
-        FL.textContent = "Dubois";
+        FL.textContent = "Ovechkin";
         FC.textContent = "D Strome";
         FR.textContent = "Protas";
-        DL.textContent = "Chychrun";
-        DR.textContent = "Carlson";
+        DL.textContent = "Carlson";
+        DR.textContent = "Chychrun";
         G.textContent = "L Thompson";
 
-        FL3.textContent = "33 PTS";
-        FC3.textContent = "45 PTS";
-        FR3.textContent = "36 PTS";
-        DL3.textContent = "28 PTS";
-        DR3.textContent = "26 PTS";
-        G3.textContent = " MOST GAMES";
+        FL3.textContent = "73 PTS";
+        FC3.textContent = "82 PTS";
+        FR3.textContent = "66 PTS";
+        DL3.textContent = "51 PTS";
+        DR3.textContent = "47 PTS";
+        G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -943,24 +912,23 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NHL/hockey_img/logos/washington.gif";
         manager.textContent += "Spencer Carbery"
-        FC3.style.fontWeight = "1000";
     }
 
     if (selectedTeam == "31") {
 
         FL.textContent = "K Connor";
         FC.textContent = "Scheifele";
-        FR.textContent = "Vilardi";
+        FR.textContent = "Ehlers";
         DL.textContent = "Morrissey";
         DR.textContent = "Pionk";
         G.textContent = "Hellebuyck";
 
-        FL3.textContent = "52 PTS";
-        FC3.textContent = "46 PTS";
-        FR3.textContent = "36 PTS";
-        DL3.textContent = "37 PTS";
-        DR3.textContent = "28 PTS";
-        G3.textContent = " MOST GAMES";
+        FL3.textContent = "97 PTS";
+        FC3.textContent = "87 PTS";
+        FR3.textContent = "63 PTS";
+        DL3.textContent = "62 PTS";
+        DR3.textContent = "39 PTS";
+        G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -971,8 +939,6 @@ function updatePlayerInfo() {
 
         sidepic.src = "/NHL/hockey_img/logos/winnipeg.gif";
         manager.textContent += "Scott Arniel"
-        FL3.style.fontWeight = "1000";
     }
-
     // substitutes.innerHTML = substitutes.innerHTML.replace(/,/g, ' •');
 }

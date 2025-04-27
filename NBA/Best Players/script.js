@@ -2458,6 +2458,52 @@ function updatePlayerInfo() {
         sidepic.style.borderRadius = "50%"
     }
 
+    if (selectedYear === "88") {
+
+        title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25"
+        document.querySelector("select").style.fontSize = "32px";
+
+        PG.textContent = "CJ McCollum";
+        SG.textContent = "D Murray";
+        SF.textContent = "H Jones";
+        PF.textContent = "T Murphy III";
+        C.textContent = "Z Williamson";
+
+        PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
+        SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
+        SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
+        PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        sidepic.src = "/NBA/basket_img/logos/nba.gif";
+        C.style.left = "43.8%";
+        SF.style.left = "56.5%"
+        sidepic.style.border = "3px solid black"
+    }
+
+    if (selectedYear === "89") {
+
+        title.innerHTML = "NBA BEST PLAYERS<br>2005 to 2025"
+        document.querySelector("select").style.fontSize = "32px";
+
+        PG.textContent = "C Paul";
+        SG.textContent = "J Holiday";
+        SF.textContent = "B Ingram";
+        PF.textContent = "Z Williamson";
+        C.textContent = "A Davis";
+
+        PG2.src = "/NBA/basket_img/players/" + PG.textContent + ".jpg";
+        SG2.src = "/NBA/basket_img/players/" + SG.textContent + ".jpg";
+        SF2.src = "/NBA/basket_img/players/" + SF.textContent + ".jpg";
+        PF2.src = "/NBA/basket_img/players/" + PF.textContent + ".jpg";
+        C2.src = "/NBA/basket_img/players/" + C.textContent + ".jpg";
+
+        sidepic.src = "/NBA/basket_img/logos/nba.gif";
+        C.style.left = "46.5%";
+        SF.style.left = "56.5%"
+        sidepic.style.border = "3px solid black"
+    }
+
     if (selectedYear === "300") {
 
         title.innerHTML = "NBA BEST PLAYERS<br>IN 2024-25"

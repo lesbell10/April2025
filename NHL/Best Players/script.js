@@ -20,7 +20,7 @@ const G = document.getElementById("G");
 const G2 = document.getElementById("G2");
 const G3 = document.getElementById("G3");
 const sidepic = document.querySelector(".sidepic");
-constmessage = document.querySelector(".message")
+const message = document.querySelector(".message")
 const title = document.querySelector(".title")
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -40,7 +40,7 @@ function updatePlayerInfo() {
     title.innerHTML = "NHL BEST<br>PLAYERS 2024-25"
     title.style.fontSize = "41px"
     document.querySelector("select").style.fontSize = "32px";
-    sidepic.style.border = "3px solid black"
+    sidepic.style.border = "none"
     sidepic.style.borderRadius = "15px"
     sidepic.style.boxShadow = "none"
     sidepic.style.width = "130px"
@@ -790,7 +790,7 @@ message.innerHTML = ""
         FR.textContent = "Pominville";
         DL.textContent = "Dahlin";
         DR.textContent = "B Campbell";
-        G.textContent = "RMiller";
+        G.textContent = "R Miller";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
         FC2.src = "/NHL/hockey_img/players/" + FC.textContent + ".jpg";
@@ -971,7 +971,7 @@ message.innerHTML = ""
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
         sidepic.src = "/NHL/hockey_img/logos/anaheim.gif";
-        FR.style.left = "830px"
+        FR.style.left = "850px"
     }
 
     if (selectedPlayer === "35") {
@@ -1000,7 +1000,7 @@ message.innerHTML = ""
 
     if (selectedPlayer === "36") {
 
-        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25 TEAMS 1-4";
 
         FL.textContent = "Vatrano";
         FC.textContent = "R Strome";
@@ -1030,10 +1030,10 @@ message.innerHTML = ""
 
     if (selectedPlayer === "37") {
 
-        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25 TEAMS 1-4";
 
         FL.textContent = "E Lindholm";
-        FC.textContent = "Geekie";
+        FC.textContent = "M Geekie";
         FR.textContent = "Pastrnak";
         DL.textContent = "Lohrei";
         DR.textContent = "McAvoy";
@@ -1060,7 +1060,7 @@ message.innerHTML = ""
 
     if (selectedPlayer === "38") {
 
-        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25 TEAMS 1-4";
 
         FL.textContent = "Tuch";
         FC.textContent = "T Thompson";
@@ -1085,12 +1085,13 @@ message.innerHTML = ""
 
         sidepic.src = "/NHL/hockey_img/logos/buffalo.gif";
         FR.style.left = "850px"
+        FC.style.left = "650px"
     }
 
 
     if (selectedPlayer === "39") {
 
-        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25 TEAMS 1-4";
 
         FL.textContent = "Huberdeau";
         FC.textContent = "Kadri";
@@ -1120,7 +1121,7 @@ message.innerHTML = ""
 
     if (selectedPlayer === "40") {
 
-        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25 TEAMS 5-8";
 
         FL.textContent = "S Aho";
         FC.textContent = "Necas";
@@ -1144,13 +1145,14 @@ message.innerHTML = ""
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
         sidepic.src = "/NHL/hockey_img/logos/carolina.gif";
-        FR.style.left = "850px"
+        FR.style.left = "825px"
+        DL.style.left = "570px"
     }
 
 
     if (selectedPlayer === "41") {
 
-        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25 TEAMS 5-8";
 
         FL.textContent = "Donato";
         FC.textContent = "Bedard";
@@ -1174,13 +1176,13 @@ message.innerHTML = ""
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
         sidepic.src = "/NHL/hockey_img/logos/chicago.gif";
-        FR.style.left = "850px"
+        FR.style.left = "830px"
     }
 
 
     if (selectedPlayer === "42") {
 
-        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25 TEAMS 5-8";
 
         FL.textContent = "Lehkonen";
         FC.textContent = "MacKinnon";
@@ -1210,10 +1212,10 @@ message.innerHTML = ""
 
     if (selectedPlayer === "43") {
 
-        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25 TEAMS 5-8";
 
-        FL.textContent = "Monahan";
-        FC.textContent = "K Johnson";
+        FL.textContent = "K Johnson";
+        FC.textContent = "Monahan";
         FR.textContent = "Marchenko";
         DL.textContent = "Werenski";
         DR.textContent = "Provorov";
@@ -1234,13 +1236,14 @@ message.innerHTML = ""
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
         sidepic.src = "/NHL/hockey_img/logos/columbus.gif";
-        FR.style.left = "850px"
+        FR.style.left = "825px"
+        FC.style.left = "675px"
     }
 
 
     if (selectedPlayer === "44") {
 
-        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25 TEAMS 9-12";
 
         FL.textContent = "J Robertson";
         FC.textContent = "Duchene";
@@ -1265,12 +1268,13 @@ message.innerHTML = ""
 
         sidepic.src = "/NHL/hockey_img/logos/dallas.gif";
         FR.style.left = "850px"
+        FL.style.left = "490px"
     }
 
 
     if (selectedPlayer === "45") {
 
-        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25 TEAMS 9-12";
 
         FL.textContent = "L Raymond";
         FC.textContent = "Larkin";
@@ -1300,7 +1304,7 @@ message.innerHTML = ""
 
     if (selectedPlayer === "46") {
 
-        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25 TEAMS 9-12";
 
         FL.textContent = "Draisaitl";
         FC.textContent = "McDavid";
@@ -1330,7 +1334,7 @@ message.innerHTML = ""
 
     if (selectedPlayer === "47") {
 
-        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25 TEAMS 9-12";
 
         FL.textContent = "M Tkachuk";
         FC.textContent = "Barkov";
@@ -1359,7 +1363,7 @@ message.innerHTML = ""
 
     if (selectedPlayer === "48") {
 
-        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25 TEAMS 13-16";
 
         FL.textContent = "Fiala";
         FC.textContent = "Kopitar";
@@ -1389,7 +1393,7 @@ message.innerHTML = ""
 
     if (selectedPlayer === "49") {
 
-        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25 TEAMS 13-16";
 
         FL.textContent = "Kaprizov";
         FC.textContent = "Rossi";
@@ -1419,7 +1423,7 @@ message.innerHTML = ""
 
     if (selectedPlayer === "50") {
 
-        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25 TEAMS 13-16";
 
         FL.textContent = "Slafkovsky";
         FC.textContent = "Suzuki";
@@ -1449,7 +1453,7 @@ message.innerHTML = ""
 
     if (selectedPlayer === "51") {
 
-        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25 TEAMS 13-16";
 
         FL.textContent = "F Forsberg";
         FC.textContent = "Stamkos";
@@ -1458,11 +1462,11 @@ message.innerHTML = ""
         DR.textContent = "Skjei";
         G.textContent = "Saros";
 
-        FL3.textContent = "";
-        FC3.textContent = "";
-        FR3.textContent = "";
-        DL3.textContent = "";
-        DR3.textContent = "";
+        FL3.textContent = "76 PTS";
+        FC3.textContent = "53 PTS";
+        FR3.textContent = "56 PTS";
+        DL3.textContent = "38 PTS";
+        DR3.textContent = "33 PTS";
         G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
@@ -1473,26 +1477,28 @@ message.innerHTML = ""
         G2.src = "/NHL/hockey_img/players/" + G.textContent + ".jpg";
 
         sidepic.src = "/NHL/hockey_img/logos/nashville.gif";
-        FR.style.left = "850px"
+        FR.style.left = "795px"
+        FC.style.left = "670px"
+        FL.style.left = "510px"
     }
 
 
     if (selectedPlayer === "52") {
 
-        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25 TEAMS 17-20";
 
         FL.textContent = "Bratt";
         FC.textContent = "J Hughes";
         FR.textContent = "Hischier";
-        DL.textContent = "Hamilton";
-        DR.textContent = "L Hughes";
+        DL.textContent = "L Hughes";
+        DR.textContent = "Hamilton";
         G.textContent = "Markstrom";
 
-        FL3.textContent = "";
-        FC3.textContent = "";
-        FR3.textContent = "";
-        DL3.textContent = "";
-        DR3.textContent = "";
+        FL3.textContent = "88 PTS";
+        FC3.textContent = "70 PTS";
+        FR3.textContent = "69 PTS";
+        DL3.textContent = "44 PTS";
+        DR3.textContent = "40 PTS";
         G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
@@ -1508,7 +1514,7 @@ message.innerHTML = ""
 
     if (selectedPlayer === "53") {
 
-        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25 TEAMS 17-20";
 
         FL.textContent = "A Lee";
         FC.textContent = "Horvat";
@@ -1517,11 +1523,11 @@ message.innerHTML = ""
         DR.textContent = "Pulock";
         G.textContent = "Sorokin";
 
-        FL3.textContent = "";
-        FC3.textContent = "";
-        FR3.textContent = "";
-        DL3.textContent = "";
-        DR3.textContent = "";
+        FL3.textContent = "54 PTS";
+        FC3.textContent = "57 PTS";
+        FR3.textContent = "48 PTS";
+        DL3.textContent = "39 PTS";
+        DR3.textContent = "23 PTS";
         G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
@@ -1537,20 +1543,20 @@ message.innerHTML = ""
 
     if (selectedPlayer === "54") {
 
-        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25 TEAMS 17-20";
 
         FL.textContent = "Panarin";
-        FC.textContent = "Trocheck";
-        FR.textContent = "Zibanejad";
+        FC.textContent = "Zibanejad";
+        FR.textContent = "Trocheck";
         DL.textContent = "A Fox";
-        DR.textContent = "B Schneider";
+        DR.textContent = "K Miller";
         G.textContent = "Shesterkin";
 
-        FL3.textContent = "";
-        FC3.textContent = "";
-        FR3.textContent = "";
-        DL3.textContent = "";
-        DR3.textContent = "";
+        FL3.textContent = "89 PTS";
+        FC3.textContent = "62 PTS";
+        FR3.textContent = "59 PTS";
+        DL3.textContent = "61 PTS";
+        DR3.textContent = "27 PTS";
         G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
@@ -1567,7 +1573,7 @@ message.innerHTML = ""
 
     if (selectedPlayer === "55") {
 
-        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25 TEAMS 17-20";
 
         FL.textContent = "B Tkachuk";
         FC.textContent = "Stutzle";
@@ -1576,11 +1582,11 @@ message.innerHTML = ""
         DR.textContent = "Chabot";
         G.textContent = "Ullmark";
 
-        FL3.textContent = "";
-        FC3.textContent = "";
-        FR3.textContent = "";
-        DL3.textContent = "";
-        DR3.textContent = "";
+        FL3.textContent = "55 PTS";
+        FC3.textContent = "79 PTS";
+        FR3.textContent = "68 PTS";
+        DL3.textContent = "57 PTS";
+        DR3.textContent = "45 PTS";
         G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
@@ -1597,20 +1603,20 @@ message.innerHTML = ""
 
     if (selectedPlayer === "56") {
 
-        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25 TEAMS 21-24";
 
-        FL.textContent = "Tippett";
-        FC.textContent = "Konecny";
-        FR.textContent = "Michkov";
+        FL.textContent = "Michkov";
+        FC.textContent = "Couturier";
+        FR.textContent = "Konecny";
         DL.textContent = "Sanheim";
-        DR.textContent = "Seeler";
+        DR.textContent = "Drysdale";
         G.textContent = "Ersson";
 
-        FL3.textContent = "";
-        FC3.textContent = "";
-        FR3.textContent = "";
-        DL3.textContent = "";
-        DR3.textContent = "";
+        FL3.textContent = "63 PTS";
+        FC3.textContent = "45 PTS";
+        FR3.textContent = "76 PTS";
+        DL3.textContent = "30 PTS";
+        DR3.textContent = "20 PTS";
         G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
@@ -1627,20 +1633,20 @@ message.innerHTML = ""
 
     if (selectedPlayer === "57") {
 
-        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25 TEAMS 21-24";
 
-        FL.textContent = "Malkin";
+        FL.textContent = "Rust";
         FC.textContent = "Crosby";
         FR.textContent = "Rakell";
         DL.textContent = "E Karlsson";
         DR.textContent = "Grzelcyk";
         G.textContent = "Nedeljkovic";
 
-        FL3.textContent = "";
-        FC3.textContent = "";
-        FR3.textContent = "";
-        DL3.textContent = "";
-        DR3.textContent = "";
+        FL3.textContent = "65 PTS";
+        FC3.textContent = "91 PTS";
+        FR3.textContent = "70 PTS";
+        DL3.textContent = "53 PTS";
+        DR3.textContent = "40 PTS";
         G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
@@ -1657,20 +1663,20 @@ message.innerHTML = ""
 
     if (selectedPlayer === "58") {
 
-        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25 TEAMS 21-24";
 
         FL.textContent = "Eklund";
-        FC.textContent = "Granlund";
-        FR.textContent = "Celebrini";
+        FC.textContent = "Celebrini";
+        FR.textContent = "Toffoli";
         DL.textContent = "Walman";
-        DR.textContent = "Ceci";
+        DR.textContent = "Liljegren";
         G.textContent = "Georgiev";
 
-        FL3.textContent = "";
-        FC3.textContent = "";
-        FR3.textContent = "";
-        DL3.textContent = "";
-        DR3.textContent = "";
+        FL3.textContent = "58 PTS";
+        FC3.textContent = "63 PTS";
+        FR3.textContent = "54 PTS";
+        DL3.textContent = "32 PTS";
+        DR3.textContent = "17 PTS";
         G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
@@ -1687,20 +1693,20 @@ message.innerHTML = ""
 
     if (selectedPlayer === "59") {
 
-        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25 TEAMS 21-24";
 
         FL.textContent = "McCann";
-        FC.textContent = "Schwartz";
-        FR.textContent = "Bjorkstrand";
+        FC.textContent = "Stephenson";
+        FR.textContent = "Schwartz";
         DL.textContent = "Montour";
         DR.textContent = "Dunn";
         G.textContent = "Daccord";
 
-        FL3.textContent = "";
-        FC3.textContent = "";
-        FR3.textContent = "";
-        DL3.textContent = "";
-        DR3.textContent = "";
+        FL3.textContent = "61 PTS";
+        FC3.textContent = "51 PTS";
+        FR3.textContent = "49 PTS";
+        DL3.textContent = "41 PTS";
+        DR3.textContent = "39 PTS";
         G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
@@ -1716,20 +1722,20 @@ message.innerHTML = ""
 
     if (selectedPlayer === "60") {
 
-        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25 TEAMS 25-28";
 
         FL.textContent = "Holloway";
-        FC.textContent = "Kyrou";
-        FR.textContent = "R Thomas";
+        FC.textContent = "R Thomas";
+        FR.textContent = "Kyrou";
         DL.textContent = "Parayko";
-        DR.textContent = "Broberg";
+        DR.textContent = "Fowler";
         G.textContent = "Binnington";
 
-        FL3.textContent = "";
-        FC3.textContent = "";
-        FR3.textContent = "";
-        DL3.textContent = "";
-        DR3.textContent = "";
+        FL3.textContent = "63 PTS";
+        FC3.textContent = "81 PTS";
+        FR3.textContent = "70 PTS";
+        DL3.textContent = "36 PTS";
+        DR3.textContent = "36 PTS";
         G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
@@ -1745,20 +1751,20 @@ message.innerHTML = ""
 
     if (selectedPlayer === "61") {
 
-        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25 TEAMS 25-28";
 
         FL.textContent = "Hagel";
         FC.textContent = "Point";
         FR.textContent = "Kucherov";
         DL.textContent = "Hedman";
-        DR.textContent = "McDonagh";
+        DR.textContent = "D Raddysh";
         G.textContent = "Vasilevskiy";
 
-        FL3.textContent = "";
-        FC3.textContent = "";
-        FR3.textContent = "";
-        DL3.textContent = "";
-        DR3.textContent = "";
+        FL3.textContent = "90 PTS";
+        FC3.textContent = "82 PTS";
+        FR3.textContent = "121 PTS";
+        DL3.textContent = "66 PTS";
+        DR3.textContent = "37 PTS";
         G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
@@ -1774,20 +1780,20 @@ message.innerHTML = ""
 
     if (selectedPlayer === "62") {
 
-        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25 TEAMS 25-28";
 
         FL.textContent = "Nylander";
-        FC.textContent = "Tavares";
+        FC.textContent = "Matthews";
         FR.textContent = "Marner";
         DL.textContent = "Rielly";
         DR.textContent = "Ekman-Larsson";
         G.textContent = "Woll";
 
-        FL3.textContent = "";
-        FC3.textContent = "";
-        FR3.textContent = "";
-        DL3.textContent = "";
-        DR3.textContent = "";
+        FL3.textContent = "84 PTS";
+        FC3.textContent = "78 PTS";
+        FR3.textContent = "102 PTS";
+        DL3.textContent = "41 PTS";
+        DR3.textContent = "29 PTS";
         G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
@@ -1803,20 +1809,20 @@ message.innerHTML = ""
 
     if (selectedPlayer === "63") {
 
-        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25 TEAMS 25-28";
 
-        FL.textContent = "Guenther";
+        FL.textContent = "Schmaltz";
         FC.textContent = "L Cooley";
         FR.textContent = "C Keller";
         DL.textContent = "Sergachev";
         DR.textContent = "Kesselring";
         G.textContent = "Vejmelka";
 
-        FL3.textContent = "";
-        FC3.textContent = "";
-        FR3.textContent = "";
-        DL3.textContent = "";
-        DR3.textContent = "";
+        FL3.textContent = "63 PTS";
+        FC3.textContent = "65 PTS";
+        FR3.textContent = "90 PTS";
+        DL3.textContent = "53 PTS";
+        DR3.textContent = "29 PTS";
         G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
@@ -1832,20 +1838,20 @@ message.innerHTML = ""
 
     if (selectedPlayer === "64") {
 
-        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25 TEAMS 29-32";
 
         FL.textContent = "DeBrusk";
-        FC.textContent = "JTMiller";
+        FC.textContent = "Boeser";
         FR.textContent = "Garland";
         DL.textContent = "Q Hughes";
-        DR.textContent = "Myers";
+        DR.textContent = "Hronek";
         G.textContent = "Lankinen";
 
-        FL3.textContent = "";
-        FC3.textContent = "";
-        FR3.textContent = "";
-        DL3.textContent = "";
-        DR3.textContent = "";
+        FL3.textContent = "48 PTS";
+        FC3.textContent = "50 PTS";
+        FR3.textContent = "50 PTS";
+        DL3.textContent = "76 PTS";
+        DR3.textContent = "33 PTS";
         G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
@@ -1861,20 +1867,20 @@ message.innerHTML = ""
 
     if (selectedPlayer === "65") {
 
-        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25 TEAMS 29-32";
 
-        FL.textContent = "Barbashev";
+        FL.textContent = "Hertl";
         FC.textContent = "Eichel";
         FR.textContent = "Stone";
         DL.textContent = "S Theodore";
-        DR.textContent = "Pietrangelo";
+        DR.textContent = "Hanifin";
         G.textContent = "A Hill";
 
-        FL3.textContent = "";
-        FC3.textContent = "";
-        FR3.textContent = "";
-        DL3.textContent = "";
-        DR3.textContent = "";
+        FL3.textContent = "61 PTS";
+        FC3.textContent = "94 PTS";
+        FR3.textContent = "67 PTS";
+        DL3.textContent = "57 PTS";
+        DR3.textContent = "39 PTS";
         G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
@@ -1890,20 +1896,20 @@ message.innerHTML = ""
 
     if (selectedPlayer === "66") {
 
-        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25 TEAMS 29-32";
 
-        FL.textContent = "Dubois";
+        FL.textContent = "Ovechkin";
         FC.textContent = "D Strome";
         FR.textContent = "Protas";
-        DL.textContent = "Chychrun";
-        DR.textContent = "Carlson";
+        DL.textContent = "Carlson";
+        DR.textContent = "Chychrun";
         G.textContent = "L Thompson";
 
-        FL3.textContent = "";
-        FC3.textContent = "";
-        FR3.textContent = "";
-        DL3.textContent = "";
-        DR3.textContent = "";
+        FL3.textContent = "73 PTS";
+        FC3.textContent = "82 PTS";
+        FR3.textContent = "66 PTS";
+        DL3.textContent = "51 PTS";
+        DR3.textContent = "47 PTS";
         G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
@@ -1919,20 +1925,20 @@ message.innerHTML = ""
 
     if (selectedPlayer === "67") {
 
-        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25";
+        title.innerHTML = "NHL BEST PLAYERS<br>IN 2024-25 TEAMS 29-32";
 
         FL.textContent = "K Connor";
         FC.textContent = "Scheifele";
-        FR.textContent = "Vilardi";
+        FR.textContent = "Ehlers";
         DL.textContent = "Morrissey";
         DR.textContent = "Pionk";
         G.textContent = "Hellebuyck";
 
-        FL3.textContent = "";
-        FC3.textContent = "";
-        FR3.textContent = "";
-        DL3.textContent = "";
-        DR3.textContent = "";
+        FL3.textContent = "97 PTS";
+        FC3.textContent = "87 PTS";
+        FR3.textContent = "63 PTS";
+        DL3.textContent = "62 PTS";
+        DR3.textContent = "39 PTS";
         G3.textContent = "MOST GAMES";
 
         FL2.src = "/NHL/hockey_img/players/" + FL.textContent + ".jpg";
